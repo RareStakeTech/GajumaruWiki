@@ -117,6 +117,35 @@ Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-
 
 ---
 
+## [2026-05-15] ingest | Gajumaru - New Blockchain - Demo 1 (YouTube, Mar 2024)
+
+Source: raw/transcripts/gajumaru-new-blockchain-demo-1.md
+Origin: https://www.youtube.com/watch?v=_3Mnk2_kqOM (subtitle-based transcript via yt-dlp)
+Speakers: Gregory Chew (likely host/closing), Dimitar (demo), Ulf (Bitcoin-NG), Craig Everett (product)
+
+Pages created:
+- wiki/sources/summary-gajumaru-new-blockchain-demo-1.md
+
+Pages updated:
+- wiki/entities/craig.md (full name Craig Everett confirmed; title Chief Product Officer)
+- wiki/entities/ulf.md (Erlang since 1992; Erlang/OTP role added; second source)
+- wiki/entities/gregory-chew.md (22-year vision; DAGs 2017; second source)
+- wiki/index.md (craig updated, source row added)
+- wiki/log.md (this entry)
+
+Contradictions flagged: none
+Key claims from source:
+- Craig Everett = full name of CPO/lead architect
+- Ulf has been an Erlanger since 1992 — vital to Gajumaru's Erlang/OTP implementation
+- 300 TPS, 2-3 sec confirmation — demonstrated live, faster than Visa
+- QPQ business model = products ON the blockchain, not the blockchain itself
+- Closing speaker (likely Gregory Chew): 22 years working on new economic systems; explored DAGs in 2017
+- Bitcoin and Ethereum are proof-of-concepts that never became MVPs
+- Bitcoin-NG separates leader election from transaction processing — "a very clean separation of concerns"
+- Next demo (QuidProQuo) announced from the start
+
+---
+
 ## [2026-05-15] ingest | Gaju Mining Journey Update (YouTube)
 
 Source: raw/transcripts/gaju-mining-journey-update.md

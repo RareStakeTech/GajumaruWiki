@@ -2,7 +2,7 @@
 type: entity
 entity_type: person
 title: "Gregory Chew"
-sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]]
+sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]]
 related: [[qpq-ag]], [[gajumaru-architecture]], [[ltin]], [[craig]], [[dimitar]], [[ulf]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -38,6 +38,20 @@ From the Gaju Mining Journey Update (likely speaker):
 > "I'm extraordinarily proud of these people — Craig, Dimitar, Ulf, and the background Peter, Santosh, Peter Harpending, Jarvis, and then the community — Adam Percy, what an incredible gift."
 
 > "This is an opportunity for everybody to reshape our economic firmament."
+
+## 22-Year Vision (Demo 1, March 2024)
+
+From the Demo 1 closing remarks (likely Gregory Chew):
+
+> "I've been working at this for 22 years now. The idea of how to build a new economic system that everybody can participate in."
+
+Timeline:
+- ~2002: began working on new economic system concept
+- 2017: "started this again" — explored directed acyclic graphs (DAGs) as potential solution
+- DAGs "ended up becoming EVM-driven systems with all the same flaws"
+- Eventually met Craig Everett, Ulf, Dimitar; built Gajumaru together
+
+> "I've never released a white paper to talk about how somebody can give me money so that I can build something that may or may not work... I've taken that hard road because I think the integrity of this is important."
 
 ## Likely Speaker in "Gaju Firsts" Video
 
