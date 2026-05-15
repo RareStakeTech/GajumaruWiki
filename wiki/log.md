@@ -74,3 +74,12 @@ Pages updated:
 - wiki/hot.md (session close)
 
 Notes: Ingest routing now covers .url, .pdf, .txt, -notes.md, and .md. Directory-glob shortcut rule added. Session closed; reboot pending.
+
+---
+
+## [2026-05-15] meta | Migrated skills to .claude/commands/ + added ingest-video
+
+Files moved: all 9 files from .claude/skills/ → .claude/commands/
+Files created: .claude/commands/ingest-video.md
+Files removed: .claude/skills/ (directory deleted)
+Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-video supports YouTube/Rumble via yt-dlp subtitles with Whisper fallback.

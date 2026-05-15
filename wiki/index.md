@@ -17,10 +17,13 @@
 *Concepts and entities related to the Gajumaru base protocol, consensus, and architecture.*
 
 #### Concept Pages
-<!-- Add concept pages here on ingest -->
+- [[gajumaru-architecture]] *(hub)* — Full stack overview: Groot + Associate Chains + RIPA
+- [[groot]] — Resource layer; consensus; 553,800× Bitcoin efficiency; 2–4 min finality
+- [[associate-chains]] — Multi-chain architecture; native interoperability; no bridges
+- [[ripa-model]] — Deployment model: Resource / Infrastructure / Platform / Application
 
 #### Entity Pages
-<!-- Add entity pages here on ingest -->
+- [[ltin]] — Liechtenstein Trust Integrity Network; first sovereign Associate Chain
 
 ---
 
@@ -28,7 +31,8 @@
 *Token design, economic models, incentive structures.*
 
 #### Concept Pages
-<!-- Add concept pages here on ingest -->
+- [[gaju-token]] *(hub)* — Native token; 1 trillion fixed supply over 87.5 years; in circulation Oct 2025
+- [[protected-mining]] — Mining window ending March 29 2027; flywheel thesis
 
 #### Entity Pages
 <!-- Add entity pages here on ingest -->
@@ -50,10 +54,11 @@
 *SDKs, tooling, smart contracts, developer experience.*
 
 #### Concept Pages
-<!-- Add concept pages here on ingest -->
+- [[gajumaru-product-suite]] *(hub)* — Full application catalogue: GajuDEX, GajuMarket, GajuPay, GajuSafe, Da Vinci Protocol, and more
 
 #### Entity Pages
-<!-- Add entity pages here on ingest -->
+- [[qpq-ag]] — Swiss company building Gajumaru; CHF 1M+ revenue; QPQ Capital AG (SRO)
+- [[gregory-chew]] — CEO of QPQ AG
 
 ---
 
@@ -72,7 +77,7 @@
 
 | Slug | Title | Date Ingested | Cluster |
 |------|-------|---------------|---------|
-| — | — | — | — |
+| [[summary-qpq-2025-review]] | Gajumaru: 2025 Year in Review & 2026 Prospectives | 2026-05-15 | multi-cluster |
 
 ---
 

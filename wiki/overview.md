@@ -3,62 +3,68 @@ type: overview
 title: "Gajumaru Blockchain — Central Wiki Overview"
 created: 2026-05-15
 updated: 2026-05-15
-confidence: low
+confidence: high
 ---
 
 # Gajumaru Blockchain — Overview
 
-> This is the central wiki for the Gajumaru blockchain project. It is newly initialized and will be populated through successive ingest operations. All claims below are placeholders pending first ingest.
+Gajumaru is a Swiss-built blockchain ecosystem developed by [[qpq-ag]] (CEO: [[gregory-chew]]). It launched its MainNet on April 6/7 2026. The native token is [[gaju-token]] (1 trillion fixed supply over 87.5 years), in active circulation since October 16 2025.
 
 ---
 
 ## What Is Gajumaru?
 
-*To be populated on first ingest.*
+Gajumaru is a layered blockchain platform built around the [[ripa-model]] (Resource, Infrastructure, Platform, Application). Its base layer, [[groot]], has been operational since October 2024 and is claimed to be 553,800× more efficient than Bitcoin. [[Associate-chains]] allow sovereign and independent blockchains to connect natively to Groot with no bridges.
 
-Gajumaru is a blockchain project. Details about its architecture, purpose, token model, and team will be synthesized here as source documents are ingested.
+The first sovereign deployment is [[ltin]] (Liechtenstein Trust Integrity Network), a national digital economy blockchain for Liechtenstein operating under EU MiCAR, with Telecom Liechtenstein as majority owner and QPQ as technical partner.
+
+QPQ generated CHF 1M+ in SaaS mining revenue with zero marketing budget, demonstrating organic product-market fit pre-MainNet.
 
 ---
 
 ## Cluster Map
 
-The following knowledge clusters will be developed as sources are ingested:
-
 ### Core Protocol
-*Base layer architecture, consensus mechanism, transaction model.*
-— Awaiting ingest —
+- Hub: [[gajumaru-architecture]]
+- [[groot]] — Base resource layer; witnessing-based finality (2–4 min); 553,800× Bitcoin efficiency
+- [[associate-chains]] — Native multi-chain interoperability; no bridges; permissionless post-MainNet
+- [[ripa-model]] — Four-layer stack model
+- Entity: [[ltin]] — First sovereign Associate Chain (Liechtenstein; Q2–Q4 2026)
 
 ### Tokenomics & Economics
-*Token supply, distribution, incentive design, fee model.*
-— Awaiting ingest —
-
-### Governance
-*On-chain governance structure, proposal lifecycle, voting mechanics.*
-— Awaiting ingest —
+- Hub: [[gaju-token]] — 1 trillion supply, 87.5-year distribution, mining via Hive miners
+- [[protected-mining]] — Mining window ends March 29 2027; critical adoption flywheel
 
 ### Developer Ecosystem
-*Smart contract environment, SDKs, tooling, developer documentation.*
+- Hub: [[gajumaru-product-suite]] — GajuDesk, GajuMobile, GajuDEX, GajuMarket, GajuPay, GajuSafe, Da Vinci Protocol, and more
+- Entity: [[qpq-ag]] — Builder; CHF 1M+ revenue; QPQ Capital AG (SRO, regulated services)
+- Entity: [[gregory-chew]] — CEO
+
+### Governance
 — Awaiting ingest —
 
 ### Infrastructure & Operations
-*Validator set, node requirements, network topology, operational parameters.*
 — Awaiting ingest —
 
 ---
 
 ## Key Entities
 
-*To be populated on first ingest.*
+| Entity | Type | Role |
+|--------|------|------|
+| [[qpq-ag]] | Company | Builder and operator of Gajumaru |
+| [[gregory-chew]] | Person | CEO of QPQ AG |
+| [[ltin]] | Org | First sovereign Associate Chain (Liechtenstein) |
 
 ---
 
 ## Open Questions
 
-- What is Gajumaru's core value proposition?
-- What consensus algorithm does it use?
-- What is its current development/launch status?
-- Who are the founding team and key contributors?
-- What chains or ecosystems does it interoperate with?
+- What is Gajumaru's exact consensus algorithm within Groot?
+- Has LTIN launched as of May 2026? (target Q2/Q3/Q4 2026)
+- What are the Un-White Paper technical details? (PDF not yet readable)
+- Who are the other QPQ AG founders/team beyond Gregory Chew and Cecille de Jesus?
+- What is the current CHF/Gaju price and active miner count post-MainNet?
 
 ---
 
@@ -67,3 +73,4 @@ The following knowledge clusters will be developed as sources are ingested:
 | Date | Change |
 |------|--------|
 | 2026-05-15 | Initial placeholder created at vault bootstrap |
+| 2026-05-15 | First ingest: QPQ 2025 Year in Review. Full overview populated. |

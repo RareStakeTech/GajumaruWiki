@@ -3,7 +3,13 @@
     "allow": [
       "Bash(New-Item -ItemType Directory -Force raw/articles, raw/papers, raw/repos, raw/transcripts, raw/data, raw/assets, wiki/sources, wiki/entities, wiki/concepts, wiki/comparisons, wiki/syntheses, .claude/skills)",
       "Bash(Out-Null)",
-      "Bash(Write-Host \"Directories created\")"
+      "Bash(Write-Host \"Directories created\")",
+      "WebFetch(domain:qpq.swiss)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(cd \"C:\\\\Users\\\\RSTAdmin\\\\Documents\\\\Gajumaru Wiki\"; try { $word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open\\(\\(Resolve-Path \"raw/articles/Gajumaru Un-White Paper 26-03-31.pdf\"\\).Path\\); $text = $doc.Content.Text; $doc.Close\\($false\\); $word.Quit\\(\\); $text | Select-Object -First 10000 } catch { \"Word COM failed: $_\" })",
+      "PowerShell(cd \"C:\\\\Users\\\\RSTAdmin\\\\Documents\\\\Gajumaru Wiki\"; $bytes = [System.IO.File]::ReadAllBytes\\(\"raw/articles/Gajumaru Un-White Paper 26-03-31.pdf\"\\); $ascii = [System.Text.Encoding]::ASCII.GetString\\($bytes\\); $words = [regex]::Matches\\($ascii, '[A-Za-z][A-Za-z0-9 .,;:!?\\(\\)\\\\-\\\\'']{15,}'\\); \\($words | ForEach-Object { $_.Value.Trim\\(\\) } | Where-Object { $_ -match '[aeiou]' -and \\($_.Split\\(' '\\).Count -gt 2\\) } | Select-Object -First 300\\) -join \"`n\")",
+      "PowerShell(pip *)",
+      "PowerShell(python -c \"import pdfplumber; print\\('pdfplumber OK'\\)\" 2>&1; python -c \"import pypdf; print\\('pypdf OK'\\)\" 2>&1; python -c \"import pdfminer; print\\('pdfminer OK'\\)\" 2>&1)"
     ]
   }
 }
