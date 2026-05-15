@@ -2,8 +2,8 @@
 type: concept
 title: "Gajumaru Architecture"
 aliases: [gajumaru-stack, gajumaru-system]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-why-the-gajumaru-and-how-it-works]]
-related: [[groot]], [[associate-chains]], [[ripa-model]], [[gaju-token]], [[qpq-ag]], [[tea-trilemma]], [[cuckoo-cycle]], [[craig]], [[dimitar]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]]
+related: [[groot]], [[associate-chains]], [[ripa-model]], [[gaju-token]], [[qpq-ag]], [[tea-trilemma]], [[cuckoo-cycle]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
@@ -49,11 +49,11 @@ Neither layer compromises. This is why QPQ rejects Buterin's blockchain trilemma
 
 ## The Naming Origin
 
-Lead architect [[craig]], working on the scalability problem in Okinawa, Japan, needed a name for the tree-structure design (root mint + independent chains). He saw a *gajimaru* tree outside his office window:
+Lead architect [[craig]], working on the scalability problem in Okinawa (southern Japan), needed a name for the tree-structure design (root mint + independent chains). He saw a *gajimaru* tree outside his office window. The *gajimaru* means **"the walking tree"**: it starts with a single trunk, then drops runners that become independent trunks — eventually indistinguishable from the original.
 
 > "It grows first from a single bowl but pretty quickly it starts dropping these support roots and they wind up becoming trunks of their own — which is similar to the structure that we actually want."
 
-The name was chosen as a "crazy name, easy to search for later" and stuck. Source: [[summary-why-the-gajumaru-and-how-it-works]] — Craig speaking directly.
+Craig chose it as a working name expecting to change it: "nothing better came up, so it stuck." Sources: [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]].
 
 ## MainNet Status
 Launched April 6/7 2026 at 23:59:00 Zulu.
@@ -70,3 +70,4 @@ Launched April 6/7 2026 at 23:59:00 Zulu.
 | [[cuckoo-cycle]] | member | Memory-bound PoW — no ASIC arms race |
 | [[craig]] | entity | Lead architect — designed tree structure, named the project |
 | [[dimitar]] | entity | Implementation engineer — Associate Chain interplay |
+| [[peter]] | entity | Communicator — non-technical rubber duck for explainer videos |

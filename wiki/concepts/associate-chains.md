@@ -2,8 +2,8 @@
 type: concept
 title: "Associate Chains"
 aliases: [associate-chain, multi-chain, interoperability]
-sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]]
-related: [[gajumaru-architecture]], [[groot]], [[ripa-model]], [[ltin]], [[craig]], [[dimitar]]
+sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]]
+related: [[gajumaru-architecture]], [[groot]], [[ripa-model]], [[ltin]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
@@ -61,5 +61,18 @@ Architecture validated by [[ltin]] selection before MainNet. Full Associate Chai
 ## Significance
 The no-bridge, native interoperability design distinguishes Gajumaru from most multi-chain ecosystems (e.g., Cosmos IBC, Polkadot bridges, Ethereum L2s), where bridges represent systemic risk and trust assumptions.
 
+## Associate Chains Cooperate to Improve Mint Finality
+
+Craig (attributing to Dimitar): "The associate chains will also cooperate to improve the finality as we call it on the mint."
+
+The mechanism is not yet documented — Craig defers detail to a later video. This suggests Associate Chains play an active security role for [[groot]], not merely consuming the mint as passive clients.
+
+> [!open_question]
+> How exactly do Associate Chains cooperate to improve Groot finality? Source promises more detail in a follow-up video. See [[summary-the-gajumaru-an-actual-working-blockchain]].
+
+## Competitive Chain Spawning (Market Discipline)
+
+If an Associate Chain gets overloaded or fails to serve its use case, users can spawn a competing chain. Because Gajus are cross-chain transferable and no chain-specific currency lock-in exists, resources flow to the better chain naturally. This embeds market discipline structurally in the architecture — no single Associate Chain can become an inescapable monopoly.
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]]
+[[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]]

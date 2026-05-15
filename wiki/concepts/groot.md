@@ -2,7 +2,7 @@
 type: concept
 title: "Groot (Resource Layer)"
 aliases: [groot, resource-layer]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]]
 related: [[gajumaru-architecture]], [[associate-chains]], [[gaju-token]], [[protected-mining]], [[cuckoo-cycle]], [[tea-trilemma]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -52,5 +52,12 @@ Groot is a public ledger — all transactions visible. This is the price of trus
 ## Explorer
 GajuExplorer: `groot.mainnet.gajumaru.io`
 
+## Finality Cooperation with Associate Chains
+
+[[associate-chains]] cooperate to improve finality on Groot. Craig (attributing to Dimitar) references this explicitly but defers detail to a later video. Current sources do not describe the mechanism.
+
+> [!open_question]
+> Mechanism for Associate Chain → Groot finality cooperation not yet documented. See [[summary-the-gajumaru-an-actual-working-blockchain]].
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-unwhitepaper]]
+[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]]

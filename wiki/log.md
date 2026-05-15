@@ -117,6 +117,36 @@ Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-
 
 ---
 
+## [2026-05-15] ingest | The Gajumaru — an actual, working blockchain (YouTube)
+
+Source: raw/transcripts/the-gajumaru-an-actual-working-blockchain.md
+Origin: https://www.youtube.com/watch?v=_v1nri8cBtA (subtitle-based transcript via yt-dlp)
+Speakers: Craig (lead architect), Dimitar (implementation engineer), Peter (communicator), unnamed host
+
+Pages created:
+- wiki/sources/summary-the-gajumaru-an-actual-working-blockchain.md
+- wiki/entities/peter.md
+
+Pages updated:
+- wiki/concepts/associate-chains.md (finality cooperation + competitive chain spawning added)
+- wiki/concepts/groot.md (finality cooperation callout added)
+- wiki/concepts/gajumaru-architecture.md (naming updated with "walking tree" meaning; peter added to cluster table)
+- wiki/index.md (peter entity + source summary row added)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+Key claims from source:
+- Gajimaru means "the walking tree" in Japanese
+- Name was working name Craig expected to change — nothing better came up
+- Associate chains cooperate to improve mint finality (mechanism TBD — Dimitar's area)
+- Competitive chain spawning: no currency lock-in means market discipline is structural
+- "Squares into polygons" — blockchain industry hides bad original designs behind complexity
+- QPQ goal: "internet of economics" — open common resource layer
+- Peter introduced as non-technical communicator / rubber duck
+
+---
+
 ## [2026-05-15] ingest | Why the Gajumaru and How it Works (YouTube)
 
 Source: raw/transcripts/why-the-gajumaru-and-how-it-works.md
