@@ -2,7 +2,7 @@
 type: concept
 title: "Gaju Token"
 aliases: [gaju, gaju-token, GJU]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-qpq-wiki-flation]], [[summary-qpq-wiki-mint]]
 related: [[groot]], [[protected-mining]], [[gajumaru-architecture]], [[qpq-ag]], [[gajumaru-product-suite]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -13,7 +13,7 @@ cluster_role: hub
 
 # Gaju Token
 
-Gaju is the native token of the Gajumaru blockchain, distributed via mining on the [[groot]] resource layer.
+Gaju is the native **coin** (not a token) of the Gajumaru blockchain, distributed via mining on the [[groot]] resource layer. QPQ's precise terminology: a **coin** is the underlying currency established by a blockchain protocol; a **token** is any referential value device. Associate Chains may issue their own tokens; Gaju is the Groot protocol's native mint output. Source: [[summary-qpq-wiki-flation]].
 
 ## Key Parameters
 

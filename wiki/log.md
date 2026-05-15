@@ -462,3 +462,48 @@ Infrastructure updated: .github/quartz/quartz.config.ts,
                         .github/quartz/custom.scss
 Contradictions flagged: none
 
+---
+
+## [2026-05-15] ingest | QPQ Public Wiki batch — W19-W26+ (State Channels, Flation, Mint, Sophia FAQ, RLP, BaseN, API Encoding, Serialization, Testnet Node Setup)
+
+Sources:
+- raw/articles/qpq-wiki-state-channels.md
+- raw/articles/qpq-wiki-flation.md
+- raw/articles/qpq-wiki-mint.md
+- raw/articles/qpq-wiki-sophia-faq.md
+- raw/articles/qpq-wiki-rlp.md
+- raw/articles/qpq-wiki-basen.md
+- raw/articles/qpq-wiki-api-encoding.md
+- raw/articles/qpq-wiki-serialization.md
+- raw/articles/qpq-wiki-testnet-node-setup.md
+- raw/articles/qpq-wiki-home.md (also saved this batch)
+- NOTE: Install Erlang and ZX — URL returned wiki index; could not fetch content
+
+Pages created:
+- wiki/sources/summary-qpq-wiki-state-channels.md
+- wiki/sources/summary-qpq-wiki-flation.md
+- wiki/sources/summary-qpq-wiki-mint.md
+- wiki/sources/summary-qpq-wiki-sophia-faq.md
+- wiki/sources/summary-qpq-wiki-rlp.md
+- wiki/sources/summary-qpq-wiki-basen.md
+- wiki/sources/summary-qpq-wiki-api-encoding.md
+- wiki/sources/summary-qpq-wiki-serialization.md
+- wiki/sources/summary-qpq-wiki-testnet-node-setup.md
+- wiki/concepts/state-channels.md (new concept page; developer-ecosystem cluster member)
+
+Pages updated:
+- wiki/concepts/gaju-token.md (coin vs token distinction; Gaju is a coin not a token; mint function context; sources updated)
+- wiki/index.md (state-channels added to developer-ecosystem; 10 new source rows; sophia-fate moved to developer-ecosystem cluster listing)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+
+Key new claims from sources:
+- State Channels: 500+ transfers/sec single channel; 3500/sec at 50 channels; 10,000 concurrent channels tested stable; ~15ms round-trip; cross-AC fund transfers via State Channel Markets; demos Spring/Summer 2026
+- Flation: inflation = increase in money supply (not price rise); coin = blockchain protocol native; token = any referential value device
+- Mint: Bitcoin model — predetermined expansion; early miners get coins; later miners get fees; Gajumaru follows same structure
+- Sophia FAQ: Peter Harpending email confirmed — peterharpending@qpq.swiss; Sophia compilation pipeline documented
+- API Encoding: associate_chain tag=7, native_token tag=8, channel tag=6 — all confirmed
+- Testnet: targets Devuan 6 (Excalibur); requires gmhive_client or gajumine
+

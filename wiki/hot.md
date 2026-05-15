@@ -6,12 +6,12 @@
 
 ## Current Focus
 
-**27 sources ingested.** W01-W18 complete. GRIDS technical spec (v5) confirmed: Craig Everett is the author; full URL schema documented; dead-drop SSO mechanism clarified. Craig's Japan timezone confirmed (UTC+9). Remaining: State Channels, developer setup pages (W19+). **Next priorities:**
-1. Fetch remaining QPQ wiki pages: State Channels, Testnet Node Setup, Install Erlang, Serialization/BaseN/RLP
-2. Find the Dimitar video on Associate Chain → Groot finality cooperation
-3. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
-4. Resolve mobile wallet naming (Bor vs GajuMobile)
-5. Find current post-MainNet data (miner count, Gaju price, LTIN status)
+**36 sources ingested. QPQ Public Wiki batch COMPLETE.** All accessible pages ingested (W01-W26+). Install Erlang and ZX page could not be fetched (URL returns index). Quartz publishing setup completed by user. **Next priorities:**
+1. Find the Dimitar video on Associate Chain → Groot finality cooperation
+2. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
+3. Resolve mobile wallet naming (Bor vs GajuMobile)
+4. Find current post-MainNet data (miner count, Gaju price, LTIN status)
+5. Resolve efficiency figure (553,800× vs 1,846,200×)
 
 **Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
 
@@ -71,6 +71,8 @@
 | 2026-05-15 | ingest | QPQ Wiki W01-W04 — 4 source summaries, 4 concept/entity pages updated; 4 new clusters |
 | 2026-05-15 | ingest | QPQ Wiki W05-W10 — 6 source summaries, sophia-fate.md created; 4 concept pages updated |
 | 2026-05-15 | ingest | QPQ Wiki W11-W18 — 8 source summaries; grids.md/craig.md major updates; GRIDS spec v5 |
+| 2026-05-15 | query | Quartz GitHub Pages publishing setup + visual polish (user) |
+| 2026-05-15 | ingest | QPQ Wiki W19-W26+ — 9 source summaries; state-channels.md created; gaju-token.md updated |
 
 ---
 

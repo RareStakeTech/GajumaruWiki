@@ -55,22 +55,22 @@ confidence: high
   <section>
     <h3>Core Protocol</h3>
     <p>Base-layer architecture, Groot, Associate Chains, finality, consensus, and protocol-level tradeoffs.</p>
-    <p>[[gajumaru-architecture]] · [[groot]] · [[associate-chains]] · [[ripa-model]] · [[tea-trilemma]]</p>
+    <p>[[gajumaru-architecture]] ï¿½ [[groot]] ï¿½ [[associate-chains]] ï¿½ [[ripa-model]] ï¿½ [[tea-trilemma]]</p>
   </section>
   <section>
     <h3>Tokenomics & Economics</h3>
     <p>Gaju supply, protected mining, monetary theory, incentives, inflation, and market structure.</p>
-    <p>[[gaju-token]] · [[protected-mining]] · [[summary-qpq-wiki-money]] · [[summary-qpq-wiki-monetary-mechanics]]</p>
+    <p>[[gaju-token]] ï¿½ [[protected-mining]] ï¿½ [[summary-qpq-wiki-money]] ï¿½ [[summary-qpq-wiki-monetary-mechanics]]</p>
   </section>
   <section>
     <h3>Developer Ecosystem</h3>
     <p>GRIDS, smart contracts, Sophia, FATE VM, product surfaces, and application infrastructure.</p>
-    <p>[[gajumaru-product-suite]] · [[grids]] · [[sophia-fate]] · [[qpq-ag]]</p>
+    <p>[[gajumaru-product-suite]] ï¿½ [[grids]] ï¿½ [[sophia-fate]] ï¿½ [[qpq-ag]]</p>
   </section>
   <section>
     <h3>People & Organizations</h3>
     <p>QPQ AG, LTIN, Gregory Chew, Craig Everett, Dimitar, Ulf, Peter, and the project timeline.</p>
-    <p>[[qpq-ag]] · [[ltin]] · [[gregory-chew]] · [[craig]] · [[dimitar]]</p>
+    <p>[[qpq-ag]] ï¿½ [[ltin]] ï¿½ [[gregory-chew]] ï¿½ [[craig]] ï¿½ [[dimitar]]</p>
   </section>
 </div>
 
@@ -127,7 +127,9 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 
 ##### Concept Pages
 - [[gajumaru-product-suite]] *(hub)* - Full application catalogue: GajuDEX, GajuMarket/QuidProQuo, GajuPay, GajuSafe, Da Vinci Protocol, and more
-- [[grids]] - Universal secure login/authentication; wallet-based, no passwords, no GDPR exposure
+- [[grids]] - Universal secure login/authentication; URL schema; dead-drop SSO; authored by Craig Everett
+- [[sophia-fate]] *(hub)* - Sophia language + FATE VM; pre-execution verification; immutability-first; Virding/Hughes contributors
+- [[state-channels]] - Off-chain sessions; 500+ transfers/sec; State Channel Markets; cross-AC fund transfers; demos Spring/Summer 2026
 
 ##### Entity Pages
 - [[qpq-ag]] - Swiss company building Gajumaru; CHF 1M+ revenue; QPQ Capital AG (SRO)
@@ -208,6 +210,15 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 | [[summary-qpq-wiki-money]] | Money / The Nature of Money (QPQ Public Wiki) | 2026-05-15 | monetary-mechanics |
 | [[summary-qpq-wiki-grids]] | GRIDS Technical Spec v5 (QPQ Public Wiki) | 2026-05-15 | developer-ecosystem |
 | [[summary-qpq-wiki-home]] | Home (QPQ Public Wiki) | 2026-05-15 | meta |
+| [[summary-qpq-wiki-state-channels]] | State Channels (QPQ Public Wiki) | 2026-05-15 | developer-ecosystem |
+| [[summary-qpq-wiki-flation]] | Flation / Inflation, Deflation, Coins, Tokens, Prices (QPQ Public Wiki) | 2026-05-15 | monetary-mechanics |
+| [[summary-qpq-wiki-mint]] | Mint / The Mint Function (QPQ Public Wiki) | 2026-05-15 | monetary-mechanics |
+| [[summary-qpq-wiki-sophia-faq]] | Sophia FAQ (QPQ Public Wiki) | 2026-05-15 | smart-contracts |
+| [[summary-qpq-wiki-rlp]] | RLP â€” Recursive-Length Prefix (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-basen]] | BaseN â€” Base64 vs Base58 (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-api-encoding]] | API Encoding (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-serialization]] | Serialization (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-testnet-node-setup]] | Testnet Node Setup (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 
 ---
 
