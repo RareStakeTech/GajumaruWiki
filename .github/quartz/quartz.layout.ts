@@ -19,13 +19,21 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.TagList(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
         {
@@ -36,11 +44,13 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      title: "Wiki",
-      folderClickBehavior: "collapse",
-      folderDefaultState: "open",
-    }),
+    Component.DesktopOnly(
+      Component.Explorer({
+        title: "Wiki",
+        folderClickBehavior: "collapse",
+        folderDefaultState: "collapsed",
+      }),
+    ),
   ],
   right: [
     Component.Graph(),
@@ -53,7 +63,6 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
         {
@@ -63,11 +72,13 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({
-      title: "Wiki",
-      folderClickBehavior: "collapse",
-      folderDefaultState: "open",
-    }),
+    Component.DesktopOnly(
+      Component.Explorer({
+        title: "Wiki",
+        folderClickBehavior: "collapse",
+        folderDefaultState: "collapsed",
+      }),
+    ),
   ],
   right: [],
 }

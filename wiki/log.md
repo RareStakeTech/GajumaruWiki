@@ -453,3 +453,12 @@ Infrastructure created: .github/workflows/deploy-quartz.yml,
                         scripts/preview-quartz.ps1
 Contradictions flagged: none
 
+## [2026-05-15] query | Quartz visual polish pass
+Source: Local publishing/design request
+Pages created: none
+Pages updated: wiki/index.md
+Infrastructure updated: .github/quartz/quartz.config.ts,
+                        .github/quartz/quartz.layout.ts,
+                        .github/quartz/custom.scss
+Contradictions flagged: none
+
