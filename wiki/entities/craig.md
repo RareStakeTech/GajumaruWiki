@@ -3,8 +3,8 @@ type: entity
 entity_type: person
 title: "Craig Everett (Chief Product Officer)"
 aliases: [craig, craig-everett]
-sources: [[summary-why-the-gajumaru-and-how-it-works]], [[summary-gajumaru-new-blockchain-demo-1]]
-related: [[gajumaru-architecture]], [[associate-chains]], [[groot]], [[qpq-ag]], [[dimitar]], [[ulf]]
+sources: [[summary-why-the-gajumaru-and-how-it-works]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-qpq-wiki-grids]], [[summary-qpq-wiki-mempool]]
+related: [[gajumaru-architecture]], [[associate-chains]], [[groot]], [[qpq-ag]], [[dimitar]], [[ulf]], [[grids]]
 created: 2026-05-15
 updated: 2026-05-15
 cluster: core-protocol
@@ -43,5 +43,9 @@ Craig's framing from Demo 1 (March 2024):
 
 Bitcoin-NG insight: "The design principle of Bitcoin-NG where proof of work [leader election] is separated from ledger updates and inclusion — that's a very clean, very natural separation of concerns. It should have been obvious years ago. Nobody picked up on that."
 
+## GRIDS Authorship
+
+Craig is the author of the **[[grids]]** technical specification (Gajumaru Remote Instruction Dispatch System, v5). Created 2025-01-17, last modified 2026-05-13, status "For Implementation." He also edited the Mempool page on the QPQ Public Wiki (2026-02-06, UTC+9 — confirming Japan timezone). This places Craig as the primary technical author of GRIDS, not just a design visionary.
+
 ## Sources
-[[summary-why-the-gajumaru-and-how-it-works]], [[summary-gajumaru-new-blockchain-demo-1]]
+[[summary-why-the-gajumaru-and-how-it-works]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-qpq-wiki-grids]]

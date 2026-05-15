@@ -6,8 +6,8 @@
 
 ## Current Focus
 
-**19 sources ingested.** W01-W10 complete. Sophia/FATE VM now documented: contributors include Erlang co-inventor Robert Virding and QuickCheck co-inventor John Hughes. New open question: is QPQ's "Ulf" = Ulf Norell (Sophia contributor, Chalmers/Quviq)? **Next priorities:**
-1. Continue W11–W26 (QPQ Public Wiki pages): monetary theory, DLTs, Blockchain, Transaction, Mempool, Mint Function...
+**27 sources ingested.** W01-W18 complete. GRIDS technical spec (v5) confirmed: Craig Everett is the author; full URL schema documented; dead-drop SSO mechanism clarified. Craig's Japan timezone confirmed (UTC+9). Remaining: State Channels, developer setup pages (W19+). **Next priorities:**
+1. Fetch remaining QPQ wiki pages: State Channels, Testnet Node Setup, Install Erlang, Serialization/BaseN/RLP
 2. Find the Dimitar video on Associate Chain → Groot finality cooperation
 3. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
 4. Resolve mobile wallet naming (Bor vs GajuMobile)
@@ -70,6 +70,7 @@
 | 2026-05-15 | ingest | Demo 1 video (V01) — 1 new, 3 updated |
 | 2026-05-15 | ingest | QPQ Wiki W01-W04 — 4 source summaries, 4 concept/entity pages updated; 4 new clusters |
 | 2026-05-15 | ingest | QPQ Wiki W05-W10 — 6 source summaries, sophia-fate.md created; 4 concept pages updated |
+| 2026-05-15 | ingest | QPQ Wiki W11-W18 — 8 source summaries; grids.md/craig.md major updates; GRIDS spec v5 |
 
 ---
 

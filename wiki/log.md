@@ -397,3 +397,46 @@ Key new claims from sources:
 - W09: Sophia + FATE VM address Solidity/EVM limitations; atomic execution
 - W10: Sophia contributors — Erlang co-inventor Robert Virding, QuickCheck co-inventor John Hughes; FATE VM = immutability-first functional instruction set; Aeternity + Cardano only blockchains with property-based testing
 - Open question raised: Is "Ulf" (QPQ team) = Ulf Norell (Sophia contributor)?
+
+---
+
+## [2026-05-15] ingest | QPQ Public Wiki batch — W11-W18 (DLTs, Blockchain, Transaction, Mempool, Monetary Mechanics, Money, GRIDS spec, Home)
+
+Sources:
+- raw/articles/qpq-wiki-dlts.md
+- raw/articles/qpq-wiki-blockchain.md
+- raw/articles/qpq-wiki-transaction.md
+- raw/articles/qpq-wiki-mempool.md (authored by Craig Everett, not Peter Harpending)
+- raw/articles/qpq-wiki-monetary-mechanics.md
+- raw/articles/qpq-wiki-money.md
+- raw/articles/qpq-wiki-grids.md (GRIDS technical spec v5, authored by Craig Everett)
+- raw/articles/qpq-wiki-home.md
+
+Pages created:
+- wiki/sources/summary-qpq-wiki-dlts.md
+- wiki/sources/summary-qpq-wiki-blockchain.md
+- wiki/sources/summary-qpq-wiki-transaction.md
+- wiki/sources/summary-qpq-wiki-mempool.md
+- wiki/sources/summary-qpq-wiki-monetary-mechanics.md
+- wiki/sources/summary-qpq-wiki-money.md
+- wiki/sources/summary-qpq-wiki-grids.md
+- wiki/sources/summary-qpq-wiki-home.md
+
+Pages updated:
+- wiki/concepts/grids.md (full name confirmed — Gajumaru Remote Instruction Dispatch System; URL schema; three instruction types; dead-drop SSO; security separation principle; confidence upgraded to high; Craig confirmed as author)
+- wiki/entities/craig.md (GRIDS authorship added; Japan timezone +09:00 confirmed; sources updated)
+- wiki/index.md (9 new source rows)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+
+Key new claims from sources:
+- W11/DLTs: public + distributed + consensus mechanism = DLT definition
+- W12/Blockchain: linked list with hash chaining; retroactive change detectable
+- W13/Transaction: TXs = state transition events; spend TX + contract call TX
+- W14/Mempool: Craig Everett authored this page (UTC+9 confirmed); mempool = signed-message holding space; leader selects by profitability
+- W15/Monetary Mechanics: three monetary approaches — commodity reference, debt issuance, ledger-based
+- W16/Money: three money functions; currency requirements (liquidity, divisibility, fungibility, accessibility); value = shared belief in future value; perception precedes money supply in price effects
+- W17/GRIDS: full URL schema confirmed; three instruction types (s/t/d); dead-drop = server-queued signing; SSO without server-side private data; Craig Everett as author
+- W18/Home: wiki has ~30 pages; QPQ's own TODO list includes PoS primer, PoUW, Bitcoin-NG primer
