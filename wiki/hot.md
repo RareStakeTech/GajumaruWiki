@@ -6,7 +6,7 @@
 
 ## Current Focus
 
-Both source documents now ingested. Wiki has solid coverage of architecture, consensus, token economics, products, and key entities. **Next priorities:**
+Three source documents ingested. Wiki has solid coverage of architecture, consensus, token economics, products, key entities, and everyday currency positioning. **Next priorities:**
 1. Clarify the efficiency figure discrepancy (553,800× vs 1,846,200×) — ask QPQ or wait for additional source
 2. Find current post-MainNet data (miner count, Gaju price, LTIN launch status)
 3. Ingest any new QPQ blog posts or announcements since March 2026
@@ -32,6 +32,7 @@ Both source documents now ingested. Wiki has solid coverage of architecture, con
 - 2026-05-15: Vault bootstrapped; first ingest (Year in Review); ingest skills added; skills → commands migration.
 - 2026-05-15: Un-White Paper ingested via Tesseract OCR (pypdfium2). 3 new pages, 5 updated.
 - 2026-05-15: Efficiency figure updated to 1,846,200× with contradiction callout on groot.md.
+- 2026-05-15: YouTube video ingested (DF76Kl1Z4Pg). 1 new source page, 2 concept pages updated.
 
 ---
 
@@ -43,6 +44,7 @@ Both source documents now ingested. Wiki has solid coverage of architecture, con
 | 2026-05-15 | ingest | QPQ 2025 Year in Review — 11 new pages, 4 updated |
 | 2026-05-15 | meta | ingest skills added; commands migration; ingest-video added |
 | 2026-05-15 | ingest | Un-White Paper (OCR) — 3 new pages, 5 updated, 1 contradiction flagged |
+| 2026-05-15 | ingest | Gaju Mining video (YouTube) — 1 new page, 2 updated |
 
 ---
 
@@ -50,7 +52,7 @@ Both source documents now ingested. Wiki has solid coverage of architecture, con
 
 - [[gajumaru-architecture]] — master hub; updated with TEA + core test + partition principle
 - [[groot]] — has contradiction callout; efficiency 1,846,200× (working figure)
-- [[tea-trilemma]] — new; QPQ's analytical framework
+- [[tea-trilemma]] — QPQ's analytical framework
 - [[ripa-model]] — fully documented two-path model
-- [[gaju-token]] — token economics hub
-- [[protected-mining]] — critical window ends March 29 2027
+- [[gaju-token]] — token economics hub; everyday currency positioning added
+- [[protected-mining]] — critical window ends March 29 2027; mining accessibility documented

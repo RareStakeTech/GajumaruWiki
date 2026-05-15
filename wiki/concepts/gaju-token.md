@@ -2,8 +2,8 @@
 type: concept
 title: "Gaju Token"
 aliases: [gaju, gaju-token, GJU]
-sources: [[summary-qpq-2025-review]]
-related: [[groot]], [[protected-mining]], [[gajumaru-architecture]], [[qpq-ag]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]]
+related: [[groot]], [[protected-mining]], [[gajumaru-architecture]], [[qpq-ag]], [[gajumaru-product-suite]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
@@ -44,5 +44,8 @@ Liquidity enabled by GajuDEX (part of [[gajumaru-product-suite]]) from Q2 2026. 
 | [[gaju-token]] | hub | Native token — supply, distribution, mining economics |
 | [[protected-mining]] | member | Mining window, flywheel, critical adoption timeline |
 
-## Source
-[[summary-qpq-2025-review]]
+## Everyday Currency Positioning
+The promotional video [[summary-gaju-mining-video]] frames Gaju explicitly as everyday spending money: bread, haircuts, t-shirts. Contrasted with Bitcoin, which "stopped being considered a currency in 2016 and was instead called a store of value." GajuMarket (part of [[gajumaru-product-suite]]) is the primary spending venue — positioned as eBay at a fraction of the cost.
+
+## Sources
+[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]]

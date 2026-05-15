@@ -114,3 +114,30 @@ Files moved: all 9 files from .claude/skills/ → .claude/commands/
 Files created: .claude/commands/ingest-video.md
 Files removed: .claude/skills/ (directory deleted)
 Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-video supports YouTube/Rumble via yt-dlp subtitles with Whisper fallback.
+
+---
+
+## [2026-05-15] ingest | Gaju Mining, Pioneering the Human Economy (YouTube)
+
+Source: raw/transcripts/gaju-mining-pioneering-the-human-economy.md
+Origin: https://youtu.be/DF76Kl1Z4Pg (subtitle-based transcript via yt-dlp)
+
+Pages created:
+- wiki/sources/summary-gaju-mining-video.md
+
+Pages updated:
+- wiki/concepts/gaju-token.md (everyday currency positioning section added)
+- wiki/concepts/protected-mining.md (mining accessibility + public mining target added)
+- wiki/index.md (source summary row added)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+Key claims from source:
+- Bitcoin stopped being considered a currency in 2016 (became store of value)
+- Gaju is real everyday money: bread, haircuts, t-shirts
+- Mining requires no specialised equipment during protected rollout — everyday home computers
+- Public mining opens end of 2026; target millions of miners
+- QPQ deliberately refused VC funding to avoid corporatist control
+- GajuMarket: buy/sell legal goods like eBay at a fraction of the cost
+- Economic emancipation framing: "economy for the people, by the people"

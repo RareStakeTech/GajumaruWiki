@@ -81,6 +81,7 @@
 |------|-------|---------------|---------|
 | [[summary-qpq-2025-review]] | Gajumaru: 2025 Year in Review & 2026 Prospectives | 2026-05-15 | multi-cluster |
 | [[summary-unwhitepaper]] | The Internet of Economics — Gajumaru & QPQ Un-White Paper | 2026-05-15 | multi-cluster |
+| [[summary-gaju-mining-video]] | Gaju Mining, Pioneering the Human Economy (YouTube) | 2026-05-15 | tokenomics-economics |
 
 ---
 
