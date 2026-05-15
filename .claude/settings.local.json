@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force raw/articles, raw/papers, raw/repos, raw/transcripts, raw/data, raw/assets, wiki/sources, wiki/entities, wiki/concepts, wiki/comparisons, wiki/syntheses, .claude/skills)",
+      "Bash(Out-Null)",
+      "Bash(Write-Host \"Directories created\")"
+    ]
+  }
+}
