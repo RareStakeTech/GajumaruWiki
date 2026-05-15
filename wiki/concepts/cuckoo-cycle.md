@@ -2,7 +2,7 @@
 type: concept
 title: "Cuckoo Cycle"
 aliases: [cuckoo-cycle, cuckoo-pow, memory-bound-pow]
-sources: [[summary-unwhitepaper]]
+sources: [[summary-unwhitepaper]], [[summary-qpq-wiki-mining]]
 related: [[groot]], [[gajumaru-architecture]], [[gaju-token]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -17,7 +17,9 @@ Cuckoo Cycle is the proof-of-work algorithm used by Gajumaru's [[groot]] resourc
 
 ## What It Is
 
-A memory-bound, graph-theoretic proof-of-work puzzle. Rather than requiring raw computation (as in Bitcoin's SHA-256 hashcash), it requires finding a cycle of fixed length in a large bipartite graph. The bottleneck is memory bandwidth, not raw CPU/GPU arithmetic throughput.
+A memory-bound, graph-theoretic proof-of-work puzzle. Rather than requiring raw computation (as in Bitcoin's SHA-256 hashcash), it requires **finding cycles within a deterministically generated node map produced from a seed number**. The bottleneck is memory bandwidth, not raw CPU/GPU arithmetic throughput.
+
+QPQ describes it as **"the least computation-heavy, and therefore most energy-efficient, of the known PoW algorithms."** Source: [[summary-qpq-wiki-mining]]
 
 ## Why Memory-Bound Matters: No ASIC Arms Race
 
@@ -36,5 +38,11 @@ Peer-reviewed algorithm, subject to years of cryptographic scrutiny. QPQ impleme
 
 The Un-White Paper notes Cuckoo Cycle contributes to Gajumaru's long-term mining distribution — the 87.5-year [[gaju-token]] distribution window requires a PoW mechanism that remains accessible to decentralised miners throughout.
 
-## Source
-[[summary-unwhitepaper]]
+## Miner Rewards
+
+Miners earn in two forms (source: [[summary-qpq-wiki-mining]]):
+1. **New coins** — won by solving the Cuckoo Cycle puzzle (block reward)
+2. **Transaction fees** — for including transactions from the mempool
+
+## Sources
+[[summary-unwhitepaper]], [[summary-qpq-wiki-mining]]

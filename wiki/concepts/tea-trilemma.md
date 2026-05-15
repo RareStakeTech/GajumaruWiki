@@ -2,7 +2,7 @@
 type: concept
 title: "TEA Trilemma"
 aliases: [tea, trustlessness-efficiency-accountability, tea-framework]
-sources: [[summary-unwhitepaper]], [[summary-qpq-wiki-blockchain-trilemma]], [[summary-qpq-wiki-consensus]]
+sources: [[summary-unwhitepaper]], [[summary-qpq-wiki-blockchain-trilemma]], [[summary-qpq-wiki-consensus]], [[summary-qpq-wiki-leader-selection]]
 related: [[gajumaru-architecture]], [[groot]], [[associate-chains]], [[ripa-model]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -64,6 +64,23 @@ The Un-White Paper applies MP Tony Benn's five questions to any blockchain found
 > "If you cannot answer the last question, the first four do not much matter."
 
 Applied to Ethereum Foundation, Solana Foundation, DFINITY: the answer to question 5 is always "you cannot."
+
+## Election vs Competition: The PoW/PoS Fork
+
+QPQ's [[summary-qpq-wiki-leader-selection]] articulates the core fork in consensus design:
+
+**Election (PoS approach):**
+- Voting participants must be **known** (not anonymous) — else the system is too easily gamed
+- Participants must place **valuable stake at risk**, visibly
+- Only works if participants are trusted — which requires knowing who they are
+
+**Competition (PoW approach):**
+- Does not require known identity
+- The act of solving a difficult puzzle **is itself a costly signal**
+- Self-calibrating: the cost of compromising the system rises with participant count until it exceeds the value to be gained
+- **Trustless and anonymous are the same thing** in this context
+
+This is not a philosophical preference — it is a structural consequence. A mint requires trustless operation (no one can control who participates). Therefore a mint requires PoW. Governed infrastructure can use PoS because participants there *can* be identified and held accountable.
 
 ## Relation to the Blockchain Trilemma and CAP Theorem
 

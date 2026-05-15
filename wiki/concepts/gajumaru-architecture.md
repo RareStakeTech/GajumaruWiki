@@ -2,7 +2,7 @@
 type: concept
 title: "Gajumaru Architecture"
 aliases: [gajumaru-stack, gajumaru-system]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-qpq-wiki-sophia]], [[summary-qpq-wiki-smart-contracts]]
 related: [[groot]], [[associate-chains]], [[ripa-model]], [[gaju-token]], [[qpq-ag]], [[tea-trilemma]], [[cuckoo-cycle]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -30,7 +30,7 @@ Governance-free proof-of-work layer. Operational since 22 October 2024. Consensu
 Sovereign, governed blockchains connecting natively to Groot. No bridges. Each created, designed, and governed independently. Master/sub-chain hierarchy supports banking consortia, sovereign nations, stablecoin networks. First deployment: [[ltin]] (Liechtenstein, Q2–Q4 2026).
 
 ### Platform & Application Layers
-Sophia smart contract language + FATE VM (from Aeternity, extended by QPQ). FINMA compliant. Permissionless post-MainNet. Products: [[gajumaru-product-suite]].
+[[sophia-fate]]: Sophia smart contract language + FATE VM (from Aeternity, extended by QPQ). Sophia was designed by contributors including Erlang co-inventor Robert Virding and QuickCheck co-inventor John Hughes — built to resolve Solidity's irreparable inadequacies. FATE = immutability-first functional VM with smaller footprints and enhanced correctness. FINMA compliant. Permissionless post-MainNet. Products: [[gajumaru-product-suite]].
 
 ## The TEA Framework
 

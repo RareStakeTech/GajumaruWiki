@@ -106,7 +106,7 @@
 *Sophia language, FATE VM, contract design, deployment modes.*
 
 #### Concept Pages
-<!-- Add concept pages here on ingest -->
+- [[sophia-fate]] *(hub)* — Sophia language + FATE VM; pre-execution verification; immutability-first; Virding/Hughes contributors
 
 #### Entity Pages
 <!-- Add entity pages here on ingest -->
@@ -141,6 +141,12 @@
 | [[summary-qpq-wiki-gajumaru]] | Gajumaru (QPQ Public Wiki) | 2026-05-15 | multi-cluster |
 | [[summary-qpq-wiki-blockchain-trilemma]] | Blockchain Trilemma (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 | [[summary-qpq-wiki-consensus]] | Consensus (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-mining]] | Mining (QPQ Public Wiki) | 2026-05-15 | core-protocol |
+| [[summary-qpq-wiki-proof-of-work]] | Proof of Work (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-leader-selection]] | Leader Selection (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-finality]] | Finality (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-smart-contracts]] | Smart Contracts (QPQ Public Wiki) | 2026-05-15 | smart-contracts |
+| [[summary-qpq-wiki-sophia]] | Sophia / FATE VM (QPQ Public Wiki) | 2026-05-15 | smart-contracts |
 
 ---
 

@@ -357,3 +357,43 @@ Key new claims from sources:
 - W02: Three object categories — Universal (PLAs), Non-transferable, Transferable; TTL on all data; epochs/ledger closeouts
 - W03: Blockchain trilemma = secure/distributed/scalable — pick two; connected to CAP theorem; Algorand drops partition tolerance; Gajumaru solves via architecture + consensus
 - W04: Consensus reduces to leader selection; PoW = trustless/anonymous (synonymous); required for a mint; PoS "nothing at stake" problem detailed
+
+---
+
+## [2026-05-15] ingest | QPQ Public Wiki batch — W05-W10 (Mining, PoW, Leader Selection, Finality, Smart Contracts, Sophia)
+
+Sources:
+- raw/articles/qpq-wiki-mining.md (W05)
+- raw/articles/qpq-wiki-proof-of-work.md (W06)
+- raw/articles/qpq-wiki-leader-selection.md (W07)
+- raw/articles/qpq-wiki-finality.md (W08)
+- raw/articles/qpq-wiki-smart-contracts.md (W09)
+- raw/articles/qpq-wiki-sophia.md (W10)
+
+Pages created:
+- wiki/sources/summary-qpq-wiki-mining.md
+- wiki/sources/summary-qpq-wiki-proof-of-work.md
+- wiki/sources/summary-qpq-wiki-leader-selection.md
+- wiki/sources/summary-qpq-wiki-finality.md
+- wiki/sources/summary-qpq-wiki-smart-contracts.md
+- wiki/sources/summary-qpq-wiki-sophia.md
+- wiki/concepts/sophia-fate.md (new hub for smart-contracts cluster)
+
+Pages updated:
+- wiki/concepts/cuckoo-cycle.md (seed-number cycle-finding description; PoW properties; miner rewards; source added)
+- wiki/concepts/tea-trilemma.md (election vs competition framing from W07; leader selection analysis added; sources updated)
+- wiki/concepts/gajumaru-architecture.md (Sophia/FATE detail expanded; contributor names; sources updated)
+- wiki/index.md (7 new source rows; sophia-fate added to smart-contracts cluster)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated — todo)
+
+Contradictions flagged: none
+
+Key new claims from sources:
+- W05: Cuckoo Cycle = "least computation-heavy, most energy-efficient known PoW"; dual miner reward (new coins + tx fees)
+- W06: PoW requires hard-to-solve/easy-to-verify + random outcomes
+- W07: Election (PoS) requires known identity + costly stake; Competition (PoW) = costly signal without identity
+- W08: Bitcoin finality = 6 blocks ≈ 1 hour; second-finality claims questioned under CAP theorem
+- W09: Sophia + FATE VM address Solidity/EVM limitations; atomic execution
+- W10: Sophia contributors — Erlang co-inventor Robert Virding, QuickCheck co-inventor John Hughes; FATE VM = immutability-first functional instruction set; Aeternity + Cardano only blockchains with property-based testing
+- Open question raised: Is "Ulf" (QPQ team) = Ulf Norell (Sophia contributor)?
