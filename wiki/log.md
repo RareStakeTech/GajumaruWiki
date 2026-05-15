@@ -77,6 +77,37 @@ Notes: Ingest routing now covers .url, .pdf, .txt, -notes.md, and .md. Directory
 
 ---
 
+## [2026-05-15] ingest | Gajumaru Un-White Paper (260331)
+
+Source: raw/articles/gajumaru-un-white-paper.md (OCR'd via pypdfium2 + Tesseract from raw/articles/Gajumaru Un-White Paper 26-03-31.pdf)
+
+Pages created:
+- wiki/sources/summary-unwhitepaper.md
+- wiki/concepts/tea-trilemma.md (member: core-protocol)
+- wiki/concepts/cuckoo-cycle.md (member: core-protocol)
+
+Pages updated:
+- wiki/concepts/groot.md (efficiency corrected + contradiction flagged + consensus details added)
+- wiki/concepts/ripa-model.md (two-path model fully documented; confidence upgraded to high)
+- wiki/concepts/gajumaru-architecture.md (core test, TEA, partition principle, updated cluster table)
+- wiki/index.md (new concept pages + source summary added)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged:
+- wiki/concepts/groot.md: efficiency 553,800× (Year in Review, Jan 2026) vs 1,846,200× (Un-White Paper, Mar 2026). Working figure updated to 1,846,200×.
+
+Key new claims from source:
+- Bitcoin-NG + Cuckoo Cycle consensus architecture detailed
+- >300 TPS; 2-3 sec commercial settlement; 3-4 min absolute finality
+- TEA trilemma (Trustlessness/Efficiency/Accountability) proposed vs Buterin's trilemma
+- Two RIPA paths: RPA (trustless direct) and RIPA (via governed infrastructure)
+- Bitcoin is Newcomen analogy; Gajumaru is the Watt engine
+- GPL3 open source; defensive patents; zero external dependencies
+- Built on Bitcoin-NG, Cuckoo Cycle, Aeternity Sophia/FATE VM
+
+---
+
 ## [2026-05-15] meta | Migrated skills to .claude/commands/ + added ingest-video
 
 Files moved: all 9 files from .claude/skills/ → .claude/commands/

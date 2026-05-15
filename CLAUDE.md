@@ -1,16 +1,16 @@
-# LLM Wiki — Master Schema
+# LLM Wiki ï¿½ Master Schema
 
 ## Domain
 Gajumaru blockchain - Central Wiki
 
 ## Project Structure
-- `raw/` — immutable source documents. NEVER modify any file in raw/.
-- `wiki/` — LLM-generated wiki. You own this layer entirely.
-- `wiki/index.md` — master catalog. Update on EVERY ingest.
-- `wiki/log.md` — append-only activity log. Never delete entries.
-- `wiki/overview.md` — high-level synthesis. Revise after major ingests.
-- `CLAUDE.md` — this file. Re-read at the start of every session.
-- `wiki/hot.md` — session hot cache (~500 words). Read silently at session start BEFORE responding.
+- `raw/` ï¿½ immutable source documents. NEVER modify any file in raw/.
+- `wiki/` ï¿½ LLM-generated wiki. You own this layer entirely.
+- `wiki/index.md` ï¿½ master catalog. Update on EVERY ingest.
+- `wiki/log.md` ï¿½ append-only activity log. Never delete entries.
+- `wiki/overview.md` ï¿½ high-level synthesis. Revise after major ingests.
+- `CLAUDE.md` ï¿½ this file. Re-read at the start of every session.
+- `wiki/hot.md` ï¿½ session hot cache (~500 words). Read silently at session start BEFORE responding.
 
 ## Page Conventions
 Every wiki page MUST have YAML frontmatter. Use these schemas:
@@ -80,9 +80,9 @@ date: YYYY-MM-DD
 ## Ingest Workflow
 When I say "ingest [filename]" or "ingest raw/[path]":
 1. Read the source file from raw/.
-2. Discuss key takeaways with me (3–5 bullet points).
+2. Discuss key takeaways with me (3ï¿½5 bullet points).
 3. Create wiki/sources/summary-{slug}.md with full summary.
-4. Update wiki/index.md — add new page under its cluster section.
+4. Update wiki/index.md ï¿½ add new page under its cluster section.
 5. Update ALL relevant concept and entity pages with new info.
 6. If new info contradicts an existing page, flag it explicitly using a > [!contradiction] callout block.
 7. Create new concept/entity pages if the source introduces them.
@@ -91,7 +91,7 @@ When I say "ingest [filename]" or "ingest raw/[path]":
    - If the page is a member, link it from its cluster hub's `## In this cluster` table.
    - If a new cluster is needed, add it to wiki/index.md and wiki/overview.md.
 8. Append a structured entry to wiki/log.md (see Log Format below).
-9. A single ingest should touch 5–15 wiki pages.
+9. A single ingest should touch 5ï¿½15 wiki pages.
 
 ## Query Workflow
 When I ask a question:
@@ -115,7 +115,7 @@ When I say "lint" or "health check":
    - Every cluster hub is listed in wiki/index.md under its cluster section. List gaps.
 6. **Synthesis back-link check:**
    - Every synthesis page is back-linked from the concept pages it drew on. List near-orphan syntheses (?1 inbound link).
-7. Suggest 3–5 new questions or sources to investigate.
+7. Suggest 3ï¿½5 new questions or sources to investigate.
 8. Append a lint entry to wiki/log.md.
 
 ## Log Format
@@ -129,6 +129,13 @@ Pages created: wiki/sources/summary-moe-efficiency.md
 Pages updated: wiki/concepts/mixture-of-experts.md,
                wiki/concepts/scaling-laws.md
 Contradictions flagged: wiki/concepts/dense-vs-sparse.md (see note)
+
+## Output Layer (output/)
+- Claude writes draft content here on `/repurpose` and `/content-plan` commands.
+- Human edits and approves before publishing anywhere.
+- NEVER publish `output/` content directly â€” always human-reviewed first.
+- `output/` files use `status: draft | reviewed | published` in frontmatter.
+- NEVER include unverified claims in `output/` â€” every claim must trace to a wiki page.
 
 ## Safety Rules
 - NEVER write to raw/. This is a hard constraint with no exceptions.

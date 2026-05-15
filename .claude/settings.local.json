@@ -9,7 +9,13 @@
       "PowerShell(cd \"C:\\\\Users\\\\RSTAdmin\\\\Documents\\\\Gajumaru Wiki\"; try { $word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open\\(\\(Resolve-Path \"raw/articles/Gajumaru Un-White Paper 26-03-31.pdf\"\\).Path\\); $text = $doc.Content.Text; $doc.Close\\($false\\); $word.Quit\\(\\); $text | Select-Object -First 10000 } catch { \"Word COM failed: $_\" })",
       "PowerShell(cd \"C:\\\\Users\\\\RSTAdmin\\\\Documents\\\\Gajumaru Wiki\"; $bytes = [System.IO.File]::ReadAllBytes\\(\"raw/articles/Gajumaru Un-White Paper 26-03-31.pdf\"\\); $ascii = [System.Text.Encoding]::ASCII.GetString\\($bytes\\); $words = [regex]::Matches\\($ascii, '[A-Za-z][A-Za-z0-9 .,;:!?\\(\\)\\\\-\\\\'']{15,}'\\); \\($words | ForEach-Object { $_.Value.Trim\\(\\) } | Where-Object { $_ -match '[aeiou]' -and \\($_.Split\\(' '\\).Count -gt 2\\) } | Select-Object -First 300\\) -join \"`n\")",
       "PowerShell(pip *)",
-      "PowerShell(python -c \"import pdfplumber; print\\('pdfplumber OK'\\)\" 2>&1; python -c \"import pypdf; print\\('pypdf OK'\\)\" 2>&1; python -c \"import pdfminer; print\\('pdfminer OK'\\)\" 2>&1)"
+      "PowerShell(python -c \"import pdfplumber; print\\('pdfplumber OK'\\)\" 2>&1; python -c \"import pypdf; print\\('pypdf OK'\\)\" 2>&1; python -c \"import pdfminer; print\\('pdfminer OK'\\)\" 2>&1)",
+      "PowerShell(cd \"C:\\\\Users\\\\RSTAdmin\\\\Documents\\\\Gajumaru Wiki\"; $lines = \\(Get-Content \"raw/articles/gajumaru-un-white-paper.txt\" -Encoding utf8\\).Count; Write-Host \"Lines: $lines\"; Get-Content \"raw/articles/gajumaru-un-white-paper.txt\" -Encoding utf8 | Select-Object -First 20)",
+      "PowerShell(where.exe tesseract 2>$null; python -c \"import pytesseract; print\\('pytesseract OK'\\)\" 2>&1; python -c \"import pdf2image; print\\('pdf2image OK'\\)\" 2>&1)",
+      "PowerShell(winget *)",
+      "PowerShell(choco install *)",
+      "PowerShell(tesseract *)",
+      "PowerShell(Get-ChildItem *)"
     ]
   }
 }

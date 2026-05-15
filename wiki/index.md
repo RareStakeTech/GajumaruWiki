@@ -17,10 +17,12 @@
 *Concepts and entities related to the Gajumaru base protocol, consensus, and architecture.*
 
 #### Concept Pages
-- [[gajumaru-architecture]] *(hub)* — Full stack overview: Groot + Associate Chains + RIPA
-- [[groot]] — Resource layer; consensus; 553,800× Bitcoin efficiency; 2–4 min finality
-- [[associate-chains]] — Multi-chain architecture; native interoperability; no bridges
-- [[ripa-model]] — Deployment model: Resource / Infrastructure / Platform / Application
+- [[gajumaru-architecture]] *(hub)* — Full stack overview: Groot + Associate Chains + RIPA + TEA
+- [[groot]] — Resource layer; Bitcoin-NG + Cuckoo Cycle; 1,846,200× Bitcoin efficiency; >300 TPS; 3–4 min finality
+- [[associate-chains]] — Multi-chain architecture; native interoperability; no bridges; master/sub-chain hierarchy
+- [[ripa-model]] — Two-path model: RPA (trustless direct) vs RIPA (via governed infrastructure)
+- [[tea-trilemma]] — QPQ's analytical framework: Trustlessness / Efficiency / Accountability
+- [[cuckoo-cycle]] — Memory-bound PoW algorithm; no ASIC arms race
 
 #### Entity Pages
 - [[ltin]] — Liechtenstein Trust Integrity Network; first sovereign Associate Chain
@@ -78,6 +80,7 @@
 | Slug | Title | Date Ingested | Cluster |
 |------|-------|---------------|---------|
 | [[summary-qpq-2025-review]] | Gajumaru: 2025 Year in Review & 2026 Prospectives | 2026-05-15 | multi-cluster |
+| [[summary-unwhitepaper]] | The Internet of Economics — Gajumaru & QPQ Un-White Paper | 2026-05-15 | multi-cluster |
 
 ---
 

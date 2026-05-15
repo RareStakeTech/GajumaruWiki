@@ -6,29 +6,32 @@
 
 ## Current Focus
 
-**Un-White Paper is the top priority for next session.** PDF at `raw/articles/Gajumaru Un-White Paper 26-03-31.pdf` cannot be read without a PDF tool. To unblock: open the PDF, copy all text, paste into `raw/articles/gajumaru-un-white-paper.md`, then say `ingest raw/articles/gajumaru-un-white-paper.md`.
+Both source documents now ingested. Wiki has solid coverage of architecture, consensus, token economics, products, and key entities. **Next priorities:**
+1. Clarify the efficiency figure discrepancy (553,800× vs 1,846,200×) — ask QPQ or wait for additional source
+2. Find current post-MainNet data (miner count, Gaju price, LTIN launch status)
+3. Ingest any new QPQ blog posts or announcements since March 2026
 
-Four type-specific ingest skills are now in place and routing is wired into `recall.md`. The wiki is fully operational.
+**Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
 
 ---
 
 ## Open Questions
 
-- What is Gajumaru's exact consensus algorithm within Groot (witnessing-based — but what specifically)?
+- **Efficiency contradiction:** 553,800× (Year in Review) vs 1,846,200× (Un-White Paper) — which is current?
 - Has LTIN actually launched as of May 2026? (target: Q2/Q3/Q4 2026)
-- What does the Un-White Paper say about technical architecture? (PDF pending extraction)
 - Current Gaju price / active miner count post-MainNet?
 - QPQ AG team beyond Gregory Chew and Cecille de Jesus?
 - What is QPQ IaaS AG (separate entity mentioned for CHF 50M+ unicorn raise)?
+- What does the Un-White Paper Technical Paper contain? (referenced as separate document)
+- GRIDS hardware wallet — has Level 2 shipped yet?
 
 ---
 
 ## Recent Decisions
 
-- 2026-05-15: Vault bootstrapped (git init, directory structure, skills).
-- 2026-05-15: First ingest — QPQ 2025 Year in Review. 11 pages created, 4 updated.
-- 2026-05-15: PDF Un-White Paper blocked — no PDF tool. Needs manual extraction.
-- 2026-05-15: Added 4 type-specific ingest skills (pdf, url, notes, text) + routing table in recall.md.
+- 2026-05-15: Vault bootstrapped; first ingest (Year in Review); ingest skills added; skills → commands migration.
+- 2026-05-15: Un-White Paper ingested via Tesseract OCR (pypdfium2). 3 new pages, 5 updated.
+- 2026-05-15: Efficiency figure updated to 1,846,200× with contradiction callout on groot.md.
 
 ---
 
@@ -38,14 +41,16 @@ Four type-specific ingest skills are now in place and routing is wired into `rec
 |------|------|-------------|
 | 2026-05-15 | bootstrap | Initial vault setup |
 | 2026-05-15 | ingest | QPQ 2025 Year in Review — 11 new pages, 4 updated |
-| 2026-05-15 | meta | Added ingest-pdf, ingest-url, ingest-notes, ingest-text skills; updated recall.md routing |
+| 2026-05-15 | meta | ingest skills added; commands migration; ingest-video added |
+| 2026-05-15 | ingest | Un-White Paper (OCR) — 3 new pages, 5 updated, 1 contradiction flagged |
 
 ---
 
 ## Active Pages
 
-- [[gajumaru-architecture]] — master concept hub (core-protocol)
+- [[gajumaru-architecture]] — master hub; updated with TEA + core test + partition principle
+- [[groot]] — has contradiction callout; efficiency 1,846,200× (working figure)
+- [[tea-trilemma]] — new; QPQ's analytical framework
+- [[ripa-model]] — fully documented two-path model
 - [[gaju-token]] — token economics hub
-- [[gajumaru-product-suite]] — full product catalogue hub
-- [[ltin]] — sovereign chain; Q2–Q4 2026 launch pending
 - [[protected-mining]] — critical window ends March 29 2027
