@@ -323,3 +323,37 @@ Key claims from source:
 - QPQ deliberately refused VC funding to avoid corporatist control
 - GajuMarket: buy/sell legal goods like eBay at a fraction of the cost
 - Economic emancipation framing: "economy for the people, by the people"
+
+---
+
+## [2026-05-15] ingest | QPQ Public Wiki batch — W01-W04 (Blockchain Primer, Gajumaru, Blockchain Trilemma, Consensus)
+
+Sources:
+- raw/articles/qpq-wiki-blockchain-primer.md (W01)
+- raw/articles/qpq-wiki-gajumaru.md (W02)
+- raw/articles/qpq-wiki-blockchain-trilemma.md (W03)
+- raw/articles/qpq-wiki-consensus.md (W04)
+
+Pages created:
+- wiki/sources/summary-qpq-wiki-blockchain-primer.md
+- wiki/sources/summary-qpq-wiki-gajumaru.md
+- wiki/sources/summary-qpq-wiki-blockchain-trilemma.md
+- wiki/sources/summary-qpq-wiki-consensus.md
+
+Pages updated:
+- wiki/concepts/groot.md (witness mechanism; PoW trustlessness; object categories — PLAs; TTL; garbage collection/epochs/ledger closeout; node types; sources updated)
+- wiki/concepts/tea-trilemma.md (CAP theorem connection; blockchain trilemma resolution; PoS nothing-at-stake failure mode; sources updated)
+- wiki/concepts/associate-chains.md (any blockchain platform or non-blockchain infrastructure clarification; source added)
+- wiki/entities/peter.md (Peter Harpending confirmed as QPQ Public Wiki author/editor; two-Peters disambiguation restructured)
+- wiki/index.md (4 new source summary rows; 4 new cluster sections: foundations, monetary-mechanics, smart-contracts, technical-reference)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+
+Key new claims from sources:
+- W01: Peter Harpending confirmed as QPQ Public Wiki author/editor (last edited 2026-03-17)
+- W02: Keyblock + microblocks = "generation"; keyblocks content-free (witness protection); Associate Chains may use non-blockchain infrastructure
+- W02: Three object categories — Universal (PLAs), Non-transferable, Transferable; TTL on all data; epochs/ledger closeouts
+- W03: Blockchain trilemma = secure/distributed/scalable — pick two; connected to CAP theorem; Algorand drops partition tolerance; Gajumaru solves via architecture + consensus
+- W04: Consensus reduces to leader selection; PoW = trustless/anonymous (synonymous); required for a mint; PoS "nothing at stake" problem detailed

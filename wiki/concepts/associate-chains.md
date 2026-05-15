@@ -2,7 +2,7 @@
 type: concept
 title: "Associate Chains"
 aliases: [associate-chain, multi-chain, interoperability]
-sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
+sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-gajumaru]]
 related: [[gajumaru-architecture]], [[groot]], [[ripa-model]], [[ltin]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -30,6 +30,7 @@ Each Associate Chain has:
 - Its own **block size** — configurable per chain
 - Its own **consensus** — PoW, PoS, Proof of Authority, or any suitable model
 - Freedom to **enable new functionalities** as needed by the business case
+- May operate using **any blockchain platform or even non-blockchain infrastructure** — provided it complies with inter-chain protocols for fund transfers. Source: [[summary-qpq-wiki-gajumaru]]
 
 **Transaction isolation:** If one Associate Chain carries very high transaction volume (e.g., a viral application), that load is completely isolated — it cannot congest other Associate Chains or affect their throughput or fees. This directly solves the Ethereum problem where viral products lock up the entire network.
 

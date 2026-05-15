@@ -2,7 +2,7 @@
 type: concept
 title: "TEA Trilemma"
 aliases: [tea, trustlessness-efficiency-accountability, tea-framework]
-sources: [[summary-unwhitepaper]]
+sources: [[summary-unwhitepaper]], [[summary-qpq-wiki-blockchain-trilemma]], [[summary-qpq-wiki-consensus]]
 related: [[gajumaru-architecture]], [[groot]], [[associate-chains]], [[ripa-model]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -65,5 +65,24 @@ The Un-White Paper applies MP Tony Benn's five questions to any blockchain found
 
 Applied to Ethereum Foundation, Solana Foundation, DFINITY: the answer to question 5 is always "you cannot."
 
-## Source
-[[summary-unwhitepaper]]
+## Relation to the Blockchain Trilemma and CAP Theorem
+
+The QPQ Public Wiki explicitly connects the blockchain trilemma (secure, distributed, scalable — pick two) to the CAP theorem (consistency, availability, partition tolerance — pick two) in distributed systems.
+
+QPQ's position: the blockchain trilemma is not a permanent law — it is "what happens when you try to solve contradictory requirements in a single system." By separating concerns across Groot (trustless resource layer) and Associate Chains (governed infrastructure layer), each layer satisfies a different corner of the trilemma rather than compromising all three.
+
+Algorand, by contrast, resolves the trilemma by dropping partition tolerance entirely — the network halts during a large split. QPQ's architecture avoids this by partitioning responsibilities across layers.
+
+Source: [[summary-qpq-wiki-blockchain-trilemma]]
+
+## PoS and the TEA Failure Mode (Consensus Perspective)
+
+From the [[summary-qpq-wiki-consensus]] page: PoS systems face the **"nothing at stake"** problem. If the staked collateral is not externally valuable (independent of the staking system), sacrificing it costs nothing for a malicious actor. This is a TEA failure:
+- **Not trustless**: PoS requires known/trusted actors to prevent attacks
+- **Not accountable**: Pseudonymous validators cannot be identified, replaced, or held liable
+- **Efficiency gains are real** but come with hidden governance costs
+
+PoW avoids this entirely because the computational work is externally costly — the sacrifice is real regardless of any system-specific value.
+
+## Sources
+[[summary-unwhitepaper]], [[summary-qpq-wiki-blockchain-trilemma]], [[summary-qpq-wiki-consensus]]

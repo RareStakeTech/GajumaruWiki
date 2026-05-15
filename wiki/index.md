@@ -80,6 +80,50 @@
 
 ---
 
+### Foundations
+*First-principles concepts: monetary theory, distributed systems, consensus mechanics.*
+
+#### Concept Pages
+<!-- Add concept pages here on ingest: e.g. leader-selection, finality, proof-of-work, money -->
+
+#### Entity Pages
+<!-- Add entity pages here on ingest -->
+
+---
+
+### Monetary Mechanics
+*Inflation, deflation, mint function, coins vs tokens, currency debasement.*
+
+#### Concept Pages
+<!-- Add concept pages here on ingest -->
+
+#### Entity Pages
+<!-- Add entity pages here on ingest -->
+
+---
+
+### Smart Contracts
+*Sophia language, FATE VM, contract design, deployment modes.*
+
+#### Concept Pages
+<!-- Add concept pages here on ingest -->
+
+#### Entity Pages
+<!-- Add entity pages here on ingest -->
+
+---
+
+### Technical Reference
+*CAP theorem, blockchain trilemma, consensus research, protocol specs.*
+
+#### Concept Pages
+<!-- Add concept pages here on ingest: e.g. cap-theorem, blockchain-trilemma, bitcoin-ng -->
+
+#### Entity Pages
+<!-- Add entity pages here on ingest -->
+
+---
+
 ## Source Summaries
 
 | Slug | Title | Date Ingested | Cluster |
@@ -93,6 +137,10 @@
 | [[summary-gaju-firsts-gajumaru-blockchain]] | Gaju Firsts, Gajumaru Blockchain (YouTube) | 2026-05-15 | multi-cluster |
 | [[summary-gaju-mining-journey-update]] | Gaju Mining Journey Update (YouTube) | 2026-05-15 | multi-cluster |
 | [[summary-gajumaru-new-blockchain-demo-1]] | Gajumaru - New Blockchain - Demo 1 (YouTube, Mar 2024) | 2026-05-15 | core-protocol |
+| [[summary-qpq-wiki-blockchain-primer]] | Blockchain Primer (QPQ Public Wiki) | 2026-05-15 | foundations |
+| [[summary-qpq-wiki-gajumaru]] | Gajumaru (QPQ Public Wiki) | 2026-05-15 | multi-cluster |
+| [[summary-qpq-wiki-blockchain-trilemma]] | Blockchain Trilemma (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-consensus]] | Consensus (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 
 ---
 

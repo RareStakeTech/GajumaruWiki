@@ -2,7 +2,7 @@
 type: concept
 title: "Groot (Resource Layer)"
 aliases: [groot, resource-layer]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-firsts-gajumaru-blockchain]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-firsts-gajumaru-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]]
 related: [[gajumaru-architecture]], [[associate-chains]], [[gaju-token]], [[protected-mining]], [[cuckoo-cycle]], [[tea-trilemma]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -22,9 +22,57 @@ Operational since **22 October 2024**. As of end 2025: 300,000+ generations prod
 
 ## Consensus Architecture
 
-**Bitcoin-NG** (Eyal et al., 2016, USENIX NSDI): Decouples leader election from transaction serialisation. Keyblocks (~every 2 min) elect leaders; microblocks (~every 3 sec) carry transactions. Absolute finality = no transaction older than 2 keyblocks can be ejected.
+**Bitcoin-NG** (Eyal et al., 2016, USENIX NSDI): Decouples leader election from transaction serialisation. Keyblocks (~every 2 min) elect leaders; microblocks (~every 3 sec) carry transactions. Absolute finality = no transaction older than 2 keyblocks can be ejected. A keyblock plus all its associated microblocks constitutes a **generation**.
 
 **[[Cuckoo-cycle]]** (Tromp, 2014/2019): Memory-bound, graph-theoretic proof-of-work. No ASIC arms race — mining remains decentralised. Suitable for 87.5-year [[gaju-token]] distribution.
+
+## PoW and Trustlessness
+
+PoW has a special property among all leader-selection mechanisms: **participants need not be known or trusted**. In this context, "trustless" and "anonymous" are synonymous. This is a requirement for a mint to function correctly — any mint that requires identifying participants can be captured or gatekept. Source: [[summary-qpq-wiki-consensus]].
+
+## Witness Mechanism
+
+Groot employs a **witness mechanism** among stakeholders for accelerated finality. Key properties:
+- Functions as **fork protection** — not the primary consensus basis
+- **Keyblocks witnessed are content-free** — they carry no transactions
+- This means witnesses commit to the leader election outcome, not to any transaction content — protecting witnesses from inadvertently endorsing questionable transactions
+- Finality: typically **2–4 minutes**
+
+Source: [[summary-qpq-wiki-gajumaru]]
+
+## On-Chain Object Categories
+
+| Category | Objects |
+|----------|---------|
+| **Universal (transferable)** | Plain Old Accounts (PLAs) — implicitly created; transferable between users |
+| **Non-transferable** | Contracts, state channels, generalised accounts, subordinate ledgers |
+| **Transferable** | Currency — Gajus or AC-defined coins |
+
+PLAs (Plain Old Accounts) are the foundational account type: they come into existence automatically and can be transferred like any asset.
+
+## Data TTL and Storage
+
+All on-ledger data carries a **Time-to-Live (TTL)** value. Storage cost scales with the height duration required:
+- ~3-minute generation intervals → one-year storage requires TTL = current height + 175,200
+- TTL can be extended via **TTL transactions**
+- Subordinate ledgers may implement arbitrary storage rules, including **infinite TTL**
+- State channel objects have infinite TTL within the channel context
+
+## Garbage Collection and Epochs
+
+At **governance-determined heights**, data snapshots create new genesis blocks. Terminology:
+- **Epoch** — the span between two consecutive genesis blocks
+- **Ledger closeout** — the transition from one epoch to the next
+
+Node operating modes:
+| Mode | Behaviour |
+|------|-----------|
+| Garbage-collected | Clears expired and non-current data |
+| Archive | Retains historical data |
+| Full archive | Complete ledger history across all epochs |
+| Partial archive | Current + some past epochs only |
+
+All nodes preserve the current epoch's transaction logs, enabling reconstruction of garbage-collected states.
 
 ## Performance Specifications
 
@@ -64,4 +112,4 @@ GajuExplorer: `groot.mainnet.gajumaru.io`
 > Mechanism for Associate Chain → Groot finality cooperation not yet documented. See [[summary-the-gajumaru-an-actual-working-blockchain]].
 
 ## Sources
-[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]]
+[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]]

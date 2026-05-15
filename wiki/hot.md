@@ -6,12 +6,12 @@
 
 ## Current Focus
 
-Eight source documents ingested. QPQ team now fully named. Development timeline reconstructed. Key remaining open questions: speaker identity in "Gaju Firsts" (Rachel McKone's husband = Craig or Gregory Chew?), mobile wallet name (Bor vs GajuMobile), and Associate Chain finality cooperation mechanism. **Next priorities:**
-1. Find the Dimitar video on Associate Chain → Groot finality cooperation
-2. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
-3. Resolve mobile wallet naming (Bor vs GajuMobile)
-4. Find current post-MainNet data (miner count, Gaju price, LTIN status)
-5. Resolve efficiency figure (553,800× vs 1,846,200×)
+**13 sources ingested.** Batch in progress: W01-W04 complete (QPQ Public Wiki pages). Next: W05 onward. QPQ team fully named; Peter Harpending confirmed as wiki author. Witness mechanism, TTL, epochs/ledger closeout, object categories (PLAs), PoW trustlessness, CAP theorem, and blockchain trilemma all now documented. **Next priorities:**
+1. Continue W05–W26 (QPQ Public Wiki pages): Mining, PoW, Finality, Smart Contracts, Sophia...
+2. Find the Dimitar video on Associate Chain → Groot finality cooperation
+3. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
+4. Resolve mobile wallet naming (Bor vs GajuMobile)
+5. Find current post-MainNet data (miner count, Gaju price, LTIN status)
 
 **Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
 
@@ -26,8 +26,9 @@ Eight source documents ingested. QPQ team now fully named. Development timeline 
 - **Efficiency contradiction:** 553,800× (Year in Review) vs 1,846,200× (Un-White Paper)
 - Has LTIN actually launched as of May 2026? (target: Q2/Q3/Q4 2026)
 - Current Gaju price / active miner count post-MainNet?
-- Full surnames for Craig, Dimitar, Ulf, Peter, Santosh, Jarvis?
-- Role details for Santosh, Peter Harpending, Jarvis?
+- Full surnames for Craig, Dimitar, Ulf, Santosh, Jarvis?
+- Role details for Santosh, Jarvis?
+- Whether "Peter" (video communicator) = Peter Harpending or a distinct individual
 - Which central bank did QPQ consult? (Why the Gajumaru video, unnamed)
 - QPQ IaaS AG — what is it?
 - Un-White Paper Technical Paper — not yet ingested
@@ -65,6 +66,8 @@ Eight source documents ingested. QPQ team now fully named. Development timeline 
 | 2026-05-15 | ingest | QuidProQuo walkthrough — 2 new, 3 updated |
 | 2026-05-15 | ingest | Gaju Firsts — 1 new, 3 updated |
 | 2026-05-15 | ingest | Gaju Mining Journey Update — 2 new, 6 updated |
+| 2026-05-15 | ingest | Demo 1 video (V01) — 1 new, 3 updated |
+| 2026-05-15 | ingest | QPQ Wiki W01-W04 — 4 source summaries, 4 concept/entity pages updated; 4 new clusters |
 
 ---
 
