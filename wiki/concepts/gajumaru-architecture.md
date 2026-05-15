@@ -2,8 +2,8 @@
 type: concept
 title: "Gajumaru Architecture"
 aliases: [gajumaru-stack, gajumaru-system]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]]
-related: [[groot]], [[associate-chains]], [[ripa-model]], [[gaju-token]], [[qpq-ag]], [[tea-trilemma]], [[cuckoo-cycle]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-why-the-gajumaru-and-how-it-works]]
+related: [[groot]], [[associate-chains]], [[ripa-model]], [[gaju-token]], [[qpq-ag]], [[tea-trilemma]], [[cuckoo-cycle]], [[craig]], [[dimitar]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
@@ -47,6 +47,14 @@ Neither layer compromises. This is why QPQ rejects Buterin's blockchain trilemma
 - GPL3 open source; defensive patents (Red Hat model)
 - Zero external dependencies
 
+## The Naming Origin
+
+Lead architect [[craig]], working on the scalability problem in Okinawa, Japan, needed a name for the tree-structure design (root mint + independent chains). He saw a *gajimaru* tree outside his office window:
+
+> "It grows first from a single bowl but pretty quickly it starts dropping these support roots and they wind up becoming trunks of their own — which is similar to the structure that we actually want."
+
+The name was chosen as a "crazy name, easy to search for later" and stuck. Source: [[summary-why-the-gajumaru-and-how-it-works]] — Craig speaking directly.
+
 ## MainNet Status
 Launched April 6/7 2026 at 23:59:00 Zulu.
 
@@ -60,3 +68,5 @@ Launched April 6/7 2026 at 23:59:00 Zulu.
 | [[ripa-model]] | member | Two-path model: RPA (direct/trustless) vs RIPA (via governed infrastructure) |
 | [[tea-trilemma]] | member | TEA framework: Trustlessness / Efficiency / Accountability |
 | [[cuckoo-cycle]] | member | Memory-bound PoW — no ASIC arms race |
+| [[craig]] | entity | Lead architect — designed tree structure, named the project |
+| [[dimitar]] | entity | Implementation engineer — Associate Chain interplay |

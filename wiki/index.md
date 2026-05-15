@@ -26,6 +26,8 @@
 
 #### Entity Pages
 - [[ltin]] — Liechtenstein Trust Integrity Network; first sovereign Associate Chain
+- [[craig]] — Lead architect; designed tree-structure scalability; named the project (Okinawa)
+- [[dimitar]] — Implementation engineer; Associate Chain interplay
 
 ---
 
@@ -82,6 +84,7 @@
 | [[summary-qpq-2025-review]] | Gajumaru: 2025 Year in Review & 2026 Prospectives | 2026-05-15 | multi-cluster |
 | [[summary-unwhitepaper]] | The Internet of Economics — Gajumaru & QPQ Un-White Paper | 2026-05-15 | multi-cluster |
 | [[summary-gaju-mining-video]] | Gaju Mining, Pioneering the Human Economy (YouTube) | 2026-05-15 | tokenomics-economics |
+| [[summary-why-the-gajumaru-and-how-it-works]] | Why the Gajumaru and How it Works (YouTube) | 2026-05-15 | core-protocol |
 
 ---
 

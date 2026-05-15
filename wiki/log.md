@@ -117,6 +117,35 @@ Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-
 
 ---
 
+## [2026-05-15] ingest | Why the Gajumaru and How it Works (YouTube)
+
+Source: raw/transcripts/why-the-gajumaru-and-how-it-works.md
+Origin: https://www.youtube.com/watch?v=urxHvOL4fzI (subtitle-based transcript via yt-dlp)
+Speakers: Craig (lead architect), Dimitar (implementation engineer), unnamed host
+
+Pages created:
+- wiki/sources/summary-why-the-gajumaru-and-how-it-works.md
+- wiki/entities/craig.md
+- wiki/entities/dimitar.md
+
+Pages updated:
+- wiki/concepts/associate-chains.md (technical implementation details from Dimitar; cross-chain transfer mechanics; central bank use case)
+- wiki/concepts/gajumaru-architecture.md (naming origin story from Craig; added craig/dimitar to related + cluster table)
+- wiki/index.md (entity pages + source summary row added)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+Key claims from source:
+- Naming origin: gajimaru tree outside Craig's office window in Okinawa — single trunk drops independent trunks, mirrors architecture
+- PoW mint required as trust anchor that no party can control
+- Associate Chains: transaction throughput isolation; own database, CPU space, block size, consensus
+- Gaju account valid on every chain; Gajus transferable cross-chain
+- A central bank was consulted — confirmed need for different chain configs per transaction type
+- Rejects "one ring to rule them all" — no single blockchain can meet all real-world requirements
+
+---
+
 ## [2026-05-15] ingest | Gaju Mining, Pioneering the Human Economy (YouTube)
 
 Source: raw/transcripts/gaju-mining-pioneering-the-human-economy.md
