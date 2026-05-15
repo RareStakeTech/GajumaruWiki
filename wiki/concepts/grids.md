@@ -2,7 +2,7 @@
 type: concept
 title: "GRIDS"
 aliases: [grids, grid-authentication, grids-login]
-sources: [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
+sources: [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-gaju-firsts-gajumaru-blockchain]]
 related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[associate-chains]], [[qpq-ag]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -47,11 +47,19 @@ The Year in Review ([[summary-qpq-2025-review]]) references a "GRIDS hardware wa
 > [!open_question]
 > Is the GRIDS hardware wallet a physical device (like a YubiKey) that implements the GRIDS protocol? Or is "GRIDS" used for two distinct products? Source: [[summary-qpq-2025-review]].
 
-## Integration Example
+## Universal Signing Layer — Confirmed
 
-[[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]] demonstrates GRIDS integration in QuidProQuo:
-- Login: wallet signs a challenge message → session established, no account creation needed
-- Transaction authorization: contract calls delivered via GRIDS URL → wallet signs and submits
+[[summary-gaju-firsts-gajumaru-blockchain]] shows GRIDS used for mining payout signing — not just marketplace login. The speaker uses the same URL-copy-paste mechanism to sign a mining withdrawal transaction from GajuMining SaaS. This confirms GRIDS is the **universal transaction signing layer** across the entire Gajumaru product suite.
+
+> "This is all happening on-chain and not on the website. Total security, the end of login and passwords."
+
+## Integration Examples
+
+| Context | GRIDS role |
+|---------|-----------|
+| QuidProQuo marketplace | Login + contract call signing for each transaction step |
+| GajuMining SaaS | Payout transaction signing |
+| Any future application | Any on-chain action requiring wallet signature |
 
 ## Sources
-[[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
+[[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-gaju-firsts-gajumaru-blockchain]]

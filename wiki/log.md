@@ -117,6 +117,34 @@ Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-
 
 ---
 
+## [2026-05-15] ingest | Gaju Firsts, Gajumaru Blockchain (YouTube)
+
+Source: raw/transcripts/gaju-firsts-gajumaru-blockchain.md
+Origin: https://www.youtube.com/watch?v=AAgXahd94yY (subtitle-based transcript via yt-dlp)
+Speakers: unnamed (likely Craig or Gregory Chew)
+
+Pages created:
+- wiki/sources/summary-gaju-firsts-gajumaru-blockchain.md
+
+Pages updated:
+- wiki/concepts/grids.md (confirmed universal signing layer; integration table added)
+- wiki/concepts/gajumaru-product-suite.md (GajuDesk name confirmed; Clutch resolved as earlier name; GajuMining Dashboard noted)
+- wiki/concepts/groot.md (on-chain messaging capability added)
+- wiki/index.md (source summary row added)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none (Clutch/GajuDesk naming discrepancy partially resolved — GajuDesk confirmed current)
+Key claims from source:
+- GajuDesk confirmed as current desktop wallet name (Clutch was earlier name)
+- GRIDS used for mining payout signing — universal signing layer confirmed
+- Sub-6-second settlement demonstrated live on PoW blockchain
+- On-chain messaging capability (like SWIFT business purpose fields)
+- First-ever Gaju transactions recorded; first sent to speaker's wife Rachel McKone
+- Speaker unnamed; likely Craig or Gregory Chew
+
+---
+
 ## [2026-05-15] ingest | World's First Genuine Blockchain Marketplace, QuidProQuo on the Gajumaru (YouTube)
 
 Source: raw/transcripts/worlds-first-genuine-blockchain-marketplace-quidproquo-on-the-gajumaru.md

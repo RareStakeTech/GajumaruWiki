@@ -2,7 +2,7 @@
 type: concept
 title: "Groot (Resource Layer)"
 aliases: [groot, resource-layer]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-firsts-gajumaru-blockchain]]
 related: [[gajumaru-architecture]], [[associate-chains]], [[gaju-token]], [[protected-mining]], [[cuckoo-cycle]], [[tea-trilemma]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -42,6 +42,10 @@ Operational since **22 October 2024**. As of end 2025: 300,000+ generations prod
 > - [[summary-unwhitepaper]] (Mar 2026): 1,846,200× more efficient than Bitcoin
 >
 > The Un-White Paper is more recent and more technically authoritative. **Current working figure: 1,846,200×.** The Year in Review figure may reflect an earlier calculation or different measurement basis. Both sources are from QPQ — not an external contradiction, but the numbers differ by ~3.3×. Pending clarification.
+
+## On-Chain Messaging
+
+Gajumaru transactions support attached message data — analogous to SWIFT's business purpose fields. Any transaction can carry business data, personal notes, or other structured information on-chain. Demonstrated in [[summary-gaju-firsts-gajumaru-blockchain]]: the first-ever Gaju transaction included a personal message.
 
 ## Transparency Model
 Groot is a public ledger — all transactions visible. This is the price of trustlessness (no hidden cargoes; full exposure). Regulatory compliance sits at Associate Chain boundaries, not on Groot itself. Analogous to TCP/IP not regulating content.

@@ -89,6 +89,7 @@
 | [[summary-why-the-gajumaru-and-how-it-works]] | Why the Gajumaru and How it Works (YouTube) | 2026-05-15 | core-protocol |
 | [[summary-the-gajumaru-an-actual-working-blockchain]] | The Gajumaru — an actual, working blockchain (YouTube) | 2026-05-15 | core-protocol |
 | [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]] | World's First Genuine Blockchain Marketplace, QuidProQuo (YouTube) | 2026-05-15 | developer-ecosystem |
+| [[summary-gaju-firsts-gajumaru-blockchain]] | Gaju Firsts, Gajumaru Blockchain (YouTube) | 2026-05-15 | multi-cluster |
 
 ---
 

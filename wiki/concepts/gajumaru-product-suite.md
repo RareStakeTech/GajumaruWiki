@@ -21,16 +21,18 @@ The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 
 ## Wallet & Desktop Infrastructure
 
-**GajuDesk / Clutch** — Cross-platform desktop wallet (Windows/macOS/Linux). Wallet management, chain interaction, signature requests, contract development/deployment/calling. Zero dependencies, original codebase. *(Called "Clutch" in [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]; may be a prior name or variant.)*
+**GajuDesk** — Cross-platform desktop wallet (Windows/macOS/Linux). Wallet management, chain interaction, signature requests, contract development/deployment/calling. Zero dependencies, original codebase. Confirmed name: [[summary-gaju-firsts-gajumaru-blockchain]]. *(Earlier working name: "Clutch" — [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]].)*
 
-**GajuMobile / Bor** — iOS/Android/Linux wallet and smart contract access. Zero dependencies. Targets retail payments and banking the 1.4 billion unbanked globally. *(Called "Bor" in [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]; may be a prior name or variant.)*
+**GajuMobile / Bor** — iOS/Android/Linux wallet and smart contract access. Zero dependencies. Targets retail payments and banking the 1.4 billion unbanked globally. *(Called "Bor" in [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]; GajuMobile in Year in Review. Current name unresolved.)*
 
-**GajuMine** — Cross-platform mining program (Windows/macOS/Linux).
+**GajuMine** — Cross-platform mining program (Windows/macOS/Linux). Confirmed name: [[summary-gaju-firsts-gajumaru-blockchain]].
+
+**GajuMining Dashboard** — SaaS interface for managing mining payouts. Used to generate payout transactions signed via [[grids]].
 
 **GajuExplorer** — Web-based chain explorer (`groot.mainnet.gajumaru.io`).
 
 > [!open_question]
-> The QuidProQuo walkthrough video refers to the desktop wallet as "Clutch" and mobile wallet as "Bor", while the Year in Review uses "GajuDesk" and "GajuMobile". These may reflect a product rename between early development and the Jan 2026 review, or may be distinct product lines.
+> Mobile wallet naming: "Bor" (QuidProQuo video) vs "GajuMobile" (Year in Review). Desktop wallet resolved: GajuDesk is current name, Clutch was earlier.
 
 ## Finance & Exchange
 
