@@ -6,11 +6,11 @@
 
 ## Current Focus
 
-Seven source documents ingested. GajuDesk naming resolved (Clutch was earlier name). GRIDS confirmed as universal signing layer. On-chain messaging documented. Key remaining open questions: mobile wallet name (Bor vs GajuMobile), identity of speaker in "Gaju Firsts" video, and Associate Chain finality cooperation mechanism. **Next priorities:**
+Eight source documents ingested. QPQ team now fully named. Development timeline reconstructed. Key remaining open questions: speaker identity in "Gaju Firsts" (Rachel McKone's husband = Craig or Gregory Chew?), mobile wallet name (Bor vs GajuMobile), and Associate Chain finality cooperation mechanism. **Next priorities:**
 1. Find the Dimitar video on Associate Chain → Groot finality cooperation
-2. Resolve mobile wallet naming (Bor vs GajuMobile)
-3. Identify speaker in "Gaju Firsts" (Craig or Gregory Chew?) — Rachel McKone is his wife
-4. Find current post-MainNet data (miner count, Gaju price, LTIN launch status)
+2. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
+3. Resolve mobile wallet naming (Bor vs GajuMobile)
+4. Find current post-MainNet data (miner count, Gaju price, LTIN status)
 5. Resolve efficiency figure (553,800× vs 1,846,200×)
 
 **Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
@@ -20,27 +20,34 @@ Seven source documents ingested. GajuDesk naming resolved (Clutch was earlier na
 ## Open Questions
 
 - **Associate Chain → Groot finality cooperation:** Mechanism unknown; Dimitar's area; promised in a later video
+- **Speaker identity in "Gaju Firsts":** Wife is Rachel McKone; mentions children; likely Craig or Gregory Chew
 - **Mobile wallet naming:** "Bor" (QuidProQuo video) vs "GajuMobile" (Year in Review) — unresolved
-- **Speaker identity in "Gaju Firsts":** Unnamed; wife is Rachel McKone; likely Craig or Gregory Chew
-- **GRIDS hardware wallet:** Is the hardware wallet (Year in Review) the same system as the login/signing protocol?
+- **GRIDS hardware wallet:** Is it the same system as the login/signing protocol? Level 2 shipped?
 - **Efficiency contradiction:** 553,800× (Year in Review) vs 1,846,200× (Un-White Paper)
 - Has LTIN actually launched as of May 2026? (target: Q2/Q3/Q4 2026)
 - Current Gaju price / active miner count post-MainNet?
-- Full names/titles for Craig, Dimitar, Peter?
+- Full surnames for Craig, Dimitar, Ulf, Peter, Santosh, Jarvis?
+- Role details for Santosh, Peter Harpending, Jarvis?
 - Which central bank did QPQ consult? (Why the Gajumaru video, unnamed)
 - QPQ IaaS AG — what is it?
-- Un-White Paper Technical Paper — separate document not yet ingested
-- GRIDS hardware wallet Level 2 — shipped?
+- Un-White Paper Technical Paper — not yet ingested
 
 ---
 
-## Recent Decisions
+## QPQ Team Roster (as of mid-2025 video)
 
-- 2026-05-15: Vault bootstrapped; first ingest (Year in Review); skills → commands migration.
-- 2026-05-15: Un-White Paper ingested (OCR). Efficiency 1,846,200× working figure; contradiction flagged.
-- 2026-05-15: Three YouTube videos ingested (Gaju Mining, Why the Gajumaru, actual working blockchain).
-- 2026-05-15: QuidProQuo walkthrough ingested. GRIDS concept page created. Product naming discrepancy flagged.
-- 2026-05-15: Gaju Firsts ingested. GajuDesk confirmed (Clutch = earlier name). On-chain messaging documented.
+| Name | Role |
+|------|------|
+| [[gregory-chew]] | CEO; products |
+| [[craig]] | Lead architect; Okinawa, Japan |
+| [[dimitar]] | Implementation; backend; Associate Chains |
+| [[ulf]] | Blockchain infrastructure; hive mining |
+| [[peter]] | Communicator; rubber duck |
+| Santosh | Background (role unknown) |
+| Peter Harpending | Background (role unknown) |
+| Jarvis | Background (role unknown) |
+| Cecille de Jesus | Marketing (joined Nov 2025) |
+| Adam Percy | Community champion |
 
 ---
 
@@ -51,23 +58,24 @@ Seven source documents ingested. GajuDesk naming resolved (Clutch was earlier na
 | 2026-05-15 | bootstrap | Initial vault setup |
 | 2026-05-15 | ingest | QPQ 2025 Year in Review — 11 new pages, 4 updated |
 | 2026-05-15 | meta | ingest skills added; commands migration; ingest-video added |
-| 2026-05-15 | ingest | Un-White Paper (OCR) — 3 new pages, 5 updated, 1 contradiction flagged |
-| 2026-05-15 | ingest | Gaju Mining video — 1 new page, 2 updated |
-| 2026-05-15 | ingest | Why the Gajumaru video — 3 new pages, 2 updated |
-| 2026-05-15 | ingest | Actual working blockchain video — 2 new pages, 3 updated |
-| 2026-05-15 | ingest | QuidProQuo walkthrough — 2 new pages, 3 updated, naming discrepancy flagged |
-| 2026-05-15 | ingest | Gaju Firsts — 1 new page, 3 updated, GajuDesk confirmed |
+| 2026-05-15 | ingest | Un-White Paper (OCR) — 3 new pages, 5 updated |
+| 2026-05-15 | ingest | Gaju Mining video — 1 new, 2 updated |
+| 2026-05-15 | ingest | Why the Gajumaru video — 3 new, 2 updated |
+| 2026-05-15 | ingest | Actual working blockchain video — 2 new, 3 updated |
+| 2026-05-15 | ingest | QuidProQuo walkthrough — 2 new, 3 updated |
+| 2026-05-15 | ingest | Gaju Firsts — 1 new, 3 updated |
+| 2026-05-15 | ingest | Gaju Mining Journey Update — 2 new, 6 updated |
 
 ---
 
 ## Active Pages
 
-- [[gajumaru-architecture]] — master hub; naming origin complete
-- [[groot]] — contradiction callout; on-chain messaging added; finality cooperation open question
-- [[associate-chains]] — fully detailed; "not a layer two" clarification added
-- [[grids]] — universal signing layer confirmed; integration table added
-- [[gajumaru-product-suite]] — GajuDesk confirmed; GajuMining Dashboard added; Bor/GajuMobile still open
-- [[tea-trilemma]], [[ripa-model]], [[cuckoo-cycle]] — stable
-- [[gaju-token]] — token economics hub
-- [[protected-mining]] — critical window ends March 29 2027
-- [[craig]], [[dimitar]], [[peter]] — first names only
+- [[gajumaru-architecture]] — master hub
+- [[groot]] — efficiency contradiction; on-chain messaging; finality cooperation open question
+- [[associate-chains]] — fully detailed; "not a layer two" added
+- [[grids]] — universal signing layer confirmed
+- [[gajumaru-product-suite]] — GajuDesk confirmed; Bor/GajuMobile open
+- [[protected-mining]] — ends March 29 2027; small business owners as primary audience
+- [[qpq-ag]] — complete team roster + development timeline now documented
+- [[craig]], [[dimitar]], [[ulf]], [[peter]] — first names only (except Peter Harpending)
+- [[gregory-chew]] — products role confirmed; possible "Gaju Firsts" speaker

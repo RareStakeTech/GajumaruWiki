@@ -117,6 +117,40 @@ Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-
 
 ---
 
+## [2026-05-15] ingest | Gaju Mining Journey Update (YouTube)
+
+Source: raw/transcripts/gaju-mining-journey-update.md
+Origin: https://www.youtube.com/watch?v=vrF5AI6i9yg (subtitle-based transcript via yt-dlp)
+Speakers: Gregory Chew (likely opening/closing), Craig (likely technical mid-section), QPQ AG
+
+Pages created:
+- wiki/sources/summary-gaju-mining-journey-update.md
+- wiki/entities/ulf.md
+
+Pages updated:
+- wiki/entities/dimitar.md (baby arrival during development period; Ulf cross-link)
+- wiki/entities/peter.md (two Peters noted; Peter Harpending identified)
+- wiki/entities/gregory-chew.md (products role; full team named; Gaju Firsts cross-reference)
+- wiki/entities/qpq-ag.md (complete team roster; development timeline)
+- wiki/concepts/protected-mining.md (small business owners as primary adopters)
+- wiki/index.md (ulf entity + source summary row added)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+Key claims from source:
+- Full team named: Craig, Dimitar, Ulf, Greg, Peter, Santosh, Peter Harpending, Jarvis, Adam Percy
+- Ulf built hive mining concept + dividend-writing smart contracts (global first)
+- Small business owners = primary adopters, not crypto experts
+- Payment provider rugpull at launch → cascading tech failures → forced zero-dependency web shop build
+- Architecture A fell apart before the hive mining approach
+- 300+ pre-release miners validated the system
+- Timeline: Groot live Oct 22 2024, sales started March 2025, full operation target end August 2025
+- "Making things impossible vs illegal" — Craig's framing referenced
+- Dimitar had a new baby during development
+
+---
+
 ## [2026-05-15] ingest | Gaju Firsts, Gajumaru Blockchain (YouTube)
 
 Source: raw/transcripts/gaju-firsts-gajumaru-blockchain.md

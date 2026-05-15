@@ -27,7 +27,8 @@
 #### Entity Pages
 - [[ltin]] — Liechtenstein Trust Integrity Network; first sovereign Associate Chain
 - [[craig]] — Lead architect; designed tree-structure scalability; named the project (Okinawa)
-- [[dimitar]] — Implementation engineer; Associate Chain interplay
+- [[dimitar]] — Implementation engineer; Associate Chain interplay; backend
+- [[ulf]] — Blockchain infrastructure; hive mining concept; dividend-writing contracts
 - [[peter]] — Communicator; non-technical rubber duck for QPQ explainer video series
 
 ---
@@ -90,6 +91,7 @@
 | [[summary-the-gajumaru-an-actual-working-blockchain]] | The Gajumaru — an actual, working blockchain (YouTube) | 2026-05-15 | core-protocol |
 | [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]] | World's First Genuine Blockchain Marketplace, QuidProQuo (YouTube) | 2026-05-15 | developer-ecosystem |
 | [[summary-gaju-firsts-gajumaru-blockchain]] | Gaju Firsts, Gajumaru Blockchain (YouTube) | 2026-05-15 | multi-cluster |
+| [[summary-gaju-mining-journey-update]] | Gaju Mining Journey Update (YouTube) | 2026-05-15 | multi-cluster |
 
 ---
 
