@@ -1,0 +1,39 @@
+---
+type: transcript
+title: "Why the Gajumaru and How it Works"
+source_url: https://www.youtube.com/watch?v=urxHvOL4fzI
+platform: youtube
+date_downloaded: 2026-05-15
+transcript_method: subtitles
+vtt_source: raw/transcripts/Why the Gajumaru and How it Works.en.vtt
+speakers: ["Craig (lead architect)", "Dimitar (implementation engineer)", "unnamed host"]
+---
+
+[Music]
+Okay, thank you for joining us today. Uh we are going to talk about why we called the Gajimaru the Gajimaru. And to that end, I should just pass straight to Craig. Uh Craig is sitting in Okinawa, Japan. And uh actually the inspiration comes from there. So over to you, Craig.
+
+Looking at making a a blockchain that actually works. Um we had a great base to start from with a lot of the issues but there were lots of outstanding ones. One of them is scalability and we knew that at the root of it you have to do what the traditional banking system done to some degree which is partition the problem and try to get down as local as possible whenever needed. So have that as an option and that winds up looking at as a tree structure. And as when I was first trying to write this out I didn't know what to call it. Um, and I guess fortuitously outside of my office window there is a type of tree that's got uh they called a gajimaru and it's got a single it it grows first from a single bowl but pretty quickly it starts dropping these support roots and they wind up becoming trunks of their own which is similar to the structure that we actually want. uh we would like to have you know branch connections between different tree trunks that all are themselves independent trees.
+
+Um the thing to tie them together uh that you can't do without if you want to make a digital currency is you have to have an anonymous uh proof-of-work mint to define the currency itself. Uh and a mint that no party can control which means that we can trust it. So a trust dispense required that requires proof of work for a whole bunch of reasons we can't go into right now but it's an important thing but then we that consensus model doesn't work for everything. So we want to be able to have this freedom to create other chains that have their own rules but all who can speak the same language and use this single currency across across all the chains.
+
+Um so anyway seeing this tree I was like oh hey that's a good working name. It's a crazy name. It'll be easy to search for later. Gajimaru and we use that name and then it stuck and so that's so that's what we're going with. It's the Gajimaru.
+
+Um as far as how the chains talk to each other, how the interplay works, uh Dimitar knows the details. He's been working on helping implement a lot of that. So could you mention some of those uh different trees that uh Greg was talking about those we call associate chains and they're all spawn from the from the mint and they share the same economy uh but uh they can vary in their approach of what is allowed there and what is not. uh they can have different consensus uh so they can be using not proof of work proof of stake proof of authority and whatever is suitable for the particular business case that they're solving.
+
+Uh what this allows is uh for them to have their own independent database uh their own independent uh CPU space. So basically their own transaction to uh this means that if there is a really big uh transaction flow from business A uh that is running on one associate chain this is not going to impact different associate chain and their throughput uh something that uh we have seen times and times again when there is a really viral product on let's say Ethereum uh the whole network is congested and uh this hurts the business case for everyone else that is trying to do anything. And this drives the fees up uh because everyone is trying to keep bribing miners or block producers to be including their transaction instead of the other transactions that are currently in the pool.
+
+uh with the Soc is not a problem because you as a business uh can own your own transaction throughput and it doesn't interfere with anyone else's and uh depending on what your expectations of the transactions you expect on your chain would be. uh you can define your own block size uh costs and you can even for allow new functionalities depending what you actually need uh and how this ties to the whole ecosystem. Uh I'll pass the boat to so he can explain.
+
+The thing that really makes this sets this apart from just a loose collection of chains um is like dim said that we provide uh a whole ecosystem. So the things that we will um demand in the gajuaru is that when you have an account that account is valid on every chain um and each associate chain will treat the main chain the mint uh kind of like uh a local bank would treat the central bank. That's where you get the the mint actually produces the coin for the entire ecosystem. The coin is valid on all associate chains.
+
+So when you start an associate chain, you will essentially check out gaju maru which is then or gajus which are then transferred from the mint uh to your associate chain and then you can work it uh actually use actual money on your associate chain and the gadu can be transferred between associate chains and um and you as a user can transfer gajus from your account on one associate chain to your account on another associate chain.
+
+And uh it's important for this also to for the mint to be a fully-fledged uh high-capacity trustless blockchain. Um so that you can you can essentially you could run your applications on the gajubaru in the unregulated space. Uh and then for performance reasons if you are successful um you may actually want to spawn an associate chain and move your traffic out there. uh or if you decide that you actually need to become real and adapt to the jurisdiction your business operates in, you can also move to an associate chain and adapt consensus uh KYC whatever to your local legal needs and still be part of this ecosystem. And uh essentially then you would probably treat the gajus as more or less foreign currency that's not under your regulatory control but you can still use it.
+
+When people talk about uh a lot of these things in blockchain the assumption is that there is a one ring to rule them all type approach and and as we've discussed before people miss the fact that JR Tolkien is really talking about how that is an absolute power that absolutely corrupts. Um but there's a more fundamental point that you're hitting on here which is that there is no one solution for every need or requirement.
+
+And when you start looking at something like for example how might we implement blockchain as a payments rails for banks to operate within a country. So you gave the example of a central bank and large banks but actually for certain types of transactions you're going to want certain levels of of security and participation. for others you might want something else. And there was a central bank we were talking to in the past and that was exactly one of the points they made is that if someone's buying a coffee, we're quite happy for the cost of that coffee transaction to be reflected in a very high-speed chain that operates a certain way. Uh but we'd really like something very secure for interbank settlements, end of day settlements and so on.
+
+And this is exactly what we need to appreciate that in the real world there are different needs and requirements around how a blockchain itself would be implemented and used. And the fact that the Gajimaru itself lends itself to this whole idea that it says okay well you need a core that works but then you can begin to compose all of these associate chains around it that are their own blockchain effectively and can choose their consensus method. can can choose how they want to operate but do that with the security of the Gaju underpinning it and the Gajimaru Mint itself.
+
+[Music]
