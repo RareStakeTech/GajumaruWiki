@@ -507,3 +507,48 @@ Key new claims from sources:
 - API Encoding: associate_chain tag=7, native_token tag=8, channel tag=6 — all confirmed
 - Testnet: targets Devuan 6 (Excalibur); requires gmhive_client or gajumine
 
+---
+
+## [2026-05-15] lint | Full wiki health check — 36 sources, 12 concept pages, 7 entity pages
+
+Scope: All concept pages (12), entity pages (7), source summaries (36), index.md, overview.md
+
+### Contradictions
+- groot.md: efficiency 553,800× (Year in Review, Jan 2026) vs 1,846,200× (Un-White Paper, Mar 2026) — pre-existing, already flagged with > [!contradiction] callout. Working figure: 1,846,200×.
+
+### Syntax Bugs Fixed
+- state-channels.md frontmatter: `[[sophia-fate]` was missing closing `]]` — malformed link; FIXED.
+
+### Orphan Pages (resolved)
+- state-channels.md — zero inbound concept/entity links (only index.md + its own source summary). Root cause: missing from gajumaru-product-suite.md "In this cluster" table. FIXED.
+
+### Cluster Hub Gaps (resolved)
+All fixed in this session:
+- state-channels.md (developer-ecosystem member) → added to gajumaru-product-suite.md cluster table
+- gregory-chew.md (developer-ecosystem entity) → added to gajumaru-product-suite.md cluster table
+- ulf.md (core-protocol entity) → added to gajumaru-architecture.md cluster table
+- ltin.md (core-protocol entity) → added to gajumaru-architecture.md cluster table
+
+Pages fixed:
+- wiki/concepts/gajumaru-product-suite.md
+- wiki/concepts/gajumaru-architecture.md
+
+### Missing Concept Pages (3+ mentions, no dedicated page)
+- Bitcoin-NG: 27 occurrences across 12 files — no concept page; QPQ's own wiki TODO includes "Bitcoin-NG primer"
+- Aeternity: 23 occurrences across 10 files — no concept/entity page; Sophia, FATE VM, State Channels all originate from Aeternity
+- MainNet (launch event): 21 occurrences across 11 files — no milestone/event page
+
+### Stale Claims
+- gaju-token.md: "300+ active miners as of December 2025" — pre-MainNet figure; post-MainNet count unknown
+- Efficiency figure: working figure 1,846,200× (Un-White Paper, Mar 2026); Year in Review figure 553,800× not yet reconciled
+
+### Synthesis Back-links
+No synthesis or comparison pages exist — no action needed.
+
+### Suggested Next Steps
+1. Create wiki/concepts/bitcoin-ng.md — fundamental to Groot; 27+ mentions; QPQ's wiki TODO item
+2. Create wiki/entities/aeternity.md — Gajumaru's upstream for Sophia/FATE/State Channels; 23+ mentions
+3. Find and ingest the Dimitar video on Associate Chain → Groot finality cooperation (open question #1)
+4. Seek post-MainNet data source (miner count, Gaju price, LTIN status) to update stale December 2025 claims
+5. Resolve Ulf identity — is QPQ's "Ulf" = Ulf Norell (Sophia contributor, Chalmers/Quviq)?
+

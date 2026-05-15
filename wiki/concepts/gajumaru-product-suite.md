@@ -98,7 +98,9 @@ SRO application submitted January 2026. Enables KYC Wallets, tokenization of Swi
 |------|------|-------------|
 | [[gajumaru-product-suite]] | hub | Full application and platform catalogue |
 | [[grids]] | member | Universal secure login/authentication protocol |
+| [[state-channels]] | member | Off-chain sessions; 500+ transfers/sec; State Channel Markets |
 | [[qpq-ag]] | — | Company building the suite |
+| [[gregory-chew]] | — | CEO |
 
 ## Sources
 [[summary-qpq-2025-review]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]

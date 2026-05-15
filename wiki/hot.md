@@ -73,6 +73,7 @@
 | 2026-05-15 | ingest | QPQ Wiki W11-W18 — 8 source summaries; grids.md/craig.md major updates; GRIDS spec v5 |
 | 2026-05-15 | query | Quartz GitHub Pages publishing setup + visual polish (user) |
 | 2026-05-15 | ingest | QPQ Wiki W19-W26+ — 9 source summaries; state-channels.md created; gaju-token.md updated |
+| 2026-05-15 | lint | Full health check — 4 cluster gaps fixed; 1 syntax bug fixed; 3 missing concept pages flagged |
 
 ---
 
