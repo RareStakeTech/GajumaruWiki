@@ -1,0 +1,25 @@
+:root {
+  --contentWidth: 820px;
+  --sidePanelWidth: 340px;
+}
+
+.page-title {
+  font-weight: 700;
+}
+
+.article-title {
+  letter-spacing: 0;
+}
+
+.callout {
+  border-radius: 6px;
+}
+
+.popover-hint {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+table {
+  font-size: 0.95rem;
+}

@@ -440,3 +440,16 @@ Key new claims from sources:
 - W16/Money: three money functions; currency requirements (liquidity, divisibility, fungibility, accessibility); value = shared belief in future value; perception precedes money supply in price effects
 - W17/GRIDS: full URL schema confirmed; three instruction types (s/t/d); dead-drop = server-queued signing; SSO without server-side private data; Craig Everett as author
 - W18/Home: wiki has ~30 pages; QPQ's own TODO list includes PoS primer, PoUW, Bitcoin-NG primer
+
+## [2026-05-15] query | Quartz GitHub Pages publishing setup
+Source: Local repository configuration request
+Pages created: wiki/publishing.md
+Pages updated: wiki/index.md
+Infrastructure created: .github/workflows/deploy-quartz.yml,
+                        .github/quartz/quartz.config.ts,
+                        .github/quartz/quartz.layout.ts,
+                        .github/quartz/custom.scss,
+                        scripts/prepare-quartz-content.mjs,
+                        scripts/preview-quartz.ps1
+Contradictions flagged: none
+

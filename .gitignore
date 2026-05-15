@@ -7,6 +7,9 @@
 Thumbs.db
 desktop.ini
 node_modules/
+_quartz/
+public/
+.quartz-cache/
 
 .claude/settings.local.json
 .claude/settings.json

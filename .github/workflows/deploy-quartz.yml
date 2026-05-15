@@ -1,0 +1,84 @@
+name: Deploy Quartz site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  QUARTZ_REPO: https://github.com/jackyzha0/quartz.git
+  QUARTZ_REPO_REF: v4
+  QUARTZ_BASE_URL: ${{ vars.QUARTZ_BASE_URL }}
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout wiki
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Derive default Quartz base URL
+        shell: bash
+        run: |
+          repo_name="${GITHUB_REPOSITORY#*/}"
+          if [ -z "$QUARTZ_BASE_URL" ]; then
+            echo "QUARTZ_BASE_URL=${GITHUB_REPOSITORY_OWNER}.github.io/${repo_name}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch Quartz
+        run: git clone --depth 1 --branch "$QUARTZ_REPO_REF" "$QUARTZ_REPO" _quartz
+
+      - name: Prepare Quartz content and config
+        shell: bash
+        run: |
+          rm -rf _quartz/content
+          mkdir -p _quartz/content
+          rsync -a --delete --exclude 'hot.md' wiki/ _quartz/content/
+          node scripts/prepare-quartz-content.mjs _quartz/content
+          cp .github/quartz/quartz.config.ts _quartz/quartz.config.ts
+          cp .github/quartz/quartz.layout.ts _quartz/quartz.layout.ts
+          cp .github/quartz/custom.scss _quartz/quartz/styles/custom.scss
+
+      - name: Install Quartz dependencies
+        run: npm ci
+        working-directory: _quartz
+
+      - name: Build Quartz
+        run: npx quartz build
+        working-directory: _quartz
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _quartz/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
