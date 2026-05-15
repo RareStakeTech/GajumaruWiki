@@ -117,6 +117,38 @@ Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-
 
 ---
 
+## [2026-05-15] ingest | World's First Genuine Blockchain Marketplace, QuidProQuo on the Gajumaru (YouTube)
+
+Source: raw/transcripts/worlds-first-genuine-blockchain-marketplace-quidproquo-on-the-gajumaru.md
+Origin: https://www.youtube.com/watch?v=4O7uqJ64mA0 (subtitle-based transcript via yt-dlp)
+Speakers: narrator (unnamed) — QPQ AG
+
+Pages created:
+- wiki/sources/summary-worlds-first-genuine-blockchain-marketplace-quidproquo.md
+- wiki/concepts/grids.md
+
+Pages updated:
+- wiki/concepts/gajumaru-product-suite.md (GRIDS added; QuidProQuo/Clutch/Bor naming noted; GajuMarket detail expanded)
+- wiki/concepts/associate-chains.md (NOT a layer two clarification; sources updated)
+- wiki/index.md (grids concept + source summary row added)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged:
+- Product naming: QuidProQuo vs GajuMarket; Clutch vs GajuDesk; Bor vs GajuMobile — flagged as open question in gajumaru-product-suite.md
+
+Key claims from source:
+- QuidProQuo: dynamic smart contracts between counterparties; no third-party intermediation
+- Four-element Gajumaru stack: Groot + Gaju + Associate Chains + Sophia/FATE
+- Associate Chains are NOT a layer two — Groot facilitates, not validates
+- GRIDS: universal wallet-based authentication; no username/password/GDPR
+- Clutch = desktop wallet; Bor = mobile wallet
+- Transaction escrow enforced on-chain in wallet secure enclave
+- QuidProQuo may grow to need own associate chain + nested chains for national systems
+- Sophia resolves irreparable Solidity inadequacies; Python-adoptable
+
+---
+
 ## [2026-05-15] ingest | The Gajumaru — an actual, working blockchain (YouTube)
 
 Source: raw/transcripts/the-gajumaru-an-actual-working-blockchain.md

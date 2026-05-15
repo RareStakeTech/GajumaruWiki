@@ -2,7 +2,7 @@
 type: concept
 title: "Associate Chains"
 aliases: [associate-chain, multi-chain, interoperability]
-sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]]
+sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
 related: [[gajumaru-architecture]], [[groot]], [[ripa-model]], [[ltin]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -20,6 +20,7 @@ Associate Chains are independent blockchains that connect natively to Gajumaru's
 - **Native interoperability**: All Associate Chains interoperate with each other and with Groot natively.
 - **No bridges**: Inter-chain communication requires no bridging protocols or third-party trust dependencies.
 - **Permissionless**: Any party can create an Associate Chain after MainNet launch.
+- **NOT a Layer 2**: Associate Chains are aware of Groot and Groot is aware of them. Groot's role is to facilitate their operation with one another — not to validate it. This is a peer relationship, not a hierarchical dependency. Source: [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]].
 
 ## Technical Implementation (Dimitar)
 

@@ -59,7 +59,8 @@
 *SDKs, tooling, smart contracts, developer experience.*
 
 #### Concept Pages
-- [[gajumaru-product-suite]] *(hub)* — Full application catalogue: GajuDEX, GajuMarket, GajuPay, GajuSafe, Da Vinci Protocol, and more
+- [[gajumaru-product-suite]] *(hub)* — Full application catalogue: GajuDEX, GajuMarket/QuidProQuo, GajuPay, GajuSafe, Da Vinci Protocol, and more
+- [[grids]] — Universal secure login/authentication; wallet-based, no passwords, no GDPR exposure
 
 #### Entity Pages
 - [[qpq-ag]] — Swiss company building Gajumaru; CHF 1M+ revenue; QPQ Capital AG (SRO)
@@ -87,6 +88,7 @@
 | [[summary-gaju-mining-video]] | Gaju Mining, Pioneering the Human Economy (YouTube) | 2026-05-15 | tokenomics-economics |
 | [[summary-why-the-gajumaru-and-how-it-works]] | Why the Gajumaru and How it Works (YouTube) | 2026-05-15 | core-protocol |
 | [[summary-the-gajumaru-an-actual-working-blockchain]] | The Gajumaru — an actual, working blockchain (YouTube) | 2026-05-15 | core-protocol |
+| [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]] | World's First Genuine Blockchain Marketplace, QuidProQuo (YouTube) | 2026-05-15 | developer-ecosystem |
 
 ---
 

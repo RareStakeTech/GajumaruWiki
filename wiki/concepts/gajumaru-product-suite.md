@@ -2,8 +2,8 @@
 type: concept
 title: "Gajumaru Product Suite"
 aliases: [gaju-products, gajumaru-apps, product-suite]
-sources: [[summary-qpq-2025-review]]
-related: [[gajumaru-architecture]], [[ripa-model]], [[qpq-ag]], [[gaju-token]]
+sources: [[summary-qpq-2025-review]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
+related: [[gajumaru-architecture]], [[ripa-model]], [[qpq-ag]], [[gaju-token]], [[grids]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
@@ -15,15 +15,22 @@ cluster_role: hub
 
 The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 
+## Authentication
+
+**[[grids]]** — Universal secure login mechanism. Wallet-based challenge-response authentication — no username, no password, no GDPR exposure for site operators. Fundamental to the "internet of economics." Also referenced as a hardware wallet in the Year in Review (see [[grids]] for open question on hardware vs protocol distinction).
+
 ## Wallet & Desktop Infrastructure
 
-**GajuDesk** — Cross-platform desktop wallet (Windows/macOS/Linux). Wallet management, chain interaction, signature requests, contract development/deployment/calling. Zero dependencies, original codebase.
+**GajuDesk / Clutch** — Cross-platform desktop wallet (Windows/macOS/Linux). Wallet management, chain interaction, signature requests, contract development/deployment/calling. Zero dependencies, original codebase. *(Called "Clutch" in [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]; may be a prior name or variant.)*
 
-**GajuMobile** — iOS/Android/Linux wallet and smart contract access. Zero dependencies. Targets retail payments and banking the 1.4 billion unbanked globally.
+**GajuMobile / Bor** — iOS/Android/Linux wallet and smart contract access. Zero dependencies. Targets retail payments and banking the 1.4 billion unbanked globally. *(Called "Bor" in [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]; may be a prior name or variant.)*
 
 **GajuMine** — Cross-platform mining program (Windows/macOS/Linux).
 
 **GajuExplorer** — Web-based chain explorer (`groot.mainnet.gajumaru.io`).
+
+> [!open_question]
+> The QuidProQuo walkthrough video refers to the desktop wallet as "Clutch" and mobile wallet as "Bor", while the Year in Review uses "GajuDesk" and "GajuMobile". These may reflect a product rename between early development and the Jan 2026 review, or may be distinct product lines.
 
 ## Finance & Exchange
 
@@ -45,10 +52,15 @@ The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 
 ## Commerce & Marketplace
 
-**GajuMarket** — World's first native blockchain marketplace for goods and services.
-- Soft launched mid-January 2026
-- Supports physical goods, digital assets, real estate
-- Peer-to-peer; eliminates intermediaries
+**GajuMarket / QuidProQuo** — World's first on-chain marketplace for goods and services.
+- Called "QuidProQuo" in [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]; "GajuMarket" in [[summary-qpq-2025-review]] (soft launched mid-January 2026)
+- Uses dynamic smart contracts between counterparties — no third-party intermediation
+- [[grids]]-authenticated login — no account creation, no passwords
+- Transaction escrow on-chain: buyer funds locked in secure enclave until agreement reached
+- Moderation is the only external function (prevents Silk Road use)
+- Supports physical goods, digital assets, real estate; peer-to-peer
+- May evolve to require its own associate chain, and possibly nested associate chains for national regulatory compliance
+- Future: automated customs compliance integration planned
 
 **GajuMall** — Large-scale retailer unified marketplace.
 
@@ -83,7 +95,8 @@ SRO application submitted January 2026. Enables KYC Wallets, tokenization of Swi
 | Page | Role | Description |
 |------|------|-------------|
 | [[gajumaru-product-suite]] | hub | Full application and platform catalogue |
+| [[grids]] | member | Universal secure login/authentication protocol |
 | [[qpq-ag]] | — | Company building the suite |
 
-## Source
-[[summary-qpq-2025-review]]
+## Sources
+[[summary-qpq-2025-review]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
