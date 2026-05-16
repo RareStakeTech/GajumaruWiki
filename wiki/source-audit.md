@@ -80,7 +80,7 @@ updated: 2026-05-16
 
 ## Audit Queue (priority order)
 
-**Status as of 2026-05-16:** All 29 QPQ wiki raw articles ✅ AUDITED + all 7 original YouTube transcripts ✅ AUDITED + .url pointer file ✅ AUDITED + all 5 previously-partial long transcripts ✅ AUDITED + all 15 web-fetched blog sources ✅ RE-FETCHED AND AUDITED. **Total: 57 sources (42 raw files + 15 web) — ALL CONFIRMED.** No remaining audit queue.
+**Status as of 2026-05-16 (final):** All 29 QPQ wiki raw articles ✅ + all original YouTube transcripts ✅ + .url pointer file ✅ + all 5 previously-partial long transcripts ✅ + all 15 web-fetched blog sources ✅ + 4 newly downloaded video transcripts ✅. **Total: 61 sources (46 raw files + 15 web) — ALL CONFIRMED.**
 
 **Remaining Audit Queue:**
 
@@ -115,3 +115,7 @@ updated: 2026-05-16
 | raw/transcripts/npm-supply-chain-hack-unserious-crypto-serious-gajumaru-full.md | summary-npm-supply-chain-hack.md | ✅ 2026-05-16 | Full read (lines 1-2520) — Lava Moat, fetch crash discovery, MetaMask mobile architecture, Sophia/ISC origin, candlestick problem, QPQ ethos all captured |
 | raw/transcripts/internet-of-economics-grids-mythos-ai-and-the-end-of-payment-credentials-in-the-public-domain.md | summary-internet-of-economics-grids-mythos.md | ✅ 2026-05-16 | Full read (lines 1-2122) — Greg phished, CA compromise, 3-9mo timeline, credit card replacement roadmap, Salt Typhoon, Web 3 definition all captured |
 | ~30 channel short transcripts | summary-gajumaru-channel-shorts.md | ✅ Most read; shorts are typically clips from longer videos |
+| raw/transcripts/unmasking-stablecoins-genius-act-tether.md | summary-video-stablecoins-genius-act.md | ✅ 2026-05-16 | Full read (320 lines) — "ammo or coffin nails"; GENIUS Act no-audit problem; stablecoins are databases not crypto; bank run risk; self-referential currency; Gaju 5,000yr framing |
+| raw/transcripts/gajumaru-update-whitelist-mining-distribution.md | summary-video-whitelist-mining-distribution.md | ✅ 2026-05-16 | Full read (888 lines) — Satoshi 40%; 5 accounts = 95% BTC consensus; no governance debate; 720 blocks/day; GajuMine/GajuDesk; GRIDS login; payment processor ordeal; defensive mining; referral scheme |
+| raw/transcripts/gajumaru-future-of-banking-in-blockchain.md | summary-video-future-of-banking.md | ✅ 2026-05-16 | Full read (37 lines) — 2002 HSBC GPRS demo as first iteration; future banking model (delegated vs self-custody); bank infrastructure = liability |
+| raw/transcripts/gajumaru-bitcoin-proof-of-concept.md | summary-video-bitcoin-proof-of-concept.md | ✅ 2026-05-16 | Full read (3423 lines) — Austrian economics; 2% inflation gold origin; Bitcoin-NG rejection; dirty hacks (Lightning/Runes/Ordinals/Bitcoin OS); Glass cannon; Juicero analogy; Groot definition; 50yr principle; 1DLT precursor; AC as ideal multi-party state channel; South Sea bubble; market despair; QPQ trust model |

@@ -2,10 +2,10 @@
 type: concept
 title: "Groot (Resource Layer)"
 aliases: [groot, resource-layer]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-firsts-gajumaru-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-firsts-gajumaru-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-whitelist-mining-distribution]]
 related: [[gajumaru-architecture]], [[associate-chains]], [[gaju-token]], [[protected-mining]], [[cuckoo-cycle]], [[tea-trilemma]], [[bitcoin-ng]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 confidence: high
 cluster: core-protocol
 cluster_role: member
@@ -128,5 +128,24 @@ GajuExplorer: `groot.mainnet.gajumaru.io`
 > [!open_question]
 > Mechanism for Associate Chain → Groot finality cooperation not yet documented. See [[summary-the-gajumaru-an-actual-working-blockchain]].
 
+## Authoritative Definition
+
+Greg's canonical description of Groot from [[summary-video-bitcoin-proof-of-concept]]:
+
+> "An uncontrolled shared ledger where the history cannot be changed, that is resistant to censorship. There is no operator that you have to trust. That is Groot."
+
+This is followed by the positioning statement: Groot is **Bitcoin made tens of thousands of times more efficient with native smart contracts and a native virtual machine**.
+
+## The "50-Year" Principle
+
+Craig in [[summary-video-bitcoin-proof-of-concept]]:
+> "If you're doing transactions primarily in Groot 50 years from now, you're doing it wrong."
+
+The base layer is the settlement backbone and currency anchor — not the primary transaction layer. State channels and Associate Chains are the correct location for high-frequency activity. The 300 TPS base layer is designed to be sufficient for direct on-chain payments at coffee-shop scale, with state channels serving where sub-second or higher-throughput is required.
+
+## Initial Hardware
+
+The chain was started on **five $300 laptops with i5 processors**. This was possible due to the Cuckoo Cycle PoW design. Source: [[summary-video-whitelist-mining-distribution]].
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]]
+[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-whitelist-mining-distribution]]

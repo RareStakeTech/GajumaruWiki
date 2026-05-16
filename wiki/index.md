@@ -18,7 +18,7 @@ confidence: high
 </div>
 
 <div class="home-metrics">
-  <div><strong>64</strong><span>source summaries</span></div>
+  <div><strong>68</strong><span>source summaries</span></div>
   <div><strong>19</strong><span>concept pages</span></div>
   <div><strong>12</strong><span>entity pages</span></div>
   <div><strong>5+</strong><span>research clusters</span></div>
@@ -264,6 +264,10 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 | [[summary-economics-social]] | Alternative Economy, Price Signals, and Generational Value (7 clips) | 2026-05-16 | multi-cluster |
 | [[summary-nazgul-bitcoin]] | The Nazgûl and Bitcoin's Lightning Failure (2 clips) | 2026-05-16 | core-protocol |
 | [[summary-web-machine-economy]] | Web's Architectural Failure, Machine Economy, and Decentralization vs Reality (3 clips) | 2026-05-16 | multi-cluster |
+| [[summary-video-bitcoin-proof-of-concept]] | Gajumaru \| Bitcoin is a Proof of Concept (YouTube) | 2026-05-16 | core-protocol |
+| [[summary-video-whitelist-mining-distribution]] | Gajumaru Update: Whitelist Mining, Distribution & Payment Processing (YouTube) | 2026-05-16 | tokenomics-economics |
+| [[summary-video-future-of-banking]] | Gajumaru \| The Future of Banking in Blockchain (YouTube) | 2026-05-16 | multi-cluster |
+| [[summary-video-stablecoins-genius-act]] | Unmasking Stablecoins: Genius Act, Tether's Secrets (YouTube) | 2026-05-16 | monetary-mechanics |
 
 ---
 

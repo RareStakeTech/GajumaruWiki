@@ -2,7 +2,7 @@
 type: concept
 title: "State Channels"
 aliases: [state-channel, state-channels, channel, off-chain]
-sources: [[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]], [[summary-quantum-ai-machine-economy]]
+sources: [[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]], [[summary-quantum-ai-machine-economy]], [[summary-video-bitcoin-proof-of-concept]]
 related: [[groot]], [[associate-chains]], [[gajumaru-architecture]], [[sophia-fate]], [[grids]], [[aeternity]]
 created: 2026-05-15
 updated: 2026-05-16
@@ -117,6 +117,33 @@ State channels are the payment rail for the autonomous machine economy:
 - **Machines don't have passports**: machines have no nationality, no banking relationship, no ability to hold fiat currency accounts. Gajumaru State Channels are the first infrastructure that lets machines transact autonomously without human intermediation
 
 Source: [[summary-unwhitepaper]], [[summary-blog-a2a-state-channels]]
+
+## Why Lightning Network Is a Dirty Hack (Gajumaru's Contrast)
+
+From [[summary-video-bitcoin-proof-of-concept]], the team's technical analysis of Lightning:
+
+**The "dangerous just":** "Just use Lightning" is cited as the most misleading simplification in Bitcoin — hiding explosive complexity.
+
+| Problem | Detail |
+|---------|--------|
+| No top-up | Cannot add funds to an open Lightning channel — must close and reopen (two full Bitcoin on-chain transactions) |
+| Routing complexity | Multi-hop routing requires managing liquidity across many channels; non-custodial use is beyond normal users |
+| Glass cannon | Liquidity is static; rebalancing requires on-chain operations that would swamp Bitcoin immediately |
+| Intermediation | Custodial Lightning = trust the node operator without regulatory oversight = "just use the bank" |
+| Scale | Currently ~3 TPS total despite years of investment and all of Bitcoin's network effect |
+
+Lightning launched in 2018. Craig: "If Lightning was everything its happiest proponents make it out to be, the question isn't when is it going to take off — it's why hasn't it already?"
+
+**The BOLT protocol connection:** Gajumaru's state channel implementation copied the *names* of Lightning's BOLT protocol operations as a template — but did not copy the on-chain limitations that make Lightning a dirty hack. The chain is natively aware of state channels (unlike Bitcoin, which has no knowledge of Lightning).
+
+**Key design difference:** Gajumaru's base layer (300 TPS, 3-second microblock) is fast enough for coffee payments without any layer 2. State channels are reserved for genuinely high-frequency, sub-second use cases (e.g., per-station mass transit systems) — not as a workaround for a slow base chain.
+
+**The Tokyo/London subway example:**
+- Tokyo subway at peak: ~300 TPS → allocating the entire Gajumaru base chain still doesn't meet the sub-second response requirement
+- Solution: a dedicated localized state channel for each transit system, with sub-second finality
+- The London subway runs ~100 TPS — its own channel, isolated from Tokyo's
+
+Multi-party state channels were considered and rejected: even 2-party channels have enough edge cases; multi-party state channels are far harder, especially dispute resolution. Associate Chains serve the conceptual function of "ideal multi-party state channels" at the infrastructure level.
 
 ## Delegated Signing and Agent Provisioning
 

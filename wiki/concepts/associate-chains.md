@@ -2,7 +2,7 @@
 type: concept
 title: "Associate Chains"
 aliases: [associate-chain, multi-chain, interoperability]
-sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-gajumaru]], [[summary-unwhitepaper]], [[summary-blog-in-space]]
+sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-gajumaru]], [[summary-unwhitepaper]], [[summary-blog-in-space]], [[summary-video-bitcoin-proof-of-concept]]
 related: [[gajumaru-architecture]], [[groot]], [[ripa-model]], [[ltin]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
 updated: 2026-05-16
@@ -170,5 +170,35 @@ Gajumaru's answer: the governance question is unanswerable for a base layer, so 
 
 Source: [[summary-unwhitepaper]]
 
+## ACs as Ideal Multi-Party State Channels
+
+From [[summary-video-bitcoin-proof-of-concept]], Craig:
+
+> "Associate chains could sort of be thought of as the ideal multi-party state channel — within which you can actually define insanely fast state channels on top of that."
+
+QPQ considered multi-party state channels and rejected them as too complex (even 2-party state channels have enough edge cases; adding multi-party dispute resolution multiplies the problem). Associate Chains serve the conceptual role — each AC creates a defined context within which localized state channels can run, without global routing or cross-AC complexity.
+
+**Layering principle:** "You got these layers of different solutions you can craft at each level and you can localize them to a specific problem. So you don't have to handle all of the online transactions for a shop in South America with the Tokyo subway."
+
+## ACs Enable Innovation Without Whole-Network Consensus
+
+Craig in [[summary-video-bitcoin-proof-of-concept]]:
+
+> "Instead of having to do dirty hacks, you can foster very deliberate innovation within an AC. That AC can be the peak of a whole tree of its own stuff, which can do whatever it wants within the general context of Gajumaru."
+
+The AC design is identified as the **true killer feature** of Gajumaru — not just efficiency, but the ability for any regulatory environment, national context, or industry to implement exactly the rules it requires without requiring the whole network to agree:
+
+> "Every single type of regulatory environment, national environment, industry environment, whatever you want to call it — they're all trust markets of different types. And within that, there will be subsets of trust markets, each of which needs a different model."
+
+Ulf's contribution (noted by Greg): the AC design "kind of lends itself to working with regulators because you could have a known operator and say, 'hey regulatory body — can I register to run a regulated chain in this space or not?'"
+
+The two success factors Craig identifies:
+1. Innovation without whole-network consensus
+2. Regulatory compliance path for specific use cases
+
+## 1DLT Precursor
+
+Earlier QPQ project: **1DLT** (One DLT). Core concept: a composable blockchain infrastructure for specific industries or nation states — any virtual machine, any programmatic language, multiple chains fused together. Greg describes it as "fatally flawed but way ahead of everything else at the time." The Aeternity **Hyperchains** concept was a parallel development that Ulf and Craig were aware of. Both preceded the Associate Chains design.
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-unwhitepaper]]
+[[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-unwhitepaper]], [[summary-video-bitcoin-proof-of-concept]]

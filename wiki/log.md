@@ -1229,3 +1229,63 @@ Key new content:
 - **PinePhone** (Linux mobile) used as GajuPay MVP demo platform
 - **Lightning full failure table:** $0.05=99%; $10=90%; $200=50%; $1,000=25%; $10,000=5%
 - **Layer-2 compounding constraints:** Plasma → zkSync → optimistic rollups each add constraints, not resolve trilemma
+
+---
+
+## [2026-05-16] ingest | 4 remaining video transcripts — Bitcoin PoC, Whitelist Mining, Future of Banking, Stablecoins
+
+Sources ingested:
+- raw/transcripts/gajumaru-bitcoin-proof-of-concept.md (3423 lines — FULLY read in this session)
+- raw/transcripts/gajumaru-update-whitelist-mining-distribution.md (888 lines — fully read)
+- raw/transcripts/gajumaru-future-of-banking-in-blockchain.md (37 lines — fully read)
+- raw/transcripts/unmasking-stablecoins-genius-act-tether.md (320 lines — fully read)
+
+Pages created:
+- wiki/sources/summary-video-bitcoin-proof-of-concept.md
+- wiki/sources/summary-video-whitelist-mining-distribution.md
+- wiki/sources/summary-video-future-of-banking.md
+- wiki/sources/summary-video-stablecoins-genius-act.md
+
+Pages updated:
+- wiki/concepts/groot.md (authoritative Groot definition; "50-year" principle; initial 5×$300 laptop hardware)
+- wiki/concepts/protected-mining.md (Satoshi 40%; 5 accounts = 95% BTC consensus; 2 = 51%; no governance debate; 720 blocks/day; GajuMine/GajuDesk; GRIDS login; payment processor ordeal)
+- wiki/concepts/state-channels.md (Lightning dirty hack analysis — glass cannon; dangerous just; BOLT template; Tokyo/London subway use case)
+- wiki/concepts/associate-chains.md (ACs as ideal multi-party state channel; regulatory compliance angle; 1DLT precursor; Aeternity Hyperchains)
+- wiki/concepts/gaju-token.md (2% inflation gold origin; 720 blocks/day; self-referential currency; London tube analogy)
+- wiki/entities/gregory-chew.md (2002 HSBC GPRS demo as first iteration; future banking model)
+- wiki/source-audit.md (4 new transcripts added; total updated to 61 sources)
+- wiki/index.md (4 new source rows; count 64→68)
+- wiki/log.md (this entry)
+- wiki/hot.md (current focus updated)
+
+Contradictions flagged: none
+
+Key new content:
+- **Austrian economics foundation**: Mises/Hayek "real money"; 2% inflation target traces to ~2%/yr gold supply growth
+- **Groot definition**: "uncontrolled shared ledger where history cannot be changed, resistant to censorship, no operator to trust"
+- **Bitcoin-NG rejection**: Bitcoin community rejected it due to FOMO economics; community dynamics prevent large technical changes
+- **Bitcoin confirmation spikes (July 2024)**: avg 57 min → 2,500 min → 11,000 min
+- **Bitcoin cost/transaction**: ~$100+ (mining rewards + fees) at 2024/2025 prices
+- **Lightning glass cannon problem**: liquidity overprovision required; rebalancing needs on-chain operations → swamps Bitcoin
+- **Runes**: fungible tokens via UTXO abuse; at scale kills the chain
+- **Ordinals**: Satoshi inscription NFTs; 3.9MB; $100k+ block fee competition; no garbage collection
+- **Bitcoin OS**: ZK proof hashes on Bitcoin; Bitcoin cannot validate proofs, only store hashes
+- **Juicero analogy**: expensive engineering for unnecessary product
+- **1DLT precursor**: earlier QPQ project; fatally flawed but ahead of its time; Aeternity Hyperchains parallel
+- **AC = ideal multi-party state channel**: Craig's framing; multi-party state channels too complex
+- **"50-year" principle**: if still doing transactions on Groot in 50 years, doing it wrong
+- **QPQ trust model**: 18-month bootstrap window; "burn the keys to the kingdom"; Liechtenstein stage quote
+- **Market despair**: people entering crypto knowingly as casino (Joe Truck Driver narrative)
+- **South Sea bubble**: 1711 analogy for crypto — real premise corrupted by fraud layer
+- **XRP/Solana/BNB/Cardano**: all PoS = "clicking heels together three times"
+- **Satoshi 40%**: QPQ explicitly designed whitelist mining to avoid this concentration
+- **No governance**: internal debate resolved — any governance = infrastructure not resource; no foundation
+- **720 blocks/day**: incentivises diverse mining pools vs Bitcoin's few blocks/day
+- **GajuMine/GajuDesk**: install-once SaaS mining; private key stays client-side
+- **GRIDS login**: gajmining.com authentication via GRIDS URL — no username/password
+- **Payment processor ordeal**: ~9 months; all rejected as "crypto-adjacent"; EU + Singapore companies secured
+- **2002 HSBC demo**: Greg transferred money and certificates at HSBC London HQ using 2G/GPRS phones — "first iteration"
+- **Future of banking**: bank infrastructure = liability; most want delegated custody; self-custody right not yet available at scale
+- **Stablecoin confidence game**: "con = confidence"; USDT monopoly accidental; competition → bank runs → death
+- **GENIUS Act**: no audit requirement; Ulf: stablecoins are databases not crypto (PostgreSQL faster)
+- **Self-referential currency**: London tube analogy; Gaju defined by goods not dollars

@@ -2,7 +2,7 @@
 type: entity
 entity_type: person
 title: "Gregory Chew"
-sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-token-summit-gregory-chew]], [[summary-blockchain-governance-associate-chains]], [[summary-internet-of-economics-grids-mythos]], [[summary-quantum-ai-machine-economy]], [[summary-npm-supply-chain-hack]], [[summary-gajumaru-channel-shorts]]
+sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-token-summit-gregory-chew]], [[summary-blockchain-governance-associate-chains]], [[summary-internet-of-economics-grids-mythos]], [[summary-quantum-ai-machine-economy]], [[summary-npm-supply-chain-hack]], [[summary-gajumaru-channel-shorts]], [[summary-video-future-of-banking]], [[summary-video-whitelist-mining-distribution]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-stablecoins-genius-act]]
 related: [[qpq-ag]], [[gajumaru-architecture]], [[ltin]], [[craig]], [[dimitar]], [[ulf]]
 created: 2026-05-15
 updated: 2026-05-16
@@ -77,6 +77,19 @@ Greg's positive-sum capitalism argument:
 > "The argument that we are trying to make is the argument that we can build a much, much bigger pie. In fact, that pie can be exponentially bigger... A pie that is 100 times bigger than the pie we have today — the same sliver of the pie [a current owner holds] is way more than 100 times more valuable to have."
 
 Source: [[summary-gajumaru-channel-shorts]]
+
+## 2002 HSBC Mobile Banking Demo
+
+From [[summary-video-future-of-banking]]:
+
+> "In 2002, I stood in HSBC's headquarters in London showing them how to transfer money and certificates around the room using 2G mobile phones, GPRS mobile phones. That was the first iteration of what I've built here."
+
+This is his first confirmed specific technical demonstration — predating the 2009 shelving / DLT insight from the Demo 1 timeline. Greg frames Gajumaru directly as the mature realisation of a 24-year journey starting from this 2002 demo.
+
+**Future of banking model** (Greg's framing in the same video):
+- Banks maintain infrastructure they think are assets but are actually liabilities
+- Most users will still want delegated responsibility (City Bank / Wells Fargo app → but accessing a Gajumaru wallet, not a proprietary ledger)
+- Self-custody users will have the right and capacity to hold their own keys — "We don't have that at the moment"
 
 ## Three Time Periods Greg Has Cited
 

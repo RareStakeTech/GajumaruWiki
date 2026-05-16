@@ -6,12 +6,11 @@
 
 ## Current Focus
 
-**57 sources audited (42 raw + 15 web-fetched ✅). 19 concept pages. 41 video transcripts. ALL sources at 100% audit coverage.** Blog audit complete: all 15 web-fetched sources live-fetched and verified. **Next priorities:**
+**61 sources audited (46 raw + 15 web-fetched ✅). 19 concept pages. 45 video transcripts. ALL sources at 100% audit coverage.** All 4 remaining videos now ingested ✅. **Next priorities:**
 1. AC → Groot finality cooperation: confirmed NOT in any transcript; awaiting future QPQ publication
-2. Fetch post-MainNet data (miner count, Gaju price, LTIN launch status)
-3. Ingest Un-White Paper Technical Paper (not yet in raw/)
-4. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
-5. Download 4 remaining videos (Unmasking Stablecoins, Whitelist Mining Update, Future of Banking, Bitcoin is a Proof of Concept)
+2. Ingest Un-White Paper Technical Paper (not yet in raw/)
+3. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
+4. Resolve protected mining end date: March 29 vs 30 vs 31, 2027
 
 **Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
 
@@ -21,15 +20,15 @@
 
 ## Video Queue (unprocessed — @Gajumaru_Chain)
 
-**All 41 downloaded VTT files are now ingested ✅**
+**All 45 downloaded VTT files are now ingested ✅** (41 + 4 newly downloaded)
 
-Still no raw transcript (not yet downloaded):
-- `m-4SBUZE4a8` — Unmasking Stablecoins: Genius Act, Tether (July 2025)
-- `nyIhbd7rk30` — Gajumaru Update: Whitelist Mining, Distribution & Payment Processing
-- `7vFgDh1WTzk` — Future of banking in blockchain
-- `PvBCX7UA0-0` — Bitcoin is a Proof of Concept
-- `EP1xDMfeFW0` — NPM Supply Chain Hack (⚠️ this was already summarised via online transcript — see [[summary-npm-supply-chain-hack]])
-- `RY1ptavwI1M` — Gajumaru Blockchain: from Alternative to Default Economy (✅ ingested in summary-economics-social)
+All known transcripts captured:
+- `m-4SBUZE4a8` — Unmasking Stablecoins ✅ → [[summary-video-stablecoins-genius-act]]
+- `nyIhbd7rk30` — Whitelist Mining, Distribution & Payment Processing ✅ → [[summary-video-whitelist-mining-distribution]]
+- `7vFgDh1WTzk` — Future of Banking in Blockchain ✅ → [[summary-video-future-of-banking]]
+- `PvBCX7UA0-0` — Bitcoin is a Proof of Concept ✅ → [[summary-video-bitcoin-proof-of-concept]]
+- `EP1xDMfeFW0` — NPM Supply Chain Hack ✅ → [[summary-npm-supply-chain-hack]]
+- `RY1ptavwI1M` — Alternative to Default Economy ✅ → [[summary-economics-social]]
 
 Previously partially-read long transcripts (still ⚠️ Partial — warrant deep-audit):
 - Blockchain Governance + ACs (long; ✅ summary exists; concept pages updated)
@@ -121,6 +120,7 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 | 2026-05-16 | ingest | 23 remaining VTT transcripts — 5 consolidated source summaries + 1 new concept (price-signal-economy); 41/41 VTTs now ✅ |
 | 2026-05-16 | audit | Deep audit — 5 partial long transcripts fully read; 3 source summaries expanded; grids/state-channels/internet-of-economics/sophia-fate updated; 42/42 raw files ✅ |
 | 2026-05-16 | audit | Blog audit — all 15 web-fetched sources live-fetched; 11 summaries updated; grids/quantum-resistance concept pages updated; 57/57 total sources ✅ |
+| 2026-05-16 | ingest | 4 remaining videos — Bitcoin PoC (3423 lines), Whitelist Mining (888), Future of Banking (37), Stablecoins (320); 4 source summaries created; groot/protected-mining/state-channels/associate-chains/gaju-token/gregory-chew updated; 61/61 sources ✅ |
 | 2026-05-16 | query | Post-MainNet live data: LTIN not launched; Summer products "coming soon"; live metrics inaccessible (GajuExplore TLS error); "Trusted by Liechtenstein" claim confirmed on gajumining.com |
 
 ---

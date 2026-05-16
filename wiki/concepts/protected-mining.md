@@ -2,10 +2,10 @@
 type: concept
 title: "Protected Mining"
 aliases: [mining-window, protected-mining-period]
-sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-video]], [[summary-gaju-mining-journey-update]], [[summary-blog-defensive-mining]]
-related: [[gaju-token]], [[groot]], [[qpq-ag]], [[cuckoo-cycle]]
+sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-video]], [[summary-gaju-mining-journey-update]], [[summary-blog-defensive-mining]], [[summary-video-whitelist-mining-distribution]]
+related: [[gaju-token]], [[groot]], [[qpq-ag]], [[cuckoo-cycle]], [[gajumaru-product-suite]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 confidence: high
 cluster: tokenomics-economics
 cluster_role: member
@@ -58,5 +58,44 @@ The argument:
 
 This extends the audience for GajuMining from speculative miners to commercial operators who need reliable, uncensorable on-chain infrastructure as part of their business model.
 
+## The Bitcoin Concentration Problem
+
+The whitelist mining design was a direct response to what QPQ calls the "Satoshi problem." From the whitelist mining update video ([[summary-video-whitelist-mining-distribution]]):
+
+- Satoshi and friends mined **40%+ of all Bitcoin** before outside participation began
+- Today **5 accounts control 95%+ of Bitcoin consensus**; just **2 accounts control 51%+**
+
+QPQ explicitly did not want to end up with founders and associates holding the majority of Gaju supply. Whitelist mining is the mechanism that creates broad distribution during the bootstrap phase.
+
+## No Governance — A Core Design Principle
+
+The team held an internal debate about creating a QPQ Foundation. The conclusion was unanimous: no foundation, no governance of any kind.
+
+> "Any governance leads to corruption. Any governance on a system defines it as infrastructure rather than resource. In order to be a resource layer, it must have absolutely no governance."
+
+The whitelist period is the sole window in which QPQ can push protocol updates. Once it ends, QPQ has no more power over the chain than any other network participant. The minting function is locked; there is no governance body that can be coerced.
+
+## 720 Blocks/Day — Mining Diversity Incentive
+
+Gajumaru produces **720 blocks/day** versus Bitcoin's ~144 blocks/day. This higher frequency means more opportunities to win block rewards per day, which:
+- Incentivises the formation of many smaller competitive mining pools
+- Prevents consolidation into a few mega-pool operators
+- Gives the broad distribution of whitelist miners a better long-term chance to remain relevant once industrial miners arrive
+
+## Whitelist Mining SaaS Infrastructure
+
+The mining software was designed to be non-technical (install once, never touch again, auto-updates):
+- **GajuMine**: the miner — only needs an account address; holds no secrets; auto-updates
+- **GajuDesk**: the desktop wallet — generates key pairs client-side; private keys never leave the device
+- Cross-platform: Mac, Windows, Linux
+
+Craig's benchmark: the only company that has built comparable user onboarding infrastructure is **Steam** — with 600 developers.
+
+Login to gajmining.com uses **GRIDS URL authentication** — no username, no password required.
+
+## Payment Processing Ordeal
+
+The team spent ~9 months unable to accept payment for mining licenses. Major processors rejected the application as "adjacent to blockchain mining" even though it was purely software-as-a-service. A European company and a Singapore company were ultimately secured.
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-gaju-mining-video]], [[summary-blog-defensive-mining]]
+[[summary-qpq-2025-review]], [[summary-gaju-mining-video]], [[summary-blog-defensive-mining]], [[summary-video-whitelist-mining-distribution]]

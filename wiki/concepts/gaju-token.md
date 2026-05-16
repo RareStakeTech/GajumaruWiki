@@ -2,7 +2,7 @@
 type: concept
 title: "Gaju Token"
 aliases: [gaju, gaju-token, GJU]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-qpq-wiki-flation]], [[summary-qpq-wiki-mint]], [[summary-blog-summer-of-gajumaru]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-qpq-wiki-flation]], [[summary-qpq-wiki-mint]], [[summary-blog-summer-of-gajumaru]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-stablecoins-genius-act]], [[summary-video-whitelist-mining-distribution]]
 related: [[groot]], [[protected-mining]], [[gajumaru-architecture]], [[qpq-ag]], [[gajumaru-product-suite]]
 created: 2026-05-15
 updated: 2026-05-16
@@ -73,5 +73,30 @@ Liquidity enabled by GajuDEX (part of [[gajumaru-product-suite]]) from Q2 2026. 
 ## Everyday Currency Positioning
 The promotional video [[summary-gaju-mining-video]] frames Gaju explicitly as everyday spending money: bread, haircuts, t-shirts. Contrasted with Bitcoin, which "stopped being considered a currency in 2016 and was instead called a store of value." GajuMarket (part of [[gajumaru-product-suite]]) is the primary spending venue — positioned as eBay at a fraction of the cost.
 
+## 2% Inflation and the Gold Standard Origin
+
+From [[summary-video-bitcoin-proof-of-concept]]:
+
+> The conventional 2% central bank inflation target traces to the historical observation that gold supplies grew by roughly **2% per year** through mining. Modern central banks inherited this as the "natural" monetary growth rate — stripped of the physical discipline gold actually provided.
+
+This context matters for Gajumaru: the 87.5-year Fibonacci emission schedule is consciously designed to replicate the scarcity and rate-control properties of gold mining, not the arbitrary fiat printing target.
+
+## 720 Blocks/Day — Mining Diversity
+
+Gajumaru produces **720 blocks/day** versus Bitcoin's ~144 blocks/day (one per ~10 minutes). This higher frequency:
+- Creates more daily opportunities to win block rewards
+- Incentivises the formation of many smaller competitive mining pools
+- Reduces natural consolidation pressure toward mega-pool dominance
+
+Source: [[summary-video-whitelist-mining-distribution]]
+
+## Self-Referential Currency
+
+Gaju is designed to be **self-referential** — its purchasing power is expressed in real goods (eggs, pens, bread), not in dollar terms. From [[summary-video-stablecoins-genius-act]]:
+
+> "Somebody who gets on the tube in London doesn't try to pay in dollars — they pay in pounds and they don't try to think 'oh well £1.50 is actually $2.40.' Nobody does that."
+
+A true independent currency does not define itself by reference to another currency. Stablecoins are permanently dollar-defined; Gaju is designed to eventually stand alone as a unit of account.
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]]
+[[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-stablecoins-genius-act]], [[summary-video-whitelist-mining-distribution]]
