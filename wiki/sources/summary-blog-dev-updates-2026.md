@@ -88,6 +88,27 @@ Single Gajumaru node handles **10,000 concurrent channels (20,000 endpoints)** w
 ### GajuMarket
 - **Test environment operational** (awaiting faucet and explorer completion)
 
+### GajuMining (March — detailed breakdown)
+
+**Vaults** (multisig treasury feature — not mentioned in April update):
+- Multisig expansion
+- Signature hash revision
+- Add/remove signatories functionality
+- Threshold configuration
+- Action visualization
+- Transaction hash tracking
+
+**Shop:**
+- Currency refinements; IP-based country detection
+- Phone number validation; WhatsApp integration
+- Bundle licensing; Tilt API integration
+
+**Miner Dashboard:**
+- Commission-sharing promotion code functionality
+
+**Testing:**
+- Wallaby authentication; admin routes; package, sale item, and order tests
+
 ---
 
 ## Significance

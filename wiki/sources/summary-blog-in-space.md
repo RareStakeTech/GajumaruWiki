@@ -8,12 +8,12 @@ date_published: 2026-04-15
 date_ingested: 2026-05-15
 key_claims:
   - Gajumaru's Associate Chain architecture handles cislunar latency without code modification
-  - Moon: 380,000km → ~1.3 second one-way light delay, ~5 second round-trip
-  - Solana depends on 300ms round-trip times — incompatible with space operations
+  - Moon: 380,000km → ~1.3 second one-way light delay; round-trip ping ~2.5s; edge-to-edge (cislunar network) ~5s round-trip
+  - Solana depends on 300ms round-trip times — incompatible with space (and struggles terrestrially: East Asia–East Coast ~200ms)
   - Cislunar Associate Chain: extend microblock time from 3s to 10s, increase gas limit to 60M/block
   - Identical code deploys from testnet to cislunar chain without modification
   - Currency remains fungible: "a Gaju is a Gaju anywhere within the entire system"
-  - Craig Everett confirmed as article author (byline: "Craig Everett | Published April 15, 2026")
+  - Craig Everett confirmed as article author (byline: "Craig Everett | Published April 15, 2026; Last Modified April 22, 2026")
 related: [[associate-chains]], [[groot]], [[bitcoin-ng]], [[craig]]
 confidence: high
 ---
@@ -27,10 +27,11 @@ Article authored by Craig Everett exploring how Gajumaru's Associate Chain archi
 ## The Latency Problem
 
 The Moon is 380,000km away. This creates:
-- ~1.3 second one-way light delay
-- ~5 second round-trip
+- ~1.3 second one-way light delay (signal propagation)
+- ~2.5 second round-trip ping (Earth↔Moon)
+- ~5 second edge-to-edge round-trip (full cislunar network, accounting for propagation at both ends)
 
-**Comparison:** Solana's protocol depends on **300ms round-trip** between nodes — making it physically incompatible with space-based operations.
+**Comparison:** Solana's protocol depends on **300ms round-trip** between nodes. This is already strained terrestrially — East Asia to American East Coast ping times approach **200ms**, giving essentially no margin. In cislunar space it is physically impossible.
 
 ## Gajumaru's Solution: Configurable Associate Chains
 

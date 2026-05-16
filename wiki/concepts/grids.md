@@ -108,15 +108,17 @@ Source: [[summary-unwhitepaper]], [[summary-qpq-wiki-grids]]
 
 The GRIDS hardware implementation follows a three-stage roadmap (Greg Chew, [[summary-blog-mythos-glasswing]]):
 
-**Stage 1 (Current):** GajuDesk and GajuMobile use device security enclaves (Android hardware key storage; iOS Secure Enclave) as the signing context. **Open-sourced under GPL3.**
+**Stage 1 (Current):** GajuDesk and GajuMobile use device security enclaves (Android hardware key storage; iOS Secure Enclave). **Open-sourced under GPL3. Free.** Honest limitation: "**probably** secure rather than **definitely** secure" — an attacker with OS-level root access (e.g., Mythos) could theoretically reach enclave memory. The mathematical guarantee requires an air-gap.
 
-**Stage 2 (In Development):** Dedicated air-gapped hardware wallet with **no network connection of any kind** — no WiFi, no Bluetooth, no radio. Communication via QR codes only. This is the "Level 2" referenced in the Year in Review. The signing context has zero network exposure.
+**Stage 2 (In Development):** Dedicated air-gapped hardware wallet with **no network connection of any kind** — no WiFi, no Bluetooth, no radio. Communication via QR codes only. This is the "Level 2" referenced in the Year in Review. **Dependent on Series A funding.** Paid hardware model.
 
-**Stage 3 (Planned):** **Sovereign manufacturing facilities in Switzerland and Japan** with verified supply chains — eliminating hardware supply chain attack vectors entirely. The Un-White Paper references the **RUAG Guardian Secure Mobile Platform** (Switzerland) as the hardware paradigm for this stage — purpose-built secure hardware with verified provenance.
+**Stage 3 (Planned):** **Sovereign manufacturing facilities in Switzerland and Japan** with verified supply chains — eliminating hardware supply chain attack vectors. The Un-White Paper references the **RUAG Guardian Secure Mobile Platform** (Switzerland) as the hardware paradigm. Requires a **national security-level institutional conversation**. Paid hardware model.
 
-The rationale: keys in Stage 1 are protected by the device's secure enclave. Stage 2 achieves true air-gap — the signing context has zero network exposure. Stage 3 ensures the hardware itself cannot be compromised before reaching the end user.
+**Commercial model:** Stage 1 is free (GPL3 open source). Stage 2 and Stage 3 are paid hardware. Implementation cost for institutions: time and customization only — **no licensing fee**. QPQ offers a **15–20 minute demo pitch** for institutions.
 
-Source: [[summary-blog-mythos-glasswing]], [[summary-qpq-2025-review]]
+The rationale: keys in Stage 1 are protected by the device's secure enclave. Stage 2 achieves true air-gap. Stage 3 ensures the hardware itself cannot be compromised before reaching the end user.
+
+Source: [[summary-blog-mythos-glasswing]], [[summary-blog-mythos-grids]], [[summary-qpq-2025-review]]
 
 ## Universal Signing Layer — Confirmed
 
@@ -153,21 +155,26 @@ At checkout, a GRIDS spend-transaction URL is provided. The user's wallet signs 
 **The Mythos Incident (April 7, 2026):**
 - **Date:** April 7, 2026
 - **Model:** Claude Mythos (Anthropic — announced via Project Glasswing; not released publicly)
-- **Target:** OpenBSD operating system
-- **Vulnerability:** 27-year-old RCE (Remote Code Execution) — present and unpatched for 27 years
-- **Capability:** Gained root access from anywhere without authentication; no human involvement after initial instruction
-- **Industry response:** Cybersecurity industry given a "90-day" window to adapt
+- **Target:** OpenBSD operating system; 27-year-old RCE gaining root access without authentication
+- **Capability:** 181 working Firefox exploits (vs 2 from prior-generation models); chains 3–5 vulnerabilities per exploit
+- **AI hallucination floor:** 0.7%–2% on easiest tasks (Vectara leaderboard) — at machine speed with parallel probes, this means defence cannot match attack rate
+- **Industry response:** ~90-day window before equivalent capability proliferates to other frontier labs
+
+**Institutional response (coordinated within days):**
+- **April 13, 2026:** US Treasury and Fed Chair convened Wall Street CEOs in a joint emergency meeting — first joint meeting since **October 2008** (financial crisis)
+- **Bank of Canada** Financial Sector Resiliency Group activated
+- **Bank of England** CMORG (Cyber Multilateral Operations and Resilience Group) activated
+- Former **NSA Director, CISA Director, Google CISO, and US National Cyber Director** involved in the emergency response framework
+- CSA / SANS / OWASP published a joint **11-action framework** in response
 
 QPQ's analysis:
-- The cybersecurity industry's response will be "more layered defense, more defense in depth"
-- This response is structurally wrong — it tries to protect the wrong thing
-- The fix is not to defend credential data better; it is to **remove credential data from the public domain entirely**
+- The industry will respond with "more layered defense, more defense in depth"
+- This is structurally wrong — addressing symptoms rather than the architecture
+- **"Every cybersecurity budget in the world is paying to defer an outcome the architecture makes inevitable."**
 
-> "We knew the web was the wrong architecture long before Mythos."
+> "GRIDS is not a better lock on the same door. It eliminates the door."
 
-> "It's not that you've increased the security. You've just removed the sensitive data from needing to be protected at all."
-
-> "Defense-in-depth isn't an answer."
+**The car and ship analogy:** If you're worried your car will be stolen, you can add better locks. But if you remove the engine, the car cannot be stolen. GRIDS removes the engine — the credentials, keys, and signing material — from the attack surface. The locks are irrelevant once the engine is gone.
 
 GRIDS achieves this:
 - No usernames or passwords ever transmitted
@@ -176,7 +183,7 @@ GRIDS achieves this:
 
 > "The attack surface that Mythos and any AI of its capabilities can exploit is now gone if you choose to make it so."
 
-Source: [[summary-grids-demo-series]], [[summary-internet-of-economics-grids-mythos]], [[summary-quantum-ai-machine-economy]]
+Source: [[summary-grids-demo-series]], [[summary-internet-of-economics-grids-mythos]], [[summary-quantum-ai-machine-economy]], [[summary-blog-mythos-grids]], [[summary-blog-mythos-glasswing]]
 
 ## 3DS / Credit Card Replacement Path
 

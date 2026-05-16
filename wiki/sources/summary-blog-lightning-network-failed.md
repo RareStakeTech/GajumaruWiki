@@ -7,11 +7,14 @@ author: "QPQ AG / Gajumaru Blockchain"
 date_published: 2026-04-02
 date_ingested: 2026-05-15
 key_claims:
-  - Real Lightning Network cannot reliably route transactions over ~$89 between random parties
-  - A $100 Lightning transaction fails approximately 23% of the time even optimistically
+  - Real Lightning Network cannot reliably route transactions over ~$89 between random parties (Abedesselam et al. 2025: "Payment-failure times for random Lightning paths")
+  - Transaction success rates by amount: $0.05+ = >99%; $10 = ~90%; $200 = ~50%; $1,000 = ~25%; $10,000 = ~5%
+  - A $100 Lightning transaction fails approximately 23% of the time (Amboss, Feb 14 2025 X post)
   - Lightning routing requires intermediaries to "front capital," creating exponential failure probability at scale
   - Lightning trades throughput for speed but creates an overconstrained system impossible to balance
-  - "Any project claiming to have solved the Blockchain Trilemma is a scam" (framing from this article cluster)
+  - Layer-2 solutions including Plasma and zkSync also fail — successive Layer-2 attempts compound constraints rather than resolve them
+  - Bitcoin market cap at article date: ~$2.4 trillion; BTC price ~$50,000
+  - Visa: 65,000 TPS peak; 8,500 TPS resting — Bitcoin: 7 TPS theoretical, 3.5 TPS practical
 related: [[state-channels]], [[bitcoin-ng]], [[tea-trilemma]], [[groot]]
 confidence: high
 ---
@@ -36,17 +39,30 @@ Core question: "Can a 7-year-old use your cryptocurrency to operate a lemonade s
 
 ## The $89 Ceiling
 
-Research cited shows the real Lightning Network topology **cannot reliably route transactions exceeding ~$89** between random parties. Even optimistically:
+Research cited shows the real Lightning Network topology **cannot reliably route transactions exceeding ~$89** between random parties.
 
-- A $100 transaction fails approximately **23% of the time**
-- A $10 transaction succeeds roughly 90% of the time
-- A $1,000 transaction succeeds only ~25% of the time
+**Sources:**
+- Abedesselam et al. (2025): *"Payment-failure times for random Lightning paths"* — de facto incapable of transactions >100K SAT (~$89)
+- Amboss (Feb 14, 2025 X post): A $100 Lightning transaction fails **23% of the time**
+
+**Full success rate table:**
+
+| Transaction Amount | Success Rate |
+|-------------------|-------------|
+| ~$0.05 (micro) | >99% |
+| ~$10 | ~90% |
+| ~$100 | ~77% |
+| ~$200 | ~50% |
+| ~$1,000 | ~25% |
+| ~$10,000 | ~5% |
 
 This is unacceptable for practical commerce.
 
-## Why Lightning Failed
+## Why Lightning Failed — And Why All Layer-2s Fail
 
 Lightning trades throughput for speed but creates an overconstrained system impossible to balance. The routing wall, capital fronting requirement, and Gini concentration (highly centralized hub topology) combine to make it unworkable for general commerce.
+
+QPQ's broader claim: **Layer-2 solutions compound constraints**. Every successive attempt — Lightning → Plasma → zkSync → optimistic rollups — adds constraints rather than resolving the underlying trilemma. The correct approach is not to add layers but to solve the base layer design (Gajumaru / Bitcoin-NG).
 
 ## Significance
 

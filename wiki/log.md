@@ -1148,3 +1148,64 @@ Key new content captured:
 - QPQ team ethos: all from working families; building for their communities; Craig's first adopter is a corner shop 300m away
 - "One ring to rule them all" = the mint
 - Un-White Paper: Greg used Claude+Grok for narrative structure; LLMs consistently misidentified Gajumaru as infrastructure
+
+---
+
+## [2026-05-16] audit | Blog source audit — all 15 web-fetched sources re-fetched and verified
+
+Sources re-fetched (live WebFetch):
+- qpq.swiss/2026/04/14/mythos-glasswingand-why-we-built-what-we-built/ (Greg Chew)
+- qpq.swiss/2026/04/30/the-architectural-answer-to-the-mythos-ai-security-vulnerability-grids/
+- qpq.swiss/2026/04/30/the-summer-of-gajumaruupcoming-launches/
+- gajumaru.io/2026/02/05/quantum-resistance-on-gajumaru/ (Ulf Wiger)
+- gajumaru.io/2026/04/15/the-gajumaru-in-space/ (Craig Everett)
+- qpq.swiss/2026/04/30/dev-updates-04-2026/ + qpq.swiss/2026/04/02/dev-update-03-2026/
+- gajumaru.io/2026/04/29/a-case-for-defensive-mining/
+- gajumaru.io/2026/04/02/why-the-bitcoin-lightning-network-failed/
+- gajumaru.io/2026/04/12/gajumaru-state-channels/
+- gajumaru.io/2026/03/13/why-proof-of-work-works-in-theory/ (Peter Harpending)
+- qpq.swiss/2026/04/13/killing-the-whale-subsidy.../
+- qpq.swiss/2026/04/13/beyond-subscription.../
+- qpq.swiss/2026/04/13/the-end-of-the-ad-supported-lie.../
+- qpq.swiss/2026/03/26/gajupay.../
+
+Pages updated:
+- wiki/sources/summary-blog-mythos-glasswing.md (Groot genesis 22 Oct 2024; NPM Sept 2025; LavaMoat #5728; Ciaran Martin; CSA/SANS/OWASP 11-action framework; Stage 1 honest limitation; Stage 2 Series A; LTIN Q3/Q4 2026; Project Glasswing incl. Cisco + Linux Foundation)
+- wiki/sources/summary-blog-mythos-grids.md (US Treasury April 13 emergency meeting — first since Oct 2008; Bank of Canada Resiliency Group; Bank of England CMORG; NSA/CISA/Google CISO/National Cyber Director framework; Mythos 3-5 exploit chains; car/ship analogy; Stage 2 Series A; Stage 1 free/Stage 2+3 paid; 15-20min demo; time+customization only cost)
+- wiki/sources/summary-blog-summer-of-gajumaru.md (April 26 = 15th anniversary of Satoshi's last message, April 26 2011)
+- wiki/sources/summary-blog-quantum-resistance.md (author = Ulf Wiger; ED25519 clarification; Erlang/OTP 28.1; ML-DSA hardness numbers: Cat2=123/112, Cat3=182/165, Cat5=252/229 bits; below-100-TPS projection; lattice quantum speedup ~15-20 bits)
+- wiki/sources/summary-blog-in-space.md (round-trip 2.5s ping vs 5s edge-to-edge distinction; East Asia-East Coast ~200ms terrestrial Solana strain)
+- wiki/sources/summary-blog-dev-updates-2026.md (GajuMining Vaults multisig full detail from March update: multisig expansion, signature hash revision, add/remove signatories, threshold config, action visualization, tx hash tracking; Wallaby testing; IP-based country detection)
+- wiki/sources/summary-blog-lightning-network-failed.md (full 6-row success rate table; Abedesselam et al. paper title; Plasma/zkSync Layer-2 compounding-constraints framing; Visa 65k TPS peak; BTC $2.4T market cap)
+- wiki/sources/summary-blog-gajumaru-state-channels.md (2ms round-trip; JSON-RPC server mode; proxy keypair explicit reference)
+- wiki/sources/summary-blog-proof-of-work-theory.md (Visa 65k TPS peak; BTC $2.4T market cap; Bitcoin 7 TPS theoretical)
+- wiki/sources/summary-blog-gajupay.md (PinePhone MVP demo platform; 5 core operational requirements articulated)
+- wiki/sources/summary-blog-a2a-state-channels.md ($0.003 micro-task example added)
+- wiki/concepts/grids.md (Stage 1 honest "probably secure" limitation; Stage 2 Series A dependency; Stage 3 national security conversation; commercial model table; 15-20min demo; US Treasury April 13 emergency meeting; Bank of Canada + Bank of England + NSA/CISA/Google CISO; 11-action framework; car/ship analogy; key quote "every cybersecurity budget..."; Mythos 3-5 exploit chains)
+- wiki/concepts/quantum-resistance.md (ED25519 clarification; Erlang/OTP 28.1; ML-DSA hardness table with bits; quantum lattice speedup explanation; below-100-TPS projection)
+- wiki/source-audit.md (all 15 blog sources marked ✅; total audit count updated to 57 sources — 100% complete)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+
+Key new content:
+- **Groot genesis date:** 22 October 2024 (MainNet genesis block)
+- **NPM supply chain attack date:** September 2025 (confirmed)
+- **LavaMoat flaw:** GitHub issue #5728 on MetaMask repo (public documentation)
+- **Project Glasswing orgs:** includes Cisco and Linux Foundation (in addition to AWS, Apple, Microsoft, Google, JPMorganChase)
+- **Ciaran Martin** (former UK NCSC head) cited; CSA/SANS/OWASP published 11-action framework
+- **April 13 US Treasury emergency meeting:** first joint Fed/Treasury+Wall Street CEOs meeting since Oct 2008
+- **Bank of Canada Financial Sector Resiliency Group + Bank of England CMORG** activated
+- **Former NSA Director, CISA Director, Google CISO, National Cyber Director** on response framework
+- **Stage 1 honest limitation:** "probably secure rather than definitely secure" — no air-gap = no mathematical guarantee
+- **GRIDS commercial model:** Stage 1 free; Stage 2+3 paid hardware; implementation = time + customization only
+- **April 26 = 15th anniversary of Satoshi's last known public message** (April 26, 2011) — deliberate date choice
+- **Ulf Wiger** confirmed as author of quantum-resistance blog (not just "QPQ AG")
+- **Erlang/OTP 28.1** (Sept 2025) provides ML-DSA verification — implementation mechanism confirmed
+- **ML-DSA hardness numbers:** Cat2 = 123/112 classical/quantum; Cat3 = 182/165; Cat5 = 252/229 bits
+- **Quantum speedup on lattice crypto:** only ~15-20 bits (vs. Grover's √ speedup on symmetric)
+- **GajuMining Vaults:** multisig treasury feature with add/remove signatories, threshold config — confirmed in March 2026 dev update
+- **PinePhone** (Linux mobile) used as GajuPay MVP demo platform
+- **Lightning full failure table:** $0.05=99%; $10=90%; $200=50%; $1,000=25%; $10,000=5%
+- **Layer-2 compounding constraints:** Plasma → zkSync → optimistic rollups each add constraints, not resolve trilemma

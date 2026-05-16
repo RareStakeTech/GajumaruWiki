@@ -9,7 +9,8 @@ date_ingested: 2026-05-15
 key_claims:
   - Peter Harpending is the confirmed author — demonstrates his role as public technical writer for QPQ
   - PoW security relies on irreversibility of energy expenditure (second law of thermodynamics)
-  - Bitcoin achieves ~3.5 TPS practically; Visa baseline is ~8,500 TPS
+  - Bitcoin: 7 TPS theoretical; 3.5 TPS practical. Visa: 65,000 TPS peak; 8,500 TPS resting rate
+  - Bitcoin market cap at article date: ~$2.4 trillion (April 2026)
   - "There is no solution to the Blockchain Trilemma — any project claiming to have solved it is a scam"
   - Without practical usability, Bitcoin's value collapses to "cargo cult theory" (memetic value without substance)
   - CAP theorem parallel: blockchain trilemma (security, decentralization, scalability cannot fully coexist)
@@ -45,8 +46,9 @@ The longest chain — requiring the most energy to produce — becomes the trust
 
 CAP theorem has a blockchain parallel: **security, decentralization, and scalability cannot fully coexist.** Bitcoin sacrifices scalability:
 
-- Bitcoin: ~3.5 TPS (practical)
-- Visa baseline: ~8,500 TPS
+- Bitcoin: **7 TPS** theoretical; **3.5 TPS** practical
+- Visa: **65,000 TPS** peak; **8,500 TPS** resting rate
+- Bitcoin market cap at article date (April 2026): **~$2.4 trillion**
 
 **Key quote:** *"There is no 'solution' to the Blockchain Trilemma... Any project claiming to have 'solved' the Blockchain Trilemma is a scam."*
 

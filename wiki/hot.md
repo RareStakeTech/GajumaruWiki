@@ -6,17 +6,16 @@
 
 ## Current Focus
 
-**64 sources. 19 concept pages. 41 video transcripts. 42/42 raw source files ✅ audited (100%). ALL 5 previously-partial long transcripts ✅ fully read.** Deep audit complete: delegated signing, BankID comparison, ZKP age proof, credit card replacement roadmap, Salt Typhoon, Lava Moat, Sophia/ISC origin, Web 3 definition, hunter-gatherer framing — all captured. **Next priorities:**
+**57 sources audited (42 raw + 15 web-fetched ✅). 19 concept pages. 41 video transcripts. ALL sources at 100% audit coverage.** Blog audit complete: all 15 web-fetched sources live-fetched and verified. **Next priorities:**
 1. AC → Groot finality cooperation: confirmed NOT in any transcript; awaiting future QPQ publication
 2. Fetch post-MainNet data (miner count, Gaju price, LTIN launch status)
 3. Ingest Un-White Paper Technical Paper (not yet in raw/)
 4. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
-5. Remaining unprocessed VTT queue (see below) — several videos not yet downloaded
-6. Audit web-fetched blog sources (15 files; would require re-fetch to verify)
+5. Download 4 remaining videos (Unmasking Stablecoins, Whitelist Mining Update, Future of Banking, Bitcoin is a Proof of Concept)
 
 **Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
 
-**RESOLVED this session:** All 5 long transcripts fully read. All source summaries and concept pages updated. source-audit.md now shows 42/42 raw files ✅.
+**RESOLVED this session:** All 15 web-fetched blog sources ✅ live-fetched and verified. Total audit: 57/57 sources confirmed. Major new facts: Groot genesis 22 Oct 2024; NPM Sept 2025; LavaMoat #5728; US Treasury April 13 emergency meeting (first since Oct 2008); Bank of Canada/BoE CMORG activated; April 26 = Satoshi 15yr anniversary; Ulf Wiger = quantum-resistance blog author; Erlang/OTP 28.1 = ML-DSA implementation; GajuMining Vaults multisig; PinePhone MVP demo; Lightning full failure table.
 
 ---
 
@@ -119,6 +118,7 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 | 2026-05-16 | audit | All 7 original transcripts + .url file ✅ — 37/37 (100%) raw files audited |
 | 2026-05-16 | ingest | 23 remaining VTT transcripts — 5 consolidated source summaries + 1 new concept (price-signal-economy); 41/41 VTTs now ✅ |
 | 2026-05-16 | audit | Deep audit — 5 partial long transcripts fully read; 3 source summaries expanded; grids/state-channels/internet-of-economics/sophia-fate updated; 42/42 raw files ✅ |
+| 2026-05-16 | audit | Blog audit — all 15 web-fetched sources live-fetched; 11 summaries updated; grids/quantum-resistance concept pages updated; 57/57 total sources ✅ |
 
 ---
 

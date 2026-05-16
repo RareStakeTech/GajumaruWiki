@@ -17,7 +17,7 @@ Gajumaru's approach to post-quantum cryptography is pre-emptive: integrate NIST-
 
 ## Current Security Posture
 
-Gajumaru currently uses **Curve25519** for account signing. This is described as "practically impossible to brute-force with currently existing computing hardware." No change is required in the near term.
+Gajumaru currently uses **ED25519** (Curve25519 base) for account signing. This is described as "practically impossible to brute-force with currently existing computing hardware." No change is required in the near term.
 
 ## Quantum Threat Timeline
 
@@ -34,17 +34,21 @@ QPQ takes a measured, non-alarmist position:
 
 ## ML-DSA Integration Plan
 
-QPQ will integrate all three NIST FIPS 204 lattice-based signature algorithms via the **Sophia `Crypto` library**:
+QPQ will integrate all three NIST FIPS 204 lattice-based signature algorithms via the **Sophia `Crypto` library**, enabled by **Erlang/OTP 28.1** (released September 2025) which provides the ML-DSA verification implementation.
 
-| Algorithm | NIST Security Category | Equivalent Security |
-|-----------|----------------------|---------------------|
-| ML-DSA-44 | Category 2 | — |
-| ML-DSA-65 | Category 3 | Breaking 192-bit AES |
-| ML-DSA-87 | Category 5 | — |
+| Algorithm | NIST Category | Classical Hardness | Quantum Hardness |
+|-----------|--------------|-------------------|-----------------|
+| ML-DSA-44 | 2 | ~123 bits | ~112 bits |
+| ML-DSA-65 | 3 | ~182 bits | ~165 bits |
+| ML-DSA-87 | 5 | ~252 bits | ~229 bits |
 
-**Target:** Available by Groot MainNet Launch 2026. All three algorithms will be accessible from Sophia smart contracts.
+**Why lattice-based crypto resists quantum:** Grover's algorithm provides a square-root speedup for symmetric crypto (halving effective bits). For ML-DSA's lattice structure, quantum speedup is only ~15–20 bits — so ML-DSA-65 retains ~165-bit quantum hardness. Breaking it classically requires ~2²¹⁷ operations and 2¹³⁹ bits of memory (~10²⁹–10³⁰ years). Infeasible with any foreseeable quantum hardware.
 
-**Performance cost:** ML-DSA verification ≈ **1.5×–2.2× standard Curve25519**. On-chain cost: ~0.00000015 Gaju per transaction — negligible in absolute terms.
+**Target:** Available by Groot MainNet Launch 2026.
+
+**Performance cost:** ML-DSA verification ≈ **1.5×–2.2× standard Curve25519**. On-chain cost: ~0.00000015 Gaju per transaction. If all transactions used ML-DSA: throughput would drop **below 100 TPS** — acceptable for now, motivates the long-term native integration work.
+
+Source: [[summary-blog-quantum-resistance]] (author: Ulf Wiger)
 
 ## Upgrade Mechanism: Generalised Accounts (GA)
 

@@ -10,10 +10,18 @@ key_claims:
   - Greg Chew confirmed as author — CEO writing publicly about security architecture
   - GRIDS full name confirmed as "Gajumaru Remote Instruction Dispatch and Serialisation"
   - GRIDS Stage 1 (current): GajuDesk and GajuMobile using device security enclaves; open-sourced under GPL3
-  - GRIDS Stage 2 (in development): dedicated air-gapped hardware wallet with no wireless connectivity
-  - GRIDS Stage 3 (planned): sovereign manufacturing facilities in Switzerland and Japan with verified supply chains
+  - GRIDS Stage 2 (in development): dedicated air-gapped hardware wallet; dependent on Series A funding
+  - GRIDS Stage 3 (planned): sovereign manufacturing in Switzerland and Japan; requires national security-level conversation
+  - Stage 1 honest limitation: "probably secure rather than definitely secure" — no mathematical guarantee without air-gap
   - The internet was designed for information replication, not value transmission — creating systemic vulnerability
   - Eliminating attack surfaces entirely is the structural solution; incremental improvements cannot match AI-speed exploitation
+  - Project Glasswing ~50 orgs: AWS, Apple, Microsoft, Google, JPMorganChase, Cisco, Linux Foundation (partial list)
+  - 90-day industry planning horizon before equivalent Mythos capability proliferates to other frontier labs
+  - Groot operational since 22 October 2024 (MainNet genesis)
+  - NPM supply chain attack: September 2025 (confirmed date)
+  - LavaMoat flaw publicly documented in GitHub issue #5728
+  - Ciaran Martin (former UK NCSC head) cited; CSA/SANS/OWASP published 11-action response framework post-Mythos
+  - LTIN: Q3/Q4 2026 target for first sovereign customer
 related: [[grids]], [[gajumaru-product-suite]], [[craig]], [[gregory-chew]]
 confidence: high
 ---
@@ -57,9 +65,34 @@ GRIDS full name: **"Gajumaru Remote Instruction Dispatch and Serialisation"**
 - Hardware security enclaves for key storage
 - "No credentials to discover" — eliminates the attack surface entirely
 
+## Industry Response to Mythos
+
+The article confirms a coordinated post-Mythos industry response:
+- **~50 orgs** received early access via Project Glasswing: includes AWS, Apple, Microsoft, Google, JPMorganChase, Cisco, and the Linux Foundation (partial public list)
+- **Ciaran Martin** (former head, UK National Cyber Security Centre) cited as a key voice framing the 90-day planning window
+- **CSA / SANS / OWASP** published a joint 11-action framework in response to Mythos capabilities
+- The 90-day window: before other frontier labs produce equivalent capability — not a precise date, a planning horizon
+
+## Stage 1 Honest Limitation
+
+Greg explicitly frames Stage 1 as "probably secure rather than definitely secure." Hardware security enclaves provide strong protection but no mathematical air-gap guarantee — an attacker with root access on the same device (Mythos-level) could theoretically reach enclave memory in exotic scenarios. Stage 2 (air-gap) is where the mathematical guarantee arrives.
+
+## LTIN and Timeline
+
+- Groot operational since **22 October 2024** (MainNet genesis block)
+- NPM supply chain attack confirmed: **September 2025**
+- LTIN (first sovereign customer): **Q3/Q4 2026**
+- Stage 2 hardware: dependent on **Series A** funding
+- Stage 3 sovereign manufacturing: requires a **national security-level institutional conversation**
+
+## LavaMoat Reference
+
+LavaMoat's flaw is publicly documented in **GitHub issue #5728** on the MetaMask repository — cited by Greg as evidence that patching JavaScript with JavaScript is structurally impossible, not merely an engineering shortfall.
+
 ## Significance
 
 1. Confirms Greg Chew as a public author for QPQ alongside Craig Everett and Peter Harpending
-2. Provides the three-stage GRIDS hardware roadmap not documented elsewhere
-3. Confirms GPL3 open-source status of Stage 1 components
+2. Provides the three-stage GRIDS hardware roadmap with honest limitations per stage
+3. Confirms GPL3 open-source status of Stage 1; Series A dependency for Stage 2
 4. Frames GRIDS as an architectural necessity, not a product feature
+5. Provides firm dates: Groot genesis 22 Oct 2024; NPM attack Sept 2025; LTIN Q3/Q4 2026

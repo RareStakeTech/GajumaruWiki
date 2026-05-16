@@ -8,9 +8,11 @@ date_published: 2026-03-26
 date_ingested: 2026-05-15
 key_claims:
   - Global payment processing market: $47.61B (2022) → $139.90B (2030) at 14.5% CAGR
-  - Japanese card example: 1.99% fee on ¥10,000 = ¥190 gross; after ¥10 ops + ¥180 interchange + ¥80 brand = ¥70-80 net loss per transaction
+  - Japanese card example: 1.99% fee on ¥10,000 = ¥190 gross; after ¥10 ops + ¥180 interchange + ¥80 brand = ¥70–80 net loss per transaction
   - GajuPay enables direct peer-to-peer merchant payments via GajuMobile, reducing intermediary costs
+  - Five core operational requirements addressed: link txs to sales instances; multi-register single account; fiat-to-Gaju rate logging; refunds from non-cashier accounts; anti-fraud controls
   - Three-stage rollout: Stage 1 (web portal MVP), Stage 2 (webshop integration/plugins), Stage 3 (self-hosted backend for enterprise)
+  - PinePhone (Linux mobile device) demonstrated as MVP platform — confirms Linux/open-source ethos
   - Launch scheduled for 2026 alongside GajuMobile
   - Referral partnership program at partners@qpq.swiss
 related: [[gajumaru-product-suite]], [[state-channels]], [[grids]]
@@ -60,6 +62,10 @@ Blockchain-enabled P2P payment processing for merchants via GajuMobile:
 **Stage 2 — Webshop Integration:** Plugin architecture and widgets for e-commerce platform integration.
 
 **Stage 3 — Self-Hosted Backend:** Enterprise option for data sovereignty and regulatory compliance.
+
+## Demonstration Platform
+
+The article explicitly references the **PinePhone** (a Linux-based open-source smartphone) as the MVP demonstration device — consistent with QPQ's zero-dependency, open-source philosophy and Craig's broader ethos of building on auditable, non-proprietary infrastructure.
 
 ## Launch Status
 

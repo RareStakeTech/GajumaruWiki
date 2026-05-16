@@ -32,7 +32,7 @@ Current AI services subsidize high-volume subscribers via free/minimal-use accou
 
 Key properties for agent-to-agent transactions:
 
-**Granularity:** Payments settle at extremely small increments — per-token or per-inference processing levels. An agent can pay for exactly what it consumes.
+**Granularity:** Payments settle at extremely small increments — per-token or per-inference processing levels. An agent performing a $0.003 task should not require a $20/month subscription. An agent can pay for exactly what it consumes.
 
 **Zero Latency:** *"Transactions happen off-chain at the speed of the agent's logic, only hitting the Gajumaru blockchain for opening/closing the channel."*
 

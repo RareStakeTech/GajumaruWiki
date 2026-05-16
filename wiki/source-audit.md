@@ -56,31 +56,31 @@ updated: 2026-05-16
 
 ---
 
-## Web-Fetched Sources (no raw file — re-fetch to audit)
+## Web-Fetched Sources (re-fetched to audit — 2026-05-16)
 
 | Source URL | Wiki Summary | Status | Notes |
 |-----------|-------------|--------|-------|
-| qpq.swiss/2026/01/01/gajumaru-2025-year-in-review/ (approx) | summary-qpq-2025-review.md | 🔲 | |
-| gajumaru.io/2026/02/05/quantum-resistance-on-gajumaru/ | summary-blog-quantum-resistance.md | 🔲 | |
-| qpq.swiss/blog/the-summer-of-gajumaru | summary-blog-summer-of-gajumaru.md | 🔲 | |
-| gajumaru.io — in space / cislunar | summary-blog-in-space.md | 🔲 | |
-| qpq.swiss — dev updates Mar/Apr 2026 | summary-blog-dev-updates-2026.md | 🔲 | |
-| gajumaru.io/2026/04/29/a-case-for-defensive-mining/ | summary-blog-defensive-mining.md | 🔲 | |
-| gajumaru.io/2026/04/02/why-the-bitcoin-lightning-network-failed/ | summary-blog-lightning-network-failed.md | 🔲 | |
-| gajumaru.io/2026/04/12/gajumaru-state-channels/ | summary-blog-gajumaru-state-channels.md | 🔲 | |
-| gajumaru.io/2026/03/13/why-proof-of-work-works-in-theory/ | summary-blog-proof-of-work-theory.md | 🔲 | |
-| qpq.swiss/mythos-glasswing... | summary-blog-mythos-glasswing.md | 🔲 | |
-| qpq.swiss/blog/mythos-grids | summary-blog-mythos-grids.md | 🔲 | |
-| qpq.swiss/killing-the-whale-subsidy... | summary-blog-whale-subsidy-a2p.md | 🔲 | |
-| qpq.swiss/beyond-subscription... | summary-blog-a2a-state-channels.md | 🔲 | |
-| qpq.swiss/the-end-of-the-ad-supported-lie... | summary-blog-social-feed-payment-rail.md | 🔲 | |
-| qpq.swiss/gajupay... | summary-blog-gajupay.md | 🔲 | |
+| qpq.swiss/2026/01/01/gajumaru-2025-year-in-review/ | summary-qpq-2025-review.md | ✅ 2026-05-16 | Created via WebFetch; summary captures year-in-review content |
+| gajumaru.io/2026/02/05/quantum-resistance-on-gajumaru/ | summary-blog-quantum-resistance.md | ✅ 2026-05-16 | Live-fetched; author = Ulf Wiger; ML-DSA hardness numbers + Erlang/OTP 28.1 added |
+| qpq.swiss/2026/04/30/the-summer-of-gajumaruupcoming-launches/ | summary-blog-summer-of-gajumaru.md | ✅ 2026-05-16 | Live-fetched; April 26 = Satoshi 15yr anniversary added |
+| gajumaru.io/2026/04/15/the-gajumaru-in-space/ | summary-blog-in-space.md | ✅ 2026-05-16 | Live-fetched; Craig Everett author confirmed; latency numbers clarified; Solana terrestrial limitation added |
+| qpq.swiss/2026/04/30/dev-updates-04-2026/ + qpq.swiss/2026/04/02/dev-update-03-2026/ | summary-blog-dev-updates-2026.md | ✅ 2026-05-16 | Both URLs live-fetched; GajuMining Vaults multisig section added from March update |
+| gajumaru.io/2026/04/29/a-case-for-defensive-mining/ | summary-blog-defensive-mining.md | ✅ 2026-05-16 | Live-fetched; content matches existing summary — no significant gaps |
+| gajumaru.io/2026/04/02/why-the-bitcoin-lightning-network-failed/ | summary-blog-lightning-network-failed.md | ✅ 2026-05-16 | Live-fetched; full TPS table added; Abedesselam et al. paper title added; Plasma/zkSync Layer-2 failure framing added |
+| gajumaru.io/2026/04/12/gajumaru-state-channels/ | summary-blog-gajumaru-state-channels.md | ✅ 2026-05-16 | Live-fetched; 2ms round-trip; JSON-RPC server mode; proxy keypair details added |
+| gajumaru.io/2026/03/13/why-proof-of-work-works-in-theory/ | summary-blog-proof-of-work-theory.md | ✅ 2026-05-16 | Live-fetched; Visa 65k TPS peak; $2.4T BTC market cap added |
+| qpq.swiss/2026/04/14/mythos-glasswingand-why-we-built-what-we-built/ | summary-blog-mythos-glasswing.md | ✅ 2026-05-16 | Live-fetched; Groot genesis 22 Oct 2024; NPM Sept 2025; LavaMoat #5728; Ciaran Martin; CSA/SANS/OWASP 11-action framework; Stage 1 honest limitation; Series A Stage 2; LTIN Q3/Q4 2026 |
+| qpq.swiss/2026/04/30/the-architectural-answer-to-the-mythos-ai-security-vulnerability-grids/ | summary-blog-mythos-grids.md | ✅ 2026-05-16 | Live-fetched; US Treasury April 13 emergency meeting; Bank of Canada; Bank of England CMORG; former NSA/CISA/Google CISO; car/ship analogy; commercial model; 15-20min demo |
+| qpq.swiss/2026/04/13/killing-the-whale-subsidy-why-a2p-state-channels-are-the-only-path-to-provider-profitability/ | summary-blog-whale-subsidy-a2p.md | ✅ 2026-05-16 | Live-fetched; $20/month floor; 30-day payout cycle; content matches existing summary well |
+| qpq.swiss/2026/04/13/beyond-subscription-how-gajumaru-a2a-state-channels-kill-the-whale-subsidy/ | summary-blog-a2a-state-channels.md | ✅ 2026-05-16 | Live-fetched; $0.003 example added; content matches existing summary |
+| qpq.swiss/2026/04/13/the-end-of-the-ad-supported-lie-why-your-social-feed-needs-a-payment-rail/ | summary-blog-social-feed-payment-rail.md | ✅ 2026-05-16 | Live-fetched; no numeric data in article; content matches existing summary — no gaps |
+| qpq.swiss/2026/03/26/gajupay-the-answer-to-the-broken-multi-billion-dollar-payment-solutions-industry/ | summary-blog-gajupay.md | ✅ 2026-05-16 | Live-fetched; PinePhone MVP demo added; 5 core requirements articulated |
 
 ---
 
 ## Audit Queue (priority order)
 
-**Status as of 2026-05-16:** All 29 QPQ wiki raw articles ✅ AUDITED + all 7 original YouTube transcripts ✅ AUDITED + the .url pointer file ✅ AUDITED + all 5 previously-partial long transcripts ✅ AUDITED. **Total raw files: 42 of 42 confirmed (100%).** Remaining: (a) the 15 web-fetched blog sources (no raw files; would need re-fetch to audit).
+**Status as of 2026-05-16:** All 29 QPQ wiki raw articles ✅ AUDITED + all 7 original YouTube transcripts ✅ AUDITED + .url pointer file ✅ AUDITED + all 5 previously-partial long transcripts ✅ AUDITED + all 15 web-fetched blog sources ✅ RE-FETCHED AND AUDITED. **Total: 57 sources (42 raw files + 15 web) — ALL CONFIRMED.** No remaining audit queue.
 
 **Remaining Audit Queue:**
 
