@@ -17,6 +17,17 @@ key_claims:
   - Core test for any blockchain: "trust the message not the messenger, securely at scale"
   - Bitcoin is Newcomen — Gajumaru is the Watt engine that scales the proof
   - Garden of Eden problem: monetising base layer requires governance, making it infrastructure not resource
+  - GajuDEX scores 39/40 on genuine-decentralisation framework; all major DEXs score 20 or below (DINO problem)
+  - Gaju minting follows Fibonacci-derived curve over 87.5 years — smooth decline, no halving events; Period 1 reward 1,554,161 Gaju per keyblock
+  - Burned Gajus returned to unmined pool, not destroyed — preserves total supply integrity
+  - Layer 2 blob arithmetic is mathematically impossible: EIP-4844 provides 1,179,648 bytes/block shared across all L2s; 1,000 TPS requires 4,260,000 bytes/block
+  - Bitcoin security budget crisis: transaction fees cover only ~0.6% of annual block subsidy revenue; Lightning generates ~$137,000/year in routing revenue
+  - OtterSec (March 3, 2026) found Fiat-Shamir transcript binding vulnerability in 6 production zkVMs including Jolt, Nexus, Cairo-M
+  - GPL3 Section 11 patent peace: any contributor who initiates patent litigation loses their GPL3 licence immediately
+  - Swiss DLT Act 2021 makes tokenised shares legally equivalent instruments; Liechtenstein TVTG earliest comprehensive DLT law
+  - PHYDEX planned: physical commodity exchange with oracle-based quality/price verification and standardised FOB/CFR/CIF contracts
+  - Data TTL keeps Groot chain permanently below 10 GB; full node requires only a Mac Mini
+  - State channels extend base layer: 500+ token transfers/second per channel, 3,000+ plain messages/second; one Mac Mini handles 1,000 concurrent channels
 related: [[groot]], [[gajumaru-architecture]], [[ripa-model]], [[gaju-token]], [[associate-chains]], [[tea-trilemma]], [[cuckoo-cycle]], [[qpq-ag]]
 confidence: high
 ---
@@ -197,3 +208,287 @@ Ethereum's October 2020 pivot to Layer 2 preserved: (a) ETH value, (b) developer
 > "Bitcoin is Newcomen. Not a failure. A proof — genuine, necessary, and insufficient to reach what it demonstrated was possible. The Gajumaru is the engine that can."
 
 > "The window is closing. Network effects lock in early movers. First to critical mass wins."
+
+---
+
+## GajuDEX — Genuine Decentralisation
+
+The Un-White Paper devotes a full chapter to the **DINO problem** ("Decentralised In Name Only") and GajuDEX's position against it.
+
+**The DINO scoring framework** (10 criteria, max 4 points each = 40 total):
+1. Immutable contracts post-deployment
+2. No admin keys or upgrade proxies
+3. No governance token for protocol changes
+4. On-chain order matching (not off-chain relayers)
+5. Non-custodial at all stages
+6. Open-source smart contracts
+7. No KYC required on the base layer
+8. Permissionless liquidity provision
+9. No operator censorship capability
+10. Regulatory framework compliance
+
+**Results:** GajuDEX scores **39/40** (one point deducted on the KYC criterion because the KPoS deployment requires on-chain KYC — by design, not by deficiency). Every major DEX examined scored **20 or below**, despite all claiming decentralisation.
+
+**Two deployments:**
+- **Groot deployment:** Fully permissionless. AMM + CLOB with stop losses. Immutable contracts post-deployment. No admin keys, no governance tokens. Anyone participates, anywhere, no KYC.
+- **KPoS Associate Chain deployment:** Known Proof-of-Stake. On-chain KYC, Gaju staking. Designed for regulated institutional participants. FINMA substance-over-form test passed: regulators agree this is genuinely decentralised infrastructure, not a labelled product.
+
+**Regulatory convergence:** Three independent regulatory frameworks (FINMA, MiCA Recital 22, MAS identifiable-operator test) all reduce to the same question: "Who is in control?" GajuDEX gives no one a control position. The document states GajuDEX is "the first DEX to pass the FINMA substance-over-form test for genuine decentralisation."
+
+> "The sequencer is not a detail. It is the thing. If one entity decides which transactions are processed and in what order, that entity controls the exchange."
+
+See [[gajumaru-product-suite]].
+
+---
+
+## Fibonacci Mining Curve and Tokenomics
+
+**Total supply:** 1 trillion Gajus over 87.5 years. After that, no more — ever.
+
+**Minting schedule:** QPQ rejected Bitcoin's abrupt halving model. The reward schedule follows a declining ratio derived from the Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21...), creating a smooth reduction in block rewards. Period 1 reward = **1,554,161 Gajus per keyblock**.
+
+The practical effect: miners in adjacent periods experience gradual transitions rather than sudden 50% drops. This preserves mining economics and long-term network sustainability.
+
+**Burned Gajus:** When a transaction expires unclaimed, its Gajus are not destroyed — they are returned to the unmined pool. This maintains the integrity of the total supply and supports long-term mining sustainability across the full 87.5-year schedule.
+
+**Transit currency role:** Groot is designed as a neutral transit currency between regulated systems. It does not require everyone to hold Gajus; it provides a reference point and a genuine exit option. An institutional bank running an Associate Chain settles cross-chain debts through Groot without requiring its customers to use Gaju directly.
+
+**Sound money properties:** Finite, holdable, not subject to debasement, transferable without permission. QPQ explicitly invokes commodity money theory, positioning Gaju as the "reference point" that disciplines all Associate Chain stablecoins and tokenised assets.
+
+See [[gaju-token]], [[cuckoo-cycle]].
+
+---
+
+## Witnessing Protocol and State Channels
+
+**Witnessing protocol (patented):** Designated witnesses attest to **content-free keyblocks**, confirming chain structure without approving transaction content. This provides commerce-grade settlement certainty within seconds while maintaining clean liability separation — witnesses confirm "a valid block was produced" not "these transactions are approved." Critical design point: because keyblocks carry no transactions, witnesses cannot be accused of censorship or endorsement.
+
+**Data TTL (Time-To-Live):** All on-chain data carries an expiration date. Storage is paid proportional to duration. When TTL expires, data is pruned. Result: the chain stays permanently below 10 GB regardless of age or volume. A full Groot node runs on a Mac Mini.
+
+**State channels:** Bilateral co-signed off-chain settlement that resolves to the base layer on close. Capacity:
+- 500+ token transfers per second per channel
+- 3,000+ plain messages per second per channel
+- One Mac Mini services 1,000+ concurrent channels; capacity scales linearly with nodes
+
+**Generalised Accounts:** Any Gajumaru account can be upgraded from single-signature to custom smart-contract-based authentication — enabling multi-signature, spending limits, corporate delegation structures, quantum-resistant signing, and any authentication logic expressible in Sophia.
+
+**Graceful degradation:** If the network partitions, the protocol degrades gracefully rather than halting. No global shutdown mechanism.
+
+See [[groot]], [[gajumaru-architecture]].
+
+---
+
+## Bridge Elimination — Native Cross-Chain Transfers
+
+The Un-White Paper documents the bridge exploit record as a structural indictment of any architecture that requires bridges:
+
+| Bridge exploit | Loss |
+|---|---|
+| Ronin (Axie Infinity) | $624M |
+| BNB Chain bridge | $568M |
+| Wormhole | $320M |
+| Nomad | $190M |
+| Harmony Horizon | $100M |
+
+**QPQ's response:** The Gajumaru eliminates bridges entirely. Associate Chains have **native awareness** of Groot at the protocol level — cross-chain value transfers are handled by the protocol itself, not a third-party relay. There is no trusted intermediary whose key can be stolen. The document states: "Every bridge is a honeypot. We do not build honeypots."
+
+This native awareness also means Gaju accounts are valid on every Associate Chain and Gajus are transferable cross-chain without wrapping or bridging — a structural property, not a product feature.
+
+See [[associate-chains]], [[gajumaru-architecture]].
+
+---
+
+## Real-World Economic Applications (Part Three)
+
+The Un-White Paper details eight categories of real-world application, each tied to a specific market failure the current infrastructure cannot solve:
+
+**1. Insurance risk pools:** Smart contract pools where premiums accumulate and claims trigger automatically on oracle-verified conditions. No insurer intermediary required. Crop insurance example: a farmer in a region with no insurer can pool with 10,000 others; oracle confirms drought; contracts pay out without claims processing.
+
+**2. Property and mortgage:** Tokenised land registry on Associate Chains with national legal recognition (Swiss DLT Act 2021 as model). Mortgage smart contracts that release title on final payment without conveyancer. Cross-border property purchase without correspondent bank chains.
+
+**3. Unserved markets:** The SME financing gap ($5.7T) and the 1.3B unbanked are not failures of capital availability — they are failures of infrastructure reach. Gajumaru's Associate Chain architecture allows local financial institutions to deploy infrastructure that connects to global capital markets via Groot without surrendering local regulatory compliance.
+
+**4. Tokenised shares and pre-IPO equity:** The Swiss DLT Act 2021 makes tokenised shares legally equivalent instruments. Liechtenstein's TVTG (Token and Trusted Technology Service Provider Act) is cited as the earliest comprehensive DLT legal framework. Pre-IPO equity traded on regulated Associate Chains with on-chain KYC eliminates the subscription agent layer.
+
+**5. IP and royalty streams (AI training data):** The document cites Anthropic CEO Dario Amodei's warning (footnote 43) that AI could eliminate 50% of entry-level white-collar jobs within five years. Against this backdrop, QPQ argues that creators need automated royalty infrastructure. Smart contracts that pay creators every time their training data is used, with no collecting society intermediary.
+
+**6. Human capital monetisation:** Skills and credentials on-chain. Employer-verified attestations that cannot be removed by a deplatforming event. Micro-lending against demonstrated earning history rather than credit score.
+
+**7. PHYDEX (Physical and Derivative Exchange):** Planned extension for commodity markets. Standardised FOB/CFR/CIF contract templates. Oracle-based quality and price verification. Physical commodity delivery confirmed via third-party attestation. Designed for agricultural and raw material markets currently excluded from financial infrastructure.
+
+**8. Bills of lading digitisation:** McKinsey analysis cited: full adoption of electronic bills of lading saves $6.5B annually in direct costs, unlocks up to $40B in additional global trade volume.
+
+See [[associate-chains]], [[ripa-model]].
+
+---
+
+## GPL3 and Patent Strategy
+
+**Licence choice:** GPL3 (GNU General Public License v3), not a permissive licence (MIT, Apache). The distinction is deliberate:
+- Permissive licences allow proprietary forks — a competitor can take the code, close the source, and extract rent
+- GPL3 copyleft requires that all modifications be shared under the same licence — forking the code means contributing back
+- **Section 11 patent peace:** Any contributor who initiates patent litigation against any GPL3 participant loses their GPL3 licence immediately. This makes the entire codebase a patent-hostile zone for aggressors.
+
+**Defensive patent filing:** QPQ has filed patents on its novel contributions (witnessing protocol, specific Groot mechanisms). These are licensed on the Red Hat model: free to all participants who do not assert patents against the ecosystem. The purpose is not revenue extraction but "protecting the freedom to operate" — ensuring no third party can patent-troll Gajumaru's unique mechanisms.
+
+**Open source scope:** All production code is GPL3. GajuDesk and GajuMobile are committed to open-sourcing. The Groot node software is already public.
+
+> "Defensive, not offensive. The patents exist so that no one else can use them offensively against us or our ecosystem."
+
+See [[qpq-ag]], [[gajumaru-product-suite]].
+
+---
+
+## Regulatory Framework Analysis
+
+The Un-White Paper treats regulatory compliance not as a box to tick but as a design requirement:
+
+**FINMA (Switzerland):** Applies "substance over form" and "same risks, same rules." The label attached to a product does not determine regulation — the activity does. GajuDEX was explicitly designed to pass FINMA's substance-over-form test. QPQ AG is registered in Zug, Switzerland; QPQ Capital AG is VQF-affiliated for regulated financial services.
+
+**MiCA (EU — Markets in Crypto-Assets):** Fully in force as of 2026. Requires sustainability disclosures, white paper standards, consumer protections. The document notes Gajumaru's energy efficiency (Cuckoo Cycle, ASIC-resistant, memory-bound) makes MiCA sustainability compliance "straightforward" in contrast to SHA-256 Bitcoin mining.
+
+**MAS (Monetary Authority of Singapore):** The identifiable-operator test — if a single entity can be identified as controlling a system, it is regulated infrastructure. GajuDEX passes by having no such entity. The GL1 consortium (Standard Chartered, Citi, JPMorgan et al.) is explicitly positioned as a Master Associate Chain under MAS oversight.
+
+**Liechtenstein TVTG:** Cited as the earliest comprehensive DLT legal framework globally. LTIN (Liechtenstein National Token Initiative) selected Gajumaru for national digital economy infrastructure.
+
+**Swiss DLT Act 2021:** Tokenised shares as legally equivalent instruments. Enables tokenised pre-IPO equity and land registry on Gajumaru-based Associate Chains with full legal force under Swiss law.
+
+**OFAC note (as critique):** The document observes that on Ethereum, validators complying with OFAC sanctions at times processed over 70% of blocks — meaning the US Treasury effectively controlled transaction inclusion on a "decentralised" network. This is presented as the definitive proof that proof-of-stake systems cannot be resource layers.
+
+---
+
+## Layer 2 Critique — The Mathematics
+
+The Un-White Paper's treatment of Layer 2 scaling is among its most detailed technical chapters.
+
+**Blob arithmetic (EIP-4844 / EIP-7691):**
+- Maximum blob space per Ethereum block: **1,179,648 bytes** (shared across ALL Layer 2s simultaneously)
+- Minimum data required to settle 1,000 TPS honestly on-chain: **4,260,000 bytes per block**
+- Ratio: the blob space available is less than 28% of what 1,000 TPS requires
+- At the TPS figures claimed by major L2s (Arbitrum: 40,000; Base: 2,000–3,571; zkSync: 20,000+), the arithmetic becomes physically impossible by orders of magnitude
+
+**Observed vs claimed TPS (from L2Beat data cited in document):**
+
+| Layer 2 | Claimed TPS | Observed settled TPS |
+|---|---|---|
+| Arbitrum | 40,000 | 10–30 |
+| Base | 2,000–3,571 | 30–150 |
+| zkSync | 20,000+ | 12–16 |
+
+**ZK prover time constraint:** ZK rollup proofs form a sequential chain — each proof must complete before the next begins. At 2,000 TPS the document calculates a 21× prover time inflation factor; at 10,000 TPS the factor is 105×. Backlogs compound without bound under sustained load because queue growth rate exceeds proof generation rate.
+
+**The October 2020 pivot:** Ethereum's shift to a "rollup-centric roadmap" simultaneously preserved four aligned commercial interests: ETH token value, developer ecosystem, VC investment, and Foundation power. The document argues this alignment — not engineering necessity — drove the pivot. "The scaling crisis was real; the solution was to offload it to infrastructure that cannot pass the TEA test."
+
+**Sequencer centralisation:** In every Layer 2 examined, a single sequencer decides transaction ordering. The document notes that renaming a sequencer a "coordinator" (as some projects have done) does not change its function. Arbitrum's sequencer generated $21.6M in revenue in a measured period; Base generated $30M+ profit in 2024 — both from a position of zero accountability.
+
+See [[tea-trilemma]].
+
+---
+
+## Specific Project Forensics
+
+**Ethereum:**
+- 4–6 entities (Lido, Coinbase, Figment, Kiln, Binance) control 52–62% of staked ETH (Rated Network data)
+- Flashbots controls MEV extraction infrastructure; OFAC compliance enforced at block level
+- Vitalik Buterin stated on X (January 21, 2025): "The person deciding the new EF leadership team is me"
+- Former Foundation employees described governance as "cosplaying community governance" (The Guardian, February 2026)
+- Paul Brody (EY / Enterprise Ethereum Alliance) described the community as "a lot like pretty normal shareholders"
+
+**Solana:**
+- 70%+ of validators cannot survive without Foundation delegation
+- 57% of validators would fail profitability test without delegation subsidy
+- Transaction failure rates concealed in TPS claims; the document cites 75% failure rates during congestion events
+
+**DFINITY (ICP):**
+- 48.5% of token supply allocated to foundation and insiders at launch
+- 1.5% to "community"
+- ICP crashed 95% within weeks of launch (CryptoBriefing, June 2021)
+
+**Arbitrum:** $21.6M sequencer revenue from a single operator with no accountability to users
+
+**Base (Coinbase):** $30M+ profit in 2024 from sequencer position; described as "rent from infrastructure they do not own"
+
+**ZKSync:**
+- Airdrop controversy: Sybil manipulation totalling $6.9M identified
+- OtterSec (March 3, 2026) identified Fiat-Shamir transcript binding vulnerability in 6 production zkVMs: Jolt, Nexus, Cairo-M, Ceno, Expander, Binius64. Soundness failure — proofs could be accepted for invalid state transitions.
+
+**Canton Network (Digital Asset):** Vocabulary evolution tracked as evidence of strategic repositioning:
+- 2020: "ledger"
+- later: "chain"
+- July 2024: "public chain"
+- March 2025: "blockchain"
+- June 2025: "permissionless blockchain" ($135M raise)
+
+The document frames this as the industry's pattern of adopting blockchain vocabulary only once it proved commercially necessary, not as a principled architectural decision.
+
+**Lightning Network:**
+- Empirical routing ceiling: **$89** — transfers above this amount cannot route reliably
+- Gini coefficient of node capacity: **0.97** (near-perfect wealth concentration)
+- Routing revenue: approximately $137,000/year across the entire network
+- CVEs: replacement cycling attack and flood-and-loot documented; routing incentivises centralisation because hub nodes earn more
+- "Lightning does not scale Bitcoin. It creates a custodial banking layer on top of Bitcoin and calls it trustless."
+
+---
+
+## Bitcoin Security Budget Crisis
+
+The document presents a detailed analysis of Bitcoin's long-term security model:
+
+**Current state (2026 figures from document):**
+- Annual block subsidy: ~$11.66B (164,250 BTC at then-market prices)
+- Annual transaction fee revenue: ~$71M (~1,000 BTC)
+- Fee ratio: **~0.6%** of subsidy revenue
+
+**The structural problem:** Bitcoin's security depends on miners remaining economically incentivised to secure the network. As the subsidy halves every four years and approaches zero (c. 2140), fee revenue must replace it. The document's arithmetic shows fee revenue is currently orders of magnitude too low to maintain equivalent security. At 3.25 TPS with average fees during non-congestion periods, the gap cannot close mathematically within the current architecture.
+
+**Lightning as the proposed fix — and why it fails:** Lightning routes approximately 3 TPS and generates ~$137,000/year in routing revenue. This is not a fee revenue substitute for block subsidies. Additionally, Lightning transactions do not pay on-chain fees during operation (only on channel open/close), so Lightning growth does not increase miner revenue proportionally.
+
+**The mempool evidence:** Bitcoin's mempool is persistently nearly empty outside congestion events. An empty mempool indicates the network is not being used for actual transactions — holders are speculating on price rather than spending the currency. This matches Satoshi's stated intent (peer-to-peer electronic cash) but not observed behaviour. The document notes Bitcoin stopped being considered a currency in 2016 when "store of value" became the dominant framing.
+
+See [[groot]], [[cuckoo-cycle]].
+
+---
+
+## Vocabulary of Unaccountable Power
+
+One of the document's most distinctive analytical sections is its **systematic deconstruction of crypto terminology** as a mechanism for concealing accountability failures.
+
+**The pattern:** When a project encounters a regulatory, governance, or technical problem that its architecture cannot solve, it introduces new vocabulary to bridge the gap between what it has and what it claims.
+
+**Examples documented:**
+- "Decentralised" applied to systems with single sequencers, identified foundations, and admin keys
+- "Community governance" applied to token voting where insiders hold veto-weight positions
+- "Layer 2" applied to systems that are, by the document's analysis, Layer 1-dependent centralised infrastructure
+- "Coordinator" as a rename for "sequencer" (same function, less politically charged label)
+- Canton Network's "permissionless blockchain" (2025) for infrastructure that in 2020 was a "ledger"
+
+**Tony Benn's five questions** (cited in full from Hansard, HC Deb 21 May 1990):
+> "What power have you got? Where did you get it from? In whose interests do you exercise it? To whom are you accountable? How can we get rid of you?"
+
+The document proposes these five questions as the universal test for any blockchain governance claim. Most projects cannot answer questions 3–5 without revealing that the answer is "insiders / no one / you can't."
+
+**C.A.R. Hoare (1980 Turing Award Lecture):** Cited as the foundational principle for Sophia and FATE VM design:
+> "There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult."
+
+**Harold Pinter's The Birthday Party:** Used as an analogy for anonymous proof-of-stake — menace is present from the start of the play, but the audience does not see it until it is too late. The validators who can collude are present from genesis; users do not recognise the threat until it materialises.
+
+---
+
+## Security Philosophy — Zero Dependencies
+
+The Un-White Paper's security chapter is built around a single principle: **every dependency is an attack surface**.
+
+**MetaMask comparison:** MetaMask (the dominant Ethereum wallet) depends on 212,620 NPM packages. QPQ cites the September 2025 NPM supply chain attack (Check Point Research, "The Great NPM Heist") in which 18 widely used JavaScript packages were compromised — including debug (357M weekly downloads), chalk (300M weekly downloads), and ansi-styles (371M weekly downloads). The Shai-Hulud worm spread autonomously across the NPM ecosystem.
+
+**GajuDesk:** Zero external dependencies. Original codebase. The security model is that no supply chain attack vector exists because there is no supply chain to attack.
+
+**GRIDS security hierarchy:**
+- Level 1 (operational): Secure Enclave in GajuDesk/GajuMobile — private keys never leave hardware security boundary
+- Level 2 (next phase): GRIDS dedicated hardware wallet — air-gapped, QR-code instruction/response protocol
+- Level 3 (planned): Full QPQ hardware stack
+
+**Privacy by architecture:** GRIDS sends payment confirmation to merchants — not user identity. Merchants receive proof that payment occurred; they never receive the payer's keys, address history, or personal data. This is cited as satisfying GDPR without requiring a privacy policy, because no personal data is transmitted.
+
+**Formal verification:** Sophia smart contracts support formal verification — mathematical proof that a contract behaves exactly as intended under all possible conditions. For institutional adoption (insurance, property, equity), formal verification is described as non-optional: "a bug is not an inconvenience but a catastrophe."
+
+See [[grids]], [[gajumaru-product-suite]], [[sophia-fate]].

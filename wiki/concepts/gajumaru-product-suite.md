@@ -47,6 +47,10 @@ The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 - Solves blockchain acceptance at physical retail
 - Multi-register routing, real-time fiat/Gaju rate logging (tax compliance), refund chains
 - Backend infrastructure comparable to Stripe's origins
+- Referral partnership program: partners@qpq.swiss
+- **Three-stage rollout**: Stage 1 (web portal MVP — basic sales tracking + accounting exports), Stage 2 (webshop integration — plugin architecture + widgets), Stage 3 (self-hosted backend for enterprise data sovereignty)
+- Launch scheduled: 2026 alongside GajuMobile
+- Source: [[summary-blog-gajupay]]
 
 **GajuFX** — CHF/EUR/USD fiat on/off ramps (via QPQ Capital AG SRO regulated).
 

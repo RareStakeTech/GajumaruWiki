@@ -18,7 +18,7 @@ confidence: high
 </div>
 
 <div class="home-metrics">
-  <div><strong>43</strong><span>source summaries</span></div>
+  <div><strong>52</strong><span>source summaries</span></div>
   <div><strong>15</strong><span>concept pages</span></div>
   <div><strong>12</strong><span>entity pages</span></div>
   <div><strong>5+</strong><span>research clusters</span></div>
@@ -239,6 +239,15 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 | [[summary-blog-summer-of-gajumaru]] | The Summer of Gajumaru: Upcoming Launches (qpq.swiss) | 2026-05-15 | multi-cluster |
 | [[summary-blog-in-space]] | The Gajumaru in Space — Cislunar Associate Chains (gajumaru.io) | 2026-05-15 | core-protocol |
 | [[summary-blog-dev-updates-2026]] | QPQ Dev Updates March & April 2026 (qpq.swiss) | 2026-05-15 | multi-cluster |
+| [[summary-blog-defensive-mining]] | A Case for Defensive Mining (gajumaru.io) | 2026-05-15 | tokenomics-economics |
+| [[summary-blog-lightning-network-failed]] | Why the Bitcoin Lightning Network Failed (gajumaru.io) | 2026-05-15 | core-protocol |
+| [[summary-blog-gajumaru-state-channels]] | Gajumaru State Channels (gajumaru.io) | 2026-05-15 | developer-ecosystem |
+| [[summary-blog-proof-of-work-theory]] | Why Proof-of-Work Works (in Theory) (gajumaru.io) | 2026-05-15 | technical-reference |
+| [[summary-blog-mythos-glasswing]] | Mythos, Glasswing, and Why We Built What We Built (qpq.swiss) | 2026-05-15 | developer-ecosystem |
+| [[summary-blog-whale-subsidy-a2p]] | Killing the Whale Subsidy: Why A2P State Channels... (qpq.swiss) | 2026-05-15 | developer-ecosystem |
+| [[summary-blog-a2a-state-channels]] | Beyond Subscription: How A2A State Channels... (qpq.swiss) | 2026-05-15 | developer-ecosystem |
+| [[summary-blog-social-feed-payment-rail]] | The End of the Ad-Supported Lie (qpq.swiss) | 2026-05-15 | developer-ecosystem |
+| [[summary-blog-gajupay]] | GajuPay: The Answer to the Broken Payment Industry (qpq.swiss) | 2026-05-15 | developer-ecosystem |
 
 ---
 

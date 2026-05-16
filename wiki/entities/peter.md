@@ -3,7 +3,7 @@ type: entity
 entity_type: person
 title: "Peter (Communicator)"
 aliases: [peter]
-sources: [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-mining-journey-update]], [[summary-qpq-wiki-blockchain-primer]]
+sources: [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-mining-journey-update]], [[summary-qpq-wiki-blockchain-primer]], [[summary-blog-proof-of-work-theory]]
 related: [[craig]], [[dimitar]], [[ulf]], [[gregory-chew]], [[qpq-ag]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -22,6 +22,8 @@ There are two people named Peter associated with QPQ AG:
 **Peter Harpending** holds the title **Research Lead and Lead Cryptographic Developer** at QPQ AG. He is a mathematician and cryptographic library developer who has created independent wallet implementations and mobile wallet libraries. He is named explicitly in the Gaju Mining Journey Update as part of the background team: "Peter, Santosh, **Peter Harpending**, Jarvis."
 
 Peter is also the author and editor of the QPQ Public Wiki (`git.qpq.swiss/QPQ-AG/public-wiki/wiki/`), QPQ's primary public educational resource. His wiki covers topics from monetary theory through to the Sophia smart contract language. Last edited: **2026-03-17** (per Blockchain Primer page metadata). Contact: peterharpending@qpq.swiss.
+
+He is also a **confirmed public blog author**: he wrote "Why Proof-of-Work Works (in Theory)" (March 13, 2026, gajumaru.io), a technical article on PoW foundations, the blockchain trilemma, and QPQ's position that any project claiming to have "solved" the trilemma is making a fraudulent claim. This confirms his role alongside Craig Everett and Greg Chew as a named public author for QPQ. Source: [[summary-blog-proof-of-work-theory]]
 
 Source: [[summary-qpq-wiki-blockchain-primer]], [[summary-gaju-mining-journey-update]]
 

@@ -6,62 +6,64 @@
 
 ## Current Focus
 
-**43 sources. Full team names/titles confirmed.** gajumaru.io + gajumining.com + qpq.swiss fully crawled. Un-White Paper gap analysis complete (80% of content was missing — needs major expansion). **Next priorities:**
-1. Expand summary-unwhitepaper.md with GajuDEX analysis, Layer 2 critique, PHYDEX, regulatory framework, four patterns of failure, vocabulary analysis
-2. Create quantum-resistance concept page
-3. Ingest remaining blog posts (Lightning Network, defensive mining, A2P whale subsidy, social feed)
-4. Find the Dimitar video on Associate Chain → Groot finality cooperation
-5. Update Un-White Paper content on specific project forensics (Ethereum, Solana, Arbitrum, Base, zkSync)
+**52 sources. All known blogs ingested. Un-White Paper fully expanded (12 new sections, 22 key_claims).** gajumaru.io + gajumining.com + qpq.swiss fully crawled. GRIDS name corrected (Serialisation not System). Three-stage GRIDS hardware roadmap documented. **Next priorities:**
+1. Create wiki/concepts/quantum-resistance.md (ML-DSA-44/65/87, Curve25519, GA mechanism)
+2. Find and ingest the Dimitar video on Associate Chain → Groot finality cooperation
+3. Fetch qpq.swiss/resources/ and gajumining.com/guides, /faq, /downloads
+4. Seek post-MainNet data (miner count, Gaju price, LTIN launch status)
+5. Create wiki/concepts/gajudex.md if warranted (expanded product page)
 
-**Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
+**Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
 
 ---
 
 ## Open Questions
 
 - **Associate Chain → Groot finality cooperation:** Mechanism unknown; Dimitar's area; promised in a later video
-- **Speaker identity in "Gaju Firsts":** Wife is Rachel McKone; mentions children; likely Craig or Gregory Chew
-- **Mobile wallet naming:** "Bor" (QuidProQuo video) vs "GajuMobile" (Year in Review) — unresolved
-- **GRIDS hardware wallet:** Is it the same system as the login/signing protocol? Level 2 shipped?
+- **Speaker identity in "Gaju Firsts":** Wife is Rachel McKone; likely Craig or Gregory Chew
 - **Efficiency contradiction:** 553,800× (Year in Review) vs 1,846,200× (Un-White Paper)
 - Has LTIN actually launched as of May 2026? (target: Q2/Q3/Q4 2026)
 - Current Gaju price / active miner count post-MainNet?
-- Full surnames for Dimitar, Santosh, Jarvis?
-- Role details for Santosh, Jarvis?
+- Full surname for Santosh?
+- Role details for Santosh?
 - Whether "Peter" (video communicator) = Peter Harpending or a distinct individual
 - Which central bank did QPQ consult? (Why the Gajumaru video, unnamed)
 - QPQ IaaS AG — what is it?
 - Un-White Paper Technical Paper — not yet ingested
 
 **RESOLVED:**
-- Ulf = Ulf Wiger (NOT Ulf Norell) — CTO; first commercial Erlang license 1993
-- Craig = zxq9 (Craig Everett) — CPO; cybersecurity background; blog author confirmed
-- Ulf surname: Wiger (CONFIRMED)
-- Dimitar surname: Ivanov (CONFIRMED) — CDO
-- Jarvis surname: Carroll (CONFIRMED) — R&D
-- Mobile wallet: GajuMobile (current name; Bor was earlier, like Clutch→GajuDesk)
-- New team members: Benno Raeber (CLO), Jeff Thomson (Product Research)
+- Ulf = Ulf Wiger (CTO); first commercial Erlang license 1993
+- Craig = zxq9 (Craig Everett) — CPO; blog author confirmed
+- Dimitar = Dimitar Ivanov — CDO
+- Jarvis = Jarvis Carroll — R&D
+- Mobile wallet: GajuMobile (Bor was earlier working name)
+- New team: Benno Raeber (CLO), Jeff Thomson (Product Research)
 - New products: GajuAuth (GRIDS OAuth2), GajuPort, GajuVault, GajuMall
-- Partners confirmed: Solstice Labs, INACRA (new; join Bank Frick, Bitcoin Suisse, Swiss Subnet)
-- MainNet: April 6/7 (technical) + April 26 (public launch event) — two dates from QPQ sources
+- Partners: Solstice Labs, INACRA (join Bank Frick, Bitcoin Suisse, Swiss Subnet)
+- MainNet: April 6/7 (technical) + April 26 (public launch) — two QPQ dates
 - Quantum resistance: ML-DSA-44/65/87 planned; Curve25519 current
+- GRIDS full name: "Gajumaru Remote Instruction Dispatch and Serialisation" (confirmed from Mythos/Glasswing post)
+- GRIDS hardware roadmap: Stage 1 = device enclaves (current, GPL3); Stage 2 = air-gapped device (in dev); Stage 3 = sovereign manufacturing CH+JP (planned)
+- Peter Harpending: confirmed public blog author (PoW Theory, March 2026)
+- Greg Chew: confirmed public blog author (Mythos/Glasswing, April 2026)
 
 ---
 
-## QPQ Team Roster (as of mid-2025 video)
+## QPQ Team Roster (confirmed)
 
 | Name | Role |
 |------|------|
-| [[gregory-chew]] | CEO; products |
-| [[craig]] | Lead architect; Okinawa, Japan |
-| [[dimitar]] | Implementation; backend; Associate Chains |
-| [[ulf]] | Blockchain infrastructure; hive mining |
-| [[peter]] | Communicator; rubber duck |
-| Santosh | Background (role unknown) |
-| Peter Harpending | Background (role unknown) |
-| Jarvis | Background (role unknown) |
-| Cecille de Jesus | Marketing (joined Nov 2025) |
+| [[gregory-chew]] | CEO; law/commodities/Africa cooperatives background |
+| [[craig]] | CPO (Craig Everett); zxq9; Okinawa, Japan |
+| [[dimitar]] | CDO (Dimitar Ivanov); blockchain implementation |
+| [[ulf]] | CTO (Ulf Wiger); uwiger; Erlang/OTP veteran |
+| [[peter]] | Research Lead & Lead Cryptographic Developer (Peter Harpending) |
+| Benno Raeber | CLO (Chief Legal Officer) |
+| Jeff Thomson | Product Research |
+| Jarvis Carroll | R&D |
+| Cecille de Jesus | Communications & Marketing (joined Nov 2025) |
 | Adam Percy | Community champion |
+| Santosh | Background (role unknown) |
 
 ---
 
@@ -71,41 +73,28 @@
 |------|------|-------------|
 | 2026-05-15 | bootstrap | Initial vault setup |
 | 2026-05-15 | ingest | QPQ 2025 Year in Review — 11 new pages, 4 updated |
-| 2026-05-15 | meta | ingest skills added; commands migration; ingest-video added |
 | 2026-05-15 | ingest | Un-White Paper (OCR) — 3 new pages, 5 updated |
-| 2026-05-15 | ingest | Gaju Mining video — 1 new, 2 updated |
-| 2026-05-15 | ingest | Why the Gajumaru video — 3 new, 2 updated |
-| 2026-05-15 | ingest | Actual working blockchain video — 2 new, 3 updated |
-| 2026-05-15 | ingest | QuidProQuo walkthrough — 2 new, 3 updated |
-| 2026-05-15 | ingest | Gaju Firsts — 1 new, 3 updated |
-| 2026-05-15 | ingest | Gaju Mining Journey Update — 2 new, 6 updated |
-| 2026-05-15 | ingest | Demo 1 video (V01) — 1 new, 3 updated |
-| 2026-05-15 | ingest | QPQ Wiki W01-W04 — 4 source summaries, 4 concept/entity pages updated; 4 new clusters |
-| 2026-05-15 | ingest | QPQ Wiki W05-W10 — 6 source summaries, sophia-fate.md created; 4 concept pages updated |
-| 2026-05-15 | ingest | QPQ Wiki W11-W18 — 8 source summaries; grids.md/craig.md major updates; GRIDS spec v5 |
-| 2026-05-15 | query | Quartz GitHub Pages publishing setup + visual polish (user) |
-| 2026-05-15 | ingest | QPQ Wiki W19-W26+ — 9 source summaries; state-channels.md created; gaju-token.md updated |
-| 2026-05-15 | lint | Full health check — 4 cluster gaps fixed; 1 syntax bug fixed; 3 missing concept pages flagged |
-| 2026-05-15 | ingest | QPQ Wiki W28-W29: Install Erlang+ZX + Vim Setup — 2 new source summaries |
-| 2026-05-15 | ingest | bitcoin-ng.md (concept) + aeternity.md (entity) — 2 new pages, 6 updated |
-| 2026-05-15 | ingest | Deep re-audit + 26 git repos — qpq-software-stack.md, adam-percy.md created; ulf.md rewrite; sophia-fate.md major update; Ulf Wiger + zxq9=Craig confirmed |
+| 2026-05-15 | ingest | 7 YouTube transcripts — 12 new pages, ~20 updated |
+| 2026-05-15 | ingest | QPQ Wiki W01-W29 — 29 source summaries; major concept pages built |
+| 2026-05-15 | lint | Full health check — 4 cluster gaps fixed; 1 syntax bug fixed |
+| 2026-05-15 | ingest | bitcoin-ng.md + aeternity.md created; deep re-audit + 26 git repos |
+| 2026-05-15 | ingest | GL1 context + hive-mining.md + QuidProQuo goodwill |
+| 2026-05-15 | ingest | Site crawl: gajumaru.io + gajumining.com + qpq.swiss — 5 new sources, 3 new entities |
+| 2026-05-15 | ingest | Un-White Paper expansion — 12 new sections, 22 key_claims |
+| 2026-05-15 | ingest | Blog batch (9 posts) — defensive mining, LN failure, state channels, PoW theory, Mythos/Glasswing, A2P, A2A, social feed, GajuPay |
 
 ---
 
 ## Active Pages
 
 - [[gajumaru-architecture]] — master hub
-- [[groot]] — efficiency contradiction; on-chain messaging; finality cooperation open question
-- [[associate-chains]] — fully detailed; "not a layer two" added
-- [[grids]] — universal signing layer confirmed
-- [[gajumaru-product-suite]] — GajuDesk confirmed; Bor/GajuMobile open
-- [[protected-mining]] — ends March 29 2027; small business owners as primary audience
-- [[qpq-ag]] — complete team roster + development timeline now documented
-- [[bitcoin-ng]] — new concept page; keyblock + microblock; Craig's core design insight
-- [[aeternity]] — new entity page; upstream source of Sophia/FATE/State Channels
-- [[craig]] = Craig Everett = zxq9 (CONFIRMED); CPO; Okinawa, Japan (UTC+9)
-- [[ulf]] = Ulf Wiger = uwiger (CONFIRMED); Erlang/OTP veteran; hive mining author
-- [[dimitar]], [[peter]] — first names only (except Peter Harpending)
-- [[gregory-chew]] — CEO; products role confirmed; possible "Gaju Firsts" speaker
-- [[qpq-software-stack]] — 26-repo inventory; ZX build system; Erlang 28.1; port 17888
-- [[adam-percy]] — community champion; house builder; first wave miner
+- [[groot]] — efficiency contradiction open; finality cooperation open question
+- [[associate-chains]] — fully detailed; GL1 context; "not a layer two"
+- [[grids]] — full name corrected; three-stage hardware roadmap documented
+- [[gajumaru-product-suite]] — GajuPay three-stage rollout added; GajuAuth + GajuPort
+- [[protected-mining]] — ends March 29 2027; defensive mining concept added
+- [[state-channels]] — A2P/A2A/social feed economic model; Lightning comparison
+- [[tea-trilemma]] — Peter Harpending "scam" quote added
+- [[qpq-ag]] — complete team roster + MainNet dual-date
+- [[bitcoin-ng]], [[aeternity]], [[qpq-software-stack]] — supporting concepts
+- [[craig]], [[ulf]], [[dimitar]], [[peter]], [[gregory-chew]] — all confirmed with roles

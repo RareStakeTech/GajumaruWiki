@@ -1,24 +1,22 @@
 ---
 type: concept
 title: "GRIDS"
-aliases: [grids, grid-authentication, grids-login, gajumaru-remote-instruction-dispatch-system]
-sources: [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-gaju-firsts-gajumaru-blockchain]], [[summary-qpq-wiki-grids]]
-related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[associate-chains]], [[qpq-ag]], [[craig]]
+aliases: [grids, grid-authentication, grids-login, gajumaru-remote-instruction-dispatch-system, gajumaru-remote-instruction-dispatch-serialisation]
+sources: [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-gaju-firsts-gajumaru-blockchain]], [[summary-qpq-wiki-grids]], [[summary-blog-mythos-grids]], [[summary-blog-mythos-glasswing]]
+related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[associate-chains]], [[qpq-ag]], [[craig]], [[gregory-chew]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
 cluster: developer-ecosystem
 cluster_role: member
-open_questions:
-  - Is the GRIDS hardware wallet (mentioned in Year in Review) the same as or separate from the GRIDS login protocol?
-  - What is "Level 2" of the GRIDS hardware wallet (referenced in Year in Review as a target)?
+open_questions: []
 ---
 
-# GRIDS (Gajumaru Remote Instruction Dispatch System)
+# GRIDS (Gajumaru Remote Instruction Dispatch and Serialisation)
 
 GRIDS is QPQ AG's universal transaction signing and authentication protocol for the Gajumaru ecosystem. It allows wallet-based signing of any on-chain action without usernames, passwords, or exposure of private data to the application.
 
-**Full name:** Gajumaru Remote Instruction Dispatch System  
+**Full name:** Gajumaru Remote Instruction Dispatch and Serialisation  
 **Author:** [[craig]] (Craig Everett) — technical spec, v5, created 2025-01-17, last modified 2026-05-13  
 **Status:** "For Implementation"
 
@@ -89,12 +87,19 @@ Implications:
 - **Sites:** no GDPR compliance burden for login data; no credential database to protect
 - **Ecosystem:** every GRIDS-integrated application becomes part of a unified identity layer
 
-## Hardware Component
+## Hardware Roadmap — Three Stages
 
-The Year in Review ([[summary-qpq-2025-review]]) references a "GRIDS hardware wallet" with multiple levels (Level 2 mentioned as a target milestone). The relationship between the GRIDS hardware device and the GRIDS login protocol is not yet clarified in available sources.
+The GRIDS hardware implementation follows a three-stage roadmap (Greg Chew, [[summary-blog-mythos-glasswing]]):
 
-> [!open_question]
-> Is the GRIDS hardware wallet a physical device (like a YubiKey) that implements the GRIDS protocol? Or is "GRIDS" used for two distinct products? Source: [[summary-qpq-2025-review]].
+**Stage 1 (Current):** GajuDesk and GajuMobile use device security enclaves (Android hardware key storage; iOS Secure Enclave) as the signing context. **Open-sourced under GPL3.**
+
+**Stage 2 (In Development):** Dedicated air-gapped hardware wallet with **no wireless connectivity** (no WiFi, no Bluetooth, no radio). Communication via QR codes only. This is the "Level 2" referenced in the Year in Review.
+
+**Stage 3 (Planned):** **Sovereign manufacturing facilities in Switzerland and Japan** with verified supply chains — eliminating hardware supply chain attack vectors entirely.
+
+The rationale: keys in Stage 1 are protected by the device's secure enclave. Stage 2 achieves true air-gap — the signing context has zero network exposure. Stage 3 ensures the hardware itself cannot be compromised before reaching the end user.
+
+Source: [[summary-blog-mythos-glasswing]], [[summary-qpq-2025-review]]
 
 ## Universal Signing Layer — Confirmed
 

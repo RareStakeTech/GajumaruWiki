@@ -2,7 +2,7 @@
 type: concept
 title: "Protected Mining"
 aliases: [mining-window, protected-mining-period]
-sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-video]], [[summary-gaju-mining-journey-update]]
+sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-video]], [[summary-gaju-mining-journey-update]], [[summary-blog-defensive-mining]]
 related: [[gaju-token]], [[groot]], [[qpq-ag]], [[cuckoo-cycle]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -46,5 +46,17 @@ The promotional video [[summary-gaju-mining-video]] confirms that during the pro
 
 The hive mining software is designed for non-crypto users — principally small business owners — who can mine with a basic computer and internet connection, with minimal technical intervention required. Source: [[summary-gaju-mining-journey-update]].
 
+## Defensive Mining
+
+A concept introduced in [[summary-blog-defensive-mining]] (April 2026): commercial entities with on-chain business operations have rational incentive to mine **beyond direct profit** — mining serves as insurance protecting their core business interests.
+
+The argument:
+- Standard PoW security assumes profit-seeking miners
+- But when a commercial actor's livelihood depends on blockchain uptime and censorship resistance, mining becomes an operational expense, not a speculative investment
+- A single custodian controls an estimated **47% of total Bitcoin mining power** — concentration risk motivates regulated alternatives
+- **Regulated mining pools** in proper jurisdictions can publicly commit to content-neutral block production; censorship becomes a contract breach subject to litigation
+
+This extends the audience for GajuMining from speculative miners to commercial operators who need reliable, uncensorable on-chain infrastructure as part of their business model.
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-gaju-mining-video]]
+[[summary-qpq-2025-review]], [[summary-gaju-mining-video]], [[summary-blog-defensive-mining]]

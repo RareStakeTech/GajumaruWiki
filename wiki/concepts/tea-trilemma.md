@@ -2,7 +2,7 @@
 type: concept
 title: "TEA Trilemma"
 aliases: [tea, trustlessness-efficiency-accountability, tea-framework]
-sources: [[summary-unwhitepaper]], [[summary-qpq-wiki-blockchain-trilemma]], [[summary-qpq-wiki-consensus]], [[summary-qpq-wiki-leader-selection]]
+sources: [[summary-unwhitepaper]], [[summary-qpq-wiki-blockchain-trilemma]], [[summary-qpq-wiki-consensus]], [[summary-qpq-wiki-leader-selection]], [[summary-blog-proof-of-work-theory]]
 related: [[gajumaru-architecture]], [[groot]], [[associate-chains]], [[ripa-model]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -85,6 +85,18 @@ QPQ's [[summary-qpq-wiki-leader-selection]] articulates the core fork in consens
 - **Trustless and anonymous are the same thing** in this context
 
 This is not a philosophical preference — it is a structural consequence. A mint requires trustless operation (no one can control who participates). Therefore a mint requires PoW. Governed infrastructure can use PoS because participants there *can* be identified and held accountable.
+
+## Peter Harpending on the Trilemma (March 2026)
+
+Peter Harpending authored a public blog post ([[summary-blog-proof-of-work-theory]], March 2026) restating QPQ's position on the blockchain trilemma with a sharper framing:
+
+> *"There is no 'solution' to the Blockchain Trilemma... Any project claiming to have 'solved' the Blockchain Trilemma is a scam."*
+
+He also provides the PoW-specific comparison:
+- Bitcoin: ~3.5 TPS (practical)
+- Visa baseline: ~8,500 TPS
+
+The Bitcoin practical TPS figure confirms the base-layer scalability sacrifice. QPQ navigates this by layering: Groot sacrifices scalability; Associate Chains restore efficiency within governed contexts.
 
 ## Relation to the Blockchain Trilemma and CAP Theorem
 

@@ -765,3 +765,80 @@ Key claims documented:
 - QPQ's own wiki TODO includes Bitcoin-NG primer (unwritten)
 - Aeternity: upstream blockchain (Erlang/OTP) contributing Sophia, FATE VM, State Channels to Gajumaru
 
+---
+
+## [2026-05-15] ingest | Un-White Paper summary expansion — 10 new sections (full document coverage)
+
+Source: raw/articles/gajumaru-un-white-paper.md (complete re-read in chunks, lines 1–10,355)
+Pages updated:
+- wiki/sources/summary-unwhitepaper.md (primary — 10 new sections added after "## Key Quotes"; frontmatter key_claims expanded from 10 to 22 entries)
+
+New sections added:
+1. GajuDEX — Genuine Decentralisation (DINO problem; 39/40 score; two deployments; FINMA test)
+2. Fibonacci Mining Curve and Tokenomics (1,554,161 Gaju/keyblock Period 1; burned Gajus to unmined pool; transit currency role)
+3. Witnessing Protocol and State Channels (patented content-free keyblock witnessing; Data TTL <10 GB; 500+/3,000+ TPS per channel; Generalised Accounts)
+4. Bridge Elimination — Native Cross-Chain Transfers (Ronin $624M through Harmony $100M exploit record; native Associate Chain awareness)
+5. Real-World Economic Applications (insurance pools, property/mortgage, unserved markets, tokenised shares, IP/royalties, human capital, PHYDEX, bills of lading)
+6. GPL3 and Patent Strategy (copyleft vs permissive; Section 11 patent peace; Red Hat defensive model)
+7. Regulatory Framework Analysis (FINMA substance-over-form; MiCA; MAS identifiable-operator; TVTG; Swiss DLT Act 2021; OFAC Ethereum critique)
+8. Layer 2 Critique — The Mathematics (blob arithmetic impossibility; observed vs claimed TPS table; ZK prover time inflation; October 2020 pivot; sequencer revenue)
+9. Specific Project Forensics (Ethereum OFAC/Lido/Buterin; Solana 57%/75%; DFINITY 48.5%/95%; Arbitrum $21.6M; Base $30M+; ZKSync OtterSec; Canton vocabulary evolution; Lightning Gini 0.97/$89/$137K)
+10. Bitcoin Security Budget Crisis (0.6% fee ratio; Lightning $137K routing; empty mempool evidence)
+11. Vocabulary of Unaccountable Power (Tony Benn five questions; C.A.R. Hoare Turing Award; Harold Pinter analogy; Canton trajectory)
+12. Security Philosophy — Zero Dependencies (MetaMask 212,620 packages; NPM supply chain attack; GRIDS hierarchy; formal verification)
+
+Contradictions flagged: none
+Notes: Full document read (lines 1–10,355 in 700-line chunks after context-window constraint). Appendix, Glossary, and 71 footnotes/references confirmed; no new contradictions with existing wiki pages found.
+
+---
+
+## [2026-05-15] ingest | Blog post batch — 9 remaining qpq.swiss + gajumaru.io posts
+
+Sources fetched:
+- gajumaru.io/2026/04/29/a-case-for-defensive-mining/
+- gajumaru.io/2026/04/12/gajumaru-state-channels/
+- gajumaru.io/2026/04/02/why-the-bitcoin-lightning-network-failed/
+- gajumaru.io/2026/03/13/why-proof-of-work-works-in-theory/ (author: Peter Harpending)
+- qpq.swiss/2026/04/14/mythos-glasswingand-why-we-built-what-we-built/ (author: Greg Chew)
+- qpq.swiss/2026/04/13/killing-the-whale-subsidy-why-a2p-state-channels-are-the-only-path-to-provider-profitability/
+- qpq.swiss/2026/04/13/beyond-subscription-how-gajumaru-a2a-state-channels-kill-the-whale-subsidy/
+- qpq.swiss/2026/04/13/the-end-of-the-ad-supported-lie-why-your-social-feed-needs-a-payment-rail/
+- qpq.swiss/2026/03/26/gajupay-the-answer-to-the-broken-multi-billion-dollar-payment-solutions-industry/
+
+Pages created (9 new source summaries):
+- wiki/sources/summary-blog-defensive-mining.md
+- wiki/sources/summary-blog-lightning-network-failed.md
+- wiki/sources/summary-blog-gajumaru-state-channels.md
+- wiki/sources/summary-blog-proof-of-work-theory.md
+- wiki/sources/summary-blog-mythos-glasswing.md
+- wiki/sources/summary-blog-whale-subsidy-a2p.md
+- wiki/sources/summary-blog-a2a-state-channels.md
+- wiki/sources/summary-blog-social-feed-payment-rail.md
+- wiki/sources/summary-blog-gajupay.md
+
+Pages updated:
+- wiki/concepts/grids.md (full name corrected: Dispatch System → Dispatch and Serialisation; three-stage hardware roadmap added; open_question resolved; new sources added)
+- wiki/concepts/protected-mining.md (defensive mining section added; source added)
+- wiki/concepts/tea-trilemma.md (Peter Harpending trilemma quote added; source added)
+- wiki/concepts/gajumaru-product-suite.md (GajuPay three-stage rollout added)
+- wiki/entities/peter.md (confirmed blog author for PoW Theory post; source added)
+- wiki/index.md (9 new source rows; metrics: 52 sources)
+- wiki/log.md (this entry)
+
+Contradictions flagged: none
+
+Key new content:
+- Defensive mining: commercial entities mining as operational insurance; 47% Bitcoin custodian concentration; regulated mining pools with content-neutral commitments
+- Lightning Network failure analysis: $89 routing ceiling; 23% failure rate at $100; routing wall; capital fronting requirement
+- GRIDS full name confirmed: "Gajumaru Remote Instruction Dispatch and Serialisation" (not "System")
+- GRIDS three-stage hardware roadmap: Stage 1 (current: device enclaves, GPL3); Stage 2 (in dev: air-gapped hardware, no wireless); Stage 3 (planned: sovereign manufacturing in Switzerland/Japan)
+- Peter Harpending confirmed as public blog author (PoW Theory, March 2026)
+- Greg Chew confirmed as public blog author (Mythos/Glasswing, April 2026)
+- Payment market: $47.61B (2022) → $139.90B (2030); Japanese interchange math showing negative-margin per transaction
+- A2P model: sub-cent settlement eliminates $0.30+3% floor; "Pay-as-you-Flow"
+- A2A model: per-token/per-inference agent micropayments; OpenClaw agentic framework referenced
+- Social feed: bot monetization reframe — payment rails convert spammers from costs to revenue
+- GajuPay three-stage rollout: web portal MVP → webshop plugins → self-hosted enterprise backend
+- "Any project claiming to have solved the Blockchain Trilemma is a scam" — Peter Harpending
+
+
