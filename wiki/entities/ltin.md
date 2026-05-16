@@ -41,5 +41,17 @@ Q2/Q3/Q4 2026 (phased)
 - Template replicable for other nations
 - "Proof point" for government partnership inquiries
 
+## Public Endorsement (as of 2026-05-16)
+
+gajumining.com homepage explicitly states: **"Trusted by the sovereign state of Liechtenstein."** This is a public-facing claim visible to prospective miners and investors — confirming the relationship is considered active and endorsable, not merely announced.
+
+## Launch Status (as of 2026-05-16)
+
+LTIN has not yet launched. Both gajumining.com and qpq.swiss confirm the sovereign Associate Chain will launch "in 2026." The Q3/Q4 2026 target remains the current estimate. No launch announcement found in QPQ public communications as of this date.
+
+## Gaju Price / Miner Count (as of 2026-05-16)
+
+Live metrics are not publicly accessible via QPQ's static web pages. GajuExplore (explorer.gajumaru.io) is the designated source but returned a TLS certificate error on this audit date. Figures in the wiki reflect pre-MainNet estimates only.
+
 ## Source
 [[summary-qpq-2025-review]]

@@ -43,8 +43,10 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 - **Associate Chain → Groot finality cooperation:** Mechanism unknown; Dimitar's area; promised in a later video
 - **Speaker identity in "Gaju Firsts":** Wife is Rachel McKone; likely Craig or Gregory Chew
 - **Efficiency contradiction:** 553,800× (Year in Review) vs 1,846,200× (Un-White Paper)
-- Has LTIN actually launched as of May 2026? (target: Q2/Q3/Q4 2026)
-- Current Gaju price / active miner count post-MainNet?
+- **LTIN launch status (2026-05-16):** NOT YET LAUNCHED — qpq.swiss + gajumining.com both confirm "launching in 2026"; Q3/Q4 target; gajumining.com says "Trusted by the sovereign state of Liechtenstein" publicly
+- **Current Gaju price / active miner count:** NOT PUBLICLY ACCESSIBLE via static pages; GajuExplore (explorer.gajumaru.io) has TLS cert issue; no live dashboard on gajumining.com
+- **Summer 2026 product launches (2026-05-16):** GajuMobile, GajuMarket, GajuPay, GajuVault, GajuMall, GajuPort, GajuSafe all "coming soon" — none yet live
+- **No new QPQ blog posts** since April 30, 2026 (qpq.swiss = 9 posts; gajumaru.io = 6 posts — both fully ingested)
 - Full surname for Santosh?
 - Role details for Santosh?
 - Whether "Peter" (video communicator) = Peter Harpending or a distinct individual
@@ -119,6 +121,7 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 | 2026-05-16 | ingest | 23 remaining VTT transcripts — 5 consolidated source summaries + 1 new concept (price-signal-economy); 41/41 VTTs now ✅ |
 | 2026-05-16 | audit | Deep audit — 5 partial long transcripts fully read; 3 source summaries expanded; grids/state-channels/internet-of-economics/sophia-fate updated; 42/42 raw files ✅ |
 | 2026-05-16 | audit | Blog audit — all 15 web-fetched sources live-fetched; 11 summaries updated; grids/quantum-resistance concept pages updated; 57/57 total sources ✅ |
+| 2026-05-16 | query | Post-MainNet live data: LTIN not launched; Summer products "coming soon"; live metrics inaccessible (GajuExplore TLS error); "Trusted by Liechtenstein" claim confirmed on gajumining.com |
 
 ---
 

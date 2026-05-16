@@ -1151,6 +1151,26 @@ Key new content captured:
 
 ---
 
+## [2026-05-16] query | Post-MainNet live data fetch — product status, LTIN, miner metrics
+
+Sources fetched: gajumaru.io, gajumining.com, qpq.swiss, qpq.swiss/blog/ (pages 1-3), gajumaru.io/blog/
+
+Pages updated:
+- wiki/entities/ltin.md (public endorsement + launch status + metrics availability note)
+- wiki/hot.md (open questions updated with current-state observations)
+- wiki/log.md (this entry)
+
+Findings:
+- **"Trusted by the sovereign state of Liechtenstein"** — explicit public claim on gajumining.com homepage (new durable fact)
+- **LTIN not yet launched** (2026-05-16) — Q3/Q4 2026 remains the target; both sites confirm "in 2026"
+- **Summer 2026 products not yet live** — GajuMobile, GajuMarket, GajuPay, GajuVault, GajuMall, GajuPort, GajuSafe all "coming soon"
+- **Currently live**: GajuMine, GajuDesk, GajuExplore (TLS cert issue prevents stat access)
+- **Live metrics not accessible**: GajuExplore (explorer.gajumaru.io) returns TLS cert error; no public stats dashboard; miner count and Gaju price unknown
+- **Blog completeness confirmed**: qpq.swiss = 9 posts (all ingested ✅); gajumaru.io = 6 posts (all ingested ✅); no new posts since April 30, 2026
+- **qpq.swiss homepage**: "Mainnet Launch: COMPLETED — Gajumaru has transitioned from a working system to a complete platform ready for global adoption"
+
+---
+
 ## [2026-05-16] audit | Blog source audit — all 15 web-fetched sources re-fetched and verified
 
 Sources re-fetched (live WebFetch):
