@@ -688,6 +688,28 @@ Key resolutions:
 - Craig Everett = zxq9: CONFIRMED (open question closed)
 - QPQ wiki completeness: CONFIRMED — 39 total sources now ingested
 
+---
+
+## [2026-05-15] ingest | GL1 context + hive-mining.md + QuidProQuo goodwill framing
+
+Pages created:
+- wiki/concepts/hive-mining.md (new concept; tokenomics-economics cluster member)
+
+Pages updated:
+- wiki/concepts/associate-chains.md (GL1 Singapore MAS section added; R3/Corda failures; institutional advantage inversion quote; source: summary-unwhitepaper)
+- wiki/concepts/gaju-token.md (hive-mining added to "In this cluster" table)
+- wiki/sources/summary-worlds-first-genuine-blockchain-marketplace-quidproquo.md (reputation/goodwill framing; archive mechanics; Robert the Stinky character note)
+- wiki/index.md (hive-mining in tokenomics cluster; metrics: 38 sources / 15 concepts / 9 entities)
+- wiki/log.md (this entry)
+
+Contradictions flagged: none
+
+Key new content:
+- GL1 (Global Layer 1): Singapore MAS consortium — Standard Chartered, Citi, JPMorgan, MUFG, BNY, Societe Generale-FORGE, Euroclear
+- Prior institutional consortium failures: R3 Corda, Regulated Liability Network
+- Hive mining: SaaS model, dividend-writing contracts, gmhive_client port 17888, Ulf Wiger authorship, scaling goals
+- QuidProQuo reputation/goodwill: on-chain trust as commercial goodwill analogue; archive record after sale deletion
+
 Contradictions flagged: none
 
 Key claims documented:
