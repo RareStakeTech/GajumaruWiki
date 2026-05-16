@@ -552,3 +552,56 @@ No synthesis or comparison pages exist — no action needed.
 4. Seek post-MainNet data source (miner count, Gaju price, LTIN status) to update stale December 2025 claims
 5. Resolve Ulf identity — is QPQ's "Ulf" = Ulf Norell (Sophia contributor, Chalmers/Quviq)?
 
+---
+
+## [2026-05-15] ingest | QPQ Wiki completion — Install Erlang and ZX + Vim Setup (W28-W29)
+
+Sources:
+- raw/articles/qpq-wiki-install-erlang-and-zx.md (fetched via corrected slug: lowercase "zx")
+- raw/articles/qpq-wiki-vim-setup.md
+
+Pages created:
+- wiki/sources/summary-qpq-wiki-install-erlang-and-zx.md
+- wiki/sources/summary-qpq-wiki-vim-setup.md
+
+Pages updated:
+- wiki/entities/craig.md (ZX/zxq9 open question added)
+- wiki/index.md (2 new source rows)
+- wiki/log.md (this entry)
+
+Contradictions flagged: none
+
+Key new claims:
+- Gajumaru node stack requires Erlang 28.1 + ZX; ZX hosted at zxq9.com (zxq9 = possible Craig Everett handle — open question flagged in craig.md)
+- Primary dev platform: Devuan 6 (Excalibur) consistent across all QPQ setup guides
+- Sophia syntax highlighting confirmed (GitHub at minimum); Peter Harpending actively maintaining docs as of 2026-05-08
+
+QPQ wiki ingestion status: COMPLETE — all 29 accessible pages ingested (27 research pages + Home + Vim Setup).
+Install Erlang and ZX was previously unfetchable due to URL case sensitivity; now retrieved.
+
+---
+
+## [2026-05-15] ingest | bitcoin-ng.md + aeternity.md — missing concept and entity pages
+
+Pages created:
+- wiki/concepts/bitcoin-ng.md (new concept page; core-protocol cluster member)
+- wiki/entities/aeternity.md (new entity page; developer-ecosystem cluster)
+
+Pages updated:
+- wiki/concepts/groot.md (related: bitcoin-ng added)
+- wiki/concepts/gajumaru-architecture.md (related + cluster table: bitcoin-ng added)
+- wiki/concepts/sophia-fate.md (related: aeternity added)
+- wiki/concepts/state-channels.md (related: aeternity added)
+- wiki/concepts/gaju-token.md (300+ miners caveat: pre-MainNet figure noted)
+- wiki/index.md (bitcoin-ng + aeternity added; metrics: 37 sources, 12 concepts, 8 entities)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+
+Key claims documented:
+- Bitcoin-NG: keyblock (~2 min PoW) + microblocks (~3 sec transactions) = generation; >300 TPS; 2-3 sec settlement; 3-4 min absolute finality; Eyal et al. 2016 USENIX NSDI
+- Craig: separation of leader election from transaction serialization is "obvious in hindsight — nobody picked up on that"
+- QPQ's own wiki TODO includes Bitcoin-NG primer (unwritten)
+- Aeternity: upstream blockchain (Erlang/OTP) contributing Sophia, FATE VM, State Channels to Gajumaru
+

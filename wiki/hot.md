@@ -6,12 +6,13 @@
 
 ## Current Focus
 
-**36 sources ingested. QPQ Public Wiki batch COMPLETE.** All accessible pages ingested (W01-W26+). Install Erlang and ZX page could not be fetched (URL returns index). Quartz publishing setup completed by user. **Next priorities:**
+**39 sources ingested. QPQ Public Wiki FULLY COMPLETE (all 29 pages).** Install Erlang and ZX now ingested (URL slug case corrected). bitcoin-ng.md + aeternity.md created. **Next priorities:**
 1. Find the Dimitar video on Associate Chain → Groot finality cooperation
 2. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
 3. Resolve mobile wallet naming (Bor vs GajuMobile)
 4. Find current post-MainNet data (miner count, Gaju price, LTIN status)
 5. Resolve efficiency figure (553,800× vs 1,846,200×)
+6. Confirm: is zxq9.com Craig Everett's domain? (ZX tool authorship)
 
 **Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
 
@@ -74,6 +75,8 @@
 | 2026-05-15 | query | Quartz GitHub Pages publishing setup + visual polish (user) |
 | 2026-05-15 | ingest | QPQ Wiki W19-W26+ — 9 source summaries; state-channels.md created; gaju-token.md updated |
 | 2026-05-15 | lint | Full health check — 4 cluster gaps fixed; 1 syntax bug fixed; 3 missing concept pages flagged |
+| 2026-05-15 | ingest | QPQ Wiki W28-W29: Install Erlang+ZX + Vim Setup — 2 new source summaries |
+| 2026-05-15 | ingest | bitcoin-ng.md (concept) + aeternity.md (entity) — 2 new pages, 6 updated |
 
 ---
 
@@ -86,5 +89,7 @@
 - [[gajumaru-product-suite]] — GajuDesk confirmed; Bor/GajuMobile open
 - [[protected-mining]] — ends March 29 2027; small business owners as primary audience
 - [[qpq-ag]] — complete team roster + development timeline now documented
+- [[bitcoin-ng]] — new concept page; keyblock + microblock; Craig's core design insight
+- [[aeternity]] — new entity page; upstream source of Sophia/FATE/State Channels
 - [[craig]], [[dimitar]], [[ulf]], [[peter]] — first names only (except Peter Harpending)
 - [[gregory-chew]] — products role confirmed; possible "Gaju Firsts" speaker

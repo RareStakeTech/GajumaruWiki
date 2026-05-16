@@ -3,7 +3,7 @@ type: concept
 title: "State Channels"
 aliases: [state-channel, state-channels, channel, off-chain]
 sources: [[summary-qpq-wiki-state-channels]]
-related: [[groot]], [[associate-chains]], [[gajumaru-architecture]], [[sophia-fate]], [[grids]]
+related: [[groot]], [[associate-chains]], [[gajumaru-architecture]], [[sophia-fate]], [[grids]], [[aeternity]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high

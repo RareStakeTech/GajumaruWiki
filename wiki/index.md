@@ -18,9 +18,9 @@ confidence: high
 </div>
 
 <div class="home-metrics">
-  <div><strong>27</strong><span>source summaries</span></div>
-  <div><strong>11</strong><span>concept pages</span></div>
-  <div><strong>7</strong><span>entity pages</span></div>
+  <div><strong>37</strong><span>source summaries</span></div>
+  <div><strong>12</strong><span>concept pages</span></div>
+  <div><strong>8</strong><span>entity pages</span></div>
   <div><strong>5+</strong><span>research clusters</span></div>
 </div>
 
@@ -95,6 +95,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 - [[ripa-model]] - Two-path model: RPA (trustless direct) vs RIPA (via governed infrastructure)
 - [[tea-trilemma]] - QPQ's analytical framework: Trustlessness / Efficiency / Accountability
 - [[cuckoo-cycle]] - Memory-bound PoW algorithm; no ASIC arms race
+- [[bitcoin-ng]] - Bitcoin-NG consensus: keyblock leader election + microblock transaction processing
 
 ##### Entity Pages
 - [[ltin]] - Liechtenstein Trust Integrity Network; first sovereign Associate Chain
@@ -134,6 +135,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 ##### Entity Pages
 - [[qpq-ag]] - Swiss company building Gajumaru; CHF 1M+ revenue; QPQ Capital AG (SRO)
 - [[gregory-chew]] - CEO of QPQ AG
+- [[aeternity]] - Upstream blockchain; source of Sophia, FATE VM, and State Channels
 
 #### Infrastructure & Operations
 *Nodes, validators, networking, deployment.*
@@ -175,7 +177,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 *CAP theorem, blockchain trilemma, consensus research, protocol specs.*
 
 ##### Concept Pages
-<!-- Add concept pages here on ingest: e.g. cap-theorem, blockchain-trilemma, bitcoin-ng -->
+<!-- Add concept pages here on ingest: e.g. cap-theorem, blockchain-trilemma -->
 
 ##### Entity Pages
 <!-- Add entity pages here on ingest -->
@@ -219,6 +221,8 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 | [[summary-qpq-wiki-api-encoding]] | API Encoding (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 | [[summary-qpq-wiki-serialization]] | Serialization (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 | [[summary-qpq-wiki-testnet-node-setup]] | Testnet Node Setup (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-install-erlang-and-zx]] | Install Erlang and ZX (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-qpq-wiki-vim-setup]] | Vim Setup (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 
 ---
 

@@ -3,7 +3,7 @@ type: concept
 title: "Sophia / FATE VM"
 aliases: [sophia, fate-vm, fate, sophia-language, fast-aeternity-transaction-engine]
 sources: [[summary-qpq-wiki-sophia]], [[summary-qpq-wiki-smart-contracts]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
-related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[groot]], [[associate-chains]]
+related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[groot]], [[associate-chains]], [[aeternity]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high

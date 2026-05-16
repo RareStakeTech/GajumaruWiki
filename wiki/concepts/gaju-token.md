@@ -31,7 +31,7 @@ First real Gaju drawdowns from smart contracts occurred **October 16, 2025** —
 - Mining licenses sold via Gajumining.com
 - SaaS mining model: QPQ operates Hive miners; license holders receive Gaju drawdowns
 - CHF 1M+ revenue from license sales prior to MainNet (zero marketing budget)
-- 300+ active miners as of December 2025
+- 300+ active miners as of December 2025 *(pre-MainNet figure; post-MainNet count unknown)*
 - See [[protected-mining]] for the mining window constraints
 
 ## Liquidity (2026)

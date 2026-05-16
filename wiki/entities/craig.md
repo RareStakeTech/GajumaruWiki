@@ -47,5 +47,12 @@ Bitcoin-NG insight: "The design principle of Bitcoin-NG where proof of work [lea
 
 Craig is the author of the **[[grids]]** technical specification (Gajumaru Remote Instruction Dispatch System, v5). Created 2025-01-17, last modified 2026-05-13, status "For Implementation." He also edited the Mempool page on the QPQ Public Wiki (2026-02-06, UTC+9 — confirming Japan timezone). This places Craig as the primary technical author of GRIDS, not just a design visionary.
 
+## ZX / zxq9
+
+The Gajumaru node stack requires **ZX**, a project management tool hosted at `zxq9.com/projects/zomp/`. The handle `zxq9` is associated with Craig Everett in the Erlang community — suggesting ZX is Craig's own tooling, not a third-party dependency. Unconfirmed in available QPQ sources.
+
+> [!open_question]
+> Is `zxq9.com` Craig Everett's domain? If confirmed, ZX is Craig's original project management tool used to run Gajumaru nodes — extending his authorship beyond GRIDS into the node infrastructure layer. Source: [[summary-qpq-wiki-install-erlang-and-zx]]
+
 ## Sources
-[[summary-why-the-gajumaru-and-how-it-works]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-qpq-wiki-grids]]
+[[summary-why-the-gajumaru-and-how-it-works]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-qpq-wiki-grids]], [[summary-qpq-wiki-install-erlang-and-zx]]

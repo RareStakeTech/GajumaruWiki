@@ -3,7 +3,7 @@ type: concept
 title: "Groot (Resource Layer)"
 aliases: [groot, resource-layer]
 sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-firsts-gajumaru-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]]
-related: [[gajumaru-architecture]], [[associate-chains]], [[gaju-token]], [[protected-mining]], [[cuckoo-cycle]], [[tea-trilemma]]
+related: [[gajumaru-architecture]], [[associate-chains]], [[gaju-token]], [[protected-mining]], [[cuckoo-cycle]], [[tea-trilemma]], [[bitcoin-ng]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
