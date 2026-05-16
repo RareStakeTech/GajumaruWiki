@@ -4,6 +4,7 @@ title: "Publishing Workflow"
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
+deprecated: true
 ---
 
 # Publishing Workflow

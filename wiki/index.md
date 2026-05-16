@@ -81,7 +81,6 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 ### Overview Pages
 
 - [[overview]] - High-level synthesis of the Gajumaru ecosystem
-- [[publishing]] - How this Obsidian wiki is rendered and deployed with Quartz
 
 ### Clusters
 

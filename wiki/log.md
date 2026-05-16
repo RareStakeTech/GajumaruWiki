@@ -113,7 +113,7 @@ Key new claims from source:
 Files moved: all 9 files from .claude/skills/ → .claude/commands/
 Files created: .claude/commands/ingest-video.md
 Files removed: .claude/skills/ (directory deleted)
-Notes: Claude Code 2.x uses .claude/commands/ for custom slash commands. ingest-video supports YouTube/Rumble via yt-dlp subtitles with Whisper fallback.
+Notes: Commands moved to .claude/commands/ for slash command support. ingest-video supports YouTube/Rumble via yt-dlp subtitles with Whisper fallback.
 
 ---
 
