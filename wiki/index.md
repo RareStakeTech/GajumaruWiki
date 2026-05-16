@@ -132,10 +132,14 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 - [[sophia-fate]] *(hub)* - Sophia language + FATE VM; pre-execution verification; immutability-first; Virding/Hughes contributors
 - [[state-channels]] - Off-chain sessions; 500+ transfers/sec; State Channel Markets; cross-AC fund transfers; demos Spring/Summer 2026
 
+##### Concept Pages
+- [[qpq-software-stack]] - 26 public repos; ZX build system; enoise P2P; Sophia v7.4.0; port 17888
+
 ##### Entity Pages
 - [[qpq-ag]] - Swiss company building Gajumaru; CHF 1M+ revenue; QPQ Capital AG (SRO)
 - [[gregory-chew]] - CEO of QPQ AG
 - [[aeternity]] - Upstream blockchain; source of Sophia, FATE VM, and State Channels
+- [[adam-percy]] - Community champion; house builder; first wave miner; community leader
 
 #### Infrastructure & Operations
 *Nodes, validators, networking, deployment.*

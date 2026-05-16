@@ -15,6 +15,12 @@ cluster_role: hub
 
 Gaju is the native **coin** (not a token) of the Gajumaru blockchain, distributed via mining on the [[groot]] resource layer. QPQ's precise terminology: a **coin** is the underlying currency established by a blockchain protocol; a **token** is any referential value device. Associate Chains may issue their own tokens; Gaju is the Groot protocol's native mint output. Source: [[summary-qpq-wiki-flation]].
 
+## Currency Symbol
+
+**7XGaju** — the full symbol notation. The `%` character (Ki, 木) is the Japanese kanji for "tree," chosen because it can be typed on any standard keyboard — an explicit accessibility design decision for real-world use. The symbol references the Banyan tree (gajimaru) from which the project takes its name.
+
+Source: [[summary-unwhitepaper]]
+
 ## Key Parameters
 
 | Parameter | Value |
@@ -23,6 +29,7 @@ Gaju is the native **coin** (not a token) of the Gajumaru blockchain, distribute
 | Distribution period | 87.5 years |
 | First circulation | October 16, 2025 |
 | Distribution mechanism | Mining (Hive miners → smart contract drawdowns) |
+| Currency symbol | 7XGaju (Ki kanji 木 = "tree") |
 
 ## Circulation History
 First real Gaju drawdowns from smart contracts occurred **October 16, 2025** — miners accessed funds on personal accounts from Hive miners. This date marks Gaju as an active currency.

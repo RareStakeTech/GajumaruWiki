@@ -597,6 +597,97 @@ Pages updated:
 - wiki/log.md (this entry)
 - wiki/hot.md (session cache updated)
 
+---
+
+## [2026-05-15] ingest | Deep source re-audit + QPQ git repo exploration (26 repos)
+
+### Source Re-Audit (all 7 transcripts + Un-White Paper)
+
+Gap analysis performed across all existing transcripts vs current wiki content. Key missed facts identified and ingested:
+
+**Un-White Paper additions:**
+- Financial infrastructure statistics: 1.3B unbanked, $5.7T SME gap, correspondent banking -39%, card fee extraction 2–3%, $6.5B bills of lading savings, Bitcoin practical costs
+- GL1 (Global Layer 1) section: Singapore MAS consortium; named participants: Standard Chartered, Citi, JPMorgan, MUFG, BNY, Societe Generale-FORGE, Euroclear
+- R3 Corda and Regulated Liability Network prior failures
+- Payment network power framing: "making things impossible vs illegal"
+- Michael Nolles debanking example; Steam/Mastercard TOS restriction
+- Institutional advantage inversion framing
+- Ethereum validator concentration figures: 6 entities = 52%; 4 entities = 62%
+- Buterin sole authority over EF confirmed January 2025
+
+**Gaju Token additions:**
+- 7XGaju currency symbol with full rationale: Ki (木) = tree; keyboard-accessible design decision
+- Pre-MainNet caveat added to "300+ miners" figure
+
+**Gajumaru Architecture / naming origin:**
+- Gajumaru = Japanese name for Banyan tree — species name added
+- "Walking tree" / "runners" terminology documented
+- "You can't tell which one was the original one" — Craig's quote added
+
+**TEA Trilemma additions:**
+- Ethereum validator concentration (52% / 62%) with specific source context
+- Buterin sole authority over EF — concrete January 2025 example cited
+
+### QPQ Git Repository Exploration (git.qpq.swiss/QPQ-AG)
+
+26 public repos audited. Key identity resolutions and technical facts extracted:
+
+**Identity confirmations (open questions resolved):**
+- `zxq9` = Craig Everett — confirmed via GajuDesk commit author; all commits UTC+9 (Okinawa timezone)
+- `uwiger` = Ulf Wiger — confirmed across gmserialization, gmconfig, enoise, gmhive_client; Erlanger since 1992
+- Ulf in QPQ = Ulf Wiger (Erlang/OTP veteran), NOT Ulf Norell (Agda creator)
+
+**Sophia/FATE technical details:**
+- File extension: `.aes` — confirmed from ExampleCaller repo (counter.aes)
+- ACI = Application Contract Interface (so_aci module)
+- Current stable version: v7.4.0 (September 2023)
+- AEVM eliminated in v7.0.0; FATE-only from v7 onward
+- Oracle removal: preparing in March 2025; fully removed in v9.0.0
+- FATE address prefixes: @ak_ (account), @ct_ (contract), @ch_ (channel), @ok_ (oracle), @oq_ (oracle query)
+- Full version history documented: v3.0.0 through v9.0.0
+- AENS (Aeternity Name Service): AENSv2 with raw data pointers (v8.0.0)
+- BLS12-381 pairing cryptography + Poseidon hash: ZK-proof friendly (v8.0.0)
+- Child contracts: Chain.clone, Chain.create (v6.0.0)
+- QuickCheck property-based testing confirmed (John Hughes connection)
+
+**QPQ software stack:**
+- Build system: ZX (zxq9's own tool at zxq9.com/projects/zomp/) — evidenced by zomp.meta in all repos
+- rebar3 also supported in many repos
+- Erlang 28.1 reference version; Kerl-built from source; Devuan 6 primary platform
+- Mining port: 17888 (gmhive_client default)
+- gajumining.com: serves connection info via miner's public key; cached 24h
+- CPU + CUDA GPU mining both supported (gmminer)
+- Noise Protocol (enoise): DH448 + Blake2s for encrypted P2P
+- Mnesia + RocksDB distributed storage
+- `Gaju` repo: empty (11 watchers — planned full node repo)
+- `hakuzaru`: type checker/data validator (Erlang, MIT)
+- `QHL` (QPQ Header Library): Erlang/OTP header library
+
+Pages created:
+- wiki/concepts/qpq-software-stack.md (new concept page; developer-ecosystem cluster)
+- wiki/entities/adam-percy.md (new entity page; developer-ecosystem cluster)
+- wiki/entities/ulf.md REWRITTEN (Ulf Wiger identity confirmed; uwiger handle; full technical profile)
+
+Pages updated:
+- wiki/concepts/sophia-fate.md (major rewrite: file extension, ACI, FATE prefixes, full version history, AEVM elimination, oracle removal, AENS, BLS12-381, Poseidon, child contracts; Ulf Wiger as QPQ maintainer confirmed)
+- wiki/concepts/gaju-token.md (7XGaju symbol section added; Ki/tree kanji; keyboard accessibility rationale)
+- wiki/concepts/gajumaru-architecture.md (naming origin updated: Banyan tree species, "runners" terminology, Craig's quote)
+- wiki/concepts/groot.md (Groot launch vs first Gaju drawdowns distinction clarified; note added)
+- wiki/concepts/tea-trilemma.md (Ethereum validator concentration; Buterin sole authority Jan 2025 added)
+- wiki/sources/summary-unwhitepaper.md (financial statistics section; GL1 section; R3/Corda context; payment network framing)
+- wiki/entities/craig.md (ZX/zxq9 handle confirmed; Okinawa timezone consistency noted)
+- wiki/index.md (qpq-software-stack + adam-percy added; metrics updated)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged:
+- gmbytecode repo description says "supports both AEVM and FATE" — AEVM present for legacy compatibility; new contracts FATE-only (v7+). Documented in sophia-fate.md.
+
+Key resolutions:
+- Ulf Wiger identity: CONFIRMED (open question closed)
+- Craig Everett = zxq9: CONFIRMED (open question closed)
+- QPQ wiki completeness: CONFIRMED — 39 total sources now ingested
+
 Contradictions flagged: none
 
 Key claims documented:

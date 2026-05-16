@@ -20,6 +20,8 @@ No operator. No one can say no. Algorithmic consensus only. The "high seas" of t
 ## Status
 Operational since **22 October 2024**. As of end 2025: 300,000+ generations produced. Absolute finality: **3–4 minutes** (2 keyblocks at 2-minute intervals).
 
+> Note: Groot launched October 22, 2024. First Gaju token drawdowns to miners occurred October 16, 2025 — nearly one year after network launch. These are two distinct events.
+
 ## Consensus Architecture
 
 **Bitcoin-NG** (Eyal et al., 2016, USENIX NSDI): Decouples leader election from transaction serialisation. Keyblocks (~every 2 min) elect leaders; microblocks (~every 3 sec) carry transactions. Absolute finality = no transaction older than 2 keyblocks can be ejected. A keyblock plus all its associated microblocks constitutes a **generation**.

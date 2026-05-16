@@ -49,7 +49,11 @@ Neither layer compromises. This is why QPQ rejects Buterin's blockchain trilemma
 
 ## The Naming Origin
 
-Lead architect [[craig]], working on the scalability problem in Okinawa (southern Japan), needed a name for the tree-structure design (root mint + independent chains). He saw a *gajimaru* tree outside his office window. The *gajimaru* means **"the walking tree"**: it starts with a single trunk, then drops runners that become independent trunks — eventually indistinguishable from the original.
+Lead architect [[craig]], working on the scalability problem in Okinawa (southern Japan), needed a name for the tree-structure design (root mint + independent chains). He saw a *gajimaru* tree outside his office window. **Gajumaru is the Japanese name for the Banyan tree**, known in southern Japan as "the walking tree": it starts with a single trunk, then drops runners ("support roots") that become independent trunks — eventually indistinguishable from the original.
+
+> "You can't tell which one was the original one at some point."
+
+Craig chose "Gajimaru" as a working name, expecting to change it: "nothing better came up, so it stuck." The spelling "Gajumaru" is the project's standardised form.
 
 > "It grows first from a single bowl but pretty quickly it starts dropping these support roots and they wind up becoming trunks of their own — which is similar to the structure that we actually want."
 

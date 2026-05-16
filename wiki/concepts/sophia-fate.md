@@ -2,8 +2,8 @@
 type: concept
 title: "Sophia / FATE VM"
 aliases: [sophia, fate-vm, fate, sophia-language, fast-aeternity-transaction-engine]
-sources: [[summary-qpq-wiki-sophia]], [[summary-qpq-wiki-smart-contracts]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
-related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[groot]], [[associate-chains]], [[aeternity]]
+sources: [[summary-qpq-wiki-sophia]], [[summary-qpq-wiki-smart-contracts]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-sophia-faq]]
+related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[groot]], [[associate-chains]], [[aeternity]], [[qpq-software-stack]]
 created: 2026-05-15
 updated: 2026-05-15
 confidence: high
@@ -13,28 +13,36 @@ cluster_role: hub
 
 # Sophia / FATE VM
 
-Sophia is the smart contract language used by Gajumaru. FATE (Fast Aeternity Transaction Engine) is its runtime VM. Both were originally developed for the Aeternity blockchain by a distinguished team of programming language and verification researchers.
+Sophia is the smart contract language used by Gajumaru. FATE (Fast Aeternity Transaction Engine) is its runtime VM. Both were originally developed for the [[aeternity]] blockchain by a distinguished team of programming language and verification researchers. QPQ AG adopted and extended both rather than building proprietary alternatives.
 
 ## In This Cluster
 
 | Page | Description |
 |------|-------------|
 | [[sophia-fate]] *(hub)* | Sophia language + FATE VM |
-| *future: smart-contract-patterns* | Patterns and best practices |
-| *future: contract-visibility* | Visible vs Incognito deployment modes |
 
 ## Origins
 
-Sophia and FATE were designed for **Aeternity** — a blockchain built on Erlang/OTP. QPQ adopted both rather than building proprietary alternatives. This gives Gajumaru smart contracts years of academic scrutiny, property-based test coverage, and real deployment history.
+Sophia and FATE were designed for **Aeternity** — a blockchain built on Erlang/OTP. QPQ adopted both rather than building proprietary alternatives. Cited in the Un-White Paper: "Aeternity Dev Team, 2020" as the formal reference for Sophia/FATE. This gives Gajumaru smart contracts years of academic scrutiny, property-based test coverage, and real deployment history.
 
 ## Sophia Language
 
+### File Extension
+Sophia source files use the **`.aes`** extension (e.g. `counter.aes` in ExampleCaller).
+
+### Design Goals
 Designed to correct Solidity's known inadequacies:
 - **Pre-execution verification** — contracts are verified before deployment
-- **No Solidity corner cases** — designed explicitly to avoid the quirks that have caused billions in Ethereum contract exploits
-- Described as **"easy to learn and a pleasure to program in"**
+- **No Solidity corner cases** — designed to avoid the quirks that have caused billions in Ethereum contract exploits
+- **Python-adoptable** — "retaining adoptability by Python-trained engineers, removing another bottleneck: the number of people conversant in the language of smart contracts"
 
-QPQ framing (from [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]): "Sophia resolves irreparable Solidity inadequacies; Python-adoptable."
+QPQ framing: "Sophia resolves irreparable Solidity inadequacies; Python-adoptable." Ethereum/Solidity described as "dangerous for Enterprise or government use."
+
+### ACI — Application Contract Interface
+The Sophia compiler includes an **ACI (Application Contract Interface)** module (`so_aci`) that standardizes how external callers interact with deployed contracts — analogous to ABIs in Ethereum but more formally defined.
+
+### Current Version
+Sophia compiler: **v7.4.0** (last stable tag, September 2023). Active development continues toward v8/v9. Repository: `git.qpq.swiss/QPQ-AG/sophia` (865+ commits, ISC license).
 
 ## FATE VM
 
@@ -44,7 +52,54 @@ Designed by Erik Stenman (Erlang native code compiler developer, BEAM Book autho
 - **Smaller contract footprints** — reduced on-chain storage requirement
 - **Enhanced correctness verification** — functional approach enables formal reasoning about contract behaviour
 
-## Contributors
+### FATE Bytecode Representations (three formats)
+From `gmbytecode` library:
+1. **Bytecode** — consensus-level binary format (canonical)
+2. **Assembler** — human-readable text (varies by implementation); opcodes are uppercase (`DUP`), identifiers lowercase, stack references like `stack1` or `a`
+3. **Internal** — Erlang-native representation for the bytecode engine
+
+### FATE Address Prefixes
+On-chain objects use typed address prefixes:
+
+| Prefix | Object Type |
+|--------|------------|
+| `@ak_` | Account key (user wallet) |
+| `@ct_` | Contract |
+| `@ch_` | State channel |
+| `@ok_` | Oracle key *(being removed)* |
+| `@oq_` | Oracle query *(being removed)* |
+
+## Version History (Key Milestones)
+
+| Version | Key Changes |
+|---------|------------|
+| v3.0.0 | `stateful` enforcement; byte arrays `bytes(N)` |
+| v4.0.0 | FATE backend added; list comprehensions; payable contracts |
+| v5.0.0 | String stdlib; BLS12-381 pairing cryptography; protected contract calls; `Oracle.expiry` |
+| v6.0.0 | Child contracts (`Chain.clone`, `Chain.create`) |
+| v7.0.0 | **AEVM eliminated** (FATE-only from here); pipe operator; contract polymorphism |
+| v8.0.0 | Bitwise ops (`band`, `bor`, `bxor`, `bnot`, shifts); `Crypto.poseidon`; arbitrary `bytes()` type; AENSv2; signature literals `sg_...` |
+| v9.0.0 | **Oracles removed entirely** |
+
+### AEVM Elimination (v7)
+Prior to v7, Sophia could compile to both AEVM (Aeternity EVM — Ethereum-compatible) and FATE. From v7 onward, **FATE is the only target**. This was a deliberate simplification. The `gmbytecode` library still contains AEVM code for legacy/compatibility purposes.
+
+### Oracle Removal (v9)
+Gajumaru is removing oracle support from Sophia. The March 2025 commit ("Renaming and preparing to remove oracles") preceded the v9.0.0 formal removal. Oracles were present in Aeternity's design but are not part of QPQ's Gajumaru architecture.
+
+## Advanced Capabilities (v8+)
+
+### AENS — Aeternity Name Service
+Gajumaru includes a name service (**AENSv2** as of v8) providing human-readable names that resolve to on-chain addresses — analogous to ENS on Ethereum or DNS for the web. Supports raw data pointers.
+
+### Cryptographic Primitives
+- **BLS12-381 pairing cryptography** — used in zero-knowledge proofs and Ethereum 2.0; available from Sophia v5+
+- **Poseidon hash** (`Crypto.poseidon`) — ZK-friendly hash function; added v8.0.0
+
+### Child Contracts
+`Chain.clone` and `Chain.create` enable contracts to deploy other contracts — supporting factory patterns and composable on-chain systems.
+
+## Contributors (to Aeternity Sophia, adopted by QPQ)
 
 | Name | Contribution | Background |
 |------|-------------|-----------|
@@ -54,18 +109,26 @@ Designed by Erik Stenman (Erlang native code compiler developer, BEAM Book autho
 | Hans Svensson | Key designer | Quviq, software verification |
 | Robert Virding | Supporting | **Erlang co-inventor** |
 | John Hughes | Supporting | Chalmers, **QuickCheck co-inventor** |
+| Craig Everett (zxq9) | QPQ maintainer | Lead architect, QPQ AG |
+| [[ulf\|Ulf Wiger]] (uwiger) | QPQ reviewer | Erlang/OTP expert; blockchain infrastructure |
+
+> [!note]
+> The "Ulf" listed on the Sophia contributors page from QPQ's repo is Ulf Wiger (uwiger). Ulf Norell is an Aeternity-side contributor. Both are distinct individuals. [[ulf]] = Ulf Wiger.
 
 ## Property-Based Testing
 
-Aeternity and Cardano are the only two major blockchains tested using Quviq's **QuickCheck** property-based testing tool. This is a significant quality distinction — most blockchain code relies on unit tests, which cannot discover emergent or statistical failure modes.
+Aeternity and Cardano are the only two major blockchains tested using Quviq's **QuickCheck** property-based testing tool. This is a significant quality distinction — most blockchain code relies on unit tests, which cannot discover emergent or statistical failure modes. QuickCheck was co-invented by John Hughes (Chalmers), who also contributed to Sophia.
 
 ## Deployment Modes on Gajumaru
 
-See [[summary-qpq-wiki-gajumaru]]:
 - **Visible** — source code included in deployment transaction; callers can verify behaviour before signing
-- **Incognito** — source code omitted; opaque to callers
+- **Incognito** — source code omitted; behavior is opaque to callers
 
-## Open Question
+## Compilation Pipeline
 
-> [!open_question]
-> Is "Ulf" (QPQ AG team member, Erlanger since 1992) the same as Ulf Norell (Chalmers/Quviq, Sophia contributor)? Plausible but unconfirmed.
+From [[summary-qpq-wiki-sophia-faq]] (authored by Peter Harpending):
+Sophia source (`.aes`) → Sophia compiler → FATE bytecode → FATE VM execution on Gajumaru node
+
+## FINMA Compliance
+
+Sophia/FATE is described as FINMA-compliant, enabling GajuDEX to pass Switzerland's substance-over-form decentralisation test.

@@ -65,6 +65,10 @@ The Un-White Paper applies MP Tony Benn's five questions to any blockchain found
 
 Applied to Ethereum Foundation, Solana Foundation, DFINITY: the answer to question 5 is always "you cannot."
 
+**Ethereum Foundation January 2025**: The founder "publicly confirmed sole personal authority over the Ethereum Foundation's leadership in January 2025" — cited in the Un-White Paper as a concrete example of ungovernable governance. Source: [[summary-unwhitepaper]]
+
+**Ethereum validator concentration (Un-White Paper)**: As of publication, six entities control over 52% of Ethereum validation. In an earlier period, four entities controlled as much as 62%. An anonymous consortium of validators is "not a governed system. It is a system with the costs of governance and none of its protections."
+
 ## Election vs Competition: The PoW/PoS Fork
 
 QPQ's [[summary-qpq-wiki-leader-selection]] articulates the core fork in consensus design:

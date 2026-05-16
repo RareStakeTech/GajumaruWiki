@@ -37,6 +37,25 @@ confidence: high
 
 ---
 
+## The Problem: Global Financial Infrastructure Failures
+
+The Un-White Paper quantifies the scope of the problem in Part One:
+
+- **1.3 billion unbanked adults** globally — for them, exclusion is not frustration, it is structural
+- **1 billion people lack official identification** — 26% of the unbanked cannot open an account without government-issued ID
+- **$5.7 trillion SME financing gap** — exists "not because capital is scarce, but because the infrastructure to move it is broken"
+- **Correspondent banking down 39%** since 2013 — the very pathways for international transfers are contracting
+- **Card network fee extraction**: 2–3% of every transaction value — extracted as rent from captive participants
+- **Correspondent bank hops**: "$100 transfer becomes $80 received"
+- **SWIFT geopolitical control**: "SWIFT, a Belgian cooperative, controls international payment messaging and serves American foreign policy interests, as Russia, Iran, Venezuela and others discovered when excluded from the system"
+- **Bills of lading digitisation alone** could save $6.5 billion annually in direct costs
+- **Bitcoin practical costs**: 3.25 TPS; $50–100 in fees during congestion; settlement from 1 hour to days for high-value transactions; "you cannot buy a coffee with Bitcoin; you cannot pay salaries"
+
+**Payment network power framing** (quoted in Mining Journey Update as "Craig says this very well in the longer form video"):
+> "The issue is not about making things illegal. It is about making them impossible."
+
+Steam has now entered its TOS that games falling out of favour with Mastercard/Visa are not allowed on the market. Michael Nolles (of his "ex-platform") was debanked by Stripe with no stated reason — "apparently he was debanked but it's very unclear why." QPQ frames this as the failure mode of controlled payment infrastructure.
+
 ## Part One: First Principles
 
 ### The RIPA Model — Two Paths
@@ -126,6 +145,18 @@ AMM + CLOB with stop losses. Immutable post-deployment. No admin keys. Sophia la
 Master/sub-chain hierarchy. Banking consortium example: Master Associate Chain (shared standards) → sub-chains per institution (private internal operations) → Master connects to Groot (neutral settlement). Solves the consortium governance problem by removing it from the base layer.
 
 Stablecoin example: global Master Chain with national sub-chains for local regulation compliance.
+
+### GL1 — Global Layer 1 (Singapore MAS Consortium)
+
+The Un-White Paper explicitly names the **Global Layer 1 (GL1)** initiative — a consortium led by the **Monetary Authority of Singapore** — as the institutional validation case for Gajumaru's Master Associate Chain design:
+
+**GL1 Participants:** Standard Chartered, Citi, JPMorgan, MUFG, BNY, Societe Generale-FORGE, Euroclear
+
+> "This consortium operates a Master Associate Chain. This is their GL1."
+
+**Why previous consortia failed:** "Previous attempts at this, including R3's Corda and the Regulated Liability Network, failed because the governance question proved unanswerable." Gajumaru's answer: the governance question is unanswerable for a base layer, so Groot provides a governance-free foundation below all institutional infrastructure.
+
+**The institutional advantage inversion:** "The institutions best positioned to thrive are, ironically, the very institutions that today profit from the system the Gajumaru changes. They have the expertise, the regulatory standing, the client relationships, and the institutional knowledge. What they lack is the connective tissue that lets them deploy those assets globally without surrendering sovereignty to a competitor's platform or a consortium they do not control. The resource layer provides that connective tissue."
 
 ### IP & Licensing
 GPL3 open source — built-in patent peace provision. "Defensive, not offensive." Freedom to build for all participants.

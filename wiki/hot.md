@@ -6,13 +6,12 @@
 
 ## Current Focus
 
-**39 sources ingested. QPQ Public Wiki FULLY COMPLETE (all 29 pages).** Install Erlang and ZX now ingested (URL slug case corrected). bitcoin-ng.md + aeternity.md created. **Next priorities:**
-1. Find the Dimitar video on Associate Chain → Groot finality cooperation
-2. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
-3. Resolve mobile wallet naming (Bor vs GajuMobile)
-4. Find current post-MainNet data (miner count, Gaju price, LTIN status)
-5. Resolve efficiency figure (553,800× vs 1,846,200×)
-6. Confirm: is zxq9.com Craig Everett's domain? (ZX tool authorship)
+**39 sources ingested. QPQ git repos fully explored (26 repos).** Two major identity questions resolved: Ulf = Ulf Wiger; Craig = zxq9. sophia-fate.md majorly rewritten with full version history + FATE details. qpq-software-stack.md + adam-percy.md created. **Next priorities:**
+1. Update source summaries with missed transcript content (5 summaries need updates)
+2. Find the Dimitar video on Associate Chain → Groot finality cooperation
+3. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
+4. Resolve mobile wallet naming (Bor vs GajuMobile)
+5. Find current post-MainNet data (miner count, Gaju price, LTIN status)
 
 **Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
 
@@ -27,13 +26,17 @@
 - **Efficiency contradiction:** 553,800× (Year in Review) vs 1,846,200× (Un-White Paper)
 - Has LTIN actually launched as of May 2026? (target: Q2/Q3/Q4 2026)
 - Current Gaju price / active miner count post-MainNet?
-- Full surnames for Craig, Dimitar, Ulf, Santosh, Jarvis?
+- Full surnames for Dimitar, Santosh, Jarvis?
 - Role details for Santosh, Jarvis?
 - Whether "Peter" (video communicator) = Peter Harpending or a distinct individual
-- Whether "Ulf" (QPQ team, Erlanger since 1992) = Ulf Norell (Sophia contributor, Chalmers/Quviq)
 - Which central bank did QPQ consult? (Why the Gajumaru video, unnamed)
 - QPQ IaaS AG — what is it?
 - Un-White Paper Technical Paper — not yet ingested
+
+**RESOLVED:**
+- Ulf = Ulf Wiger (NOT Ulf Norell) — confirmed via `uwiger` handle in QPQ git repos
+- Craig = zxq9 — confirmed via GajuDesk commits; UTC+9 timezone (Okinawa)
+- Ulf surname: Wiger (CONFIRMED)
 
 ---
 
@@ -77,6 +80,7 @@
 | 2026-05-15 | lint | Full health check — 4 cluster gaps fixed; 1 syntax bug fixed; 3 missing concept pages flagged |
 | 2026-05-15 | ingest | QPQ Wiki W28-W29: Install Erlang+ZX + Vim Setup — 2 new source summaries |
 | 2026-05-15 | ingest | bitcoin-ng.md (concept) + aeternity.md (entity) — 2 new pages, 6 updated |
+| 2026-05-15 | ingest | Deep re-audit + 26 git repos — qpq-software-stack.md, adam-percy.md created; ulf.md rewrite; sophia-fate.md major update; Ulf Wiger + zxq9=Craig confirmed |
 
 ---
 
@@ -91,5 +95,9 @@
 - [[qpq-ag]] — complete team roster + development timeline now documented
 - [[bitcoin-ng]] — new concept page; keyblock + microblock; Craig's core design insight
 - [[aeternity]] — new entity page; upstream source of Sophia/FATE/State Channels
-- [[craig]], [[dimitar]], [[ulf]], [[peter]] — first names only (except Peter Harpending)
-- [[gregory-chew]] — products role confirmed; possible "Gaju Firsts" speaker
+- [[craig]] = Craig Everett = zxq9 (CONFIRMED); CPO; Okinawa, Japan (UTC+9)
+- [[ulf]] = Ulf Wiger = uwiger (CONFIRMED); Erlang/OTP veteran; hive mining author
+- [[dimitar]], [[peter]] — first names only (except Peter Harpending)
+- [[gregory-chew]] — CEO; products role confirmed; possible "Gaju Firsts" speaker
+- [[qpq-software-stack]] — 26-repo inventory; ZX build system; Erlang 28.1; port 17888
+- [[adam-percy]] — community champion; house builder; first wave miner
