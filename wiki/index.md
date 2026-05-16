@@ -18,9 +18,9 @@ confidence: high
 </div>
 
 <div class="home-metrics">
-  <div><strong>37</strong><span>source summaries</span></div>
-  <div><strong>12</strong><span>concept pages</span></div>
-  <div><strong>8</strong><span>entity pages</span></div>
+  <div><strong>38</strong><span>source summaries</span></div>
+  <div><strong>15</strong><span>concept pages</span></div>
+  <div><strong>9</strong><span>entity pages</span></div>
   <div><strong>5+</strong><span>research clusters</span></div>
 </div>
 
@@ -110,6 +110,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 ##### Concept Pages
 - [[gaju-token]] *(hub)* - Native token; 1 trillion fixed supply over 87.5 years; in circulation Oct 2025
 - [[protected-mining]] - Mining window ending March 29 2027; flywheel thesis
+- [[hive-mining]] - SaaS mining model; dividend-writing smart contracts; Ulf Wiger's design; gmhive_client port 17888
 
 ##### Entity Pages
 <!-- Add entity pages here on ingest -->

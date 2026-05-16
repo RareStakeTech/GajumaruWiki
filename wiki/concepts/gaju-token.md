@@ -50,6 +50,7 @@ Liquidity enabled by GajuDEX (part of [[gajumaru-product-suite]]) from Q2 2026. 
 |------|------|-------------|
 | [[gaju-token]] | hub | Native token — supply, distribution, mining economics |
 | [[protected-mining]] | member | Mining window, flywheel, critical adoption timeline |
+| [[hive-mining]] | member | SaaS mining model; dividend-writing contracts; Ulf Wiger's design |
 
 ## Everyday Currency Positioning
 The promotional video [[summary-gaju-mining-video]] frames Gaju explicitly as everyday spending money: bread, haircuts, t-shirts. Contrasted with Bitcoin, which "stopped being considered a currency in 2016 and was instead called a store of value." GajuMarket (part of [[gajumaru-product-suite]]) is the primary spending venue — positioned as eBay at a fraction of the cost.

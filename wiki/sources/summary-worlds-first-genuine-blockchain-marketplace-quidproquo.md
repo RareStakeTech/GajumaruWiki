@@ -113,8 +113,25 @@ All QuidProQuo transactions are governed by **dynamic smart contracts between th
 
 ---
 
+## Reputation and Goodwill — On-Chain Trust Infrastructure
+
+After the transaction completes, Bob leaves a review. QPQ explicitly frames this in commercial terms:
+
+> "It is important to aid people in making judgments on whom to trade with. Just as in the physical world, reputation matters. And honest appraisal by genuine buyers of a good or service are a vital tool in building that reputation. Ultimately, many retail businesses depend upon this — and this intangible asset, also known as goodwill, is what makes a business worth more than some of its parts."
+
+**What happens after review submission:**
+- Sale item (including images, conversation history) is **deleted**
+- An **archive record** is retained with key metadata
+- Users have a **sale archive and purchase history** — enabling trust decisions by future counterparties
+
+This frames QuidProQuo's review system not as a feature but as the digital equivalent of commercial goodwill — the trust asset businesses are built on. The on-chain archive is the trust layer.
+
+---
+
 ## Closing Statement
 
 > "Blockchain changes our world from being about control to facilitation and adding value to a common open whole. That is what QuidProQuo is all about."
+
+**Alice/Bob character notes:** Alice is a goat soap producer from El Salvador. Bob (introduced as "Robert the Stinky") is a buyer in Australia with sensitive skin. Their transaction spans two continents, no bank, no intermediary.
 
 QPQ website: qpq.com/Swiss

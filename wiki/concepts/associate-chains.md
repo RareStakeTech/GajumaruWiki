@@ -2,7 +2,7 @@
 type: concept
 title: "Associate Chains"
 aliases: [associate-chain, multi-chain, interoperability]
-sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-gajumaru]]
+sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-gajumaru]], [[summary-unwhitepaper]]
 related: [[gajumaru-architecture]], [[groot]], [[ripa-model]], [[ltin]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -76,5 +76,23 @@ The mechanism is not yet documented — Craig defers detail to a later video. Th
 
 If an Associate Chain gets overloaded or fails to serve its use case, users can spawn a competing chain. Because Gajus are cross-chain transferable and no chain-specific currency lock-in exists, resources flow to the better chain naturally. This embeds market discipline structurally in the architecture — no single Associate Chain can become an inescapable monopoly.
 
+## Institutional Validation: GL1 and the Consortium Problem
+
+The Un-White Paper explicitly references the **Global Layer 1 (GL1)** initiative — a consortium led by the **Monetary Authority of Singapore** — as institutional validation for Gajumaru's Master Associate Chain design.
+
+**GL1 participants:** Standard Chartered, Citi, JPMorgan, MUFG, BNY, Societe Generale-FORGE, Euroclear
+
+> "This consortium operates a Master Associate Chain. This is their GL1."
+
+**Why prior consortia failed:**
+> "Previous attempts at this, including R3's Corda and the Regulated Liability Network, failed because the governance question proved unanswerable."
+
+Gajumaru's answer: the governance question is unanswerable for a base layer, so Groot provides a governance-free foundation below all institutional infrastructure. Each institution's Associate Chain can have whatever governance it requires, while sharing a common trustless resource layer.
+
+**The institutional advantage inversion:**
+> "The institutions best positioned to thrive are, ironically, the very institutions that today profit from the system the Gajumaru changes. They have the expertise, the regulatory standing, the client relationships, and the institutional knowledge. What they lack is the connective tissue that lets them deploy those assets globally without surrendering sovereignty to a competitor's platform or a consortium they do not control."
+
+Source: [[summary-unwhitepaper]]
+
 ## Sources
-[[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]]
+[[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-unwhitepaper]]
