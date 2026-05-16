@@ -492,3 +492,203 @@ The Un-White Paper's security chapter is built around a single principle: **ever
 **Formal verification:** Sophia smart contracts support formal verification — mathematical proof that a contract behaves exactly as intended under all possible conditions. For institutional adoption (insurance, property, equity), formal verification is described as non-optional: "a bug is not an inconvenience but a catastrophe."
 
 See [[grids]], [[gajumaru-product-suite]], [[sophia-fate]].
+
+---
+
+## Efficiency Calculation — The Four Steps
+
+The 1,846,200× figure is derived from four compounding architectural improvements over Bitcoin:
+
+**Step 1: Bitcoin-NG Decoupling (92.31×)**
+Groot amortises 300+ TPS over a 120-second keyblock cycle = 36,000+ transactions per 10-minute Bitcoin equivalent (300 × 120). Bitcoin: ~3.25 TPS × 600 seconds = 1,950 transactions. Ratio: 36,000 / 1,950 = **92.31×**
+
+**Step 2: Settlement Latency (200×)**
+Bitcoin settlement: 1 block = 600 seconds. Gajumaru: 1 microblock = ~3 seconds. Ratio: 600 / 3 = **200×**. Running total: 92.31 × 200 = **18,462×**
+
+**Step 3: Compressed Settlement Security (10×)**
+Groot's witnessing protocol limits attack windows to 4 minutes (2 keyblocks). Bitcoin's probabilistic model means an attacker with 51% hashrate is guaranteed success over hours/days. Compressed settlement reduces required network hashrate by **10×**. Running total: 18,462 × 10 = **184,620×**
+
+**Step 4: Cuckoo Cycle Memory-Latency Bound (10×–50×)**
+Memory-bound PoW requires 10–50× fewer CPU instructions per solution at equivalent security vs Bitcoin's SHA-256. Conservative end (10×): **1,846,200×**. Upper end (50×): **9,231,000×**.
+
+**Minting efficiency (different calculation):** Only Steps 3 and 4 affect minting (not throughput). Mining efficiency base = 100×. On top of this, the Fibonacci curve produces 5 keyblocks × 1,554,161 Gajus = 7,770,805 Gajus per 10 minutes vs Bitcoin's 3.125 BTC post-April 2024 halving. Output ratio: ~2,486,658×. Compounded: 2,486,658 × 100 = **approximately 249 million times more efficient per coin minted** than Bitcoin during Period 1.
+
+**Human-scale meaning:**
+- A Gaju miner runs on a laptop with 8 GB RAM at ~60–100 watts (equivalent to an incandescent light bulb)
+- A Bitcoin miner requires ~3,500 watts per ASIC unit (industrial cooling required)
+- One Gajumaru transaction: **~0.0024 kWh** — less energy than running a household lightbulb for three minutes
+- Bitcoin: **~1,335 kWh** per transaction
+- Simple spend on Groot: **0.0000169 Gaju** (at $1/Gaju = $0.0000169 — less than two thousandths of a cent)
+- Sending €500 Berlin → Nairobi: less than two thousandths of a cent vs €40–80 in correspondent banking fees
+- Full network capacity: **30 million transactions per day**
+
+See [[groot]], [[cuckoo-cycle]], [[bitcoin-ng]].
+
+---
+
+## Protocol Architecture Features
+
+**Naming System (AENS):** Human-readable names replace 64-character cryptographic hashes (e.g., "greg.chain"). Names are **native first-class protocol objects** — not smart contracts. Short names (≤12 characters) distributed via first-price auction with 5% minimum bid increments to discourage squatting. Long names register instantly. Fully decentralised — no DNS-equivalent control group.
+
+**Paying-For-Others:** Eliminates the onboarding barrier that kills adoption on most chains ("go buy ETH before you can use our app"). A third party (game provider, merchant, employer) can wrap a user's transaction in a paying-for transaction covering gas and fees. The user signs with their own keys; the sponsor pays. The user **does not need to hold any Gajus** — they may not even know they have a blockchain account. Applicable to any transaction type except the paying-for transaction itself.
+
+**Contract Cloning:** A smart contract deployed once can be **cloned cheaply by reference**. Subsequent deployments carry only the lightweight cost of referencing the original code. Ethereum contract deployment routinely costs hundreds to thousands of dollars; Gajumaru makes on-chain business models commercially practical.
+
+**Contract Visibility Modes:** Two deployment modes — "visible" (source code published on-chain with deployment; permanently researchable even if off-chain source is lost; wallets can display for informed consent) and "incognito" (source omitted). Library code deployed visibly is permanently researchable from within the chain. A contract clone inherits its parent's visibility setting.
+
+**One Puck:** The base unit of the Gaju = 10⁻¹⁸ Gaju. The minimum possible fee within a state channel, if any, is one puck.
+
+**FATE VM Security Design:**
+- **Type safety:** Every operation is typed; type violations revert all state changes; type confusion cannot be weaponised
+- **Overflow prevention:** Unbounded integer arithmetic; integer overflow exploits (costing billions in Ethereum ecosystem) are structurally impossible
+- **Memory isolation:** Instruction memory divided into functions/blocks with controlled jump destinations; buffer overflow and reentrancy attacks impossible
+- **Data/control flow separation:** Running contracts cannot modify their own code; self-modifying contract attacks impossible
+- **Test/prod fidelity:** Code tested on FATE runs on FATE — no simulation divergence; eliminates entire class of bugs where contracts behave correctly in testing and fail in production
+
+**Sophia = Greek word for wisdom.** (Named etymology confirmed in glossary.)
+
+**First-Class Protocol Objects:** State channels, naming system, and smart contracts are native to the Gajumaru protocol — not bolted on via smart contracts as on Ethereum. Native operations: cheaper (no contract deployment overhead), faster (protocol handles directly), and protocol-verified.
+
+**Self Single Sign-On (SSSO):** GRIDS enables "first-party single sign-on" — the document calls this **SSSO** (triple-S) to distinguish from traditional SSO (Google, Apple, Microsoft). Traditional SSO trades convenience for surveillance; SSSO provides the same experience with zero credential sharing. The website never holds the data; GDPR compliance for the authentication layer is automatic; if the site is breached, there is nothing to steal.
+
+---
+
+## Associate Chain Scaling and Currency Architecture
+
+**No architectural ceiling:** Unlike Polkadot (100 cores, 101st parachain displaces existing), Cosmos (fragment economically), or Ethereum L2s (all share 1,125,000 bytes blob space per block), Gajumaru has **no protocol limit on Associate Chains**. Each AC adds throughput independently. Practical constraint: each requires an operator, governance model, and purpose.
+
+**Scale implication:** 260 national jurisdictions × 1,846,200 = **approximately 144 million times more efficient than Bitcoin** at the base layer. This accounts only for national jurisdictions — the true count at maturity will be substantially higher.
+
+**Currency architecture — no constraints:** Associate Chain native currencies can be **anything expressible in a smart contract or native transaction type**. CBDC, narrow-banking token, commodity-pegged stablecoin, pre-IPO equity token, anything. The market disciplines every AC currency immediately via its exchange rate against the fixed-supply Gaju reference.
+
+**Every model, one network:** A CBDC in Riyadh, a dollar stablecoin in New York, a trade finance token in Singapore, and the Gaju itself all run on sovereign Associate Chains, settle through the same governance-free resource layer, and are disciplined by the same mathematical transparency.
+
+---
+
+## Human Economy — Financial Infrastructure Statistics
+
+The Un-White Paper's opening section quantifies the problem the system addresses:
+
+**Remittances:** $685 billion sent globally in 2024. Average cost of sending $200 = **6.4%** (more than twice the UN SDG target of 3%). Sub-Saharan Africa: **7.9%**, rising to nearly **9% in Q1 2025**. Banks: **12.7%** on average. At 6.4% on $685B, over **$40 billion extracted annually** from the world's poorest workers.
+
+**Card payment fees:** 1.5–3.5% per transaction for small businesses. On thin margins, the difference between viability and closure. Not negotiable because the infrastructure is a monopoly.
+
+**SWIFT wires Berlin → Nairobi:** €500 payment: sending bank charges €25–50; intermediary banks deduct $10–30 per hop; receiving bank charges further; FX markup 1–3%. Total: €40–80 typical, arriving 3–5 business days later. On Gajumaru: fraction of a cent, settles in seconds.
+
+**Financial exclusion:** 1.3 billion unbanked adults globally; 1 billion lack official ID (26% of unbanked can't open accounts without government-issued ID); $5.7 trillion SME financing gap; correspondent banking down 39% since 2013.
+
+---
+
+## El Salvador Case Study
+
+El Salvador illustrates both the need and the failure of first-generation blockchain as a monetary solution:
+
+**Context:** In 2001, adopted US dollar (lost monetary sovereignty to Federal Reserve; cannot set interest rates; 24% of GDP in remittances; 70% of population unbanked).
+
+**Bitcoin as legal tender (September 2021):** Aimed at financial inclusion and cheaper remittances. Results:
+- Bitcoin volatility made it unusable for a population on narrow margins
+- Chivo wallet suffered hacking, identity theft, repeated technical failures
+- By 2024: **92% of Salvadorans did not use Bitcoin for transactions**; only **1.3% of remittances via crypto**
+- NBER found adoption concentrated among the already banked, educated, young — the opposite of intended beneficiaries
+- January 2025: **rescinded Bitcoin's legal tender status** under IMF pressure as condition for **$1.4 billion loan**
+
+**QPQ's analysis:** El Salvador did not fail because the idea was wrong — it failed because Bitcoin cannot do what the idea required. A Salvadoran Associate Chain running the Gaju as its currency would:
+- Settle remittances in seconds at thousandths of a cent via atomic swaps
+- Use Paying-For-Others so the remittance provider covers gas costs (recipient loses nothing to fees)
+- Require no bank account, no exchange account
+- Operate under Salvadoran regulation, on Salvadoran terms
+- Give every citizen an exit to Groot directly if the Associate Chain becomes extractive — "real accountability of the State to the Nation"
+
+---
+
+## Economic Emancipation — Political Context
+
+The Un-White Paper grounds economic emancipation arguments in specific recent events:
+
+**Canada (2022):** Emergency powers invoked against protest participants. Over 200 bank accounts frozen worth approximately **$7.8 million**; insurance policies suspended. Both Federal Court and Federal Court of Appeal (January 2026) ruled the invocation unreasonable and unconstitutional — "troubling in the extreme" and "egregious." The document's point: by then, the message had been delivered. *"Your money is yours until someone with authority decides it is not."*
+
+**UK:** Coutts closed Nigel Farage's accounts because his political views were "not compatible" with the bank's values. Seven further banks refused service. Nearly **half a million accounts forcibly closed in the UK in a single year**. No emergency powers required — the banking system decided unilaterally who belonged.
+
+**China's digital yuan:** Fully programmable and trackable. By mid-2019: **26.82 million air tickets** and **5.96 million high-speed rail tickets** denied to individuals labelled "untrustworthy" by the social credit system. Designed to replace cash in circulation; gives PBoC unprecedented control over economic activity of 1.4 billion people.
+
+**European digital euro:** ECB building on same centralised architecture. Legislation expected 2026, issuance targeted 2029. ECB language: "preserving monetary sovereignty," "strategic autonomy," "reducing reliance on non-European payment systems" — "Read carefully. Whose sovereignty? Whose autonomy? Not yours."
+
+**The Trajectory:** Goldman Sachs estimates 6–7% of American workforce displaced by AI adoption; Anthropic CEO warns 50% of entry-level white-collar jobs could disappear within five years (footnote 43). Growing dependency on state support → increased taxation of shrinking productive base → currency debasement → increased control → increased dependency. "The authoritarian slide does not require authoritarian intent. It requires only that no alternative exists."
+
+---
+
+## Machine Economy
+
+The Un-White Paper argues the transition from digitised to digitalised infrastructure is not merely desirable but **unavoidable** due to the machine economy:
+
+**The Gap:** Current infrastructure designed for humans transacting with humans at human pace:
+- Card networks require human identity
+- Bank accounts require human account holders
+- Settlement in days is meaningless to agents operating in milliseconds
+- Fees of 2–3% with minimums of $0.15–$0.30 make high-frequency micro-transactions economically absurd
+- *"Machines do not have passports"* — compliance frameworks assume a human being with name, address, and government-issued ID
+
+**Examples of machine-to-machine commerce:**
+- Autonomous vehicles paying tolls, charging stations, parking
+- Smart buildings procuring energy, maintenance, supplies
+- Industrial systems settling micro-contracts for compute, bandwidth, data, API access
+- AI agent commissioning inference: specification → price → deposit → streaming results → per-batch payments → completion (ratio ~4 messages to every token transfer)
+
+**Volume projection:** Not thousands of transactions per day. *"Billions per day, then billions per hour."*
+
+**Existing demonstration:** GajuMarket already shows the architecture — products as smart contract instances, counterparties negotiate terms through the platform, platform automates the smart contract build, both parties verify before signing. *"The negotiation is human; the contract construction, execution, and settlement are automated."*
+
+**State Channel as machine-economy substrate:** The only infrastructure that satisfies the requirements: transaction costs approaching zero, no identity requirements at the resource layer, programmable conditions (smart contracts), settlement in seconds. *"These are not features that can be added to existing infrastructure. They are properties of a different foundation."*
+
+State channel capacity at scale: **Tokyo Metro SUICA** (one of the world's highest-throughput payment networks) peaks at fewer than **300 TPS**. A single Gajumaru node running 1,000 concurrent state channels: **500,000+ TPS** — **1,667× greater than SUICA's peak**. For plain messages, a single Mac Mini M4 handles approximately **2.5 billion messages/day**. WhatsApp (3 billion users across 180 countries) processes approximately **100 billion messages/day across its entire global infrastructure**. Both Gajumaru and WhatsApp use **Erlang**.
+
+---
+
+## ADI Chain — UAE National Infrastructure Case Study
+
+**What it is:** ADI Chain is national blockchain infrastructure sold to the UAE, built on the ZKSync Atlas and Airbender stacks — technology created by Matter Labs.
+
+**The documented failures:**
+1. **TPS claim impossible:** ADI's original documentation claimed 10,000 TPS. At 10,000 TPS, ZK prover time inflation (105× documented by QPQ) means the sequential proof chain cannot clear incoming transactions — the backlog compounds without limit. Additionally, 10,000 TPS requires a minimum of **12,600,000 bytes per Ethereum block** vs the **1,179,648 bytes maximum** available across all L2s — approximately **11× Ethereum's entire blob capacity simultaneously**. The claim is physically impossible at two distinct points.
+2. **Claim removed:** The 10,000 TPS figure was removed from ADI's documentation and replaced with non-specific language. QPQ believes its original technical review, circulated internally, was subsequently **leaked to ADI** — the documentation was scrubbed within approximately eight days of the review's circulation.
+3. **Proof costs embedded in every transaction:** ADI's native token compensates prover nodes for "how many RISC-V cycles it takes to prove a given computation." Every UAE citizen transaction carries proof generation costs embedded in the token model.
+4. **Sequencer censorship:** All censorship vulnerabilities of ZK rollup sequencers apply without exception.
+5. **Soundness failure:** OtterSec's findings (March 3, 2026) on Fiat-Shamir transcript binding vulnerabilities apply to the ZKSync stack on which ADI is built.
+
+**QPQ's framing:** *"The people who bought it trusted the people who built it. The trust was misplaced and the misplacement was deliberate."* Matter Labs knew precisely what the architecture could and could not do while claiming 15,000 TPS on their own website. What was claimed is archived. What was possible is arithmetic.
+
+---
+
+## Regulatory Context — US and UK
+
+In addition to FINMA/MiCA/MAS/TVTG/Swiss DLT Act, the document covers:
+
+**US GENIUS Act** (signed July 2025): First comprehensive federal stablecoin framework.
+
+**US CLARITY Act** (passed the House, July 2025): Proposes to divide digital asset oversight between CFTC and SEC based on **decentralisation criteria**. The Gajumaru's Groot is architected to be genuinely decentralised under this test.
+
+**UK Financial Services and Markets Act 2000 (Cryptoassets) Regulations 2025** (laid before Parliament December 2025): Comprehensive regime covering trading platforms, custody, stablecoins, staking, and market abuse. Full enforcement from **October 2027**.
+
+**Regulatory convergence:** All three jurisdictions converging on the same principle — crypto-asset activities should meet the same standards as traditional financial services. QPQ's position: Gajumaru passes every test. *"Bitcoin fails the energy test. Proof-of-stake systems pass the energy test but fail the trustlessness test. The Gajumaru is the only system that passes both."*
+
+---
+
+## Token Economics — Key Specifications
+
+From the Gaju token specification table in the document:
+
+| Specification | Value |
+|---|---|
+| Total Supply | 1 trillion Gajus (fixed) |
+| Distribution Period | 87.5 years (Fibonacci curve) |
+| Protected Mining Target | 30 March 2027 |
+| Protected Mining Outer Boundary | 30 September 2027 |
+| MainNet Full Launch | 26 April 2026 |
+| Stabilisation Treasury | **125 billion Gajus** reserved to smooth early adoption |
+| Debasement | Impossible (no government can print more) |
+
+**MainNet date significance:** April 26, 2026 is **"14 years to the day from Satoshi's last email"** — the date is deliberate.
+
+**Stabilisation Treasury:** 125 billion Gajus are reserved specifically to smooth early adoption volatility. This is separate from the mined supply and is available for market interventions if needed during the adoption phase.
+
+See [[gaju-token]], [[protected-mining]].

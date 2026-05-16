@@ -2,10 +2,10 @@
 type: concept
 title: "Associate Chains"
 aliases: [associate-chain, multi-chain, interoperability]
-sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-gajumaru]], [[summary-unwhitepaper]]
+sources: [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-gajumaru]], [[summary-unwhitepaper]], [[summary-blog-in-space]]
 related: [[gajumaru-architecture]], [[groot]], [[ripa-model]], [[ltin]], [[craig]], [[dimitar]], [[peter]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 confidence: high
 cluster: core-protocol
 cluster_role: member
@@ -60,6 +60,18 @@ Architecture validated by [[ltin]] selection before MainNet. Full Associate Chai
 ## First Associate Chain
 [[ltin]] — Liechtenstein Trust Integrity Network — is the first sovereign Associate Chain deployment, planned for Q2/Q3/Q4 2026.
 
+## Jurisdictional Scaling
+
+The Un-White Paper frames Associate Chains in terms of global jurisdictional coverage:
+
+- **260 national jurisdictions** × Groot's 1,846,200× efficiency = approximately **144 million×** more efficient than Bitcoin at global scale
+- No other architecture comes close: Polkadot is limited to **100 cores** (parachains), Cosmos creates fragmentation without shared security, Ethereum L2s share constrained blob space with hard architectural ceilings
+- Gajumaru's Associate Chain model has **no architectural ceiling** — chains are added without degrading the base layer, and each chain has fully isolated throughput
+
+This means Gajumaru scales to every national regulatory regime simultaneously, each with its own chain parameters, governance model, and compliance layer — all sharing a single governance-free resource layer.
+
+Source: [[summary-unwhitepaper]]
+
 ## Significance
 The no-bridge, native interoperability design distinguishes Gajumaru from most multi-chain ecosystems (e.g., Cosmos IBC, Polkadot bridges, Ethereum L2s), where bridges represent systemic risk and trust assumptions.
 
@@ -71,6 +83,70 @@ The mechanism is not yet documented — Craig defers detail to a later video. Th
 
 > [!open_question]
 > How exactly do Associate Chains cooperate to improve Groot finality? Source promises more detail in a follow-up video. See [[summary-the-gajumaru-an-actual-working-blockchain]].
+
+## Cross-Chain Money Transfer Mechanism
+
+Money moves between chains via an explicit on-chain transfer, not a bridge:
+
+> "Your account on Groot is the same as your account on an associate chain. So the way that you get money over there is you send money to yourself. You do a spend transaction from you to you on a different chain. And every keyblock height is an opportunity for those transactions to go both ways."
+
+**Cross-chain routing path:**
+- From AC A to AC B: the nearest common parent is Groot
+- The path is: AC A → Groot → AC B
+- Groot is aware of all subordinate chains and enforces the cap
+
+**The Hard Cap (anti-inflation guarantee):**
+> "More money can never be taken out of an associate chain than was put in. So you have a hard cap on the circulation of the money supply."
+
+This constraint is enforced by Groot at every keyblock height. An AC can implement its own native currency but cannot print Gajus it does not have.
+
+**No bailout mechanism:**
+> "If an associate chain allows sneaky stuff to happen and they're inventing and blowing up money or whatever, if people start evacuating from that chain, that whole thing collapses and there's no bailout mechanism whatsoever. The funny money problem that you've got in the too big to fail banks — that cannot occur in the context of the Gaju."
+
+Source: [[summary-how-gajumaru-addresses-scaling]]
+
+## Why Associate Chains Can Be Fast
+
+Associate chains solve the adversarial peer-selection problem by using **known, legally accountable operators**:
+
+> "When you get to associate chains, you now have operators and they're known which means you don't have the peer selection, you don't have the leader selection problem anymore. You have known actors, they're under legal penalty if they screw up."
+
+This is why ACs can use Proof of Stake or Proof of Authority and achieve "phenomenally high speeds" — the PoW slowness exists specifically because of the adversarial trustless leader election problem, which ACs eliminate.
+
+**Network total throughput:** 10,000 associate chains × 300 TPS = **3,000,000 TPS** combined global network throughput (Craig Everett's explicit calculation).
+
+Source: [[summary-how-gajumaru-addresses-scaling]]
+
+## Technical Architecture — Additional Detail (Ulf Wiger)
+
+**No ZK rollups by design:**
+> "Our assumption is that the permissionless chain cannot be put in a position to know too much about the associate chain. If the idea is that the responsibility and the regulatory compliance lies with those who operate the associate chain."
+
+Requiring AC operators to submit ZK proofs to Groot would make adoption harder without adding commercial utility. The operators are identifiable and legally on the hook; mathematical proof compliance on the base layer is unnecessary and burdensome.
+
+**Atomic currency exchange:**
+Because Gaju is the universal transit currency, a New Zealand dollar → Gaju → Canadian dollar exchange can occur within **a single transactional block** — "the transaction could be almost atomic."
+
+Source: [[summary-blockchain-governance-associate-chains]]
+
+## Decentralisation vs Reality — Ulf Wiger
+
+Ulf Wiger (CTO) articulates the practical tension between full decentralisation and real-world regulatory requirements with a personal anecdote:
+
+> A Swedish bank accepted a cryptocurrency payment from Ulf but told him: "We cannot advise you to run your business entirely in crypto." Regulatory reporting obligations, compliance risk, and AML requirements are real constraints — even for enthusiasts.
+
+The architectural response is not to fight regulation but to structure it correctly:
+
+> "PoW untamperable core + regulated pockets on top."
+
+- **Groot (base layer):** Proof-of-Work, governance-free, permissionless — untamperable by design. No entity can regulate this layer without defeating the protocol.
+- **Associate Chains (infrastructure layer):** Can implement PoS, PoA, KYC, compliance requirements — each chain configures for its jurisdiction. These are the "regulated pockets."
+
+This maps directly to the **RIPA model**: Resource (Groot) → Infrastructure (ACs) → Platform → Application. The RIPA acronym is explicitly cited in this context.
+
+Regulation at the infrastructure layer is appropriate — AC operators are identifiable, legally accountable, and benefit from regulatory clarity. Regulating the resource layer would destroy trustlessness.
+
+Source: [[summary-web-machine-economy]]
 
 ## Competitive Chain Spawning (Market Discipline)
 

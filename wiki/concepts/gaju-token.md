@@ -2,10 +2,10 @@
 type: concept
 title: "Gaju Token"
 aliases: [gaju, gaju-token, GJU]
-sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-qpq-wiki-flation]], [[summary-qpq-wiki-mint]]
+sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-qpq-wiki-flation]], [[summary-qpq-wiki-mint]], [[summary-blog-summer-of-gajumaru]]
 related: [[groot]], [[protected-mining]], [[gajumaru-architecture]], [[qpq-ag]], [[gajumaru-product-suite]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 confidence: high
 cluster: tokenomics-economics
 cluster_role: hub
@@ -30,9 +30,27 @@ Source: [[summary-unwhitepaper]]
 | First circulation | October 16, 2025 |
 | Distribution mechanism | Mining (Hive miners → smart contract drawdowns) |
 | Currency symbol | 7XGaju (Ki kanji 木 = "tree") |
+| Base unit | 1 puck = 10⁻¹⁸ Gaju (minimum indivisible unit; minimum possible state channel fee) |
+| Stabilisation Treasury | 125 billion Gaju reserved to smooth early-adoption volatility |
+| Protected mining target | 30 March 2027 |
+| Protected mining outer boundary | 30 September 2027 |
 
 ## Circulation History
 First real Gaju drawdowns from smart contracts occurred **October 16, 2025** — miners accessed funds on personal accounts from Hive miners. This date marks Gaju as an active currency.
+
+## MainNet Date Significance
+Gajumaru's public MainNet launched **April 26, 2026** — chosen because it is **14 years to the day from Satoshi Nakamoto's last email**. This is an explicit statement of continuity with Bitcoin's founding mission. Source: [[summary-unwhitepaper]].
+
+## Stabilisation Treasury
+**125 billion Gajus** are held in reserve specifically to smooth early-adoption volatility. This reserve exists to dampen wild price swings during the early period before Gajumaru achieves critical economic mass. The mechanism is QPQ-controlled during the protected mining window.
+
+Source: [[summary-unwhitepaper]]
+
+## Minting Efficiency vs Bitcoin
+
+In **Period 1** of Gajumaru's Fibonacci emission schedule, minting efficiency is approximately **249 million×** more efficient than Bitcoin's minting process. This compounds with Groot's transactional efficiency (1,846,200×) to produce dramatically lower economic overhead per unit of money created.
+
+Source: [[summary-unwhitepaper]]
 
 ## Mining Economics
 - Mining licenses sold via Gajumining.com

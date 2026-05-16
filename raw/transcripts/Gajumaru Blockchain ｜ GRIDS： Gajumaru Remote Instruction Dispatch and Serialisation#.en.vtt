@@ -1,0 +1,448 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.560 --> 00:00:02.629 align:start position:0%
+ 
+What<00:00:00.800><c> is</c><00:00:01.040><c> Grids?</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+What is Grids?
+ 
+
+00:00:02.639 --> 00:00:04.550 align:start position:0%
+What is Grids?
+&gt;&gt; Okay,<00:00:02.960><c> Grids,</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+&gt;&gt; Okay, Grids,
+ 
+
+00:00:04.560 --> 00:00:07.269 align:start position:0%
+&gt;&gt; Okay, Grids,
+um,<00:00:05.359><c> so</c><00:00:05.600><c> Grids</c><00:00:06.080><c> is</c><00:00:06.160><c> a</c><00:00:06.319><c> protocol.</c><00:00:06.879><c> Well,</c><00:00:07.120><c> it</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+um, so Grids is a protocol. Well, it
+ 
+
+00:00:07.279 --> 00:00:08.549 align:start position:0%
+um, so Grids is a protocol. Well, it
+started<00:00:07.520><c> as</c><00:00:07.680><c> a</c><00:00:07.839><c> protocol.</c><00:00:08.160><c> It's</c><00:00:08.400><c> kind</c><00:00:08.480><c> of</c>
+
+00:00:08.549 --> 00:00:08.559 align:start position:0%
+started as a protocol. It's kind of
+ 
+
+00:00:08.559 --> 00:00:11.270 align:start position:0%
+started as a protocol. It's kind of
+expanded<00:00:08.960><c> a</c><00:00:09.120><c> little</c><00:00:09.200><c> bit.</c><00:00:09.599><c> Um,</c>
+
+00:00:11.270 --> 00:00:11.280 align:start position:0%
+expanded a little bit. Um,
+ 
+
+00:00:11.280 --> 00:00:13.110 align:start position:0%
+expanded a little bit. Um,
+it's<00:00:11.599><c> basically</c><00:00:11.920><c> a</c><00:00:12.160><c> dead</c><00:00:12.480><c> drop</c><00:00:12.719><c> signature</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+it's basically a dead drop signature
+ 
+
+00:00:13.120 --> 00:00:17.990 align:start position:0%
+it's basically a dead drop signature
+protocol,<00:00:14.320><c> uh,</c><00:00:15.440><c> that</c><00:00:15.759><c> allows</c><00:00:16.080><c> you</c><00:00:16.320><c> to</c><00:00:17.760><c> have</c>
+
+00:00:17.990 --> 00:00:18.000 align:start position:0%
+protocol, uh, that allows you to have
+ 
+
+00:00:18.000 --> 00:00:20.470 align:start position:0%
+protocol, uh, that allows you to have
+data<00:00:18.240><c> that</c><00:00:18.480><c> needs</c><00:00:18.640><c> to</c><00:00:18.720><c> be</c><00:00:18.880><c> signed,</c>
+
+00:00:20.470 --> 00:00:20.480 align:start position:0%
+data that needs to be signed,
+ 
+
+00:00:20.480 --> 00:00:23.269 align:start position:0%
+data that needs to be signed,
+have<00:00:20.640><c> that</c><00:00:20.960><c> held</c><00:00:21.279><c> somewhere,</c><00:00:22.720><c> and</c><00:00:22.960><c> then</c><00:00:23.119><c> have</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+have that held somewhere, and then have
+ 
+
+00:00:23.279 --> 00:00:27.029 align:start position:0%
+have that held somewhere, and then have
+a<00:00:23.519><c> separate</c><00:00:23.840><c> device,</c><00:00:24.480><c> your</c><00:00:24.720><c> wallet,</c><00:00:26.080><c> um,</c><00:00:26.720><c> or</c>
+
+00:00:27.029 --> 00:00:27.039 align:start position:0%
+a separate device, your wallet, um, or
+ 
+
+00:00:27.039 --> 00:00:28.390 align:start position:0%
+a separate device, your wallet, um, or
+like<00:00:27.279><c> your</c><00:00:27.439><c> phone</c><00:00:27.599><c> or</c><00:00:27.840><c> whatever.</c><00:00:28.080><c> So</c><00:00:28.320><c> you're</c>
+
+00:00:28.390 --> 00:00:28.400 align:start position:0%
+like your phone or whatever. So you're
+ 
+
+00:00:28.400 --> 00:00:29.990 align:start position:0%
+like your phone or whatever. So you're
+you're<00:00:28.720><c> browsing</c><00:00:29.039><c> on</c><00:00:29.199><c> the</c><00:00:29.439><c> internet</c><00:00:29.679><c> with</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+you're browsing on the internet with
+ 
+
+00:00:30.000 --> 00:00:33.590 align:start position:0%
+you're browsing on the internet with
+your<00:00:30.240><c> computer</c><00:00:31.199><c> and</c><00:00:31.920><c> now</c><00:00:32.239><c> you</c><00:00:32.559><c> want</c><00:00:32.800><c> to</c><00:00:33.360><c> log</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+your computer and now you want to log
+ 
+
+00:00:33.600 --> 00:00:35.990 align:start position:0%
+your computer and now you want to log
+into<00:00:33.920><c> something</c><00:00:34.320><c> or</c><00:00:34.880><c> sign.</c><00:00:35.520><c> You</c><00:00:35.680><c> want</c><00:00:35.760><c> to</c><00:00:35.840><c> log</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+into something or sign. You want to log
+ 
+
+00:00:36.000 --> 00:00:38.229 align:start position:0%
+into something or sign. You want to log
+in<00:00:36.399><c> requires</c><00:00:36.719><c> a</c><00:00:36.880><c> signature</c><00:00:37.440><c> or</c><00:00:37.680><c> you</c><00:00:37.840><c> want</c><00:00:37.920><c> to</c>
+
+00:00:38.229 --> 00:00:38.239 align:start position:0%
+in requires a signature or you want to
+ 
+
+00:00:38.239 --> 00:00:39.750 align:start position:0%
+in requires a signature or you want to
+transact<00:00:38.640><c> with</c><00:00:38.719><c> a</c><00:00:38.879><c> blockchain</c><00:00:39.280><c> requires</c><00:00:39.600><c> a</c>
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+transact with a blockchain requires a
+ 
+
+00:00:39.760 --> 00:00:42.869 align:start position:0%
+transact with a blockchain requires a
+signature.<00:00:40.160><c> Same</c><00:00:40.399><c> same</c><00:00:40.640><c> type</c><00:00:40.879><c> thing.</c><00:00:41.520><c> Um</c><00:00:42.640><c> the</c>
+
+00:00:42.869 --> 00:00:42.879 align:start position:0%
+signature. Same same type thing. Um the
+ 
+
+00:00:42.879 --> 00:00:46.229 align:start position:0%
+signature. Same same type thing. Um the
+thing<00:00:43.120><c> that</c><00:00:43.200><c> needs</c><00:00:43.360><c> to</c><00:00:43.440><c> be</c><00:00:43.600><c> signed</c><00:00:44.320><c> is</c><00:00:44.640><c> encoded</c>
+
+00:00:46.229 --> 00:00:46.239 align:start position:0%
+thing that needs to be signed is encoded
+ 
+
+00:00:46.239 --> 00:00:49.110 align:start position:0%
+thing that needs to be signed is encoded
+with<00:00:46.480><c> a</c><00:00:46.719><c> location</c><00:00:47.440><c> and</c><00:00:47.680><c> that</c><00:00:48.000><c> location</c><00:00:48.719><c> can</c><00:00:48.960><c> be</c>
+
+00:00:49.110 --> 00:00:49.120 align:start position:0%
+with a location and that location can be
+ 
+
+00:00:49.120 --> 00:00:51.910 align:start position:0%
+with a location and that location can be
+shown<00:00:49.360><c> to</c><00:00:49.520><c> your</c><00:00:49.760><c> phone</c>
+
+00:00:51.910 --> 00:00:51.920 align:start position:0%
+shown to your phone
+ 
+
+00:00:51.920 --> 00:00:53.830 align:start position:0%
+shown to your phone
+visually<00:00:52.399><c> through</c><00:00:52.559><c> a</c><00:00:52.719><c> QR</c><00:00:53.039><c> code.</c><00:00:53.440><c> the</c><00:00:53.680><c> phone</c>
+
+00:00:53.830 --> 00:00:53.840 align:start position:0%
+visually through a QR code. the phone
+ 
+
+00:00:53.840 --> 00:00:56.950 align:start position:0%
+visually through a QR code. the phone
+can<00:00:54.079><c> read</c><00:00:54.239><c> that</c><00:00:54.960><c> go</c><00:00:55.199><c> out</c><00:00:55.600><c> separately</c><00:00:56.640><c> separate</c>
+
+00:00:56.950 --> 00:00:56.960 align:start position:0%
+can read that go out separately separate
+ 
+
+00:00:56.960 --> 00:00:58.229 align:start position:0%
+can read that go out separately separate
+device.<00:00:57.280><c> So</c><00:00:57.440><c> the</c><00:00:57.600><c> phone</c><00:00:57.760><c> doesn't</c><00:00:57.920><c> know</c><00:00:58.000><c> what's</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+device. So the phone doesn't know what's
+ 
+
+00:00:58.239 --> 00:01:00.069 align:start position:0%
+device. So the phone doesn't know what's
+going<00:00:58.399><c> on</c><00:00:58.640><c> necessarily.</c><00:00:59.359><c> It</c><00:00:59.600><c> just</c><00:00:59.680><c> knows</c><00:01:00.000><c> I</c>
+
+00:01:00.069 --> 00:01:00.079 align:start position:0%
+going on necessarily. It just knows I
+ 
+
+00:01:00.079 --> 00:01:02.069 align:start position:0%
+going on necessarily. It just knows I
+need<00:01:00.160><c> to</c><00:01:00.320><c> go</c><00:01:00.399><c> get</c><00:01:00.559><c> this</c><00:01:00.719><c> thing</c><00:01:00.879><c> to</c><00:01:01.039><c> get</c><00:01:01.120><c> signed.</c>
+
+00:01:02.069 --> 00:01:02.079 align:start position:0%
+need to go get this thing to get signed.
+ 
+
+00:01:02.079 --> 00:01:04.310 align:start position:0%
+need to go get this thing to get signed.
+Your<00:01:02.320><c> keys</c><00:01:02.559><c> are</c><00:01:02.719><c> on</c><00:01:02.879><c> your</c><00:01:03.039><c> phone.</c><00:01:04.080><c> Your</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+Your keys are on your phone. Your
+ 
+
+00:01:04.320 --> 00:01:05.830 align:start position:0%
+Your keys are on your phone. Your
+computer<00:01:04.559><c> is</c><00:01:04.720><c> what</c><00:01:04.879><c> you're</c><00:01:05.040><c> browsing</c><00:01:05.280><c> with</c><00:01:05.519><c> or</c>
+
+00:01:05.830 --> 00:01:05.840 align:start position:0%
+computer is what you're browsing with or
+ 
+
+00:01:05.840 --> 00:01:08.550 align:start position:0%
+computer is what you're browsing with or
+you<00:01:06.000><c> got</c><00:01:06.159><c> two</c><00:01:06.400><c> phones</c><00:01:06.799><c> or</c><00:01:07.119><c> whatever.</c><00:01:07.920><c> Um</c><00:01:08.400><c> the</c>
+
+00:01:08.550 --> 00:01:08.560 align:start position:0%
+you got two phones or whatever. Um the
+ 
+
+00:01:08.560 --> 00:01:10.149 align:start position:0%
+you got two phones or whatever. Um the
+whole<00:01:08.720><c> point</c><00:01:08.880><c> is</c><00:01:09.119><c> that</c><00:01:09.280><c> we're</c><00:01:09.520><c> separating</c><00:01:09.920><c> the</c>
+
+00:01:10.149 --> 00:01:10.159 align:start position:0%
+whole point is that we're separating the
+ 
+
+00:01:10.159 --> 00:01:12.630 align:start position:0%
+whole point is that we're separating the
+execution<00:01:10.720><c> context</c><00:01:11.119><c> that</c><00:01:11.360><c> you're</c><00:01:11.600><c> you're</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+execution context that you're you're
+ 
+
+00:01:12.640 --> 00:01:14.310 align:start position:0%
+execution context that you're you're
+cruising<00:01:12.960><c> around</c><00:01:13.119><c> the</c><00:01:13.280><c> internet</c><00:01:13.439><c> with</c><00:01:14.080><c> from</c>
+
+00:01:14.310 --> 00:01:14.320 align:start position:0%
+cruising around the internet with from
+ 
+
+00:01:14.320 --> 00:01:16.469 align:start position:0%
+cruising around the internet with from
+the<00:01:14.640><c> signature</c><00:01:15.040><c> context.</c><00:01:15.680><c> We're</c><00:01:15.920><c> going</c><00:01:16.080><c> to</c><00:01:16.240><c> se</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+the signature context. We're going to se
+ 
+
+00:01:16.479 --> 00:01:19.510 align:start position:0%
+the signature context. We're going to se
+physically<00:01:16.880><c> separate</c><00:01:17.200><c> them</c><00:01:17.439><c> by</c><00:01:17.680><c> device.</c><00:01:18.720><c> Um,</c>
+
+00:01:19.510 --> 00:01:19.520 align:start position:0%
+physically separate them by device. Um,
+ 
+
+00:01:19.520 --> 00:01:21.109 align:start position:0%
+physically separate them by device. Um,
+that<00:01:19.759><c> also</c><00:01:20.000><c> allows</c><00:01:20.240><c> us</c><00:01:20.400><c> to</c><00:01:20.560><c> do</c><00:01:20.640><c> a</c><00:01:20.799><c> bunch</c><00:01:20.960><c> of</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+that also allows us to do a bunch of
+ 
+
+00:01:21.119 --> 00:01:23.190 align:start position:0%
+that also allows us to do a bunch of
+cool<00:01:21.360><c> things</c><00:01:21.600><c> like</c><00:01:22.400><c> it</c><00:01:22.640><c> doesn't</c><00:01:22.799><c> matter</c><00:01:22.960><c> what</c>
+
+00:01:23.190 --> 00:01:23.200 align:start position:0%
+cool things like it doesn't matter what
+ 
+
+00:01:23.200 --> 00:01:24.550 align:start position:0%
+cool things like it doesn't matter what
+kind<00:01:23.280><c> of</c><00:01:23.439><c> browser</c><00:01:23.759><c> you're</c><00:01:24.000><c> using</c><00:01:24.159><c> anymore.</c>
+
+00:01:24.550 --> 00:01:24.560 align:start position:0%
+kind of browser you're using anymore.
+ 
+
+00:01:24.560 --> 00:01:26.789 align:start position:0%
+kind of browser you're using anymore.
+You<00:01:24.720><c> could</c><00:01:24.799><c> be</c><00:01:24.960><c> using</c><00:01:25.040><c> a</c><00:01:25.280><c> mobile</c><00:01:25.439><c> browser</c><00:01:25.920><c> or,</c>
+
+00:01:26.789 --> 00:01:26.799 align:start position:0%
+You could be using a mobile browser or,
+ 
+
+00:01:26.799 --> 00:01:28.789 align:start position:0%
+You could be using a mobile browser or,
+you<00:01:26.960><c> know,</c><00:01:27.200><c> desktop</c><00:01:27.600><c> browser.</c><00:01:28.400><c> You</c><00:01:28.560><c> could</c><00:01:28.720><c> be</c>
+
+00:01:28.789 --> 00:01:28.799 align:start position:0%
+you know, desktop browser. You could be
+ 
+
+00:01:28.799 --> 00:01:30.390 align:start position:0%
+you know, desktop browser. You could be
+using<00:01:28.960><c> a</c><00:01:29.119><c> text</c><00:01:29.439><c> browser.</c><00:01:29.840><c> It</c><00:01:30.000><c> doesn't</c><00:01:30.159><c> matter.</c>
+
+00:01:30.390 --> 00:01:30.400 align:start position:0%
+using a text browser. It doesn't matter.
+ 
+
+00:01:30.400 --> 00:01:32.550 align:start position:0%
+using a text browser. It doesn't matter.
+We<00:01:30.640><c> can</c><00:01:30.799><c> show</c><00:01:31.040><c> this</c><00:01:31.520><c> information</c><00:01:32.000><c> to</c><00:01:32.240><c> your</c>
+
+00:01:32.550 --> 00:01:32.560 align:start position:0%
+We can show this information to your
+ 
+
+00:01:32.560 --> 00:01:35.190 align:start position:0%
+We can show this information to your
+wallet<00:01:33.040><c> any</c><00:01:33.439><c> number</c><00:01:33.600><c> of</c><00:01:33.840><c> ways.</c><00:01:34.720><c> It</c><00:01:34.960><c> just</c><00:01:35.040><c> has</c>
+
+00:01:35.190 --> 00:01:35.200 align:start position:0%
+wallet any number of ways. It just has
+ 
+
+00:01:35.200 --> 00:01:38.149 align:start position:0%
+wallet any number of ways. It just has
+to<00:01:35.360><c> be</c><00:01:35.439><c> able</c><00:01:35.600><c> to</c><00:01:35.759><c> get</c><00:01:36.240><c> hold</c><00:01:36.400><c> of</c><00:01:36.560><c> an</c><00:01:36.799><c> address</c><00:01:37.600><c> to</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+to be able to get hold of an address to
+ 
+
+00:01:38.159 --> 00:01:40.390 align:start position:0%
+to be able to get hold of an address to
+pull<00:01:38.560><c> data</c><00:01:38.799><c> from,</c><00:01:39.439><c> sign</c><00:01:39.680><c> it,</c><00:01:39.840><c> and</c><00:01:40.000><c> then</c><00:01:40.159><c> puts</c>
+
+00:01:40.390 --> 00:01:40.400 align:start position:0%
+pull data from, sign it, and then puts
+ 
+
+00:01:40.400 --> 00:01:43.109 align:start position:0%
+pull data from, sign it, and then puts
+the<00:01:40.560><c> data</c><00:01:40.720><c> back</c><00:01:40.880><c> in</c><00:01:41.119><c> the</c><00:01:41.280><c> same</c><00:01:41.439><c> spot.</c><00:01:42.880><c> That's</c>
+
+00:01:43.109 --> 00:01:43.119 align:start position:0%
+the data back in the same spot. That's
+ 
+
+00:01:43.119 --> 00:01:46.069 align:start position:0%
+the data back in the same spot. That's
+basically<00:01:43.439><c> how</c><00:01:43.600><c> the</c><00:01:43.680><c> thing's</c><00:01:43.920><c> defined.</c><00:01:45.119><c> uh</c>
+
+00:01:46.069 --> 00:01:46.079 align:start position:0%
+basically how the thing's defined. uh
+ 
+
+00:01:46.079 --> 00:01:47.749 align:start position:0%
+basically how the thing's defined. uh
+and<00:01:46.320><c> then</c><00:01:46.560><c> the</c><00:01:46.799><c> back</c><00:01:46.960><c> end</c><00:01:47.119><c> of</c><00:01:47.280><c> whatever</c><00:01:47.600><c> that</c>
+
+00:01:47.749 --> 00:01:47.759 align:start position:0%
+and then the back end of whatever that
+ 
+
+00:01:47.759 --> 00:01:49.429 align:start position:0%
+and then the back end of whatever that
+system<00:01:47.920><c> is</c><00:01:48.159><c> can</c><00:01:48.399><c> go</c><00:01:48.560><c> on</c><00:01:48.720><c> with</c><00:01:48.960><c> whatever</c><00:01:49.200><c> it's</c>
+
+00:01:49.429 --> 00:01:49.439 align:start position:0%
+system is can go on with whatever it's
+ 
+
+00:01:49.439 --> 00:01:53.190 align:start position:0%
+system is can go on with whatever it's
+supposed<00:01:49.600><c> to</c><00:01:49.759><c> do.</c><00:01:50.479><c> Um</c><00:01:51.280><c> that's</c><00:01:51.600><c> how</c><00:01:51.759><c> we</c><00:01:52.000><c> made,</c>
+
+00:01:53.190 --> 00:01:53.200 align:start position:0%
+supposed to do. Um that's how we made,
+ 
+
+00:01:53.200 --> 00:01:54.710 align:start position:0%
+supposed to do. Um that's how we made,
+you<00:01:53.360><c> know,</c><00:01:53.520><c> marketplace</c><00:01:54.000><c> signatures</c><00:01:54.479><c> work</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+you know, marketplace signatures work
+ 
+
+00:01:54.720 --> 00:01:56.310 align:start position:0%
+you know, marketplace signatures work
+snappy.<00:01:55.200><c> That's</c><00:01:55.360><c> how</c><00:01:55.520><c> we've</c><00:01:55.759><c> escaped</c><00:01:56.159><c> from</c>
+
+00:01:56.310 --> 00:01:56.320 align:start position:0%
+snappy. That's how we've escaped from
+ 
+
+00:01:56.320 --> 00:01:57.749 align:start position:0%
+snappy. That's how we've escaped from
+this<00:01:56.479><c> whole</c><00:01:56.720><c> browser</c><00:01:57.040><c> nightmare,</c><00:01:57.600><c> the</c>
+
+00:01:57.749 --> 00:01:57.759 align:start position:0%
+this whole browser nightmare, the
+ 
+
+00:01:57.759 --> 00:01:59.429 align:start position:0%
+this whole browser nightmare, the
+security<00:01:58.000><c> nightmare</c><00:01:58.399><c> of</c><00:01:58.560><c> the</c><00:01:58.719><c> of</c><00:01:58.960><c> the</c><00:01:59.119><c> browser</c>
+
+00:01:59.429 --> 00:01:59.439 align:start position:0%
+security nightmare of the of the browser
+ 
+
+00:01:59.439 --> 00:02:01.429 align:start position:0%
+security nightmare of the of the browser
+context.<00:02:00.240><c> We</c><00:02:00.560><c> don't</c><00:02:00.719><c> have</c><00:02:00.880><c> we</c><00:02:01.119><c> don't</c><00:02:01.280><c> even</c>
+
+00:02:01.429 --> 00:02:01.439 align:start position:0%
+context. We don't have we don't even
+ 
+
+00:02:01.439 --> 00:02:03.270 align:start position:0%
+context. We don't have we don't even
+have<00:02:01.520><c> a</c><00:02:01.759><c> browser</c><00:02:02.079><c> plug-in</c><00:02:02.399><c> wallet</c><00:02:02.719><c> anymore.</c>
+
+00:02:03.270 --> 00:02:03.280 align:start position:0%
+have a browser plug-in wallet anymore.
+ 
+
+00:02:03.280 --> 00:02:06.389 align:start position:0%
+have a browser plug-in wallet anymore.
+The<00:02:03.520><c> whole</c><00:02:03.680><c> idea</c><00:02:03.840><c> is</c><00:02:04.079><c> silly.</c><00:02:05.040><c> Um</c><00:02:05.840><c> so</c><00:02:06.000><c> we</c><00:02:06.240><c> just</c>
+
+00:02:06.389 --> 00:02:06.399 align:start position:0%
+The whole idea is silly. Um so we just
+ 
+
+00:02:06.399 --> 00:02:10.840 align:start position:0%
+The whole idea is silly. Um so we just
+got<00:02:06.560><c> rid</c><00:02:06.719><c> of</c><00:02:06.799><c> the</c><00:02:06.960><c> idea.</c><00:02:07.840><c> Uh,</c>
+

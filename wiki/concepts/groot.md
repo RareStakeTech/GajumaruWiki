@@ -83,8 +83,23 @@ All nodes preserve the current epoch's transaction logs, enabling reconstruction
 | Throughput | >300 transactions per second |
 | Commercial settlement | 2–3 seconds (next microblock) |
 | Absolute finality | 3–4 minutes (2 keyblocks) |
-| Efficiency vs Bitcoin | **1,846,200×** more transactionally efficient |
+| Efficiency vs Bitcoin | **1,846,200×** more transactionally efficient (up to 9,231,000× at upper Cuckoo bound) |
 | Security vs Bitcoin | At least 8.23× greater in commercial utilisation |
+| Energy per transaction | ~0.0024 kWh (less than running a lightbulb for 3 minutes) |
+| Bitcoin energy per tx | ~1,335 kWh |
+| Simple spend cost | 0.0000169 Gaju (< 2 thousandths of a cent at $1/Gaju) |
+| Network daily capacity | 30 million transactions/day at full throughput |
+
+**Efficiency breakdown — four compounding steps (Un-White Paper Ch. V):**
+
+1. **Bitcoin-NG Decoupling (92.31×):** Groot processes 300+ TPS over 120-second keyblock cycle = 36,000+ txs per 10-min window. Bitcoin: 3.25 TPS × 600s = 1,950 txs. Ratio: 92.31×
+2. **Settlement Latency (200×):** Bitcoin settlement = 600s; Groot microblock = 3s. Running total: 18,462×
+3. **Compressed Settlement Security (10×):** Witnessing limits attack windows to 4 minutes. Bitcoin's open window allows 51% attackers to accumulate advantage over hours/days (a "patience" attack). Groot requires 10× less hashrate for equivalent security. Running total: 184,620×
+4. **Cuckoo Cycle Memory-Latency Bound (10×–50×):** Memory-bound PoW = 10–50× fewer CPU instructions vs SHA-256 at equivalent security. Conservative: **1,846,200×**. Upper: **9,231,000×**
+
+**Protocol sovereignty:** After public mining opens (target: 30 March 2027; outer boundary: 30 September 2027), Groot is a **finished protocol** — architecturally complete, not abandoned. No base-layer updates can be forced. No governance structure exists through which QPQ could act. The architecture asks you to trust mathematics and PoW, not QPQ. *"A resource layer that keeps changing under someone's direction is not a resource layer. It is infrastructure under active management."*
+
+**Mining energy:** Gaju miner runs on laptop with 8 GB RAM, ~60–100 watts (equivalent to an incandescent light bulb). Bitcoin ASIC: ~3,500 watts per unit, industrial cooling required. No warehouse, no power substation.
 
 > [!contradiction]
 > **Efficiency figure conflict:**

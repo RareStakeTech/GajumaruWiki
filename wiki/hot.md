@@ -6,16 +6,36 @@
 
 ## Current Focus
 
-**52 sources. All known blogs ingested. Un-White Paper fully expanded (12 new sections, 22 key_claims).** gajumaru.io + gajumining.com + qpq.swiss fully crawled. GRIDS name corrected (Serialisation not System). Three-stage GRIDS hardware roadmap documented. **Next priorities:**
-1. Create wiki/concepts/quantum-resistance.md (ML-DSA-44/65/87, Curve25519, GA mechanism)
-2. Find and ingest the Dimitar video on Associate Chain → Groot finality cooperation
-3. Fetch qpq.swiss/resources/ and gajumining.com/guides, /faq, /downloads
-4. Seek post-MainNet data (miner count, Gaju price, LTIN launch status)
-5. Create wiki/concepts/gajudex.md if warranted (expanded product page)
+**64 sources. 19 concept pages. 41 video transcripts. 37/37 raw source files ✅ audited (100%). 23/23 remaining VTTs ✅ ingested (100% channel coverage).** All known VTT transcripts now have source summaries. New batch: Mythos incident specifics (April 7/Claude Mythos/OpenBSD/27yr RCE), machine economy, price signal economy, Nazgûl details, Lightning Gini 0.97, decentralization vs reality (Ulf). **Next priorities:**
+1. AC → Groot finality cooperation: confirmed NOT in any transcript; awaiting future QPQ publication
+2. Fetch post-MainNet data (miner count, Gaju price, LTIN launch status)
+3. Ingest Un-White Paper Technical Paper (not yet in raw/)
+4. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
+5. Remaining unprocessed VTT queue (see below) — 10 videos still in queue
+6. Audit web-fetched blog sources (15 files; would require re-fetch to verify)
 
 **Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
 
 ---
+
+## Video Queue (unprocessed — @Gajumaru_Chain)
+
+**All 41 downloaded VTT files are now ingested ✅**
+
+Still no raw transcript (not yet downloaded):
+- `m-4SBUZE4a8` — Unmasking Stablecoins: Genius Act, Tether (July 2025)
+- `nyIhbd7rk30` — Gajumaru Update: Whitelist Mining, Distribution & Payment Processing
+- `7vFgDh1WTzk` — Future of banking in blockchain
+- `PvBCX7UA0-0` — Bitcoin is a Proof of Concept
+- `EP1xDMfeFW0` — NPM Supply Chain Hack (⚠️ this was already summarised via online transcript — see [[summary-npm-supply-chain-hack]])
+- `RY1ptavwI1M` — Gajumaru Blockchain: from Alternative to Default Economy (✅ ingested in summary-economics-social)
+
+Previously partially-read long transcripts (still ⚠️ Partial — warrant deep-audit):
+- Blockchain Governance + ACs (long; ✅ summary exists; concept pages updated)
+- How Gajumaru Addresses Scaling (long; ✅ summary exists)
+- Quantum/AI/Machine Economy (long; ✅ summary exists)
+- NPM Supply Chain Hack (long; ✅ summary exists)
+- Internet of Economics GRIDS Mythos (long; ✅ summary exists)
 
 ## Open Questions
 
@@ -31,7 +51,15 @@
 - QPQ IaaS AG — what is it?
 - Un-White Paper Technical Paper — not yet ingested
 
+**New open questions:**
+- Protected mining date: walkthrough says "March 31, 2027" vs UWP "March 30, 2027" vs earlier notes "March 29" — need to resolve
+- QPQ IaaS AG (Einsiedeln) vs QPQ AG (Zug) — what is the exact relationship / division of functions?
+- Shane Preater — community contributor? QPQ employee? (maintains Linux installer on GitHub)
+- QPQ Overview + One-Pager PDFs (qpq.swiss/resources/) are image-based — user needs to OCR to ingest
+
 **RESOLVED:**
+- Mythos incident: April 7 2026; Claude Mythos / Project Glasswing; OpenBSD; 27-year-old RCE; root access no-auth; 90-day industry window
+- All 41 downloaded VTT transcripts now ingested (100% channel VTT coverage)
 - Ulf = Ulf Wiger (CTO); first commercial Erlang license 1993
 - Craig = zxq9 (Craig Everett) — CPO; blog author confirmed
 - Dimitar = Dimitar Ivanov — CDO
@@ -82,6 +110,12 @@
 | 2026-05-15 | ingest | Site crawl: gajumaru.io + gajumining.com + qpq.swiss — 5 new sources, 3 new entities |
 | 2026-05-15 | ingest | Un-White Paper expansion — 12 new sections, 22 key_claims |
 | 2026-05-15 | ingest | Blog batch (9 posts) — defensive mining, LN failure, state channels, PoW theory, Mythos/Glasswing, A2P, A2A, social feed, GajuPay |
+| 2026-05-16 | ingest | Concept page expansion — 5 pages updated + 2 new (quantum-resistance, internet-of-economics) |
+| 2026-05-16 | ingest | 3 new video summaries; gajudex.md; source-audit.md; 40+ channel videos discovered; 35+ unprocessed |
+| 2026-05-16 | ingest | Bulk channel ingest — 41 VTT files; 4 new summaries; Mythos/A-tier/NPM/Nazgûl content added |
+| 2026-05-16 | audit | All 29 QPQ public wiki raw articles ✅ confirmed — summaries fully capture raw content |
+| 2026-05-16 | audit | All 7 original transcripts + .url file ✅ — 37/37 (100%) raw files audited |
+| 2026-05-16 | ingest | 23 remaining VTT transcripts — 5 consolidated source summaries + 1 new concept (price-signal-economy); 41/41 VTTs now ✅ |
 
 ---
 
@@ -89,9 +123,15 @@
 
 - [[gajumaru-architecture]] — master hub
 - [[groot]] — efficiency contradiction open; finality cooperation open question
-- [[associate-chains]] — fully detailed; GL1 context; "not a layer two"
-- [[grids]] — full name corrected; three-stage hardware roadmap documented
+- [[associate-chains]] — 260-jurisdiction scaling (144M×); no architectural ceiling; GL1 context
+- [[grids]] — SSSO section added; RUAG Stage 3 reference; full three-stage hardware roadmap
 - [[gajumaru-product-suite]] — GajuPay three-stage rollout added; GajuAuth + GajuPort
+- [[gaju-token]] — stabilisation treasury (125B); outer boundary (Sept 2027); MainNet date significance; minting efficiency (249M×); puck defined
+- [[sophia-fate]] — Sophia etymology; FATE VM security properties section; formal verification note
+- [[state-channels]] — SUICA/WhatsApp benchmarks; bar tab metaphor; machine economy section
+- [[quantum-resistance]] — ML-DSA-44/65/87; GA upgrade path; 10-20yr threat timeline; hype calibration (LLM parallel)
+- [[internet-of-economics]] — transactional vs informational internet; three restorations; machine economy; ZKP critique; alternative→default economy
+- [[price-signal-economy]] — NEW: puck economy; Milton Friedman; bot farm destruction; <5% blogs original; generational value
 - [[protected-mining]] — ends March 29 2027; defensive mining concept added
 - [[state-channels]] — A2P/A2A/social feed economic model; Lightning comparison
 - [[tea-trilemma]] — Peter Harpending "scam" quote added

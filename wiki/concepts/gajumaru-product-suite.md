@@ -50,7 +50,10 @@ The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 - Referral partnership program: partners@qpq.swiss
 - **Three-stage rollout**: Stage 1 (web portal MVP — basic sales tracking + accounting exports), Stage 2 (webshop integration — plugin architecture + widgets), Stage 3 (self-hosted backend for enterprise data sovereignty)
 - Launch scheduled: 2026 alongside GajuMobile
-- Source: [[summary-blog-gajupay]]
+- **Backend integration model**: GajuPay node observes the chain; vendor integrates a webhook endpoint; on payment confirmation GajuPay calls the vendor webhook (drop-in replacement for credit-card-network webhook integrations)
+- **GajuMobile deploys May 2026** (per QPQ live demos)
+- Implementation timeline: "well within the 90 days cybersecurity industry estimates for action"
+- Source: [[summary-blog-gajupay]], [[summary-gajumaru-channel-shorts]]
 
 **GajuFX** — CHF/EUR/USD fiat on/off ramps (via QPQ Capital AG SRO regulated).
 

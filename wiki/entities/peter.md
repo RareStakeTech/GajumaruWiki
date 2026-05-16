@@ -3,10 +3,10 @@ type: entity
 entity_type: person
 title: "Peter (Communicator)"
 aliases: [peter]
-sources: [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-mining-journey-update]], [[summary-qpq-wiki-blockchain-primer]], [[summary-blog-proof-of-work-theory]]
+sources: [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-gaju-mining-journey-update]], [[summary-qpq-wiki-blockchain-primer]], [[summary-blog-proof-of-work-theory]], [[summary-npm-supply-chain-hack]], [[summary-gajumaru-channel-shorts]]
 related: [[craig]], [[dimitar]], [[ulf]], [[gregory-chew]], [[qpq-ag]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 cluster: core-protocol
 contradictions: []
 open_questions:
@@ -24,6 +24,11 @@ There are two people named Peter associated with QPQ AG:
 Peter is also the author and editor of the QPQ Public Wiki (`git.qpq.swiss/QPQ-AG/public-wiki/wiki/`), QPQ's primary public educational resource. His wiki covers topics from monetary theory through to the Sophia smart contract language. Last edited: **2026-03-17** (per Blockchain Primer page metadata). Contact: peterharpending@qpq.swiss.
 
 He is also a **confirmed public blog author**: he wrote "Why Proof-of-Work Works (in Theory)" (March 13, 2026, gajumaru.io), a technical article on PoW foundations, the blockchain trilemma, and QPQ's position that any project claiming to have "solved" the trilemma is making a fraudulent claim. This confirms his role alongside Craig Everett and Greg Chew as a named public author for QPQ. Source: [[summary-blog-proof-of-work-theory]]
+
+**Peter Harpending is confirmed as co-author of GajuDesk** (with Craig Everett). From the NPM supply chain hack discussion:
+> "The principle that we took — and this is Peter Harpending and I — we were kind of starting with some of these ideas was let's just write a wallet with no dependencies. Let's just write all the code."
+
+QPQ has written "a couple of wallets" together with zero dependencies. Peter and Craig co-architected the zero-dependency approach. Source: [[summary-npm-supply-chain-hack]], [[summary-gajumaru-channel-shorts]]
 
 Source: [[summary-qpq-wiki-blockchain-primer]], [[summary-gaju-mining-journey-update]]
 

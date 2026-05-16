@@ -73,6 +73,8 @@ Launched April 6/7 2026 at 23:59:00 Zulu.
 | [[tea-trilemma]] | member | TEA framework: Trustlessness / Efficiency / Accountability |
 | [[cuckoo-cycle]] | member | Memory-bound PoW — no ASIC arms race |
 | [[bitcoin-ng]] | member | Consensus protocol — leader election + microblock transaction processing |
+| [[quantum-resistance]] | member | Post-quantum cryptography — ML-DSA-44/65/87, GA upgrade path |
+| [[internet-of-economics]] | member | Transactional internet distinct from informational internet; three restorations |
 | [[craig]] | entity | Lead architect — designed tree structure, named the project |
 | [[dimitar]] | entity | Implementation engineer — Associate Chain interplay |
 | [[peter]] | entity | Communicator — non-technical rubber duck for explainer videos |

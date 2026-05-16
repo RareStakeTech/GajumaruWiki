@@ -841,4 +841,262 @@ Key new content:
 - GajuPay three-stage rollout: web portal MVP → webshop plugins → self-hosted enterprise backend
 - "Any project claiming to have solved the Blockchain Trilemma is a scam" — Peter Harpending
 
+---
+
+## [2026-05-16] ingest | Concept page expansion — UWP deep audit follow-through (Session 2)
+
+Source: wiki/sources/summary-unwhitepaper.md (content already ingested; this entry reflects propagation to concept pages)
+
+Pages created:
+- wiki/concepts/quantum-resistance.md (ML-DSA-44/65/87; GA upgrade path; Curve25519 current; 10-20yr threat timeline; Seth Lloyd 50-50 probability; performance cost 1.5x-2.2x)
+- wiki/concepts/internet-of-economics.md (Internet of Data vs Internet of Economics; three restorations; trustlessness at scale; architectural separation; "only one protocol")
+
+Pages updated:
+- wiki/concepts/gaju-token.md (stabilisation treasury 125B Gaju; outer mining boundary Sept 30 2027; MainNet date significance "14 years from Satoshi's last email"; minting efficiency 249M× vs Bitcoin; base unit: 1 puck = 10⁻¹⁸ Gaju; updated sources)
+- wiki/concepts/sophia-fate.md (Sophia etymology — Greek for "wisdom"; FATE VM Security Properties section: type safety, overflow prevention, memory isolation, data/control separation, test/prod fidelity; updated sources)
+- wiki/concepts/state-channels.md (Scale Comparisons section: SUICA 500,000 TPS vs 300 TPS peak; WhatsApp Mac Mini M4 2.5B msg/day; bar tab metaphor; Machine Economy section: autonomous vehicles, AI inference, "machines don't have passports"; updated sources)
+- wiki/concepts/grids.md (SSSO section added: Self Single Sign-On, no credential sharing, GDPR automatic, nothing to steal; RUAG Guardian Secure Mobile Platform reference added to Stage 3; updated sources)
+- wiki/concepts/associate-chains.md (Jurisdictional Scaling section: 260 jurisdictions × 1,846,200 = 144M× vs Bitcoin; no architectural ceiling vs Polkadot/Cosmos/Ethereum L2s; updated sources)
+- wiki/concepts/gajumaru-architecture.md (In this cluster table updated with quantum-resistance and internet-of-economics)
+- wiki/index.md (2 new concept page rows; metrics: 17 concept pages)
+- wiki/hot.md (session state updated)
+
+Contradictions flagged: none
+Notes: Session 2 continuation. All high-priority concept page updates from the UWP deep audit are now complete. Two new concept pages created for quantum resistance and Internet of Economics framing.
+
+---
+
+## [2026-05-16] ingest | New video transcripts, site resources, and source audit infrastructure
+
+Sources:
+- youtube.com/@Gajumaru_Chain — full channel video list obtained (40+ videos; previously only 7 ingested)
+- qpq.swiss/resources/ — three new PDFs discovered (image-based; OCR not available without pdftoppm)
+- gajumining.com/downloads, /docs/walkthrough, /faq — operational detail pages
+- 5 new YouTube transcripts downloaded via yt-dlp
+
+New transcripts ingested:
+- raw/transcripts/blockchain-governance-privacy-alternate-financial-systems-and-associate-chains.md (2068 lines)
+- raw/transcripts/gajumaru-how-the-gajumaru-addresses-scaling.md (1191 lines)
+- raw/transcripts/token-summit-liechtenstein-gregory-chew-on-the-path-to-decentralization.md (503 lines)
+- raw/transcripts/gajumaru-ripa-craig-everett.md (39 lines)
+- raw/transcripts/gajumaru-blockchain-groot-1-846-200-times-more-efficient-than-bitcoin-8-23-times-the-security.md (11 lines)
+
+Pages created:
+- wiki/sources/summary-blockchain-governance-associate-chains.md
+- wiki/sources/summary-how-gajumaru-addresses-scaling.md
+- wiki/sources/summary-token-summit-gregory-chew.md
+- wiki/concepts/gajudex.md (AMM+CLOB; 39/40 DINO score; FINMA-compliant; two deployments; PHYDEX planned)
+- wiki/source-audit.md (new completeness tracking file)
+
+Pages updated:
+- wiki/concepts/associate-chains.md (cross-chain routing mechanism; hard cap enforcement; no bailout; why ACs can be fast; 3M TPS network total; no-ZK-rollup rationale; atomic currency exchange; new sources)
+- wiki/entities/gregory-chew.md (Token Summit appearance confirmed; 23-year journey; majority shareholder; $60M cost; 2009 pivot; new sources)
+- wiki/index.md (3 new source rows; 1 new concept page; metrics updated: 55 sources, 18 concept pages)
+- wiki/source-audit.md (qpq-wiki-state-channels.md marked ✅ after first source audit)
+
+Source audit performed this cycle:
+- raw/articles/qpq-wiki-state-channels.md → summary-qpq-wiki-state-channels.md ✅ CONFIRMED
+
+Key new content:
+- Cross-chain routing: AC A → Groot → AC B (explicit mechanism confirmed by Craig Everett)
+- Hard money supply cap: enforced by Groot at every keyblock height; AC cannot extract more than was deposited
+- No bailout mechanism: if AC collapses, there is no rescue — "too big to fail" structurally impossible
+- 3,000,000 TPS combined network: 10,000 ACs × 300 TPS (Craig's explicit calculation)
+- ACs can use PoS/PoA because operators are known and legally accountable (leader selection problem solved differently)
+- Associate chains can be SQL databases or banking systems with adapters — not required to be blockchains
+- No ZK rollups: design decision to keep regulatory accountability with AC operators (not Groot)
+- Greg confirmed as majority shareholder of QPQ AG
+- QPQ cost to date: ~$60 million
+- Token Summit: MiCA Recital 22 exemption discussed; independent rating agency proposed
+- 40+ previously unknown videos on @Gajumaru_Chain channel; 35+ still unprocessed
+- GajuMining FAQ: daily reward cap = 720 generations (~24 hours); up to 10 computers per account
+- QPQ IaaS AG: Allmeindstrasse 17, 8840 Einsiedeln, Switzerland (operational entity)
+- Shane Preater: community contributor maintaining Linux installer (github.com/shanepreater/gajumaru)
+- gajumaru.io blog: 6 posts confirmed — all already ingested ✅
+
+Contradictions noted:
+- Protected mining date: walkthrough says "March 31, 2027" vs UWP "March 30, 2027" vs hot.md "March 29" — pending resolution
+
+Open questions updated:
+- AC → Groot finality cooperation: confirmed NOT in the 5 new transcripts; Craig's promise to "get back to that with slightly more details" remains unfulfilled in public sources
+
+---
+
+## [2026-05-16] ingest | Bulk channel video ingestion — 41 transcripts pulled, 4 major summaries created
+
+Sources fetched (yt-dlp batch download):
+- 41 VTT subtitle files downloaded from @Gajumaru_Chain YouTube channel
+- 29 new transcripts converted to clean markdown in raw/transcripts/
+
+Pages created:
+- wiki/sources/summary-quantum-ai-machine-economy.md (Greg/Ulf/Craig discussion — quantum threat timeline update, A1/A2/A3 tiered accounts proposal, Nazgûl naming, Anthropic Mythos)
+- wiki/sources/summary-npm-supply-chain-hack.md (full Craig/Greg/Ulf discussion — 18 packages, 2B downloads, MetaMask failure, GajuDesk zero-dependency architecture, Peter Harpending co-authorship)
+- wiki/sources/summary-internet-of-economics-grids-mythos.md (Greg/Craig — two internets thesis, 3DS replacement, 25-year pitch to FIs, OpenClaw threat)
+- wiki/sources/summary-gajumaru-channel-shorts.md (roll-up of ~25 short clips — operational confirmations, Nazgûl, price signal economy, Ulf's Swedish background)
+
+Pages updated:
+- wiki/concepts/quantum-resistance.md (updated timeline mid-2030s; $100K economic threshold; A1/A2/A3 tier proposal; multi-account best practice)
+- wiki/concepts/grids.md (Mythos AI section; 3DS replacement path; operational status table; new sources)
+- wiki/concepts/gajumaru-product-suite.md (GajuPay webhook architecture; GajuMobile May 2026 deployment; 90-day implementation timeline)
+- wiki/entities/peter.md (confirmed as co-author of GajuDesk with Craig; new sources)
+- wiki/entities/ulf.md (Swedish nationality confirmed; personal banking anecdote; public-speaking role across panel videos)
+- wiki/entities/gregory-chew.md (Nazgûl metaphor; generational value creation; three time periods 22/23/25 years reconciled)
+- wiki/index.md (4 new source rows; metrics: 59 sources, 18 concept pages)
+- wiki/source-audit.md (Newly Added Sources section; audit status per new file)
+
+Source audit performed this cycle:
+- raw/transcripts/gajumaru-ripa-craig-everett.md ✅ FULL (39 lines)
+- raw/transcripts/gajumaru-blockchain-groot-1-846-200-times-more-efficient-than-bitcoin-8-23-times-the-security.md ✅ FULL (11 lines)
+- raw/transcripts/token-summit-liechtenstein-gregory-chew-on-the-path-to-decentralization.md ✅ FULL (503 lines)
+- ~20 channel short transcripts read in full and rolled up
+
+Key new content:
+- Quantum threat timeline updated: mid-2030s for first realistic attack; $100K+ account value threshold
+- A1/A2/A3 tiered quantum account proposal (Craig — pending Dimitar/Ulf review): elliptic-curve-with-hash-ID + ML-DSA-65/87 tiers
+- Anthropic Mythos AI: announced but not released; can hack every standard auth access point in seconds
+- NPM attack: 18 packages, 2B weekly downloads, 2B wallets potentially affected; Shai-Hulud worm
+- GajuDesk co-authored by Peter Harpending + Craig Everett (zero dependencies, multiple wallets written this way)
+- GajuPay backend integration model: webhook-based; vendor swaps credit-card webhook for GajuPay webhook
+- GajuMobile deploys May 2026; GajuMarket currently in testnet
+- "Nazgûl" coined by Greg as label for Bitcoin's would-be saviors (Saylor, Back, Wright, Fink)
+- Price signal economy quantified: 10 pucks per like, 1 Gaju per repost, 1 penny per email — eliminates bot/spam economics
+- Greg's three time periods reconciled: 22/23 years for Internet of Economics; 25 years for financial-institutions pitch
+- Ulf is Swedish; personal banking anecdote (paid in crypto, year-long bank negotiation)
+- 90-day cybersecurity industry implementation timeline — GRIDS achievable "well within"
+- OpenClaw: 2M users currently; growing daily; the agentic framework Gajumaru A2A monetizes
+
+Contradictions noted:
+- Greg's "years on the project" varies: 22 (Demo 1) vs 23 (Token Summit) vs 25 (Mythos video). Resolution attempted in gregory-chew.md — different reference points, not actual conflicts.
+
+Still pending:
+- 35+ channel videos still downloaded but not summarized individually (rolled up; can be deep-audited later if priority)
+- Full audit pass on the 5 new long transcripts (governance, scaling, quantum, npm, grids/mythos)
+
+---
+
+## [2026-05-16] audit | Full source completeness audit — all 29 QPQ public wiki raw articles confirmed
+
+Sources audited (✅ all confirmed):
+- raw/articles/qpq-wiki-state-channels.md
+- raw/articles/qpq-wiki-gajumaru.md
+- raw/articles/qpq-wiki-monetary-mechanics.md
+- raw/articles/qpq-wiki-mint.md
+- raw/articles/qpq-wiki-money.md
+- raw/articles/qpq-wiki-consensus.md
+- raw/articles/qpq-wiki-flation.md
+- raw/articles/qpq-wiki-mining.md
+- raw/articles/qpq-wiki-grids.md
+- raw/articles/qpq-wiki-proof-of-work.md
+- raw/articles/qpq-wiki-leader-selection.md
+- raw/articles/qpq-wiki-finality.md
+- raw/articles/qpq-wiki-blockchain-trilemma.md
+- raw/articles/qpq-wiki-blockchain-primer.md
+- raw/articles/qpq-wiki-blockchain.md
+- raw/articles/qpq-wiki-smart-contracts.md
+- raw/articles/qpq-wiki-sophia.md
+- raw/articles/qpq-wiki-transaction.md
+- raw/articles/qpq-wiki-mempool.md
+- raw/articles/qpq-wiki-dlts.md
+- raw/articles/qpq-wiki-home.md
+- raw/articles/qpq-wiki-sophia-faq.md
+- raw/articles/qpq-wiki-rlp.md
+- raw/articles/qpq-wiki-basen.md
+- raw/articles/qpq-wiki-serialization.md
+- raw/articles/qpq-wiki-api-encoding.md
+- raw/articles/qpq-wiki-testnet-node-setup.md
+- raw/articles/qpq-wiki-install-erlang-and-zx.md
+- raw/articles/qpq-wiki-vim-setup.md
+
+Result: All summary-qpq-wiki-*.md files confirmed to fully capture raw content. Most raw articles are short (10-50 lines each). Only the GRIDS one had a notable discrepancy — the raw page still uses "Gajumaru Remote Instruction Dispatch System" while the corrected name "Gajumaru Remote Instruction Dispatch and Serialisation" comes from the later Mythos/Glasswing blog (already reflected in concept page).
+
+Pages updated:
+- wiki/source-audit.md — all 29 QPQ wiki rows updated with ✅ status; remaining queue now focused on the 7 original transcripts + 5 newly downloaded long transcripts
+
+---
+
+## [2026-05-16] audit | All 7 original raw transcripts ✅ + .url file ✅ — 37 of 37 raw files audited (100%)
+
+Sources audited (✅ all confirmed):
+- raw/transcripts/why-the-gajumaru-and-how-it-works.md
+- raw/transcripts/the-gajumaru-an-actual-working-blockchain.md
+- raw/transcripts/gaju-firsts-gajumaru-blockchain.md
+- raw/transcripts/gajumaru-new-blockchain-demo-1.md
+- raw/transcripts/worlds-first-genuine-blockchain-marketplace-quidproquo-on-the-gajumaru.md
+- raw/transcripts/gaju-mining-pioneering-the-human-economy.md
+- raw/transcripts/gaju-mining-journey-update.md
+- raw/articles/Gajumaru- 2025 Year in Review .url (.url pointer file)
+
+Result: All summaries confirmed to fully capture raw content. Speaker identifications consistent across sources. The "Clutch" (desktop) and "Bor" (mobile) wallet names from the QuidProQuo demo (March 2024) are confirmed as the predecessors of GajuDesk/GajuMobile — already reflected in the product-suite concept page.
+
+Pages updated:
+- wiki/source-audit.md — all 7 transcript rows updated with ✅; .url pointer marked ✅; total raw files confirmed: 37/37
+
+Status: **100% of raw source files now ✅ audited.** Remaining audit work is for partially-read newly-downloaded long transcripts (~5 files) and 15 web-fetched blog sources (no raw files; would need re-fetch).
+
+---
+
+## [2026-05-16] ingest | 23 unprocessed VTT transcripts — 5 consolidated source summaries + 1 new concept page
+
+Sources ingested (raw/transcripts/ VTT files, all previously downloaded but unprocessed):
+- `AI Just Broke the Internet. Here Is the Fix#.en.vtt`
+- `Gajumaru Blockchain：from Alternative to Default Economy.en.vtt`
+- `Gajumaru Blockchain｜Decentralization vs Reality.en.vtt`
+- `Gajumaru Blockchain｜Convenience vs Security.en.vtt`
+- `Bitcoin Is Peer-to-Peer Cash. So Why Can't You Buy a Plane Ticket With It？.en.vtt`
+- `The Nazgûl：Why Bitcoin's "Saviours" Want the Keys to the Kingdom.en.vtt`
+- `The Web Was Never Designed to Carry Economic Value. Post-Quantum, Post-AI, It Cannot#.en.vtt`
+- `What If a Like Cost 10 Pucks？ The Price Signal Economy Applied to Social Media#.en.vtt`
+- `Internet of Economics｜GRIDS Live Demos, Ready Now.en.vtt`
+- `Gajumaru Blockchain｜The World's First On-Chain Marketplace - Security.en.vtt`
+- `Gajumaru Blockchain｜Three Live Demos. No Passwords. No Mythos Threat#.en.vtt`
+- `Internet of Economics｜No Passwords. No Breaches. Payments in Seconds#.en.vtt`
+- `Gajumaru Blockchain｜Watch a Login and a Payment Without Passwords.en.vtt`
+- `Internet of Economics｜No Login. No Password. No Attack Surface. GRIDS Live Demo.en.vtt` (longest, ~6:38)
+- `Gajumaru Blockchain｜GRIDS：Gajumaru Remote Instruction Dispatch and Serialisation#.en.vtt`
+- `Gajumaru Blockchain｜No Account. No Password. No Database to Hack#.en.vtt`
+- `Gajumaru Blockchain｜Quantum Will Not Break Blockchain Tomorrow#.en.vtt`
+- `Gajumaru Blockchain｜The Machine Economy Is Here. It Just Doesn't Have an Economic Base to Operate On.en.vtt`
+- `Gajumaru Blockchain｜If Every Email Cost One Penny There Would Be No Spam#.en.vtt`
+- `Gajumaru｜Generational value creation.en.vtt`
+- `Gajumaru｜Blockchain and currency that works.en.vtt`
+- `Gajumaru｜GajuDesk wallet：no dependencies.en.vtt`
+- `Gajumaru｜Quantum Threat：Stay Calm and Keep Coding.en.vtt`
+
+Pages created:
+- wiki/sources/summary-grids-demo-series.md (10 GRIDS demo clips consolidated)
+- wiki/sources/summary-quantum-calm.md (2 quantum clips; Peter Harpending)
+- wiki/sources/summary-economics-social.md (7 clips: alternative economy, zero-dependency wallets, price signals, generational value)
+- wiki/sources/summary-nazgul-bitcoin.md (2 clips: Nazgûl metaphor + Lightning failure)
+- wiki/sources/summary-web-machine-economy.md (3 clips: web failure, machine economy, decentralization vs reality)
+- wiki/concepts/price-signal-economy.md (new concept page)
+
+Pages updated:
+- wiki/concepts/grids.md (Mythos incident specifics: April 7 2026, Claude Mythos, OpenBSD, 27-year RCE, root access no-auth; Stage 2 air-gap clarified: "no network connection of any kind"; music streaming auth example; new sources added)
+- wiki/concepts/internet-of-economics.md (Machine Economy section added; digitisation vs digitalisation distinction; ZKP impossibility critique; "2 million people using Open Claw"; alternative→default economy sequencing; new sources added)
+- wiki/concepts/quantum-resistance.md (Hype Calibration section added; LLM/quantum parallel quote; Peter's "stay calm" framing; new source added)
+- wiki/concepts/associate-chains.md (Decentralisation vs Reality section added: Ulf's Swedish bank anecdote; RIPA acronym explicitly cited; PoW untamperable core + regulated pockets framing)
+- wiki/index.md (5 new source rows; 1 new concept page; metrics: 64 sources, 19 concept pages)
+- wiki/log.md (this entry)
+
+Contradictions flagged: none
+
+Key new content:
+- **Mythos incident specifics confirmed**: April 7 2026; Claude Mythos / Project Glasswing; OpenBSD; 27-year-old RCE; root access from anywhere without authentication; no human involvement after initial instruction; 90-day industry window
+- **Stage 2 air-gap details**: "no network connection of any kind" — no WiFi, no Bluetooth, no radio; QR codes only
+- **Music streaming auth model**: self-referential; site auto-creates blank account on first visit; no database of credentials to hack
+- **GajuPay webhook**: confirmed as "watches chain, calls vendor webhook" integration model
+- **Zero-dependency wallets**: Craig + Peter Harpending built GajuDesk from scratch; "not impossible, just annoying"; browser plugin wallets called "sketchy — deliberate backdoors"
+- **Lightning Gini index 0.97**: near-absolute monopoly; fails at airline ticket price; all demos are micropayments "for a good reason"
+- **Nazgûl specifics**: "clingy wraiths that want to run everything, but their own influence has corrupted themselves first and foremost"; "there's like nine of them and they're all creeps"
+- **Machine economy**: "2 million people using Open Claw and growing"; ZKP labs "know the mathematical impossibility"; only Groot + state channels + GRIDS provide the economic base
+- **Digitisation vs digitalisation**: existing systems digitise the corporatist model; Gajumaru digitalises to a new capitalist model machines can actually use
+- **Bot farm math**: 0.5 yen/retweet × tens of thousands/hour = economically destroyed; <5% blogs write original content
+- **Milton Friedman reference**: price signals as best curation filters
+- **Generational value**: same sliver on 100× bigger pie = vastly more than 100× more valuable; "we can build a much much bigger pie, exponentially bigger"
+- **Alternative → default economy sequencing**: Greg Chew's explicit framing; "chasing short-term money and hoarding" critique of crypto
+- **Quantum hype calibration**: same pattern as LLM hype; "world will not change immediately, but it isn't"
+- **Ulf's Swedish bank anecdote**: accepted crypto payment but warned against running business in crypto — regulation is real; RIPA answers it architecturally
+- **GRIDS implementation**: 1,846,200× more efficient than Bitcoin; 8.23× greater security; any business/government can implement within weeks / well within 90 days
+- **Web architectural failure**: "we knew the web was the wrong architecture long before Mythos"; defense-in-depth is not the answer
+
 

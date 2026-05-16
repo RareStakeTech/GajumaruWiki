@@ -3,10 +3,10 @@ type: entity
 entity_type: person
 title: "Ulf Wiger (Chief Technology Officer)"
 aliases: [ulf, ulf-wiger, uwiger]
-sources: [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]]
+sources: [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-blockchain-governance-associate-chains]], [[summary-quantum-ai-machine-economy]], [[summary-npm-supply-chain-hack]], [[summary-gajumaru-channel-shorts]]
 related: [[craig]], [[dimitar]], [[gregory-chew]], [[qpq-ag]], [[groot]], [[protected-mining]], [[aeternity]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 cluster: core-protocol
 contradictions: []
 open_questions:
@@ -60,6 +60,26 @@ The hive mining system was a global first — no reference implementations exist
 ### 3. Blockchain Scalability
 
 "Ulf has been doing the work to make sure that the blockchain itself, the hive miners and so on can actually handle this" — ensuring infrastructure can scale from 300 miners toward the millions targeted.
+
+## Nationality and Personal Detail
+
+Ulf self-identifies as **Swedish** ("for me as a Swede"). This is consistent with his Erlang/Ericsson career — Ericsson is a Swedish company and the Erlang language originated there.
+
+He has personal experience of cross-jurisdictional crypto/banking friction:
+> "I've had long discussions with my bank where I was actually getting paid in crypto and was trying to get them to accept it. After about a year of negotiating they did accept it but basically saying 'don't do anything fancier than that.'"
+
+This anecdote underpins his thinking about Associate Chains as the mechanism for regulated jurisdictions to adapt to crypto without breaking local rules.
+
+Source: [[summary-gajumaru-channel-shorts]]
+
+## Public Speaking Role
+
+Ulf appears as one of the four primary public speakers for QPQ AG (alongside Craig, Greg, Dimitar) across multiple long-form panel videos including:
+- "Blockchain Governance, Privacy, Alternate Financial Systems and Associate Chains" — primary explainer of AC connection mechanism, ZK rollup decision, and hierarchy
+- "Quantum, AI, and the Machine Economy" — primary author of the QPQ quantum analysis article; explained ML-DSA integration and threat timeline
+- "NPM Supply Chain Hack" — analyzed the attack and explained Gajumaru's zero-dependency defense
+
+Source: [[summary-blockchain-governance-associate-chains]], [[summary-quantum-ai-machine-economy]], [[summary-npm-supply-chain-hack]]
 
 ## Known To
 

@@ -18,8 +18,8 @@ confidence: high
 </div>
 
 <div class="home-metrics">
-  <div><strong>52</strong><span>source summaries</span></div>
-  <div><strong>15</strong><span>concept pages</span></div>
+  <div><strong>64</strong><span>source summaries</span></div>
+  <div><strong>19</strong><span>concept pages</span></div>
   <div><strong>12</strong><span>entity pages</span></div>
   <div><strong>5+</strong><span>research clusters</span></div>
 </div>
@@ -95,6 +95,8 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 - [[tea-trilemma]] - QPQ's analytical framework: Trustlessness / Efficiency / Accountability
 - [[cuckoo-cycle]] - Memory-bound PoW algorithm; no ASIC arms race
 - [[bitcoin-ng]] - Bitcoin-NG consensus: keyblock leader election + microblock transaction processing
+- [[quantum-resistance]] - Post-quantum cryptography; ML-DSA-44/65/87; GA upgrade path; Curve25519 current; 10-20yr threat timeline
+- [[internet-of-economics]] - Transactional layer distinct from Internet of Data; three restorations; trustlessness at scale
 
 ##### Entity Pages
 - [[ltin]] - Liechtenstein Trust Integrity Network; first sovereign Associate Chain
@@ -110,6 +112,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 - [[gaju-token]] *(hub)* - Native token; 1 trillion fixed supply over 87.5 years; in circulation Oct 2025
 - [[protected-mining]] - Mining window ending March 29 2027; flywheel thesis
 - [[hive-mining]] - SaaS mining model; dividend-writing smart contracts; Ulf Wiger's design; gmhive_client port 17888
+- [[price-signal-economy]] - Micropayment costs eliminate spam/bots; price signals restore information quality; puck economy; Milton Friedman reference
 
 ##### Entity Pages
 <!-- Add entity pages here on ingest -->
@@ -131,6 +134,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 - [[grids]] - Universal secure login/authentication; URL schema; dead-drop SSO; authored by Craig Everett
 - [[sophia-fate]] *(hub)* - Sophia language + FATE VM; pre-execution verification; immutability-first; Virding/Hughes contributors
 - [[state-channels]] - Off-chain sessions; 500+ transfers/sec; State Channel Markets; cross-AC fund transfers; demos Spring/Summer 2026
+- [[gajudex]] - Decentralised exchange; AMM + CLOB; 39/40 DINO score; FINMA-compliant; two deployments
 
 ##### Concept Pages
 - [[qpq-software-stack]] - 26 public repos; ZX build system; enoise P2P; Sophia v7.4.0; port 17888
@@ -248,6 +252,18 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 | [[summary-blog-a2a-state-channels]] | Beyond Subscription: How A2A State Channels... (qpq.swiss) | 2026-05-15 | developer-ecosystem |
 | [[summary-blog-social-feed-payment-rail]] | The End of the Ad-Supported Lie (qpq.swiss) | 2026-05-15 | developer-ecosystem |
 | [[summary-blog-gajupay]] | GajuPay: The Answer to the Broken Payment Industry (qpq.swiss) | 2026-05-15 | developer-ecosystem |
+| [[summary-blockchain-governance-associate-chains]] | Blockchain Governance, Privacy, Financial Systems and Associate Chains (YouTube) | 2026-05-16 | core-protocol |
+| [[summary-how-gajumaru-addresses-scaling]] | How the Gajumaru Addresses Scaling (YouTube) | 2026-05-16 | core-protocol |
+| [[summary-token-summit-gregory-chew]] | Token Summit Liechtenstein: Gregory Chew on the Path to Decentralization (YouTube) | 2026-05-16 | multi-cluster |
+| [[summary-quantum-ai-machine-economy]] | Quantum, AI, and the Machine Economy (YouTube) | 2026-05-16 | core-protocol |
+| [[summary-npm-supply-chain-hack]] | NPM Supply Chain Hack, Unserious Crypto, Serious Gajumaru Full (YouTube) | 2026-05-16 | developer-ecosystem |
+| [[summary-internet-of-economics-grids-mythos]] | Internet of Economics: GRIDS, Mythos AI, and the end of payment credentials (YouTube) | 2026-05-16 | developer-ecosystem |
+| [[summary-gajumaru-channel-shorts]] | @Gajumaru_Chain YouTube Channel Shorts roll-up (multi-video) | 2026-05-16 | multi-cluster |
+| [[summary-grids-demo-series]] | GRIDS Live Demo Series — 10 clips; Mythos incident; Stage 2 air-gap; GajuMarket testnet | 2026-05-16 | developer-ecosystem |
+| [[summary-quantum-calm]] | Quantum Threat: Stay Calm and Keep Coding (2 clips; Peter Harpending) | 2026-05-16 | core-protocol |
+| [[summary-economics-social]] | Alternative Economy, Price Signals, and Generational Value (7 clips) | 2026-05-16 | multi-cluster |
+| [[summary-nazgul-bitcoin]] | The Nazgûl and Bitcoin's Lightning Failure (2 clips) | 2026-05-16 | core-protocol |
+| [[summary-web-machine-economy]] | Web's Architectural Failure, Machine Economy, and Decentralization vs Reality (3 clips) | 2026-05-16 | multi-cluster |
 
 ---
 

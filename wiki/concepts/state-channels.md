@@ -2,10 +2,10 @@
 type: concept
 title: "State Channels"
 aliases: [state-channel, state-channels, channel, off-chain]
-sources: [[summary-qpq-wiki-state-channels]]
+sources: [[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]]
 related: [[groot]], [[associate-chains]], [[gajumaru-architecture]], [[sophia-fate]], [[grids]], [[aeternity]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 confidence: high
 cluster: developer-ecosystem
 cluster_role: member
@@ -90,5 +90,33 @@ Also **A2A (Agent-to-Agent)** channels for peer-to-peer machine payments without
 - End-to-end demos scheduled **Spring/Summer 2026** (post-MainNet, pending funding)
 - Native multi-currency support for Associate Chains: planned
 
-## Source
-[[summary-qpq-wiki-state-channels]]
+## Scale Comparisons (Un-White Paper)
+
+The Un-White Paper provides two concrete benchmarks to contextualise State Channel throughput:
+
+### SUICA (Tokyo Metro)
+The SUICA contactless payment card peaks at **< 300 TPS** across the Tokyo Metro at rush hour. A **single Gajumaru node** running 1,000 concurrent channels achieves **500,000 token transfers per second** — **1,667× SUICA's peak**. SUICA requires purpose-built infrastructure; Gajumaru channels run on commodity hardware.
+
+### WhatsApp (Messaging Infrastructure)
+A **Mac Mini M4** running Erlang/OTP handles approximately **2.5 billion messages per day**. WhatsApp processes **~100 billion messages per day** using global data centre infrastructure — also built on Erlang (the same foundation as Gajumaru). The implication: Gajumaru's plain-message throughput (3,000+/sec/channel) is not theoretical — it rests on a runtime that demonstrably handles internet-scale messaging loads.
+
+Source: [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]]
+
+## The Bar Tab Metaphor
+
+> "Opening a tab at a bar."
+
+A State Channel is opened once (one on-chain transaction — like presenting a credit card), used for unlimited interactions (orders during the evening — no fee per round), and closed once (one on-chain transaction — like settling the bill). Regardless of how many rounds are bought, only two on-chain transactions occur. The metaphor captures: low setup cost, unlimited off-chain activity, single settlement.
+
+## Machine Economy
+
+State channels are the payment rail for the autonomous machine economy:
+
+- **Autonomous vehicles** need to pay for road usage, parking, and charging without human intervention — and cannot wait for on-chain settlement at a toll booth
+- **AI agents commissioning inference** pay per token generated (A2P pattern) — no subscription, no prepay, exact billing
+- **Machines don't have passports**: machines have no nationality, no banking relationship, no ability to hold fiat currency accounts. Gajumaru State Channels are the first infrastructure that lets machines transact autonomously without human intermediation
+
+Source: [[summary-unwhitepaper]], [[summary-blog-a2a-state-channels]]
+
+## Sources
+[[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]]

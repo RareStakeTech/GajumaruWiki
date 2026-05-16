@@ -2,10 +2,10 @@
 type: entity
 entity_type: person
 title: "Gregory Chew"
-sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]]
+sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]], [[summary-token-summit-gregory-chew]], [[summary-blockchain-governance-associate-chains]], [[summary-internet-of-economics-grids-mythos]], [[summary-quantum-ai-machine-economy]], [[summary-npm-supply-chain-hack]], [[summary-gajumaru-channel-shorts]]
 related: [[qpq-ag]], [[gajumaru-architecture]], [[ltin]], [[craig]], [[dimitar]], [[ulf]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 cluster: developer-ecosystem
 contradictions: []
 open_questions: []
@@ -37,6 +37,60 @@ From the Gaju Mining Journey Update (likely speaker):
 > "I'm extraordinarily proud of these people — Craig, Dimitar, Ulf, and the background Peter, Santosh, Peter Harpending, Jarvis, and then the community — Adam Percy, what an incredible gift."
 
 > "This is an opportunity for everybody to reshape our economic firmament."
+
+## Token Summit Liechtenstein (confirmed public speaker)
+
+Greg appeared at the **Token Summit in Liechtenstein** (date approximate, 2025) in a panel discussion on decentralization and MiCA. Confirmed as public speaker and identified by name.
+
+Key statements from this appearance:
+
+> "I've been in this journey now for 23 years trying to achieve what I refer to as the Internet of Economics which is the restitution to the individual and the communities in which they reside both their data and their economic capacity."
+
+> "QPQ is a centralized entity. I'm a majority shareholder of the company. So it's clearly centralized. But the Gajimaru is the blockchain that we have built to go out into that."
+
+> "We've spent 60 million to get to this point and by the way we're going to make the whole thing free and open to everybody."
+
+> "You cannot trust me. You can never ever — even if I were the Lord Jesus Christ himself — you cannot give me the keys to that kingdom." (on why Groot has no governance)
+
+Timeline confirmed from this source:
+- ~2001–2002: began working on centralized system to unite global markets
+- **2009**: shelved it; believed DLT technology would emerge
+- Waited for others to build a working blockchain; none did
+- Eventually met Craig, Ulf, Dimitar; built Gajumaru together
+
+Source: [[summary-token-summit-gregory-chew]]
+
+## The Nazgûl Metaphor
+
+Greg coined **"the Nazgûl"** as a label for the cabal of figures positioning to "save Bitcoin" — naming Michael Saylor, Adam Back, Craig Wright, and Larry Fink. The reference is to Tolkien's Lord of the Rings wraiths who covet the One Ring:
+
+> "Nobody can be entrusted with that much power, but that's what they all want... We should call this cabal of people the Nazgûl. They're these clingy wraiths that want to run everything, but their own influence has corrupted themselves first and foremost."
+
+The framing is connected to the Garden of Eden problem — Bitcoin's hostile fork narrative (driven by quantum panic) creates exactly the central control vacuum the Nazgûl want to fill.
+
+Source: [[summary-gajumaru-channel-shorts]]
+
+## "Generational Value Creation" Frame
+
+Greg's positive-sum capitalism argument:
+
+> "The argument that we are trying to make is the argument that we can build a much, much bigger pie. In fact, that pie can be exponentially bigger... A pie that is 100 times bigger than the pie we have today — the same sliver of the pie [a current owner holds] is way more than 100 times more valuable to have."
+
+Source: [[summary-gajumaru-channel-shorts]]
+
+## Three Time Periods Greg Has Cited
+
+Across different sources, Greg has given slightly different timeframes for the duration of his journey:
+
+| Source | Years | Context |
+|--------|-------|---------|
+| Demo 1 (March 2024) | 22 years | "I've been working at this for 22 years now" |
+| Token Summit Liechtenstein | 23 years | "I've been in this journey now for 23 years" |
+| Internet of Economics + Mythos AI | 25 years | "The argument I've been making for 25 years to financial institutions" |
+
+The most likely reconciliation: the 22/23-year figure is the Internet of Economics vision (started ~2001-2002); the 25-year figure is the broader pitch to financial institutions about USP vs infrastructure (started ~1999-2000). Not contradictions — different reference points.
+
+Source: [[summary-internet-of-economics-grids-mythos]], [[summary-token-summit-gregory-chew]]
 
 ## 22-Year Vision (Demo 1, March 2024)
 

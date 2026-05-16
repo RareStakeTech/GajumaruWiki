@@ -1,0 +1,472 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.719 --> 00:00:04.550 align:start position:0%
+ 
+Most<00:00:01.120><c> wallets</c><00:00:01.600><c> that</c><00:00:01.839><c> we</c><00:00:02.080><c> have</c><00:00:02.399><c> seen</c><00:00:03.280><c> uh</c><00:00:04.240><c> for</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+Most wallets that we have seen uh for
+ 
+
+00:00:04.560 --> 00:00:07.749 align:start position:0%
+Most wallets that we have seen uh for
+convenience<00:00:05.200><c> are</c><00:00:06.080><c> built</c><00:00:06.319><c> into</c><00:00:06.640><c> browsers.</c><00:00:07.680><c> And</c>
+
+00:00:07.749 --> 00:00:07.759 align:start position:0%
+convenience are built into browsers. And
+ 
+
+00:00:07.759 --> 00:00:09.030 align:start position:0%
+convenience are built into browsers. And
+when<00:00:07.839><c> I</c><00:00:08.000><c> say</c><00:00:08.080><c> built</c><00:00:08.320><c> into</c><00:00:08.559><c> browsers,</c><00:00:08.880><c> they're</c>
+
+00:00:09.030 --> 00:00:09.040 align:start position:0%
+when I say built into browsers, they're
+ 
+
+00:00:09.040 --> 00:00:11.990 align:start position:0%
+when I say built into browsers, they're
+browser<00:00:09.360><c> plugins.</c><00:00:10.080><c> Uh</c><00:00:10.880><c> the</c><00:00:11.360><c> execution</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+browser plugins. Uh the execution
+ 
+
+00:00:12.000 --> 00:00:15.350 align:start position:0%
+browser plugins. Uh the execution
+context<00:00:12.480><c> in</c><00:00:12.719><c> the</c><00:00:12.880><c> browser</c><00:00:13.280><c> world</c><00:00:13.759><c> is</c>
+
+00:00:15.350 --> 00:00:15.360 align:start position:0%
+context in the browser world is
+ 
+
+00:00:15.360 --> 00:00:19.109 align:start position:0%
+context in the browser world is
+already<00:00:15.920><c> pretty</c><00:00:16.640><c> sketchy</c><00:00:17.119><c> and</c><00:00:17.279><c> and</c>
+
+00:00:19.109 --> 00:00:19.119 align:start position:0%
+already pretty sketchy and and
+ 
+
+00:00:19.119 --> 00:00:20.790 align:start position:0%
+already pretty sketchy and and
+it's<00:00:19.439><c> hard</c><00:00:19.600><c> to</c><00:00:19.840><c> understand</c><00:00:20.160><c> exactly</c><00:00:20.560><c> what's</c>
+
+00:00:20.790 --> 00:00:20.800 align:start position:0%
+it's hard to understand exactly what's
+ 
+
+00:00:20.800 --> 00:00:22.870 align:start position:0%
+it's hard to understand exactly what's
+going<00:00:20.880><c> on</c><00:00:21.119><c> when</c><00:00:22.000><c> uh</c><00:00:22.160><c> one</c><00:00:22.400><c> because</c><00:00:22.560><c> it's</c><00:00:22.720><c> a</c>
+
+00:00:22.870 --> 00:00:22.880 align:start position:0%
+going on when uh one because it's a
+ 
+
+00:00:22.880 --> 00:00:25.029 align:start position:0%
+going on when uh one because it's a
+highly<00:00:23.119><c> concurrent</c><00:00:23.519><c> environment.</c><00:00:24.000><c> So</c><00:00:24.240><c> just</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+highly concurrent environment. So just
+ 
+
+00:00:25.039 --> 00:00:26.790 align:start position:0%
+highly concurrent environment. So just
+even<00:00:25.279><c> if</c><00:00:25.439><c> you</c><00:00:25.519><c> wrote</c><00:00:25.760><c> all</c><00:00:25.920><c> your</c><00:00:26.000><c> own</c><00:00:26.160><c> code</c><00:00:26.400><c> as</c><00:00:26.640><c> a</c>
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+even if you wrote all your own code as a
+ 
+
+00:00:26.800 --> 00:00:28.550 align:start position:0%
+even if you wrote all your own code as a
+plugin,<00:00:27.599><c> you</c><00:00:27.760><c> don't</c><00:00:27.920><c> necessarily</c><00:00:28.400><c> know</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+plugin, you don't necessarily know
+ 
+
+00:00:28.560 --> 00:00:29.990 align:start position:0%
+plugin, you don't necessarily know
+what's<00:00:28.880><c> talking</c><00:00:29.119><c> to</c><00:00:29.199><c> what</c><00:00:29.359><c> or</c><00:00:29.599><c> what's</c><00:00:29.760><c> visible</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+what's talking to what or what's visible
+ 
+
+00:00:30.000 --> 00:00:31.349 align:start position:0%
+what's talking to what or what's visible
+to<00:00:30.160><c> what</c><00:00:30.400><c> and</c><00:00:30.560><c> you're</c><00:00:30.800><c> completely</c><00:00:31.039><c> at</c><00:00:31.199><c> the</c>
+
+00:00:31.349 --> 00:00:31.359 align:start position:0%
+to what and you're completely at the
+ 
+
+00:00:31.359 --> 00:00:35.110 align:start position:0%
+to what and you're completely at the
+mercy<00:00:31.840><c> of</c><00:00:32.960><c> the</c><00:00:33.280><c> browser</c><00:00:33.840><c> protecting</c><00:00:34.320><c> you</c><00:00:34.480><c> from</c>
+
+00:00:35.110 --> 00:00:35.120 align:start position:0%
+mercy of the browser protecting you from
+ 
+
+00:00:35.120 --> 00:00:37.030 align:start position:0%
+mercy of the browser protecting you from
+both<00:00:35.440><c> yourself</c><00:00:35.760><c> and</c><00:00:36.000><c> everybody</c><00:00:36.399><c> else</c><00:00:36.800><c> which</c>
+
+00:00:37.030 --> 00:00:37.040 align:start position:0%
+both yourself and everybody else which
+ 
+
+00:00:37.040 --> 00:00:39.910 align:start position:0%
+both yourself and everybody else which
+could<00:00:37.200><c> be</c><00:00:37.440><c> moving.</c><00:00:37.840><c> So</c><00:00:39.040><c> uh</c><00:00:39.200><c> malicious</c><00:00:39.680><c> code</c>
+
+00:00:39.910 --> 00:00:39.920 align:start position:0%
+could be moving. So uh malicious code
+ 
+
+00:00:39.920 --> 00:00:41.750 align:start position:0%
+could be moving. So uh malicious code
+running<00:00:40.160><c> in</c><00:00:40.320><c> another</c><00:00:40.559><c> tab</c><00:00:40.879><c> could</c><00:00:41.120><c> be</c><00:00:41.360><c> reading</c>
+
+00:00:41.750 --> 00:00:41.760 align:start position:0%
+running in another tab could be reading
+ 
+
+00:00:41.760 --> 00:00:44.310 align:start position:0%
+running in another tab could be reading
+stuff<00:00:42.160><c> in</c><00:00:42.399><c> an</c><00:00:42.640><c> extension</c><00:00:43.040><c> somewhere.</c><00:00:43.760><c> Uh</c>
+
+00:00:44.310 --> 00:00:44.320 align:start position:0%
+stuff in an extension somewhere. Uh
+ 
+
+00:00:44.320 --> 00:00:46.709 align:start position:0%
+stuff in an extension somewhere. Uh
+there's<00:00:44.559><c> a</c><00:00:44.719><c> bunch</c><00:00:44.879><c> of</c><00:00:45.760><c> vectors</c><00:00:46.079><c> of</c><00:00:46.239><c> attack</c><00:00:46.480><c> and</c>
+
+00:00:46.709 --> 00:00:46.719 align:start position:0%
+there's a bunch of vectors of attack and
+ 
+
+00:00:46.719 --> 00:00:47.750 align:start position:0%
+there's a bunch of vectors of attack and
+they're<00:00:46.879><c> not</c><00:00:46.960><c> all</c><00:00:47.120><c> discovered</c><00:00:47.440><c> and</c><00:00:47.680><c> they're</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+they're not all discovered and they're
+ 
+
+00:00:47.760 --> 00:00:49.270 align:start position:0%
+they're not all discovered and they're
+not<00:00:47.840><c> all</c><00:00:48.000><c> pinned</c><00:00:48.320><c> down</c><00:00:48.480><c> and</c><00:00:48.879><c> there</c><00:00:49.120><c> are</c>
+
+00:00:49.270 --> 00:00:49.280 align:start position:0%
+not all pinned down and there are
+ 
+
+00:00:49.280 --> 00:00:50.709 align:start position:0%
+not all pinned down and there are
+deliberate<00:00:49.760><c> back</c><00:00:50.000><c> doors</c><00:00:50.239><c> in</c><00:00:50.399><c> some</c><00:00:50.480><c> of</c><00:00:50.559><c> these</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+deliberate back doors in some of these
+ 
+
+00:00:50.719 --> 00:00:53.910 align:start position:0%
+deliberate back doors in some of these
+things<00:00:50.960><c> too.</c><00:00:51.920><c> npm</c><00:00:52.640><c> is</c><00:00:52.800><c> a</c><00:00:52.960><c> package</c><00:00:53.360><c> manager</c><00:00:53.680><c> for</c>
+
+00:00:53.910 --> 00:00:53.920 align:start position:0%
+things too. npm is a package manager for
+ 
+
+00:00:53.920 --> 00:00:55.430 align:start position:0%
+things too. npm is a package manager for
+JavaScript.<00:00:54.719><c> If</c><00:00:54.960><c> you're</c><00:00:55.039><c> going</c><00:00:55.199><c> to</c><00:00:55.280><c> write</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+JavaScript. If you're going to write
+ 
+
+00:00:55.440 --> 00:00:57.029 align:start position:0%
+JavaScript. If you're going to write
+things<00:00:55.600><c> that</c><00:00:55.840><c> plug</c><00:00:56.000><c> into</c><00:00:56.239><c> a</c><00:00:56.399><c> browser,</c><00:00:56.719><c> it</c><00:00:56.879><c> has</c>
+
+00:00:57.029 --> 00:00:57.039 align:start position:0%
+things that plug into a browser, it has
+ 
+
+00:00:57.039 --> 00:00:59.510 align:start position:0%
+things that plug into a browser, it has
+to<00:00:57.199><c> be</c><00:00:57.360><c> in</c><00:00:58.160><c> Web</c><00:00:58.399><c> Assembly</c><00:00:58.800><c> or</c><00:00:58.960><c> JavaScript</c><00:00:59.359><c> or</c>
+
+00:00:59.510 --> 00:00:59.520 align:start position:0%
+to be in Web Assembly or JavaScript or
+ 
+
+00:00:59.520 --> 00:01:01.270 align:start position:0%
+to be in Web Assembly or JavaScript or
+whatever.<00:00:59.760><c> It</c><00:00:59.920><c> has</c><00:01:00.000><c> to</c><00:01:00.160><c> be</c><00:01:00.559><c> it</c><00:01:00.719><c> has</c><00:01:00.879><c> to</c><00:01:00.960><c> execute</c>
+
+00:01:01.270 --> 00:01:01.280 align:start position:0%
+whatever. It has to be it has to execute
+ 
+
+00:01:01.280 --> 00:01:03.430 align:start position:0%
+whatever. It has to be it has to execute
+in<00:01:01.440><c> that</c><00:01:01.600><c> in</c><00:01:01.760><c> that</c><00:01:01.920><c> browser</c><00:01:02.239><c> context.</c><00:01:03.039><c> Um</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+in that in that browser context. Um
+ 
+
+00:01:03.440 --> 00:01:05.350 align:start position:0%
+in that in that browser context. Um
+there's<00:01:03.600><c> only</c><00:01:03.920><c> a</c><00:01:04.239><c> handful</c><00:01:04.479><c> of</c><00:01:04.640><c> ways</c><00:01:04.879><c> to</c><00:01:05.040><c> to</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+there's only a handful of ways to to
+ 
+
+00:01:05.360 --> 00:01:08.230 align:start position:0%
+there's only a handful of ways to to
+write<00:01:05.680><c> things</c><00:01:05.840><c> for</c><00:01:06.080><c> that.</c><00:01:06.720><c> Um</c><00:01:07.439><c> what</c><00:01:07.680><c> it</c><00:01:08.000><c> does</c>
+
+00:01:08.230 --> 00:01:08.240 align:start position:0%
+write things for that. Um what it does
+ 
+
+00:01:08.240 --> 00:01:11.030 align:start position:0%
+write things for that. Um what it does
+is<00:01:08.560><c> it</c><00:01:08.880><c> lets</c><00:01:09.200><c> you</c><00:01:09.840><c> quickly</c><00:01:10.240><c> pull</c><00:01:10.560><c> dependencies</c>
+
+00:01:11.030 --> 00:01:11.040 align:start position:0%
+is it lets you quickly pull dependencies
+ 
+
+00:01:11.040 --> 00:01:12.630 align:start position:0%
+is it lets you quickly pull dependencies
+in<00:01:11.280><c> like,</c><00:01:11.520><c> oh,</c><00:01:11.680><c> I</c><00:01:11.760><c> know</c><00:01:11.920><c> a</c><00:01:12.080><c> library</c><00:01:12.320><c> that</c><00:01:12.479><c> does</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+in like, oh, I know a library that does
+ 
+
+00:01:12.640 --> 00:01:14.469 align:start position:0%
+in like, oh, I know a library that does
+X,<00:01:12.799><c> Y,</c><00:01:12.960><c> and</c><00:01:13.119><c> Z.</c><00:01:13.360><c> I</c><00:01:13.520><c> need</c><00:01:13.680><c> those</c><00:01:13.840><c> things.</c><00:01:14.240><c> I'll</c>
+
+00:01:14.469 --> 00:01:14.479 align:start position:0%
+X, Y, and Z. I need those things. I'll
+ 
+
+00:01:14.479 --> 00:01:15.670 align:start position:0%
+X, Y, and Z. I need those things. I'll
+pull<00:01:14.560><c> it</c><00:01:14.640><c> in</c><00:01:14.799><c> and</c><00:01:14.960><c> just</c><00:01:15.119><c> build</c><00:01:15.280><c> it</c><00:01:15.360><c> and</c><00:01:15.520><c> it</c>
+
+00:01:15.670 --> 00:01:15.680 align:start position:0%
+pull it in and just build it and it
+ 
+
+00:01:15.680 --> 00:01:17.749 align:start position:0%
+pull it in and just build it and it
+runs.<00:01:16.240><c> Okay,</c><00:01:16.479><c> cool.</c><00:01:16.799><c> That's</c><00:01:16.960><c> a</c><00:01:17.119><c> good</c><00:01:17.200><c> thing.</c>
+
+00:01:17.749 --> 00:01:17.759 align:start position:0%
+runs. Okay, cool. That's a good thing.
+ 
+
+00:01:17.759 --> 00:01:21.350 align:start position:0%
+runs. Okay, cool. That's a good thing.
+Um<00:01:19.040><c> o</c><00:01:19.200><c> sensibly.</c><00:01:20.159><c> What's</c><00:01:20.479><c> not</c><00:01:20.640><c> so</c><00:01:20.880><c> good</c><00:01:21.119><c> is</c>
+
+00:01:21.350 --> 00:01:21.360 align:start position:0%
+Um o sensibly. What's not so good is
+ 
+
+00:01:21.360 --> 00:01:22.950 align:start position:0%
+Um o sensibly. What's not so good is
+that<00:01:21.520><c> it</c><00:01:21.759><c> does</c><00:01:21.920><c> automatic</c><00:01:22.400><c> dependency</c>
+
+00:01:22.950 --> 00:01:22.960 align:start position:0%
+that it does automatic dependency
+ 
+
+00:01:22.960 --> 00:01:24.469 align:start position:0%
+that it does automatic dependency
+resolution
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+resolution
+ 
+
+00:01:24.479 --> 00:01:29.270 align:start position:0%
+resolution
+um<00:01:25.200><c> quite</c><00:01:25.680><c> often</c><00:01:26.240><c> and</c><00:01:27.360><c> what</c><00:01:27.600><c> that</c><00:01:27.840><c> means</c><00:01:28.080><c> is</c><00:01:29.040><c> I</c>
+
+00:01:29.270 --> 00:01:29.280 align:start position:0%
+um quite often and what that means is I
+ 
+
+00:01:29.280 --> 00:01:33.190 align:start position:0%
+um quite often and what that means is I
+want<00:01:29.360><c> to</c><00:01:29.520><c> use</c><00:01:30.159><c> framework</c><00:01:30.799><c> X</c><00:01:31.759><c> that</c><00:01:32.079><c> does</c><00:01:32.799><c> a</c><00:01:33.040><c> few</c>
+
+00:01:33.190 --> 00:01:33.200 align:start position:0%
+want to use framework X that does a few
+ 
+
+00:01:33.200 --> 00:01:35.429 align:start position:0%
+want to use framework X that does a few
+things<00:01:33.360><c> for</c><00:01:33.680><c> me</c><00:01:34.000><c> but</c><00:01:34.240><c> framework</c><00:01:34.640><c> X</c><00:01:34.880><c> depends</c><00:01:35.200><c> on</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+things for me but framework X depends on
+ 
+
+00:01:35.439 --> 00:01:39.910 align:start position:0%
+things for me but framework X depends on
+package<00:01:35.840><c> Y</c><00:01:36.799><c> and</c><00:01:37.040><c> package</c><00:01:37.520><c> Y</c><00:01:38.240><c> just</c><00:01:38.560><c> got</c><00:01:38.799><c> updated</c>
+
+00:01:39.910 --> 00:01:39.920 align:start position:0%
+package Y and package Y just got updated
+ 
+
+00:01:39.920 --> 00:01:41.990 align:start position:0%
+package Y and package Y just got updated
+and<00:01:40.320><c> every</c><00:01:40.560><c> time</c><00:01:40.720><c> I</c><00:01:40.960><c> build</c><00:01:41.200><c> my</c><00:01:41.360><c> code</c><00:01:41.680><c> I</c><00:01:41.920><c> don't</c>
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+and every time I build my code I don't
+ 
+
+00:01:42.000 --> 00:01:43.749 align:start position:0%
+and every time I build my code I don't
+know<00:01:42.079><c> if</c><00:01:42.320><c> package</c><00:01:42.720><c> X</c><00:01:42.880><c> is</c><00:01:43.119><c> being</c><00:01:43.200><c> updated</c><00:01:43.600><c> or</c>
+
+00:01:43.749 --> 00:01:43.759 align:start position:0%
+know if package X is being updated or
+ 
+
+00:01:43.759 --> 00:01:45.910 align:start position:0%
+know if package X is being updated or
+not<00:01:44.000><c> actually</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+not actually
+ 
+
+00:01:45.920 --> 00:01:49.510 align:start position:0%
+not actually
+um<00:01:46.159><c> so</c><00:01:47.200><c> the</c>
+
+00:01:49.510 --> 00:01:49.520 align:start position:0%
+um so the
+ 
+
+00:01:49.520 --> 00:01:51.749 align:start position:0%
+um so the
+The<00:01:49.840><c> principle</c><00:01:50.240><c> that</c><00:01:50.479><c> we</c><00:01:50.640><c> took</c><00:01:51.119><c> and</c><00:01:51.360><c> this</c><00:01:51.520><c> is</c>
+
+00:01:51.749 --> 00:01:51.759 align:start position:0%
+The principle that we took and this is
+ 
+
+00:01:51.759 --> 00:01:53.670 align:start position:0%
+The principle that we took and this is
+Peter<00:01:52.000><c> Harpney</c><00:01:52.399><c> and</c><00:01:52.479><c> I</c><00:01:52.720><c> we</c><00:01:52.880><c> were</c><00:01:53.040><c> kind</c><00:01:53.200><c> of</c>
+
+00:01:53.670 --> 00:01:53.680 align:start position:0%
+Peter Harpney and I we were kind of
+ 
+
+00:01:53.680 --> 00:01:55.590 align:start position:0%
+Peter Harpney and I we were kind of
+starting<00:01:53.920><c> with</c><00:01:54.079><c> some</c><00:01:54.240><c> of</c><00:01:54.320><c> these</c><00:01:54.560><c> ideas</c><00:01:54.799><c> was</c>
+
+00:01:55.590 --> 00:01:55.600 align:start position:0%
+starting with some of these ideas was
+ 
+
+00:01:55.600 --> 00:01:58.069 align:start position:0%
+starting with some of these ideas was
+let's<00:01:55.840><c> just</c><00:01:56.000><c> write</c><00:01:56.159><c> a</c><00:01:56.399><c> wallet</c><00:01:56.799><c> from</c><00:01:57.680><c> like</c><00:01:57.920><c> with</c>
+
+00:01:58.069 --> 00:01:58.079 align:start position:0%
+let's just write a wallet from like with
+ 
+
+00:01:58.079 --> 00:01:59.590 align:start position:0%
+let's just write a wallet from like with
+no<00:01:58.240><c> dependencies</c><00:01:58.799><c> let's</c><00:01:58.960><c> just</c><00:01:59.119><c> write</c><00:01:59.280><c> all</c><00:01:59.439><c> the</c>
+
+00:01:59.590 --> 00:01:59.600 align:start position:0%
+no dependencies let's just write all the
+ 
+
+00:01:59.600 --> 00:02:02.469 align:start position:0%
+no dependencies let's just write all the
+code<00:02:00.560><c> and</c><00:02:00.799><c> everybody</c><00:02:01.280><c> recoiled</c><00:02:01.920><c> oh</c><00:02:02.079><c> my</c><00:02:02.240><c> god</c>
+
+00:02:02.469 --> 00:02:02.479 align:start position:0%
+code and everybody recoiled oh my god
+ 
+
+00:02:02.479 --> 00:02:04.789 align:start position:0%
+code and everybody recoiled oh my god
+write<00:02:02.719><c> your</c><00:02:02.880><c> own</c><00:02:03.119><c> code</c><00:02:03.360><c> that's</c><00:02:03.600><c> impossible</c>
+
+00:02:04.789 --> 00:02:04.799 align:start position:0%
+write your own code that's impossible
+ 
+
+00:02:04.799 --> 00:02:08.389 align:start position:0%
+write your own code that's impossible
+it's<00:02:05.119><c> not</c><00:02:05.439><c> it's</c><00:02:05.680><c> just</c><00:02:05.840><c> annoying.</c><00:02:06.719><c> Um,</c><00:02:07.360><c> so</c><00:02:08.160><c> we</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+it's not it's just annoying. Um, so we
+ 
+
+00:02:08.399 --> 00:02:12.790 align:start position:0%
+it's not it's just annoying. Um, so we
+we<00:02:08.800><c> did</c><00:02:09.440><c> and</c><00:02:10.239><c> uh</c><00:02:10.959><c> we've</c><00:02:11.280><c> written</c>
+
+00:02:12.790 --> 00:02:12.800 align:start position:0%
+we did and uh we've written
+ 
+
+00:02:12.800 --> 00:02:13.990 align:start position:0%
+we did and uh we've written
+well<00:02:13.040><c> we've</c><00:02:13.200><c> written</c><00:02:13.360><c> a</c><00:02:13.520><c> couple</c><00:02:13.599><c> of</c><00:02:13.680><c> wallets</c>
+
+00:02:13.990 --> 00:02:14.000 align:start position:0%
+well we've written a couple of wallets
+ 
+
+00:02:14.000 --> 00:02:17.190 align:start position:0%
+well we've written a couple of wallets
+now<00:02:14.319><c> with</c><00:02:14.560><c> no</c><00:02:14.800><c> dependencies</c><00:02:15.440><c> and</c><00:02:16.080><c> um</c><00:02:16.959><c> one</c>
+
+00:02:17.190 --> 00:02:17.200 align:start position:0%
+now with no dependencies and um one
+ 
+
+00:02:17.200 --> 00:02:18.309 align:start position:0%
+now with no dependencies and um one
+great<00:02:17.440><c> thing</c><00:02:17.520><c> is</c><00:02:17.680><c> that</c><00:02:17.840><c> they're</c><00:02:18.000><c> really</c><00:02:18.160><c> small</c>
+
+00:02:18.309 --> 00:02:18.319 align:start position:0%
+great thing is that they're really small
+ 
+
+00:02:18.319 --> 00:02:23.000 align:start position:0%
+great thing is that they're really small
+and<00:02:18.560><c> fast.</c><00:02:19.200><c> That's</c><00:02:19.599><c> always</c><00:02:19.840><c> a</c><00:02:20.000><c> bonus.</c>
+

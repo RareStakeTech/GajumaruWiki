@@ -2,10 +2,10 @@
 type: concept
 title: "Sophia / FATE VM"
 aliases: [sophia, fate-vm, fate, sophia-language, fast-aeternity-transaction-engine]
-sources: [[summary-qpq-wiki-sophia]], [[summary-qpq-wiki-smart-contracts]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-sophia-faq]]
+sources: [[summary-qpq-wiki-sophia]], [[summary-qpq-wiki-smart-contracts]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-qpq-wiki-sophia-faq]], [[summary-unwhitepaper]]
 related: [[gajumaru-architecture]], [[gajumaru-product-suite]], [[groot]], [[associate-chains]], [[aeternity]], [[qpq-software-stack]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 confidence: high
 cluster: smart-contracts
 cluster_role: hub
@@ -30,6 +30,9 @@ Sophia and FATE were designed for **Aeternity** — a blockchain built on Erlang
 ### File Extension
 Sophia source files use the **`.aes`** extension (e.g. `counter.aes` in ExampleCaller).
 
+### Etymology
+"Sophia" is the Greek word for **wisdom** — the name is intentional, reflecting the language's design goal of enabling verifiably correct smart contracts. Source: [[summary-unwhitepaper]].
+
 ### Design Goals
 Designed to correct Solidity's known inadequacies:
 - **Pre-execution verification** — contracts are verified before deployment
@@ -43,6 +46,22 @@ The Sophia compiler includes an **ACI (Application Contract Interface)** module 
 
 ### Current Version
 Sophia compiler: **v7.4.0** (last stable tag, September 2023). Active development continues toward v8/v9. Repository: `git.qpq.swiss/QPQ-AG/sophia` (865+ commits, ISC license).
+
+## FATE VM Security Properties
+
+The FATE VM provides security guarantees absent in the EVM:
+
+| Property | Description |
+|----------|-------------|
+| **Type safety** | Strong static typing prevents type-confusion exploits |
+| **Overflow prevention** | Arithmetic overflow handled at the VM level — no integer wrap-around bugs |
+| **Memory isolation** | Contract memory is isolated; cross-contract memory corruption is not possible |
+| **Data/control separation** | Data cannot be executed as instructions; control flow cannot be forged from data |
+| **Test/prod fidelity** | VM behaviour is identical in test and production — no environment-dependent quirks |
+
+These properties collectively eliminate entire classes of Solidity/EVM vulnerabilities (e.g., reentrancy from shared mutable state, integer overflow, and proxy delegation exploits).
+
+Source: [[summary-unwhitepaper]]
 
 ## FATE VM
 

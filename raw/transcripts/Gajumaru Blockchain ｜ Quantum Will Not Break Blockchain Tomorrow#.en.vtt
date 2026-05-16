@@ -1,0 +1,776 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.190 align:start position:0%
+ 
+Yeah,<00:00:00.280><c> so</c><00:00:00.920><c> so</c><00:00:01.160><c> in</c><00:00:01.320><c> that</c><00:00:01.560><c> article</c><00:00:02.080><c> we</c><00:00:02.720><c> quoted</c>
+
+00:00:03.190 --> 00:00:03.200 align:start position:0%
+Yeah, so so in that article we quoted
+ 
+
+00:00:03.200 --> 00:00:05.390 align:start position:0%
+Yeah, so so in that article we quoted
+ourselves<00:00:03.840><c> from</c><00:00:04.200><c> a</c><00:00:04.240><c> while</c><00:00:04.560><c> back</c><00:00:04.960><c> when</c><00:00:05.160><c> we</c><00:00:05.280><c> were</c>
+
+00:00:05.390 --> 00:00:05.400 align:start position:0%
+ourselves from a while back when we were
+ 
+
+00:00:05.400 --> 00:00:08.230 align:start position:0%
+ourselves from a while back when we were
+saying<00:00:05.760><c> that</c><00:00:06.800><c> um</c>
+
+00:00:08.230 --> 00:00:08.240 align:start position:0%
+saying that um
+ 
+
+00:00:08.240 --> 00:00:10.350 align:start position:0%
+saying that um
+we<00:00:08.480><c> believe</c><00:00:08.880><c> that</c>
+
+00:00:10.350 --> 00:00:10.360 align:start position:0%
+we believe that
+ 
+
+00:00:10.360 --> 00:00:13.710 align:start position:0%
+we believe that
+quantum<00:00:10.760><c> computers</c><00:00:11.360><c> capable</c><00:00:11.920><c> of</c><00:00:12.240><c> cracking</c>
+
+00:00:13.710 --> 00:00:13.720 align:start position:0%
+quantum computers capable of cracking
+ 
+
+00:00:13.720 --> 00:00:16.670 align:start position:0%
+quantum computers capable of cracking
+elliptic<00:00:14.200><c> curve</c><00:00:14.480><c> cryptography,</c><00:00:15.640><c> the</c><00:00:15.760><c> ones</c>
+
+00:00:16.670 --> 00:00:16.680 align:start position:0%
+elliptic curve cryptography, the ones
+ 
+
+00:00:16.680 --> 00:00:19.710 align:start position:0%
+elliptic curve cryptography, the ones
+the<00:00:16.800><c> one</c><00:00:17.040><c> used</c><00:00:17.440><c> in</c><00:00:17.880><c> most</c><00:00:18.160><c> blockchains,</c>
+
+00:00:19.710 --> 00:00:19.720 align:start position:0%
+the one used in most blockchains,
+ 
+
+00:00:19.720 --> 00:00:21.190 align:start position:0%
+the one used in most blockchains,
+is
+
+00:00:21.190 --> 00:00:21.200 align:start position:0%
+is
+ 
+
+00:00:21.200 --> 00:00:24.150 align:start position:0%
+is
+at<00:00:21.440><c> least</c><00:00:22.040><c> decades</c><00:00:22.560><c> away</c><00:00:23.360><c> if</c><00:00:23.600><c> it</c><00:00:23.760><c> will</c><00:00:23.920><c> ever</c>
+
+00:00:24.150 --> 00:00:24.160 align:start position:0%
+at least decades away if it will ever
+ 
+
+00:00:24.160 --> 00:00:25.630 align:start position:0%
+at least decades away if it will ever
+materialize.
+
+00:00:25.630 --> 00:00:25.640 align:start position:0%
+materialize.
+ 
+
+00:00:25.640 --> 00:00:28.670 align:start position:0%
+materialize.
+Um<00:00:26.600><c> having</c><00:00:27.240><c> said</c><00:00:27.560><c> that,</c>
+
+00:00:28.670 --> 00:00:28.680 align:start position:0%
+Um having said that,
+ 
+
+00:00:28.680 --> 00:00:29.790 align:start position:0%
+Um having said that,
+uh
+
+00:00:29.790 --> 00:00:29.800 align:start position:0%
+uh
+ 
+
+00:00:29.800 --> 00:00:31.150 align:start position:0%
+uh
+we
+
+00:00:31.150 --> 00:00:31.160 align:start position:0%
+we
+ 
+
+00:00:31.160 --> 00:00:33.910 align:start position:0%
+we
+talked<00:00:31.480><c> about</c><00:00:31.840><c> how</c><00:00:32.680><c> our</c><00:00:33.040><c> architecture</c><00:00:33.720><c> is</c>
+
+00:00:33.910 --> 00:00:33.920 align:start position:0%
+talked about how our architecture is
+ 
+
+00:00:33.920 --> 00:00:36.870 align:start position:0%
+talked about how our architecture is
+actually<00:00:34.720><c> well</c><00:00:35.040><c> prepared</c><00:00:35.640><c> for</c>
+
+00:00:36.870 --> 00:00:36.880 align:start position:0%
+actually well prepared for
+ 
+
+00:00:36.880 --> 00:00:40.110 align:start position:0%
+actually well prepared for
+implementing<00:00:38.120><c> alternative</c><00:00:39.520><c> signing</c>
+
+00:00:40.110 --> 00:00:40.120 align:start position:0%
+implementing alternative signing
+ 
+
+00:00:40.120 --> 00:00:42.830 align:start position:0%
+implementing alternative signing
+methods.<00:00:41.160><c> So,</c><00:00:41.960><c> we</c><00:00:42.160><c> have</c><00:00:42.400><c> already</c>
+
+00:00:42.830 --> 00:00:42.840 align:start position:0%
+methods. So, we have already
+ 
+
+00:00:42.840 --> 00:00:44.590 align:start position:0%
+methods. So, we have already
+demonstrated
+
+00:00:44.590 --> 00:00:44.600 align:start position:0%
+demonstrated
+ 
+
+00:00:44.600 --> 00:00:46.710 align:start position:0%
+demonstrated
+um<00:00:45.480><c> that</c>
+
+00:00:46.710 --> 00:00:46.720 align:start position:0%
+um that
+ 
+
+00:00:46.720 --> 00:00:50.230 align:start position:0%
+um that
+we<00:00:47.000><c> will</c><00:00:47.240><c> support</c><00:00:48.320><c> quantum-resistant</c>
+
+00:00:50.230 --> 00:00:50.240 align:start position:0%
+we will support quantum-resistant
+ 
+
+00:00:50.240 --> 00:00:51.870 align:start position:0%
+we will support quantum-resistant
+accounts
+
+00:00:51.870 --> 00:00:51.880 align:start position:0%
+accounts
+ 
+
+00:00:51.880 --> 00:00:55.070 align:start position:0%
+accounts
+by<00:00:52.120><c> mainnet</c><00:00:52.560><c> launch.</c><00:00:53.600><c> I</c><00:00:53.880><c> am</c>
+
+00:00:55.070 --> 00:00:55.080 align:start position:0%
+by mainnet launch. I am
+ 
+
+00:00:55.080 --> 00:00:57.950 align:start position:0%
+by mainnet launch. I am
+I<00:00:55.240><c> have</c><00:00:55.400><c> been</c><00:00:55.640><c> working</c><00:00:56.080><c> on</c><00:00:56.720><c> supporting</c><00:00:57.280><c> them</c>
+
+00:00:57.950 --> 00:00:57.960 align:start position:0%
+I have been working on supporting them
+ 
+
+00:00:57.960 --> 00:01:00.150 align:start position:0%
+I have been working on supporting them
+more<00:00:58.200><c> natively</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+more natively
+ 
+
+00:01:00.160 --> 00:01:02.910 align:start position:0%
+more natively
+so<00:01:00.440><c> that</c><00:01:01.200><c> we</c><00:01:01.360><c> get</c><00:01:01.800><c> even</c><00:01:02.120><c> more</c><00:01:02.320><c> efficiency</c>
+
+00:01:02.910 --> 00:01:02.920 align:start position:0%
+so that we get even more efficiency
+ 
+
+00:01:02.920 --> 00:01:04.310 align:start position:0%
+so that we get even more efficiency
+doing<00:01:03.280><c> it.</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+doing it.
+ 
+
+00:01:04.320 --> 00:01:05.710 align:start position:0%
+doing it.
+But,<00:01:05.120><c> um</c>
+
+00:01:05.710 --> 00:01:05.720 align:start position:0%
+But, um
+ 
+
+00:01:05.720 --> 00:01:08.710 align:start position:0%
+But, um
+so<00:01:05.880><c> now</c><00:01:06.200><c> a</c><00:01:06.280><c> couple</c><00:01:06.640><c> of</c><00:01:07.280><c> some</c><00:01:07.560><c> news</c><00:01:07.920><c> dropped</c>
+
+00:01:08.710 --> 00:01:08.720 align:start position:0%
+so now a couple of some news dropped
+ 
+
+00:01:08.720 --> 00:01:10.230 align:start position:0%
+so now a couple of some news dropped
+where
+
+00:01:10.230 --> 00:01:10.240 align:start position:0%
+where
+ 
+
+00:01:10.240 --> 00:01:11.750 align:start position:0%
+where
+there<00:01:10.440><c> have</c><00:01:10.600><c> been</c><00:01:10.880><c> some</c><00:01:11.080><c> theoretical</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+there have been some theoretical
+ 
+
+00:01:11.760 --> 00:01:15.990 align:start position:0%
+there have been some theoretical
+optimizations<00:01:13.040><c> in</c><00:01:13.840><c> how</c><00:01:14.120><c> you</c><00:01:14.320><c> could</c><00:01:14.560><c> solve</c>
+
+00:01:15.990 --> 00:01:16.000 align:start position:0%
+optimizations in how you could solve
+ 
+
+00:01:16.000 --> 00:01:18.710 align:start position:0%
+optimizations in how you could solve
+uh<00:01:16.640><c> or</c><00:01:16.800><c> implement</c><00:01:17.200><c> Shor's</c><00:01:17.760><c> algorithm,</c><00:01:18.480><c> which</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+uh or implement Shor's algorithm, which
+ 
+
+00:01:18.720 --> 00:01:19.590 align:start position:0%
+uh or implement Shor's algorithm, which
+is
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+is
+ 
+
+00:01:19.600 --> 00:01:21.190 align:start position:0%
+is
+the<00:01:19.760><c> trick</c><00:01:20.280><c> to</c>
+
+00:01:21.190 --> 00:01:21.200 align:start position:0%
+the trick to
+ 
+
+00:01:21.200 --> 00:01:23.710 align:start position:0%
+the trick to
+cracking<00:01:21.720><c> crypto</c><00:01:22.120><c> keys</c><00:01:22.640><c> or</c><00:01:22.920><c> finding</c><00:01:23.440><c> really</c>
+
+00:01:23.710 --> 00:01:23.720 align:start position:0%
+cracking crypto keys or finding really
+ 
+
+00:01:23.720 --> 00:01:25.670 align:start position:0%
+cracking crypto keys or finding really
+large<00:01:24.080><c> prime</c><00:01:24.400><c> numbers.</c>
+
+00:01:25.670 --> 00:01:25.680 align:start position:0%
+large prime numbers.
+ 
+
+00:01:25.680 --> 00:01:30.390 align:start position:0%
+large prime numbers.
+And<00:01:26.400><c> in</c><00:01:27.320><c> with</c><00:01:27.920><c> much</c><00:01:28.320><c> fewer</c><00:01:28.760><c> qubits</c><00:01:29.800><c> than</c><00:01:30.200><c> was</c>
+
+00:01:30.390 --> 00:01:30.400 align:start position:0%
+And in with much fewer qubits than was
+ 
+
+00:01:30.400 --> 00:01:33.110 align:start position:0%
+And in with much fewer qubits than was
+previously<00:01:30.920><c> thought.</c><00:01:31.840><c> So,</c>
+
+00:01:33.110 --> 00:01:33.120 align:start position:0%
+previously thought. So,
+ 
+
+00:01:33.120 --> 00:01:34.550 align:start position:0%
+previously thought. So,
+that
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+that
+ 
+
+00:01:34.560 --> 00:01:36.030 align:start position:0%
+that
+brought<00:01:34.840><c> the</c><00:01:34.960><c> solution</c><00:01:35.560><c> an</c><00:01:35.680><c> order</c><00:01:35.960><c> of</c>
+
+00:01:36.030 --> 00:01:36.040 align:start position:0%
+brought the solution an order of
+ 
+
+00:01:36.040 --> 00:01:39.430 align:start position:0%
+brought the solution an order of
+magnitude<00:01:37.240><c> or</c><00:01:37.440><c> so</c><00:01:38.080><c> closer.</c>
+
+00:01:39.430 --> 00:01:39.440 align:start position:0%
+magnitude or so closer.
+ 
+
+00:01:39.440 --> 00:01:44.190 align:start position:0%
+magnitude or so closer.
+And<00:01:40.400><c> another</c><00:01:40.960><c> evolution</c><00:01:41.560><c> is</c><00:01:41.880><c> that</c><00:01:42.840><c> using</c>
+
+00:01:44.190 --> 00:01:44.200 align:start position:0%
+And another evolution is that using
+ 
+
+00:01:44.200 --> 00:01:50.070 align:start position:0%
+And another evolution is that using
+uh<00:01:44.920><c> so-called</c><00:01:45.400><c> neutral</c><00:01:46.000><c> atoms,</c><00:01:47.240><c> um</c>
+
+00:01:50.070 --> 00:01:50.080 align:start position:0%
+ 
+ 
+
+00:01:50.080 --> 00:01:52.550 align:start position:0%
+ 
+the<00:01:50.400><c> chances</c><00:01:51.040><c> of</c><00:01:51.160><c> being</c><00:01:51.440><c> able</c><00:01:51.760><c> to</c><00:01:52.080><c> actually</c>
+
+00:01:52.550 --> 00:01:52.560 align:start position:0%
+the chances of being able to actually
+ 
+
+00:01:52.560 --> 00:01:54.070 align:start position:0%
+the chances of being able to actually
+run
+
+00:01:54.070 --> 00:01:54.080 align:start position:0%
+run
+ 
+
+00:01:54.080 --> 00:01:57.550 align:start position:0%
+run
+uh<00:01:54.840><c> tens</c><00:01:55.160><c> of</c><00:01:55.280><c> thousands</c><00:01:55.800><c> of</c><00:01:55.920><c> qubits</c>
+
+00:01:57.550 --> 00:01:57.560 align:start position:0%
+uh tens of thousands of qubits
+ 
+
+00:01:57.560 --> 00:01:58.070 align:start position:0%
+uh tens of thousands of qubits
+uh
+
+00:01:58.070 --> 00:01:58.080 align:start position:0%
+uh
+ 
+
+00:01:58.080 --> 00:02:01.390 align:start position:0%
+uh
+in<00:01:58.280><c> a</c><00:01:58.400><c> realistic</c><00:01:59.800><c> uh</c><00:01:59.920><c> machine</c>
+
+00:02:01.390 --> 00:02:01.400 align:start position:0%
+in a realistic uh machine
+ 
+
+00:02:01.400 --> 00:02:02.990 align:start position:0%
+in a realistic uh machine
+have<00:02:01.560><c> increased.</c>
+
+00:02:02.990 --> 00:02:03.000 align:start position:0%
+have increased.
+ 
+
+00:02:03.000 --> 00:02:08.389 align:start position:0%
+have increased.
+So,<00:02:04.000><c> I</c><00:02:04.160><c> think</c><00:02:04.840><c> in</c><00:02:05.400><c> the</c><00:02:05.560><c> very</c><00:02:06.479><c> most</c><00:02:06.960><c> optimistic</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+So, I think in the very most optimistic
+ 
+
+00:02:08.399 --> 00:02:10.150 align:start position:0%
+So, I think in the very most optimistic
+um
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+um
+ 
+
+00:02:10.160 --> 00:02:12.390 align:start position:0%
+um
+predictions
+
+00:02:12.390 --> 00:02:12.400 align:start position:0%
+predictions
+ 
+
+00:02:12.400 --> 00:02:13.949 align:start position:0%
+predictions
+more<00:02:12.600><c> or</c><00:02:12.680><c> less</c>
+
+00:02:13.949 --> 00:02:13.959 align:start position:0%
+more or less
+ 
+
+00:02:13.959 --> 00:02:14.750 align:start position:0%
+more or less
+um
+
+00:02:14.750 --> 00:02:14.760 align:start position:0%
+um
+ 
+
+00:02:14.760 --> 00:02:19.510 align:start position:0%
+um
+in<00:02:15.040><c> the</c><00:02:15.200><c> mid</c><00:02:15.600><c> 2030s,</c><00:02:16.600><c> you</c><00:02:16.720><c> might</c><00:02:17.040><c> see</c>
+
+00:02:19.510 --> 00:02:19.520 align:start position:0%
+in the mid 2030s, you might see
+ 
+
+00:02:19.520 --> 00:02:21.350 align:start position:0%
+in the mid 2030s, you might see
+quantum<00:02:19.920><c> computers</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+quantum computers
+ 
+
+00:02:21.360 --> 00:02:23.910 align:start position:0%
+quantum computers
+that<00:02:21.560><c> could</c><00:02:21.800><c> possibly</c><00:02:22.400><c> attack</c><00:02:23.440><c> um</c><00:02:23.600><c> say</c><00:02:23.840><c> a</c>
+
+00:02:23.910 --> 00:02:23.920 align:start position:0%
+that could possibly attack um say a
+ 
+
+00:02:23.920 --> 00:02:25.710 align:start position:0%
+that could possibly attack um say a
+single
+
+00:02:25.710 --> 00:02:25.720 align:start position:0%
+single
+ 
+
+00:02:25.720 --> 00:02:28.270 align:start position:0%
+single
+blockchain<00:02:26.240><c> key</c><00:02:26.480><c> pair</c>
+
+00:02:28.270 --> 00:02:28.280 align:start position:0%
+blockchain key pair
+ 
+
+00:02:28.280 --> 00:02:31.150 align:start position:0%
+blockchain key pair
+um
+
+00:02:31.150 --> 00:02:31.160 align:start position:0%
+ 
+ 
+
+00:02:31.160 --> 00:02:32.750 align:start position:0%
+ 
+in
+
+00:02:32.750 --> 00:02:32.760 align:start position:0%
+in
+ 
+
+00:02:32.760 --> 00:02:35.830 align:start position:0%
+in
+running<00:02:33.760><c> in</c><00:02:33.920><c> a</c><00:02:34.000><c> few</c><00:02:34.240><c> days,</c><00:02:34.800><c> like</c><00:02:35.040><c> or</c><00:02:35.200><c> maybe</c><00:02:35.600><c> 10</c>
+
+00:02:35.830 --> 00:02:35.840 align:start position:0%
+running in a few days, like or maybe 10
+ 
+
+00:02:35.840 --> 00:02:38.830 align:start position:0%
+running in a few days, like or maybe 10
+days,<00:02:36.240><c> running</c><00:02:36.600><c> at</c><00:02:36.720><c> full</c><00:02:37.520><c> bore.</c><00:02:38.360><c> Now,</c><00:02:38.600><c> that</c>
+
+00:02:38.830 --> 00:02:38.840 align:start position:0%
+days, running at full bore. Now, that
+ 
+
+00:02:38.840 --> 00:02:40.630 align:start position:0%
+days, running at full bore. Now, that
+wouldn't<00:02:39.080><c> be</c>
+
+00:02:40.630 --> 00:02:40.640 align:start position:0%
+wouldn't be
+ 
+
+00:02:40.640 --> 00:02:44.750 align:start position:0%
+wouldn't be
+sensible<00:02:41.320><c> to</c><00:02:41.480><c> do</c><00:02:42.040><c> unless</c><00:02:42.640><c> that</c><00:02:42.880><c> account</c><00:02:43.360><c> has</c>
+
+00:02:44.750 --> 00:02:44.760 align:start position:0%
+sensible to do unless that account has
+ 
+
+00:02:44.760 --> 00:02:46.430 align:start position:0%
+sensible to do unless that account has
+at<00:02:44.920><c> least</c>
+
+00:02:46.430 --> 00:02:46.440 align:start position:0%
+at least
+ 
+
+00:02:46.440 --> 00:02:49.790 align:start position:0%
+at least
+like<00:02:46.760><c> $100,000</c><00:02:48.120><c> worth</c><00:02:48.480><c> of</c><00:02:48.760><c> crypto</c><00:02:49.200><c> in</c><00:02:49.360><c> it</c><00:02:49.600><c> or</c>
+
+00:02:49.790 --> 00:02:49.800 align:start position:0%
+like $100,000 worth of crypto in it or
+ 
+
+00:02:49.800 --> 00:02:51.030 align:start position:0%
+like $100,000 worth of crypto in it or
+more.
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+more.
+ 
+
+00:02:51.040 --> 00:02:53.230 align:start position:0%
+more.
+um
+
+00:02:53.230 --> 00:02:53.240 align:start position:0%
+um
+ 
+
+00:02:53.240 --> 00:02:56.230 align:start position:0%
+um
+Probably<00:02:53.560><c> a</c><00:02:53.640><c> lot</c><00:02:53.959><c> more.</c><00:02:54.800><c> And</c><00:02:55.760><c> uh</c><00:02:55.840><c> also</c>
+
+00:02:56.230 --> 00:02:56.240 align:start position:0%
+Probably a lot more. And uh also
+ 
+
+00:02:56.240 --> 00:02:58.470 align:start position:0%
+Probably a lot more. And uh also
+wouldn't<00:02:56.560><c> really</c><00:02:56.840><c> be</c><00:02:57.000><c> sensible</c>
+
+00:02:58.470 --> 00:02:58.480 align:start position:0%
+wouldn't really be sensible
+ 
+
+00:02:58.480 --> 00:02:59.390 align:start position:0%
+wouldn't really be sensible
+un-
+
+00:02:59.390 --> 00:02:59.400 align:start position:0%
+un-
+ 
+
+00:02:59.400 --> 00:03:01.190 align:start position:0%
+un-
+unless<00:02:59.840><c> there</c><00:03:00.000><c> weren't</c><00:03:00.480><c> any</c><00:03:00.880><c> other</c>
+
+00:03:01.190 --> 00:03:01.200 align:start position:0%
+unless there weren't any other
+ 
+
+00:03:01.200 --> 00:03:03.710 align:start position:0%
+unless there weren't any other
+attractive<00:03:01.720><c> business</c><00:03:02.120><c> cases</c><00:03:02.600><c> for</c>
+
+00:03:03.710 --> 00:03:03.720 align:start position:0%
+attractive business cases for
+ 
+
+00:03:03.720 --> 00:03:05.509 align:start position:0%
+attractive business cases for
+that<00:03:03.959><c> kind</c><00:03:04.200><c> of</c><00:03:04.280><c> quantum</c><00:03:04.680><c> computer.</c><00:03:05.200><c> But,</c><00:03:05.400><c> it</c>
+
+00:03:05.509 --> 00:03:05.519 align:start position:0%
+that kind of quantum computer. But, it
+ 
+
+00:03:05.519 --> 00:03:07.870 align:start position:0%
+that kind of quantum computer. But, it
+turns<00:03:05.840><c> out</c><00:03:06.040><c> there</c><00:03:06.280><c> are.</c><00:03:06.519><c> There</c><00:03:06.760><c> are</c>
+
+00:03:07.870 --> 00:03:07.880 align:start position:0%
+turns out there are. There are
+ 
+
+00:03:07.880 --> 00:03:09.750 align:start position:0%
+turns out there are. There are
+interesting<00:03:08.440><c> computing</c><00:03:08.920><c> business</c><00:03:09.280><c> cases</c>
+
+00:03:09.750 --> 00:03:09.760 align:start position:0%
+interesting computing business cases
+ 
+
+00:03:09.760 --> 00:03:11.870 align:start position:0%
+interesting computing business cases
+like<00:03:10.000><c> protein</c><00:03:10.560><c> folding</c>
+
+00:03:11.870 --> 00:03:11.880 align:start position:0%
+like protein folding
+ 
+
+00:03:11.880 --> 00:03:15.150 align:start position:0%
+like protein folding
+uh<00:03:12.160><c> simulations</c><00:03:13.280><c> and</c><00:03:14.000><c> uh</c>
+
+00:03:15.150 --> 00:03:15.160 align:start position:0%
+uh simulations and uh
+ 
+
+00:03:15.160 --> 00:03:17.910 align:start position:0%
+uh simulations and uh
+and<00:03:15.400><c> all</c><00:03:15.519><c> kinds</c><00:03:15.840><c> of</c><00:03:15.920><c> stuff</c><00:03:16.720><c> that</c><00:03:17.440><c> would</c><00:03:17.680><c> be</c>
+
+00:03:17.910 --> 00:03:17.920 align:start position:0%
+and all kinds of stuff that would be
+ 
+
+00:03:17.920 --> 00:03:19.870 align:start position:0%
+and all kinds of stuff that would be
+really,<00:03:18.440><c> really</c><00:03:18.760><c> interesting</c><00:03:19.360><c> to</c><00:03:19.480><c> run</c><00:03:19.760><c> on</c>
+
+00:03:19.870 --> 00:03:19.880 align:start position:0%
+really, really interesting to run on
+ 
+
+00:03:19.880 --> 00:03:21.390 align:start position:0%
+really, really interesting to run on
+those<00:03:20.160><c> machines.</c>
+
+00:03:21.390 --> 00:03:21.400 align:start position:0%
+those machines.
+ 
+
+00:03:21.400 --> 00:03:23.350 align:start position:0%
+those machines.
+So,
+
+00:03:23.350 --> 00:03:23.360 align:start position:0%
+So,
+ 
+
+00:03:23.360 --> 00:03:26.350 align:start position:0%
+So,
+we<00:03:23.640><c> think</c><00:03:24.160><c> that</c><00:03:24.800><c> our</c><00:03:25.120><c> analysis</c><00:03:25.760><c> holds</c><00:03:26.160><c> up</c>
+
+00:03:26.350 --> 00:03:26.360 align:start position:0%
+we think that our analysis holds up
+ 
+
+00:03:26.360 --> 00:03:27.670 align:start position:0%
+we think that our analysis holds up
+really<00:03:26.640><c> well.</c>
+
+00:03:27.670 --> 00:03:27.680 align:start position:0%
+really well.
+ 
+
+00:03:27.680 --> 00:03:29.070 align:start position:0%
+really well.
+um
+
+00:03:29.070 --> 00:03:29.080 align:start position:0%
+um
+ 
+
+00:03:29.080 --> 00:03:31.509 align:start position:0%
+um
+You<00:03:29.280><c> would</c><00:03:29.560><c> keep</c>
+
+00:03:31.509 --> 00:03:31.519 align:start position:0%
+You would keep
+ 
+
+00:03:31.519 --> 00:03:33.710 align:start position:0%
+You would keep
+most<00:03:31.880><c> of</c><00:03:32.000><c> your</c><00:03:32.239><c> funds,</c><00:03:32.760><c> if</c><00:03:33.040><c> you</c><00:03:33.160><c> even</c><00:03:33.440><c> have</c>
+
+00:03:33.710 --> 00:03:33.720 align:start position:0%
+most of your funds, if you even have
+ 
+
+00:03:33.720 --> 00:03:36.550 align:start position:0%
+most of your funds, if you even have
+funds<00:03:34.640><c> uh</c><00:03:34.880><c> of</c><00:03:35.040><c> that</c><00:03:35.320><c> size,</c><00:03:35.760><c> you</c><00:03:35.920><c> would</c><00:03:36.440><c> you</c>
+
+00:03:36.550 --> 00:03:36.560 align:start position:0%
+funds uh of that size, you would you
+ 
+
+00:03:36.560 --> 00:03:38.670 align:start position:0%
+funds uh of that size, you would you
+could<00:03:36.760><c> have</c><00:03:37.080><c> one</c><00:03:37.760><c> uh</c>
+
+00:03:38.670 --> 00:03:38.680 align:start position:0%
+could have one uh
+ 
+
+00:03:38.680 --> 00:03:41.870 align:start position:0%
+could have one uh
+or<00:03:38.880><c> a</c><00:03:38.920><c> couple</c><00:03:39.360><c> of</c><00:03:39.560><c> safe</c><00:03:40.280><c> accounts</c>
+
+00:03:41.870 --> 00:03:41.880 align:start position:0%
+or a couple of safe accounts
+ 
+
+00:03:41.880 --> 00:03:45.110 align:start position:0%
+or a couple of safe accounts
+that<00:03:42.160><c> are</c><00:03:42.440><c> protected</c><00:03:43.000><c> by</c><00:03:43.239><c> quantum</c><00:03:43.720><c> resistant</c>
+
+00:03:45.110 --> 00:03:45.120 align:start position:0%
+that are protected by quantum resistant
+ 
+
+00:03:45.120 --> 00:03:46.750 align:start position:0%
+that are protected by quantum resistant
+uh<00:03:45.200><c> signatures.</c>
+
+00:03:46.750 --> 00:03:46.760 align:start position:0%
+uh signatures.
+ 
+
+00:03:46.760 --> 00:03:49.070 align:start position:0%
+uh signatures.
+And<00:03:47.080><c> then,</c><00:03:47.480><c> you</c><00:03:47.640><c> can</c><00:03:47.840><c> keep</c><00:03:48.160><c> using</c>
+
+00:03:49.070 --> 00:03:49.080 align:start position:0%
+And then, you can keep using
+ 
+
+00:03:49.080 --> 00:03:51.550 align:start position:0%
+And then, you can keep using
+elliptic<00:03:49.600><c> curve</c><00:03:49.959><c> crypto</c>
+
+00:03:51.550 --> 00:03:51.560 align:start position:0%
+elliptic curve crypto
+ 
+
+00:03:51.560 --> 00:03:53.270 align:start position:0%
+elliptic curve crypto
+um
+
+00:03:53.270 --> 00:03:53.280 align:start position:0%
+um
+ 
+
+00:03:53.280 --> 00:03:57.720 align:start position:0%
+um
+for<00:03:53.960><c> the</c><00:03:54.120><c> lower</c><00:03:54.440><c> value</c><00:03:54.800><c> accounts.</c><00:03:55.400><c> And</c>
+
