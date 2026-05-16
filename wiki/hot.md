@@ -6,12 +6,12 @@
 
 ## Current Focus
 
-**39 sources ingested. QPQ git repos fully explored (26 repos).** Two major identity questions resolved: Ulf = Ulf Wiger; Craig = zxq9. sophia-fate.md majorly rewritten with full version history + FATE details. qpq-software-stack.md + adam-percy.md created. **Next priorities:**
-1. Update source summaries with missed transcript content (5 summaries need updates)
-2. Find the Dimitar video on Associate Chain → Groot finality cooperation
-3. Identify Rachel McKone's husband (the "Gaju Firsts" speaker) — Craig or Gregory Chew?
-4. Resolve mobile wallet naming (Bor vs GajuMobile)
-5. Find current post-MainNet data (miner count, Gaju price, LTIN status)
+**43 sources. Full team names/titles confirmed.** gajumaru.io + gajumining.com + qpq.swiss fully crawled. Un-White Paper gap analysis complete (80% of content was missing — needs major expansion). **Next priorities:**
+1. Expand summary-unwhitepaper.md with GajuDEX analysis, Layer 2 critique, PHYDEX, regulatory framework, four patterns of failure, vocabulary analysis
+2. Create quantum-resistance concept page
+3. Ingest remaining blog posts (Lightning Network, defensive mining, A2P whale subsidy, social feed)
+4. Find the Dimitar video on Associate Chain → Groot finality cooperation
+5. Update Un-White Paper content on specific project forensics (Ethereum, Solana, Arbitrum, Base, zkSync)
 
 **Open contradiction:** `groot.md` — efficiency figure. See `> [!contradiction]` callout there.
 
@@ -34,9 +34,17 @@
 - Un-White Paper Technical Paper — not yet ingested
 
 **RESOLVED:**
-- Ulf = Ulf Wiger (NOT Ulf Norell) — confirmed via `uwiger` handle in QPQ git repos
-- Craig = zxq9 — confirmed via GajuDesk commits; UTC+9 timezone (Okinawa)
+- Ulf = Ulf Wiger (NOT Ulf Norell) — CTO; first commercial Erlang license 1993
+- Craig = zxq9 (Craig Everett) — CPO; cybersecurity background; blog author confirmed
 - Ulf surname: Wiger (CONFIRMED)
+- Dimitar surname: Ivanov (CONFIRMED) — CDO
+- Jarvis surname: Carroll (CONFIRMED) — R&D
+- Mobile wallet: GajuMobile (current name; Bor was earlier, like Clutch→GajuDesk)
+- New team members: Benno Raeber (CLO), Jeff Thomson (Product Research)
+- New products: GajuAuth (GRIDS OAuth2), GajuPort, GajuVault, GajuMall
+- Partners confirmed: Solstice Labs, INACRA (new; join Bank Frick, Bitcoin Suisse, Swiss Subnet)
+- MainNet: April 6/7 (technical) + April 26 (public launch event) — two dates from QPQ sources
+- Quantum resistance: ML-DSA-44/65/87 planned; Curve25519 current
 
 ---
 

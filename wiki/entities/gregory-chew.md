@@ -8,17 +8,16 @@ created: 2026-05-15
 updated: 2026-05-15
 cluster: developer-ecosystem
 contradictions: []
-open_questions:
-  - What is Gregory Chew's background prior to QPQ AG?
-  - Is he also a founder, or just CEO?
+open_questions: []
 ---
 
 # Gregory Chew
 
-Gregory Chew is the CEO of [[qpq-ag]], the Swiss company building the Gajumaru blockchain.
+Gregory Chew is the CEO and co-founder of [[qpq-ag]], the Swiss company building the Gajumaru blockchain.
 
 ## Known Role
 - CEO of QPQ AG
+- Background: law, commodities trading, and investment banking; built farming and mining cooperatives across Africa prior to QPQ
 - Responsible for product delivery — "getting the products into people's hands"
 - Author of the closing remarks in the 2025 Year in Review article
 

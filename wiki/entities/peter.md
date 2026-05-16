@@ -17,11 +17,11 @@ open_questions:
 
 There are two people named Peter associated with QPQ AG:
 
-## Peter Harpending — QPQ Public Wiki Author
+## Peter Harpending — Research Lead & Lead Cryptographic Developer
 
-**Peter Harpending** is the author and editor of the QPQ Public Wiki (`git.qpq.swiss/QPQ-AG/public-wiki/wiki/`), QPQ's primary public educational resource. He is named explicitly in the Gaju Mining Journey Update as part of the background team: "Peter, Santosh, **Peter Harpending**, Jarvis."
+**Peter Harpending** holds the title **Research Lead and Lead Cryptographic Developer** at QPQ AG. He is a mathematician and cryptographic library developer who has created independent wallet implementations and mobile wallet libraries. He is named explicitly in the Gaju Mining Journey Update as part of the background team: "Peter, Santosh, **Peter Harpending**, Jarvis."
 
-His wiki covers 16 topics from monetary theory through to the Sophia smart contract language. Last edited: **2026-03-17** (per Blockchain Primer page metadata). He is the authoritative source for QPQ's public explanations of Gajumaru concepts.
+Peter is also the author and editor of the QPQ Public Wiki (`git.qpq.swiss/QPQ-AG/public-wiki/wiki/`), QPQ's primary public educational resource. His wiki covers topics from monetary theory through to the Sophia smart contract language. Last edited: **2026-03-17** (per Blockchain Primer page metadata). Contact: peterharpending@qpq.swiss.
 
 Source: [[summary-qpq-wiki-blockchain-primer]], [[summary-gaju-mining-journey-update]]
 

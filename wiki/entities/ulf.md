@@ -1,7 +1,7 @@
 ---
 type: entity
 entity_type: person
-title: "Ulf Wiger (Blockchain Infrastructure Engineer)"
+title: "Ulf Wiger (Chief Technology Officer)"
 aliases: [ulf, ulf-wiger, uwiger]
 sources: [[summary-gaju-mining-journey-update]], [[summary-gajumaru-new-blockchain-demo-1]]
 related: [[craig]], [[dimitar]], [[gregory-chew]], [[qpq-ag]], [[groot]], [[protected-mining]], [[aeternity]]
@@ -13,9 +13,9 @@ open_questions:
   - Formal title within QPQ AG not confirmed in public sources
 ---
 
-# Ulf Wiger (Blockchain Infrastructure Engineer)
+# Ulf Wiger (Chief Technology Officer)
 
-**Ulf Wiger** (git handle: `uwiger`) is a blockchain infrastructure engineer at QPQ AG, responsible for the hive mining system and core Erlang/OTP infrastructure. His identity was previously listed as unknown; confirmed via commit authorship across multiple QPQ AG repositories.
+**Ulf Wiger** (git handle: `uwiger`) is the Chief Technology Officer (CTO) of QPQ AG, responsible for the hive mining system and core Erlang/OTP infrastructure. His identity was previously listed as unknown; confirmed via commit authorship across multiple QPQ AG repositories.
 
 ## Identity Confirmation
 
@@ -32,7 +32,7 @@ Combined with the "Erlanger since 1992" characterisation from [[summary-gajumaru
 
 ## Background
 
-Ulf Wiger has been programming in **Erlang** since **1992** — one of the earliest Erlang practitioners, predating Erlang's public release (1998). He is deeply associated with Erlang/OTP at Ericsson and with the Aeternity blockchain project, which shares Gajumaru's core Erlang/OTP lineage.
+Ulf Wiger has been programming in **Erlang** since **1992** — one of the earliest Erlang practitioners, predating Erlang's public release (1998). He **purchased the first commercial Erlang license in 1993**. He is deeply associated with Erlang/OTP at Ericsson, created foundational open-source Erlang projects, and worked on the Aeternity blockchain project, which shares Gajumaru's core Erlang/OTP lineage.
 
 Gregory Chew (Demo 1, March 2024):
 > "One of the leading lights in the Erlang world. He's been an Erlanger since 1992 and for that reason was vital to making all of these pieces work."

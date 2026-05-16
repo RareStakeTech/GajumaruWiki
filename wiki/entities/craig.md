@@ -9,17 +9,16 @@ created: 2026-05-15
 updated: 2026-05-15
 cluster: core-protocol
 contradictions: []
-open_questions:
-  - Is "Chief Product Officer" his current title, or has it evolved since March 2024?
+open_questions: []
 ---
 
 # Craig Everett (Chief Product Officer)
 
-**Craig Everett** is the Chief Product Officer (CPO) of [[qpq-ag]] and the lead architect of the Gajumaru blockchain. He is based in **Okinawa, Japan**, where he both developed the system's tree-structure scalability model and coined the project's name.
+**Craig Everett** is the Chief Product Officer (CPO) of [[qpq-ag]] and the lead architect of the Gajumaru blockchain. He is based in **Okinawa, Japan** (UTC+9), where he both developed the system's tree-structure scalability model and coined the project's name. Background: cybersecurity and distributed systems. He mentors programmers in Erlang and is the author of the ZX build tool (handle: `zxq9`).
 
 ## Role
 
-Craig designed the core Gajumaru architecture: the partition-to-tree-structure scalability model, the PoW mint as trust anchor, and the Associate Chain framework. He speaks with authority on the rationale behind every major architectural decision.
+Craig designed the core Gajumaru architecture: the partition-to-tree-structure scalability model, the PoW mint as trust anchor, and the Associate Chain framework. He speaks with authority on the rationale behind every major architectural decision. Also authored the GRIDS technical spec (v5), the mempool wiki page, and several Gajumaru blog posts (confirmed by byline: "Craig Everett | April 15, 2026").
 
 ## The Naming Story
 

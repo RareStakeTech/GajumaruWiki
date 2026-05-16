@@ -710,6 +710,53 @@ Key new content:
 - Hive mining: SaaS model, dividend-writing contracts, gmhive_client port 17888, Ulf Wiger authorship, scaling goals
 - QuidProQuo reputation/goodwill: on-chain trust as commercial goodwill analogue; archive record after sale deletion
 
+---
+
+## [2026-05-15] ingest | gajumaru.io + gajumining.com + qpq.swiss site crawl; team roster confirmed
+
+Sources crawled:
+- gajumaru.io (homepage, /unwhite-paper/, /build/, /blog/, /mine/)
+- gajumining.com (homepage, /the-gaju, /the-opportunity, /links)
+- qpq.swiss (homepage, /blog/, /about/)
+- 10 blog posts read: 6 from gajumaru.io, 4 from qpq.swiss
+
+Pages created:
+- wiki/entities/benno-raeber.md (CLO — new team member)
+- wiki/entities/jarvis-carroll.md (R&D — surname now confirmed)
+- wiki/entities/jeff-thomson.md (Product Research — new team member)
+- wiki/sources/summary-blog-quantum-resistance.md
+- wiki/sources/summary-blog-mythos-grids.md
+- wiki/sources/summary-blog-summer-of-gajumaru.md
+- wiki/sources/summary-blog-in-space.md
+- wiki/sources/summary-blog-dev-updates-2026.md
+
+Pages updated:
+- wiki/entities/dimitar.md (full name: Dimitar Ivanov; title: CDO)
+- wiki/entities/ulf.md (title: CTO; "first commercial Erlang license 1993")
+- wiki/entities/craig.md (cybersecurity background; blog authorship confirmed; open question closed)
+- wiki/entities/gregory-chew.md (background: law, commodities, investment banking, Africa cooperatives)
+- wiki/entities/peter.md (title: Research Lead & Lead Cryptographic Developer)
+- wiki/entities/qpq-ag.md (full team table with confirmed names/titles; MainNet dual-date note)
+- wiki/concepts/gajumaru-product-suite.md (GajuMobile confirmed; GajuAuth + GajuPort added; GajuPay details)
+- wiki/concepts/state-channels.md (M2 benchmark fix; A2P/A2A channels; whale subsidy framing; <1ms overhead)
+- wiki/index.md (5 new source rows; 7 new entity entries in developer-ecosystem; metrics: 43 sources / 15 concepts / 12 entities)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged:
+- MainNet date: April 6/7 2026 (technical launch at 23:59:00 Zulu) vs April 26, 2026 (public launch from Summer article). Both from QPQ sources. Flagged in qpq-ag.md.
+
+Key discoveries:
+- Full team confirmed: Gregory Chew (CEO), Ulf Wiger (CTO), Craig Everett (CPO), Dimitar Ivanov (CDO), Peter Harpending (Research Lead/Lead Cryptographic Developer), Benno Raeber (CLO), Cecille de Jesus, Jeff Thomson, Jarvis Carroll, Santosh
+- Mobile wallet name resolved: GajuMobile (Bor was earlier working name)
+- New products: GajuAuth (GRIDS-backed OAuth2), GajuPort, GajuVault, GajuMall
+- New partners: Solstice Labs, INACRA (join Bank Frick, Bitcoin Suisse, Swiss Subnet)
+- Quantum resistance plan: ML-DSA-44/65/87 via Sophia Crypto library; Curve25519 currently
+- GajuDEX CLOB completed (April 2026); GajuMarket test environment operational (March 2026)
+- Craig Everett confirmed as author of "Gajumaru in Space" (April 15, 2026)
+- Mythos AI threat justified GRIDS architecture retroactively; Glasswing gave early access to AWS, Apple, Microsoft, Google, JPMorganChase
+- Un-White Paper gap analysis: ~80% of document content not yet in wiki summary — major expansion needed
+
 Contradictions flagged: none
 
 Key claims documented:

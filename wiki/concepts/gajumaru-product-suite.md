@@ -23,7 +23,7 @@ The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 
 **GajuDesk** — Cross-platform desktop wallet (Windows/macOS/Linux). Wallet management, chain interaction, signature requests, contract development/deployment/calling. Zero dependencies, original codebase. Confirmed name: [[summary-gaju-firsts-gajumaru-blockchain]]. *(Earlier working name: "Clutch" — [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]].)*
 
-**GajuMobile / Bor** — iOS/Android/Linux wallet and smart contract access. Zero dependencies. Targets retail payments and banking the 1.4 billion unbanked globally. *(Called "Bor" in [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]; GajuMobile in Year in Review. Current name unresolved.)*
+**GajuMobile** — iOS/Android/Linux wallet and smart contract access. Zero dependencies. Targets retail payments and banking the 1.4 billion unbanked globally. Confirmed current name (gajumaru.io homepage, Summer 2026 launch plan). *(Earlier working name: "Bor" — [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]. Current name: GajuMobile. QR interface for GajuDesk communication in development; Android 13+ hardware key storage prototypes created.)*
 
 **GajuMine** — Cross-platform mining program (Windows/macOS/Linux). Confirmed name: [[summary-gaju-firsts-gajumaru-blockchain]].
 
@@ -31,8 +31,8 @@ The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 
 **GajuExplorer** — Web-based chain explorer (`groot.mainnet.gajumaru.io`).
 
-> [!open_question]
-> Mobile wallet naming: "Bor" (QuidProQuo video) vs "GajuMobile" (Year in Review). Desktop wallet resolved: GajuDesk is current name, Clutch was earlier.
+> [!resolved]
+> Mobile wallet naming resolved: GajuMobile is the current name (Bor was an earlier working name, analogous to Clutch→GajuDesk). Confirmed by gajumaru.io homepage and Summer 2026 launch article.
 
 ## Finance & Exchange
 
@@ -67,6 +67,12 @@ The full suite of applications and platforms built on Gajumaru by [[qpq-ag]].
 **GajuMall** — Large-scale retailer unified marketplace.
 
 **GajuMe (PayMe)** — Online invoicing integrated with blockchain.
+
+## Infrastructure & Integration
+
+**GajuAuth** — GRIDS-backed OAuth2 service (S3O). Enables GRIDS-authenticated login to replace conventional OAuth2/OIDC flows for web services. In early architecture phase (as of March 2026 dev update).
+
+**GajuPort** — Listed on gajumaru.io as a coming product. Purpose not yet detailed in public sources.
 
 ## Security & Recovery
 

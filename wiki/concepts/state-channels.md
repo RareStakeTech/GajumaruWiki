@@ -35,7 +35,7 @@ Key events that touch the chain:
 
 With Gajumaru's witnessing-based finality, the opening transaction becomes usable **immediately upon being seen on-chain** — no confirmation wait required (Gajumaru improvement over Aeternity practice).
 
-## Performance Benchmarks (M4 MacBook)
+## Performance Benchmarks (M2 MacBook — baseline benchmark)
 
 | Operation | Single Channel | 50 Channels | Scaling Factor |
 |-----------|---------------|-------------|----------------|
@@ -43,7 +43,7 @@ With Gajumaru's witnessing-based finality, the opening transaction becomes usabl
 | Coin transfers/sec | 500+ | 3,500 | 6.5× |
 | Plain messages/sec | 3,000+ | 30,400 | 11.5× |
 
-Tested to **10,000 concurrent channels** with stable throughput. Each node handles ≥1,000 concurrent channels via JSON-RPC. Channels scale linearly with nodes as long as they avoid chain transactions.
+Processing overhead per coin transfer: **< 1 millisecond** per side. Tested to **10,000 concurrent channels** (20,000 endpoints) with stable throughput. One node handles ≥1,000 concurrent channels; throughput scales linearly with additional nodes until CPU saturation.
 
 **Fees:** No mandatory transaction fees for State Channel interactions.
 
@@ -65,6 +65,14 @@ State Channel Markets can bridge **Associate Chains**: the Market Provider uses 
 
 Internal channel transactions **remain hidden** — only the closing state appears on-chain. This is a significant privacy property relative to public on-chain transactions where all activity is visible.
 
+## A2P (Agent-to-Provider) State Channels
+
+A key application pattern is **A2P (Agent-to-Provider)** channels — continuous settlement between autonomous agents or users and service providers. This solves the **"whale subsidy" problem**: current payment processors impose ~$0.30 + 3% minimum costs, making micropayments economically impossible. Subscription SaaS forces providers to hope a few heavy users ("whales") cross-subsidise many light users.
+
+A2P state channels enable **"Pay-as-you-Flow"** pricing: sub-cent charges per unit (token, frame, CPU cycle), settled in real-time, with immediate liquidity for providers. Replaces subscription SaaS with utility billing for AI inference, media streaming, and the emerging machine economy.
+
+Also **A2A (Agent-to-Agent)** channels for peer-to-peer machine payments without human intervention.
+
 ## Use Cases
 
 | Category | Examples |
@@ -72,8 +80,9 @@ Internal channel transactions **remain hidden** — only the closing state appea
 | Payments | Instant Swish/Venmo-style payments at events; transport |
 | Commerce | Open tabs at restaurants/bars (QR scan, owner prevents walkout via unilateral close) |
 | Loyalty | Coffee shop cards; reloadable credits |
-| Content | Micro-paywalls; pay-as-you-go AI bots; media streaming |
+| Content | Micro-paywalls; pay-as-you-go AI inference; media streaming (per-frame billing) |
 | Social | Monetary tips instead of costless "likes" |
+| Machine Economy | A2P: agent pays provider per computation; A2A: autonomous agent-to-agent settlements |
 
 ## Implementation Status
 

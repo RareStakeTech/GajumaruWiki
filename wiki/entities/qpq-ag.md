@@ -21,23 +21,21 @@ QPQ AG is the Swiss company that builds and operates the Gajumaru blockchain eco
 
 ## Key People
 
-### Core Technical Team
-- **[[craig]]** — Lead architect; designed Gajumaru tree-structure; based in Okinawa, Japan
-- **[[dimitar]]** — Implementation engineer; Associate Chain interplay; backend
-- **[[ulf]]** — Blockchain infrastructure; hive mining concept; dividend-writing contracts
-
-### Executive & Product
-- **[[gregory-chew]]** — CEO; product delivery
-- **Cecille de Jesus** — Marketing (joined November 2025)
-
-### Background Team
-- **[[peter]]** — Communicator; non-technical explainer
-- **Santosh** — Background (role unknown)
-- **Peter Harpending** — Background (role unknown)
-- **Jarvis** — Background (role unknown)
+| Name | Title | Notes |
+|------|-------|-------|
+| [[gregory-chew]] | CEO | Law, commodities, investment banking background; farming/mining cooperatives in Africa |
+| [[ulf]] | CTO (Ulf Wiger) | Erlang since 1992; first commercial Erlang license 1993; CTO |
+| [[craig]] | CPO (Craig Everett) | Cybersecurity + distributed systems; Okinawa, Japan; ZX tool author (zxq9) |
+| [[dimitar]] | CDO (Dimitar Ivanov) | Blockchain implementation specialist; polyglot programmer |
+| [[peter]] | Research Lead & Lead Cryptographic Developer (Peter Harpending) | Mathematician; wallet libraries; wiki author |
+| [[benno-raeber]] | CLO (Benno Raeber) | Chief Legal Officer |
+| Cecille de Jesus | Communications & Marketing | Joined November 2025 |
+| [[jeff-thomson]] | Product Research (Jeff Thomson) | |
+| [[jarvis-carroll]] | R&D (Jarvis Carroll) | |
+| Santosh | Role unknown | Background team member |
 
 ### Community
-- **Adam Percy** — Community champion; house builder; arrived day one; key advocate for newcomers
+- **[[adam-percy]]** — Community champion; house builder; arrived day one; key advocate for newcomers
 
 ## Jurisdiction & Regulation
 - Incorporated in Switzerland
@@ -67,7 +65,11 @@ QPQ is founding technical partner of [[ltin]] (Liechtenstein Trust Integrity Net
 - Early 2025: Architecture A fell apart; payment provider rugpull at launch
 - March 2025: Mining license sales begin
 - December 2025: Payment friction resolved (Year in Review)
-- April 6/7, 2026: MainNet launch
+- April 6/7, 2026: MainNet technical launch (23:59:00 Zulu)
+- April 26, 2026: Mainnet full public launch / Summer of Gajumaru announcement
+
+> [!note]
+> Possible distinction: April 6/7 = technical/soft launch; April 26 = public commercial launch event. Source ambiguity — both dates sourced from QPQ materials.
 
 ## Sources
 [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]]

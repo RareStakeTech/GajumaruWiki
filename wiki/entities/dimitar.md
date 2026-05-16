@@ -1,26 +1,24 @@
 ---
 type: entity
 entity_type: person
-title: "Dimitar (Implementation Engineer)"
-aliases: [dimitar, dim]
+title: "Dimitar Ivanov (Chief Development Officer)"
+aliases: [dimitar, dim, dimitar-ivanov]
 sources: [[summary-why-the-gajumaru-and-how-it-works]], [[summary-gaju-mining-journey-update]]
 related: [[associate-chains]], [[gajumaru-architecture]], [[craig]], [[ulf]], [[qpq-ag]]
 created: 2026-05-15
 updated: 2026-05-15
 cluster: core-protocol
 contradictions: []
-open_questions:
-  - Full name not given in source — first name only
-  - Formal title within QPQ AG unknown
+open_questions: []
 ---
 
-# Dimitar (Implementation Engineer)
+# Dimitar Ivanov (Chief Development Officer)
 
-Dimitar is an implementation engineer at QPQ AG, working specifically on the Associate Chain interplay — how chains communicate, share economy, and maintain transaction isolation.
+**Dimitar Ivanov** is the Chief Development Officer (CDO) at QPQ AG, working specifically on the Associate Chain interplay — how chains communicate, share economy, and maintain transaction isolation. Described as a blockchain implementation specialist and polyglot programmer with detail-oriented problem-solving abilities.
 
 ## Role
 
-Dimitar explains the practical implementation of Associate Chains: transaction throughput isolation, consensus flexibility, independent databases, and cross-chain Gaju transfers. He is referred to as "Dim" by colleagues.
+Dimitar explains and implements the practical implementation of Associate Chains: transaction throughput isolation, consensus flexibility, independent databases, and cross-chain Gaju transfers. He is referred to as "Dim" by colleagues.
 
 ## Key Contributions (from source)
 

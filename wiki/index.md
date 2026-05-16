@@ -18,9 +18,9 @@ confidence: high
 </div>
 
 <div class="home-metrics">
-  <div><strong>38</strong><span>source summaries</span></div>
+  <div><strong>43</strong><span>source summaries</span></div>
   <div><strong>15</strong><span>concept pages</span></div>
-  <div><strong>9</strong><span>entity pages</span></div>
+  <div><strong>12</strong><span>entity pages</span></div>
   <div><strong>5+</strong><span>research clusters</span></div>
 </div>
 
@@ -137,7 +137,14 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 
 ##### Entity Pages
 - [[qpq-ag]] - Swiss company building Gajumaru; CHF 1M+ revenue; QPQ Capital AG (SRO)
-- [[gregory-chew]] - CEO of QPQ AG
+- [[gregory-chew]] - CEO; law/commodities/investment banking background; Africa cooperatives
+- [[ulf]] - CTO (Ulf Wiger); first commercial Erlang license 1993
+- [[craig]] - CPO (Craig Everett); cybersecurity; Okinawa; ZX tool author (zxq9)
+- [[dimitar]] - CDO (Dimitar Ivanov); blockchain implementation specialist
+- [[peter]] - Research Lead & Lead Cryptographic Developer (Peter Harpending); mathematician
+- [[benno-raeber]] - CLO (Benno Raeber); Chief Legal Officer
+- [[jarvis-carroll]] - R&D (Jarvis Carroll)
+- [[jeff-thomson]] - Product Research (Jeff Thomson)
 - [[aeternity]] - Upstream blockchain; source of Sophia, FATE VM, and State Channels
 - [[adam-percy]] - Community champion; house builder; first wave miner; community leader
 
@@ -227,6 +234,11 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 | [[summary-qpq-wiki-testnet-node-setup]] | Testnet Node Setup (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 | [[summary-qpq-wiki-install-erlang-and-zx]] | Install Erlang and ZX (QPQ Public Wiki) | 2026-05-15 | technical-reference |
 | [[summary-qpq-wiki-vim-setup]] | Vim Setup (QPQ Public Wiki) | 2026-05-15 | technical-reference |
+| [[summary-blog-quantum-resistance]] | Quantum Resistance on Gajumaru Blockchain (gajumaru.io) | 2026-05-15 | core-protocol |
+| [[summary-blog-mythos-grids]] | The Architectural Answer to AI Security Vulnerabilities: GRIDS (qpq.swiss) | 2026-05-15 | developer-ecosystem |
+| [[summary-blog-summer-of-gajumaru]] | The Summer of Gajumaru: Upcoming Launches (qpq.swiss) | 2026-05-15 | multi-cluster |
+| [[summary-blog-in-space]] | The Gajumaru in Space — Cislunar Associate Chains (gajumaru.io) | 2026-05-15 | core-protocol |
+| [[summary-blog-dev-updates-2026]] | QPQ Dev Updates March & April 2026 (qpq.swiss) | 2026-05-15 | multi-cluster |
 
 ---
 
