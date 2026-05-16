@@ -1100,3 +1100,51 @@ Key new content:
 - **Web architectural failure**: "we knew the web was the wrong architecture long before Mythos"; defense-in-depth is not the answer
 
 
+
+---
+
+## [2026-05-16] audit | Deep audit: 5 partially-read long transcripts — all 5 fully read, summaries and concept pages updated
+
+Sources (all fully read in this session):
+- raw/transcripts/quantum-ai-and-the-machine-economy-why-the-internet-isn-t-safe-for-economic-value.md (lines 1849-3352 new in this pass)
+- raw/transcripts/npm-supply-chain-hack-unserious-crypto-serious-gajumaru-full.md (lines 400-2520 new in this pass)
+- raw/transcripts/internet-of-economics-grids-mythos-ai-and-the-end-of-payment-credentials-in-the-public-domain.md (lines 400-2122 new in this pass)
+
+Previous passes (prior session): Scaling (lines 500-1198), Governance (lines 700-2075) — fully read and captured.
+
+All 5 long transcripts now ✅ FULLY AUDITED (0 partial transcripts remaining)
+
+Pages updated:
+- wiki/sources/summary-quantum-ai-machine-economy.md (delegated signing, BankID, ZKP age proof, settlement/finality, GajuDesk 5278 lines, Un-White Paper writing process, TEA model, agent provisioning)
+- wiki/sources/summary-npm-supply-chain-hack.md (Lava Moat details, MetaMask mobile flaw, Craig's discovery journey, Sophia/ISC origin, candlestick problem, QPQ ethos)
+- wiki/sources/summary-internet-of-economics-grids-mythos.md (Greg phished, CA compromise, 3-9mo Mythos timeline, credit card replacement roadmap, Salt Typhoon, Web 3 definition, broadcasting price signals)
+- wiki/concepts/grids.md (BankID comparison section, GajuDesk audibility, state channel signing integration)
+- wiki/concepts/state-channels.md (delegated signing + agent provisioning section)
+- wiki/concepts/internet-of-economics.md (Web 3 definition, broadcasting price signals, hunter-gatherer framing)
+- wiki/concepts/sophia-fate.md (Aeternity/ISC origin backstory)
+- wiki/source-audit.md (all 5 marked ✅; total 42/42 raw files audited)
+- wiki/log.md (this entry)
+
+Contradictions flagged: none
+
+Key new content captured:
+- State channel delegated signing: two modes (auto/manual); "by default does not automatically sign anything"
+- Agent provisioning pattern: give agent 100 Gaju; main keys stay offline; no kingdom-key exposure
+- BankID vs GRIDS: same UX, GRIDS is universal and trustless (BankID requires residency; Ukrainian refugees excluded)
+- ZKP age verification: prove over-18 without sharing personal ID; requires AC-registered KYC operator
+- Settlement vs. finality: 2-3s / 3-4min / Bitcoin 3-4 days — finality is binary mathematical certainty
+- GajuDesk: 5,278 lines; Craig wrote the package manager too; one dependency = Erlang/OTP by Ericsson
+- Lava Moat: MetaMask's security attempt = JS permissioning in JS; Craig thought it was an elaborate joke; has own dependencies; failed
+- Mythos detail: Anthropic estimate 6-18 months until all LLMs can replicate; Craig thinks "a bit generous"
+- Vibe-coded future: AI will crack company backends silently; real email from real server with cracked backend
+- CA chain: compromising one CA compromises all; DNS not secure
+- 3-9 months: effectively every login and password will be in the public domain post-Mythos
+- Credit card replacement roadmap: augment 3DS → link to public key → eliminate card numbers → fraud-prevention focus
+- Salt Typhoon: GRIDS secures initiation but not full call; access point between parties cannot be hacked
+- Web 3 definition: pay for services as you use them; do not give your data to the world
+- "Half a penny per email = no spam"; on-chain 50-year storage = large fee
+- "No global economic resource layer since hunter-gatherers"
+- Sophia/FATE: ISC license (confirmed); Yannis Mares built Aeternity specifically because Ethereum is insecure
+- QPQ team ethos: all from working families; building for their communities; Craig's first adopter is a corner shop 300m away
+- "One ring to rule them all" = the mint
+- Un-White Paper: Greg used Claude+Grok for narrative structure; LLMs consistently misidentified Gajumaru as infrastructure

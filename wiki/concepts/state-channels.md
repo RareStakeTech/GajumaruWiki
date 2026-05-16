@@ -2,7 +2,7 @@
 type: concept
 title: "State Channels"
 aliases: [state-channel, state-channels, channel, off-chain]
-sources: [[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]]
+sources: [[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]], [[summary-quantum-ai-machine-economy]]
 related: [[groot]], [[associate-chains]], [[gajumaru-architecture]], [[sophia-fate]], [[grids]], [[aeternity]]
 created: 2026-05-15
 updated: 2026-05-16
@@ -118,5 +118,32 @@ State channels are the payment rail for the autonomous machine economy:
 
 Source: [[summary-unwhitepaper]], [[summary-blog-a2a-state-channels]]
 
+## Delegated Signing and Agent Provisioning
+
+State channels have a GRIDS-integrated signing model for agentic use:
+
+**Proxy key pair:** When opening a channel, the owner can install a delegated key pair. The chain recognizes this proxy key as authorized for channel signing.
+
+**Two operational modes:**
+- **Manual (default):** every channel signing step pauses for GajuDesk/GajuMobile approval. The user must scan a QR code or approve in-app for each step. Suitable for human-in-the-loop commerce.
+- **Automatic:** delegated key pair installed; channel signs automatically. Suitable for agentic AI loops. Can mix both modes — some steps require approval, others auto-sign.
+
+> "By default it doesn't automatically sign anything. You have to install the delegated key pair in order for it to do it at all."
+
+**Agent provisioning (Greg's M4 Mac example):**
+1. Fund agent with 100 Gaju (limited amount from main keys on separate device)
+2. Agent sets up state channel independently with a service provider
+3. Agent transacts at speed (micropayments per computation/frame/token)
+4. When funds run low, agent requests top-up — owner approves on phone
+5. Main keys never expose to the agent's execution context
+
+> "If your agent goes haywire and blows all the money on something silly... you've limited your risk. You don't have to give the agent the keys to your kingdom."
+
+**The micropayment problem solved:** Current systems cannot refund payments below ~$20 because transaction fees exceed the value. State channels eliminate this: open, use however much you use, tear down — exact net settlement at close with no per-interaction fee.
+
+QPQ may offer a **cloud-hosted state channel service** — making QPQ a party in channels, allowing channels to be hosted off-device without owning the full endpoint hardware.
+
+Source: [[summary-quantum-ai-machine-economy]]
+
 ## Sources
-[[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]]
+[[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]], [[summary-quantum-ai-machine-economy]]

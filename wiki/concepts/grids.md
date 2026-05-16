@@ -203,5 +203,48 @@ Implementation timeline for businesses: described as "well within the 90 days cy
 
 Source: [[summary-gajumaru-channel-shorts]]
 
+## BankID Comparison — Universal vs. Trust-Based Authentication
+
+Sweden's **BankID** is the closest existing analogy to GRIDS:
+- QR code shown; user scans with phone; biometric confirmation; instant login
+- Ubiquitous for everyone under 70 in Sweden
+- Used daily: banking, government websites, healthcare
+
+**The critical limitation:** BankID requires residency. Ukrainian refugees who fled to Sweden could not get a BankID because they lacked a Swedish residency permit — even when they had Swedish bank accounts. They were locked out of services that required BankID for login.
+
+GRIDS is the universal alternative:
+- Self-authenticating (no certificate authority required)
+- Works for anyone with a private key
+- No nationality, bank account, or government registration required
+- Same QR code UX; same ease of use
+
+Source: [[summary-quantum-ai-machine-economy]]
+
+## GajuDesk Audibility
+
+The rationale for zero dependencies is audibility:
+
+> "I know every single detail of how everything works and all of our code... I know where the package manager I know what the package manager is calling in detail because I wrote every single line of the package manager."
+
+GajuDesk: **5,278 lines** of code. Compare: Hello World in Vue.js = approximately 75,000 lines.
+
+The one external dependency: the **Erlang/OTP runtime** (by Ericsson). Every other dependency — wallet logic, serialization, package manager, in-page communication — is written from scratch by Craig.
+
+Source: [[summary-quantum-ai-machine-economy]], [[summary-npm-supply-chain-hack]]
+
+## State Channel Signing Integration
+
+State channels have a signing integration with GRIDS. When opening a state channel, a **proxy key pair** can be installed:
+
+- The chain recognizes proxy key as authorized by the owner's main key
+- Two operational modes:
+  1. **Manual** (default): every step requires GajuDesk/GajuMobile approval — manual GRIDS challenge-response
+  2. **Automatic**: delegated key pair installed; state channel signs automatically within the provisioned amount
+- "By default it doesn't automatically sign anything. You have to install the delegated key pair in order for it to do it at all."
+
+This enables agentic AI workflows where an agent handles rapid state channel micropayments without requiring user interaction per transaction, while the agent's spending authority is capped to what you provisioned.
+
+Source: [[summary-quantum-ai-machine-economy]]
+
 ## Sources
 [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-gaju-firsts-gajumaru-blockchain]], [[summary-qpq-wiki-grids]], [[summary-blog-mythos-grids]], [[summary-blog-mythos-glasswing]], [[summary-unwhitepaper]], [[summary-internet-of-economics-grids-mythos]], [[summary-npm-supply-chain-hack]], [[summary-quantum-ai-machine-economy]], [[summary-gajumaru-channel-shorts]], [[summary-grids-demo-series]], [[summary-web-machine-economy]]

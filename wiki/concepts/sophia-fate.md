@@ -25,6 +25,12 @@ Sophia is the smart contract language used by Gajumaru. FATE (Fast Aeternity Tra
 
 Sophia and FATE were designed for **Aeternity** — a blockchain built on Erlang/OTP. QPQ adopted both rather than building proprietary alternatives. Cited in the Un-White Paper: "Aeternity Dev Team, 2020" as the formal reference for Sophia/FATE. This gives Gajumaru smart contracts years of academic scrutiny, property-based test coverage, and real deployment history.
 
+**Why Aeternity was built:** Yannis Mares (Aeternity founder) recognized early that Ethereum was "gloriously insecure" because Solidity is a terrible smart contract language and the EVM is not secure. He raised significant funding to hire global experts to build a genuinely secure VM and smart contract language. QPQ borrowed the resulting Sophia/FATE stack under the **ISC license** (similar to MIT; highly permissive).
+
+Greg Chew's framing: "Ethereum continues to be hacked on a daily basis. It's just such a regular occurrence that it doesn't make the news." The DeFi scam tracker Ulf showed in the NPM Supply Chain Hack video confirms hundreds of millions to billions lost routinely — and crypto theft is often unenforceable because crypto is not legally recognized as currency in most jurisdictions.
+
+Source: [[summary-npm-supply-chain-hack]]
+
 ## Sophia Language
 
 ### File Extension

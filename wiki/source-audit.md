@@ -80,7 +80,7 @@ updated: 2026-05-16
 
 ## Audit Queue (priority order)
 
-**Status as of 2026-05-16:** All 29 QPQ wiki raw articles ✅ AUDITED + all 7 original YouTube transcripts ✅ AUDITED + the .url pointer file ✅ AUDITED. **Total raw files confirmed: 37 of 37 (100%).** Most are short and summaries fully capture content. Remaining gaps are in (a) the 5 newly-downloaded long transcripts marked ⚠️ Partial, and (b) the 15 web-fetched blog sources (no raw files; would need re-fetch to audit).
+**Status as of 2026-05-16:** All 29 QPQ wiki raw articles ✅ AUDITED + all 7 original YouTube transcripts ✅ AUDITED + the .url pointer file ✅ AUDITED + all 5 previously-partial long transcripts ✅ AUDITED. **Total raw files: 42 of 42 confirmed (100%).** Remaining: (a) the 15 web-fetched blog sources (no raw files; would need re-fetch to audit).
 
 **Remaining Audit Queue:**
 
@@ -106,12 +106,12 @@ updated: 2026-05-16
 
 | Source | Wiki Summary | Status |
 |--------|-------------|--------|
-| raw/transcripts/blockchain-governance-privacy-alternate-financial-systems-and-associate-chains.md | summary-blockchain-governance-associate-chains.md | ⚠️ Partial — read pages 1-700 of 2068 lines; need full audit |
-| raw/transcripts/gajumaru-how-the-gajumaru-addresses-scaling.md | summary-how-gajumaru-addresses-scaling.md | ⚠️ Partial — read pages 1-500 of 1191 lines; need full audit |
+| raw/transcripts/blockchain-governance-privacy-alternate-financial-systems-and-associate-chains.md | summary-blockchain-governance-associate-chains.md | ✅ 2026-05-16 | Full read (lines 1-2075) — GL1 failure, tumbler mechanism, BRICS, dollar weaponization, exchange demands, IBM 27-server anecdote all captured |
+| raw/transcripts/gajumaru-how-the-gajumaru-addresses-scaling.md | summary-how-gajumaru-addresses-scaling.md | ✅ 2026-05-16 | Full read (lines 1-1198) — financial authority graph, Gaju as meter stick, multi-currency ACs, BoJ scenario, law of the sea all captured |
 | raw/transcripts/token-summit-liechtenstein-gregory-chew-on-the-path-to-decentralization.md | summary-token-summit-gregory-chew.md | ✅ Full read (503 lines) |
 | raw/transcripts/gajumaru-ripa-craig-everett.md | (covered in shorts roll-up) | ✅ Full read (39 lines) |
 | raw/transcripts/gajumaru-blockchain-groot-1-846-200-times-more-efficient-than-bitcoin-8-23-times-the-security.md | (covered in shorts roll-up) | ✅ Full read (11 lines) |
-| raw/transcripts/quantum-ai-and-the-machine-economy-why-the-internet-isn-t-safe-for-economic-value.md | summary-quantum-ai-machine-economy.md | ⚠️ Partial — read pages 1-450 of unknown lines |
-| raw/transcripts/npm-supply-chain-hack-unserious-crypto-serious-gajumaru-full.md | summary-npm-supply-chain-hack.md | ⚠️ Partial — read pages 1-400 plus grep |
-| raw/transcripts/internet-of-economics-grids-mythos-ai-and-the-end-of-payment-credentials-in-the-public-domain.md | summary-internet-of-economics-grids-mythos.md | ⚠️ Partial — read pages 1-400 |
+| raw/transcripts/quantum-ai-and-the-machine-economy-why-the-internet-isn-t-safe-for-economic-value.md | summary-quantum-ai-machine-economy.md | ✅ 2026-05-16 | Full read (lines 1-3352) — delegated signing, BankID comparison, TEA model, GajuDesk 5278 lines, Un-White Paper writing process, settlement/finality all captured |
+| raw/transcripts/npm-supply-chain-hack-unserious-crypto-serious-gajumaru-full.md | summary-npm-supply-chain-hack.md | ✅ 2026-05-16 | Full read (lines 1-2520) — Lava Moat, fetch crash discovery, MetaMask mobile architecture, Sophia/ISC origin, candlestick problem, QPQ ethos all captured |
+| raw/transcripts/internet-of-economics-grids-mythos-ai-and-the-end-of-payment-credentials-in-the-public-domain.md | summary-internet-of-economics-grids-mythos.md | ✅ 2026-05-16 | Full read (lines 1-2122) — Greg phished, CA compromise, 3-9mo timeline, credit card replacement roadmap, Salt Typhoon, Web 3 definition all captured |
 | ~30 channel short transcripts | summary-gajumaru-channel-shorts.md | ✅ Most read; shorts are typically clips from longer videos |

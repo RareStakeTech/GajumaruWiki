@@ -6,15 +6,17 @@
 
 ## Current Focus
 
-**64 sources. 19 concept pages. 41 video transcripts. 37/37 raw source files ✅ audited (100%). 23/23 remaining VTTs ✅ ingested (100% channel coverage).** All known VTT transcripts now have source summaries. New batch: Mythos incident specifics (April 7/Claude Mythos/OpenBSD/27yr RCE), machine economy, price signal economy, Nazgûl details, Lightning Gini 0.97, decentralization vs reality (Ulf). **Next priorities:**
+**64 sources. 19 concept pages. 41 video transcripts. 42/42 raw source files ✅ audited (100%). ALL 5 previously-partial long transcripts ✅ fully read.** Deep audit complete: delegated signing, BankID comparison, ZKP age proof, credit card replacement roadmap, Salt Typhoon, Lava Moat, Sophia/ISC origin, Web 3 definition, hunter-gatherer framing — all captured. **Next priorities:**
 1. AC → Groot finality cooperation: confirmed NOT in any transcript; awaiting future QPQ publication
 2. Fetch post-MainNet data (miner count, Gaju price, LTIN launch status)
 3. Ingest Un-White Paper Technical Paper (not yet in raw/)
 4. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
-5. Remaining unprocessed VTT queue (see below) — 10 videos still in queue
+5. Remaining unprocessed VTT queue (see below) — several videos not yet downloaded
 6. Audit web-fetched blog sources (15 files; would require re-fetch to verify)
 
 **Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
+
+**RESOLVED this session:** All 5 long transcripts fully read. All source summaries and concept pages updated. source-audit.md now shows 42/42 raw files ✅.
 
 ---
 
@@ -116,6 +118,7 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 | 2026-05-16 | audit | All 29 QPQ public wiki raw articles ✅ confirmed — summaries fully capture raw content |
 | 2026-05-16 | audit | All 7 original transcripts + .url file ✅ — 37/37 (100%) raw files audited |
 | 2026-05-16 | ingest | 23 remaining VTT transcripts — 5 consolidated source summaries + 1 new concept (price-signal-economy); 41/41 VTTs now ✅ |
+| 2026-05-16 | audit | Deep audit — 5 partial long transcripts fully read; 3 source summaries expanded; grids/state-channels/internet-of-economics/sophia-fate updated; 42/42 raw files ✅ |
 
 ---
 

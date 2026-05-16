@@ -19,7 +19,21 @@ key_claims:
   - LLM industry "growing up" — must work on commercial base; cannot continue VC subsidy indefinitely
   - Anthropic announcement of imminent machine economy referenced
   - Layered quantum defense — users choose security level appropriate to value at risk
-related: [[quantum-resistance]], [[groot]], [[sophia-fate]], [[grids]], [[gajumaru-architecture]], [[gregory-chew]], [[ulf]], [[craig]]
+  - Mythos found tens of thousands of zero-days autonomously; Anthropic estimate 6-18 months before all LLMs can do same
+  - State channel delegated signing: proxy key pair; two modes (automatic/manual); "by default doesn't automatically sign anything"
+  - Agent provisioning: give agent 100 Gaju; agent has own key pair; main keys stay offline on separate device
+  - Trustlessness is binary (TEA) — either you have it or you don't; if not, you've traded for efficiency but must have accountability
+  - GajuDesk: 5,278 lines; one external dependency = Erlang runtime (by Ericsson); package manager also written from scratch
+  - BankID (Sweden) — ubiquitous for everyone under 70; requires residency (Ukrainian refugees excluded); GRIDS is universal and trustless
+  - ZKP for age verification — can prove "over 18" without sharing personal ID; requires trusted KYC operator on AC
+  - Settlement vs. finality: settlement = 2-3 seconds (you walk out of shop); finality = 3-4 minutes; Bitcoin = 3-4 days
+  - "Day zero month zero" of machine economy = April 26 2026 (MainNet public launch)
+  - GajuMobile: Android first, then iOS; GPL3 core + paid premium versions
+  - "Heisen money" — Craig's term for cryptocurrency: betting slip, might be worth a lot, might be worth nothing
+  - Enterprise blockchain failure: crypto industry used Fabian tactics to place agents in decision-making roles who define blockchain
+  - Greg wrote Un-White Paper with 25 years of notes (IKEA cubes full); used Claude+Grok for narrative structure testing
+  - QPQ content: high perplexity score + tight topical cluster; LLMs "constantly surprised" — rated very high authority
+related: [[quantum-resistance]], [[groot]], [[sophia-fate]], [[grids]], [[gajumaru-architecture]], [[gregory-chew]], [[ulf]], [[craig]], [[state-channels]]
 confidence: high
 ---
 
@@ -98,5 +112,107 @@ Greg's framing: the quantum panic is being used to set up a hostile-fork narrati
 
 ---
 
+## Mythos + Security Architecture (Craig + Greg — extended)
+
+Mythos found tens of thousands of zero-day vulnerabilities autonomously, including the 27-year-old OpenBSD flaw. Anthropic's estimate: 6-18 months before all LLMs can replicate what Mythos did ("a bit generous," per Craig).
+
+> "Every single agentic framework today is running store credentials on a connected device that is completely wide open."
+
+The correct answer remains separation of concerns: **the signing context must be physically separated from the execution context**. Craig and Greg's articulation of GRIDS in this video is the most detailed:
+- Keys should NOT be on the same computer as the browsing context, "if possible"
+- "I have my keys on a totally separate device that is gapped"
+- Browser plugin wallets are "crazy — that's just nuts"
+
+The "never roll your own crypto" cult belief contributed to code being reviewed by very few eyeballs — the vulnerability surface for Mythos to exploit.
+
+---
+
+## State Channel Delegated Signing (Ulf — detailed)
+
+One of the recent additions to state channels:
+
+> "When you open the channel, you can basically tell the state channel logic proxy that okay, set up a key pair that allows you to sign things and the chain will recognize them."
+
+**Two operational modes:**
+1. **Delegated (automatic)**: agent has proxy key pair, signs interactions automatically; useful for agentic AI loops
+2. **Manual approval**: every state channel signing step pauses and waits for GajuDesk/GajuMobile to sign
+
+By default: **no automatic signing** — must explicitly install delegated key pair.
+
+**Agent provisioning pattern (Greg's M4 Mac example):**
+- Give agent 100 Gaju (limited amount)
+- Agent sets up state channel independently
+- Agent has authority ONLY over what you've given it — "never give the agent the keys to your kingdom"
+- If agent goes haywire, you've limited your risk
+
+State channel cloud: QPQ may offer cloud-hosted state channel service, making QPQ a party in the transaction.
+
+---
+
+## BankID Comparison (Ulf)
+
+Sweden's BankID system:
+- QR code login; ubiquitous for everyone under 70; used daily for banking, government sites, etc.
+- **Requires residency**: Ukrainian refugees who fled to Sweden couldn't use it because they lacked a Swedish residency permit — even when they had bank accounts
+- Trust-based: certificate from bank issued to your phone
+
+GRIDS is the same UX pattern but:
+- **Universal** (not tied to a bank or nationality)
+- **Trustless** (self-authenticating; no certificate authority required)
+- Works for anyone with a private key
+
+---
+
+## ZKP Age Verification (Ulf)
+
+GRIDS supports anonymous login with optional ZKP credentials:
+> "If you're in a site that requires you to be 18, you could provide a proof for that and say: here is the proof that I'm over 18. That's all I'm going to share."
+
+Requires a credentialed KYC operator (e.g., Swedish or Swiss KYC provider) to issue signed proof. Voted on at the AC level. Does not require sharing personal ID number — only the relevant predicate.
+
+---
+
+## Settlement vs. Finality (Greg — detailed explanation)
+
+> "Settlement is 2 to 3 seconds but finality is 3 to four minutes. You don't have to stand there at the till for 3 to four minutes."
+
+- **Settlement** = probabilistic: merchant is satisfied, you leave the shop. Like going around a blind corner in Ireland — you're putting faith in the other car
+- **Finality** = binary mathematical certainty: either 1 (you have it) or 0 (you don't)
+- Current fiat digital payments: settlement and finality are "a galaxy apart" (2-5 days)
+- Gajumaru: settlement 2-3 seconds, finality 3-4 minutes
+- Bitcoin: 3-4 days
+- Cash: finality is immediate (notes change hands)
+
+---
+
+## "Heisen Money" and the Crypto Critique
+
+Craig's term for cryptocurrency: **"Heisen money"** — like the Heisenberg uncertainty principle. A cryptographic betting slip that might be worth a lot, might be worth nothing. "Who knows until the moment that it happens."
+
+The deeper point: if crypto had real commercial value, the industry could not sustain the completely non-serious approach to security (browser plugins, npm dependencies, MetaMask).
+
+---
+
+## Trustlessness is Binary (Greg — TEA model)
+
+> "Trustlessness is binary. Either you have it or you do not. If you do not, for any aspect that you do not, you have created an efficiency because trust enables efficiency. But where you have that trust that enables the efficiency, you must have accountability. Or you don't have trust, you have blind faith."
+
+TEA = Trustlessness, Efficiency, Accountability. Enterprise blockchain failed because:
+- Crypto industry used Fabian tactics to place agents in decision-making roles
+- Those agents defined blockchain as "we said it is"
+- Gajumaru's definition: can you trust the message, not the messenger, securely at scale?
+
+---
+
+## GajuDesk Code Audibility
+
+> "GajuDesk is 5,278 lines right now. That's a totally readable project."
+
+Compare: Hello World in Vue.js = approximately 75,000 lines.
+
+Craig also wrote the package manager used to build GajuDesk — with zero dependencies. It bootstraps and runs itself. The one external dependency the entire stack has is the **Erlang/OTP runtime** (written by Ericsson).
+
+---
+
 ## Sources
-[[quantum-resistance]], [[grids]], [[summary-blog-quantum-resistance]]
+[[quantum-resistance]], [[grids]], [[state-channels]], [[summary-blog-quantum-resistance]]

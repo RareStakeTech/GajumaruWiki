@@ -20,7 +20,21 @@ key_claims:
   - AI-driven spear-phishing at scale enabled by data breaches that "are probably going to accelerate"
   - Email was never designed to be secure — retrofitting security is always bad architecture
   - 3DS sometimes fires for small transactions, sometimes doesn't — adding friction without consistent security
-related: [[grids]], [[internet-of-economics]], [[quantum-resistance]], [[gregory-chew]], [[craig]], [[gajumaru-product-suite]]
+  - Greg got phished by Spotify email despite being a nerd — gave credit card details before smelling a rat
+  - "3 to 9 months: effectively every login and password will be in the public domain" — post-Mythos timeline
+  - Vibe-coded backends → future where real company infrastructure is cracked and runs scams the company doesn't know about
+  - Compromising a single CA (certificate authority) compromises all — DNS is not secure either
+  - Web 3 simple definition: you do not give the world your information; instead you pay for services as you use them
+  - "Half a penny per email = no spam" — price signal argument applied to email
+  - On-chain message storage: you pay for the duration you want it stored; 50-year storage = "quite a big fee"
+  - Gaju Market: no text input fields anywhere until after authentication
+  - Visa/Mastercard USP: 60-80 years of fraud data; should charge for fraud prevention as fee service
+  - Greg had meetings with Mastercard at Point Zero Forum; 25 years of boardroom meetings (Barclays, HSBC, RBS, Bank of Scotland)
+  - Salt Typhoon: contacted ~1.5 years ago; GRIDS secures call initiation, not full call content
+  - OpenClaw billing change: $5,000 compute cost for $200 revenue; ChatGPT has $300B Oracle compute subsidy
+  - "Public key becomes your credit card" — online identity tied to public key, not card numbers
+  - QPQ working on a "Black Paper" for the Ethereum ecosystem criticism
+related: [[grids]], [[internet-of-economics]], [[quantum-resistance]], [[gregory-chew]], [[craig]], [[gajumaru-product-suite]], [[price-signal-economy]], [[state-channels]]
 confidence: high
 ---
 
@@ -127,5 +141,71 @@ Craig's framing: identity is not a one-time attribute (name, DOB, ID number) —
 
 ---
 
+## Post-Mythos Timeline
+
+> "Effectively, every login, every password is going to be in the public domain [in 3 to 9 months]."
+
+The vibe-coded future threat: AI will crack company backends silently, running scams inside legitimate infrastructure. You'll get a real email from Spotify's real server, but the backend itself will have been cracked and will be running an automated scam Spotify doesn't know about.
+
+Additional infrastructure fragility noted by Craig:
+- Cloudflare and AWS behave as potential man-in-the-middle (capacity drives intent; they can't certify their own security)
+- Compromising a single **certificate authority** compromises all — the CA trust chain is structural
+- DNS is not actually secure
+
+---
+
+## Web 3 — Simple Definition
+
+> "Web 3 is the world in which you do not give the world your information. Instead, you pay for services, utility as you use it, as you find it, as you use it."
+
+Compared to current web (web 2): you give your data in exchange for services. Greg's economic argument: **charge for broadcasting data** rather than monetizing attention.
+
+> "If you charged a half a penny for every email sent, spam would be impossible to do."
+
+On-chain message storage: you specify how long you want it maintained. 50-year message storage = a large fee. This is "grown-up behavior" for data management.
+
+---
+
+## Credit Card Replacement Roadmap
+
+Craig's roadmap for integrating GRIDS into the existing payment system without requiring simultaneous mass migration:
+
+1. **Augment 3DS with GRIDS** — replace second-factor verification; use existing account for initial authentication, then add public key
+2. **Link accounts to public key** — vendor connects existing user ID to public key; from that point, only public key needed to authenticate
+3. **Eliminate credit card numbers** — "your public key becomes your credit card" for online transactions
+4. **Phone-based in-person** — same GajuMobile + GRIDS flow at physical terminal; eliminates need for physical card at all
+
+> "It can't get stolen if it doesn't exist."
+
+Visa/Mastercard benefit: **focus on fraud prevention** as their USP. They have 60-80 years of fraud data. GPQ is the only chain structurally positioned to enable fraud-prevention integration at the AC layer.
+
+GajuMarket security design: **no text input fields anywhere until after authentication**. No username, no password fields in the system.
+
+---
+
+## Institutional Outreach (Greg)
+
+Greg's 25-year history of boardroom conversations: Barclays, HSBC, Royal Bank of Scotland, Bank of Scotland — same argument since ~2001: infrastructure is a liability, not an asset; focus on USP.
+
+Mentioned conversation with Mastercard at **Point Zero Forum**: "focus on fraud detection and prevention."
+
+Greg was writing letters to legislators, regulators, banks, payment service providers, and critical infrastructure providers post-Mythos. QPQ is also working on a **"Black Paper" for the Ethereum ecosystem** — analysis Greg intends to send to every regulator he can find an email address for.
+
+---
+
+## Salt Typhoon
+
+A contact reached out ~1.5 years ago asking if GRIDS could solve for the **Salt Typhoon** cyber espionage incident. Greg's answer: yes for call/session initiation, not for the full call content itself. If the access point between two parties is secured by GRIDS (public key authentication to initiate the conversation), that access point is effectively un-hackable — because nothing in the public domain links to it.
+
+---
+
+## Separation of Concerns as Design Northstar
+
+> "Something that has been a northstar for all of you all the time — to the point that I think Ulf has it tattooed on his body somewhere — is the Tony Hall speech about complexity and simplicity."
+
+This refers to C.A.R. Hoare's principle: make it so simple there are obviously no errors (harder) or so complicated there are no obvious errors (the JavaScript path). The QPQ team chose the hard path. Every major architectural decision — GRIDS, state channels, zero-dependency wallets, Associate Chains — is an expression of separation of concerns.
+
+---
+
 ## Sources
-[[grids]], [[internet-of-economics]], [[quantum-resistance]]
+[[grids]], [[internet-of-economics]], [[quantum-resistance]], [[price-signal-economy]], [[state-channels]]

@@ -133,5 +133,36 @@ Phase 2: Gajumaru as the baseline for economic activity globally.
 
 The critique of the existing crypto industry: most projects are "chasing short-term money and hoarding" rather than building infrastructure for a functioning alternative economy.
 
+## Web 3 — Simple Definition (Greg)
+
+> "Web 3 is the world in which you do not give the world your information. Instead, you pay for services, utility as you use it, as you find it, as you use it."
+
+This reframes the entire Web 3 discourse: not NFTs, not DAOs, not token speculation. Web 3 = micropayment-native, data-sovereign, pay-as-you-go services. The current web (Web 2) is: give your data in exchange for free services. Web 3 inverts this.
+
+**Price signals on broadcasting:** Greg's argument that the economic model should be **pay to broadcast**, not monetize attention:
+
+> "If you charged a half a penny for every email sent, spam would be impossible to do."
+
+At even tiny per-action costs:
+- Email spam: economically unviable at scale
+- Bot farms: destroyed (see [[price-signal-economy]])
+- AI-generated junk content: uneconomical to mass-generate
+
+On-chain message storage: fees are proportional to storage duration. Wanting a message stored on-chain for 50 years = "quite a big fee." This disciplines data permanence to genuine economic demand.
+
+Source: [[summary-internet-of-economics-grids-mythos]]
+
+## No Global Economic Resource Layer Since Hunter-Gatherers
+
+Greg's historical framing (also in the NPM transcript):
+
+> "Creating a new global economy, an open global economy for the whole world to use with a singular mint that you do not have to trust, that cannot deflate your work."
+
+> "To create a global economic resource layer which we really have not had since the days that we were hunter-gatherers and we negotiated the spaces between us through violence."
+
+The claim: every form of money since hunter-gatherer economies has been controlled by some entity (tribe, king, central bank). Gajumaru is the first architecture since then in which the resource layer is ungoverned and uncontrolled by any party.
+
+Source: [[summary-npm-supply-chain-hack]]
+
 ## Sources
-[[summary-unwhitepaper]], [[summary-web-machine-economy]], [[summary-economics-social]], [[summary-internet-of-economics-grids-mythos]]
+[[summary-unwhitepaper]], [[summary-web-machine-economy]], [[summary-economics-social]], [[summary-internet-of-economics-grids-mythos]], [[summary-npm-supply-chain-hack]]
