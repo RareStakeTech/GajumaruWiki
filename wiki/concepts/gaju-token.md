@@ -5,7 +5,7 @@ aliases: [gaju, gaju-token, GJU]
 sources: [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-qpq-wiki-flation]], [[summary-qpq-wiki-mint]], [[summary-blog-summer-of-gajumaru]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-stablecoins-genius-act]], [[summary-video-whitelist-mining-distribution]]
 related: [[groot]], [[protected-mining]], [[gajumaru-architecture]], [[qpq-ag]], [[gajumaru-product-suite]]
 created: 2026-05-15
-updated: 2026-05-16
+updated: 2026-05-17
 confidence: high
 cluster: tokenomics-economics
 cluster_role: hub
@@ -108,6 +108,10 @@ Gaju is designed to be **self-referential** — its purchasing power is expresse
 > "Somebody who gets on the tube in London doesn't try to pay in dollars — they pay in pounds and they don't try to think 'oh well £1.50 is actually $2.40.' Nobody does that."
 
 A true independent currency does not define itself by reference to another currency. Stablecoins are permanently dollar-defined; Gaju is designed to eventually stand alone as a unit of account.
+
+## See Also
+
+- [[sound-money-thesis]] — Synthesis: the full monetary argument from gold's physics to Gaju's cryptographic equivalent
 
 ## Sources
 [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-gaju-mining-video]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-stablecoins-genius-act]], [[summary-video-whitelist-mining-distribution]]

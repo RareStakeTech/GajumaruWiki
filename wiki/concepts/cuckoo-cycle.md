@@ -5,7 +5,7 @@ aliases: [cuckoo-cycle, cuckoo-pow, memory-bound-pow]
 sources: [[summary-unwhitepaper]], [[summary-qpq-wiki-mining]], [[summary-video-bitcoin-proof-of-concept]]
 related: [[groot]], [[gajumaru-architecture]], [[gaju-token]], [[bitcoin-ng]], [[aeternity]]
 created: 2026-05-15
-updated: 2026-05-16
+updated: 2026-05-17
 confidence: high
 cluster: core-protocol
 cluster_role: member
@@ -73,6 +73,10 @@ Miners earn in two forms (source: [[summary-qpq-wiki-mining]]):
 ## Relation to Long-Term Mining Sustainability
 
 The 87.5-year [[gaju-token]] distribution window requires a PoW mechanism that remains accessible to decentralised miners throughout. Cuckoo Cycle's commodity-hardware requirement directly serves this goal — [[protected-mining]] is designed around the assumption that ordinary consumer hardware remains viable.
+
+## See Also
+
+- [[sound-money-thesis]] — Synthesis: Cuckoo Cycle's role in restoring gold's democratic mining property to the monetary base
 
 ## Sources
 [[summary-unwhitepaper]], [[summary-qpq-wiki-mining]], [[summary-video-bitcoin-proof-of-concept]]

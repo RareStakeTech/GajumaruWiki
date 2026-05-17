@@ -1591,3 +1591,25 @@ Result: **No new content published since April 30, 2026** (last captured date).
 - gajumaru.io/blog: most recent post "A case for defensive mining" (2026-04-29)
 - YouTube: no May 2026 videos found via search
 Status: wiki coverage confirmed current as of 2026-05-16.
+
+---
+
+## [2026-05-17] synthesis | Sound Money Thesis + FAQ expansion (3 new questions)
+
+Pages created:
+- wiki/syntheses/sound-money-thesis.md
+
+Pages updated:
+- wiki/faq.md (3 new questions: Price Signal Economy, Aeternity relationship, Web 3 definition)
+- wiki/concepts/monetary-philosophy.md (See Also: sound-money-thesis)
+- wiki/concepts/gaju-token.md (See Also: sound-money-thesis)
+- wiki/concepts/cuckoo-cycle.md (See Also: sound-money-thesis)
+- wiki/index.md (sound-money-thesis added to Syntheses & Reference catalog)
+
+Synthesis draws on: monetary-philosophy, gaju-token, cuckoo-cycle, groot, tea-trilemma, bitcoin-ng
+Core argument: Gajumaru is the first monetary system to replicate all five properties of sound money (finite, provable, costly to produce, not debaseable, peer-to-peer) — using a mathematical one-way function in place of gold's geological one — while solving gold's two structural vulnerabilities (asteroid mining; transport friction/velocity).
+
+FAQ additions cover:
+- Price Signal Economy + A2P reframe (billing bots instead of fighting them)
+- Aeternity relationship (Sophia/FATE/State Channels inherited; Groot/AC/GRIDS original)
+- QPQ's Web 3 definition (pay for services; retain data; Internet of Economics)

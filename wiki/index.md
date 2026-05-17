@@ -281,7 +281,8 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 
 | Slug | Title | Date | Type |
 |------|-------|------|------|
-| [[faq]] | Frequently Asked Questions | 2026-05-16 | reference |
+| [[faq]] | Frequently Asked Questions | 2026-05-17 | reference |
+| [[sound-money-thesis]] | From Gold to Gaju: The Sound Money Thesis | 2026-05-17 | synthesis |
 | [[lightning-vs-state-channels]] | Lightning Network vs Gajumaru State Channels | 2026-05-16 | synthesis |
 | [[gajumaru-vs-ethereum-two-proofs]] | From Proof of Concept to Finished Product: Bitcoin, Ethereum, and Gajumaru | 2026-05-16 | synthesis |
 | [[ripa-vs-traditional-banking]] | RIPA vs Traditional Banking: Structural Comparison | 2026-05-16 | synthesis |

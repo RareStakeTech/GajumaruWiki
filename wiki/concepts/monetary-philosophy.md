@@ -5,7 +5,7 @@ aliases: [monetary-philosophy, real-money-theory, austrian-economics, monetary-t
 sources: [[summary-video-bitcoin-proof-of-concept]], [[summary-video-stablecoins-genius-act]], [[summary-unwhitepaper]], [[summary-qpq-wiki-money]], [[summary-qpq-wiki-monetary-mechanics]]
 related: [[gaju-token]], [[internet-of-economics]], [[price-signal-economy]], [[groot]], [[tea-trilemma]], [[gregory-chew]]
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 confidence: high
 cluster: tokenomics-economics
 cluster_role: member
@@ -145,6 +145,10 @@ The "market despair" dynamic is identified as distinct from traditional Ponzi dy
 **Stablecoin framing** (from [[summary-video-stablecoins-genius-act]]): stablecoins are "a trust-me we have this money in reserve" claim — the word "con" derives from "confidence." The entire crypto value stack rests on narrative, not utility.
 
 ---
+
+## See Also
+
+- [[sound-money-thesis]] — Synthesis: From Gold to Gaju, the complete sound money argument
 
 ## Sources
 [[summary-video-bitcoin-proof-of-concept]], [[summary-video-stablecoins-genius-act]], [[summary-unwhitepaper]], [[summary-qpq-wiki-money]], [[summary-qpq-wiki-monetary-mechanics]]

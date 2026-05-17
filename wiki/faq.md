@@ -3,7 +3,7 @@ type: reference
 title: "Frequently Asked Questions"
 aliases: [faq, FAQ, questions]
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 confidence: high
 ---
 
@@ -357,6 +357,76 @@ See: [[sophia-fate]]
 
 ---
 
+### What is the Price Signal Economy?
+
+QPQ's thesis: attaching even tiny economic costs to digital actions fundamentally restructures online incentives.
+
+The core argument: "If every email cost one penny there would be no spam." Near-zero marginal costs make spam, bot farms, and AI-generated junk content economically rational at scale. A price signal — even a fraction of a cent — reverses this:
+
+- A bot farm retweeting at 0.5 yen per retweet incurs tens of thousands of yen per hour
+- Bot economics collapse; a human user barely notices the same cost
+
+**The A2P Reframe:** Rather than fighting bots with detection and enforcement (a permanent arms race), Gajumaru inverts the logic: any automated account — spam bot, advertising bot, legitimate notification service — pays per action through state channel A2P (Agent-to-Platform) payment rails. The platform profits from bot traffic instead of defending against it. Spam bots become economically unsustainable; legitimate bots become revenue-generating customers.
+
+> "What used to be a cost to defend against becomes a revenue line item."
+
+**Machine economy extension:** The same logic applies to autonomous AI agents paying for inference, bandwidth, compute, and data — per token, per cycle, per frame — without requiring bank accounts or minimum-spend thresholds.
+
+**The infrastructure requirement:** Price-signal micropayments require sub-cent payments at millions-per-day scale — which existing infrastructure cannot deliver. Lightning Network's routing monopolies (Gini 0.97; ~9 dominant nodes) capture routing fees. Ethereum gas costs are too volatile. Bitcoin settlement is too slow. Only Groot (near-zero fees) + State Channels (direct bilateral channels; no routing intermediaries) + GRIDS (physical signing separation from the execution context) makes this possible.
+
+See: [[price-signal-economy]], [[state-channels]], [[grids]], [[internet-of-economics]]
+
+---
+
+### How is Gajumaru related to Aeternity?
+
+Gajumaru is **not a fork of Aeternity** — it is a new blockchain architecture that selectively adopts Aeternity's proven software components.
+
+**What Gajumaru inherited from Aeternity:**
+
+| Component | Aeternity origin | Why QPQ adopted it |
+|-----------|-----------------|-------------------|
+| Sophia language | Designed by Norell, Stenman, Arts, Svensson | Years of academic design; functional, formally verifiable |
+| FATE VM | Designed by Erik Stenman | Immutability-first; eliminates re-entrancy and overflow attacks |
+| State Channels | CoinFabrik merchant demo 2019 | Proven off-chain bilateral payment architecture |
+
+All three are licensed under the **ISC license** (permissive, similar to MIT). Aeternity also used Cuckoo Cycle PoW — giving Groot's PoW algorithm a second prior real-world deployment.
+
+**What QPQ built independently:**
+- **Groot's consensus** — Bitcoin-NG leader election + Cuckoo Cycle (Aeternity used different consensus)
+- **Associate Chains** — no equivalent in Aeternity
+- **GRIDS** — passwordless dead-drop authentication; original QPQ work by Craig Everett
+
+Why adopt Aeternity's components rather than build fresh? These components had years of academic scrutiny, property-based testing with Quviq's QuickCheck (one of only two major blockchains tested this way), and real deployment history. Building from scratch would have sacrificed a decade of externally validated design.
+
+Aeternity's founder Yannis Mares built Sophia/FATE specifically because Ethereum was "gloriously insecure." QPQ chose it for the same reason.
+
+See: [[aeternity]], [[sophia-fate]], [[state-channels]], [[gajumaru-architecture]]
+
+---
+
+### What does QPQ mean by "Web 3"?
+
+Greg Chew's definition: *"Web 3 is the world in which you do not give the world your information. Instead, you pay for services, utility as you use it, as you find it, as you use it."*
+
+This contrasts sharply with the mainstream Web 3 discourse (NFTs, DAOs, token speculation):
+
+| Web 2 | Web 3 (QPQ framing) |
+|-------|---------------------|
+| Give your data; receive free services | Pay for services; retain your data |
+| Identity = credentials + OAuth tokens | Identity = cryptographic key ownership |
+| Value transfer = card networks + bank APIs | Value transfer = state channels + Groot |
+| Platform profits from surveillance and targeting | Platform profits from interaction volume |
+| Privacy is a legal obligation and a breach risk | Privacy is an architectural property — nothing to breach |
+
+**Why the separation matters:** The web was built to share information. Retrofitting economic transactions onto it (card networks, SWIFT, PayPal) means every payment travels through infrastructure built for data — with every intermediary, fee, and censorship point that entails. A genuine transactional internet requires its own base protocol. QPQ calls this the **Internet of Economics**.
+
+**The implication for data:** At even tiny per-action costs, mass data collection and spam become economically irrational. Price signals on storage, distribution, and amplification restore information content to digital signals — making "Web 3" a quality improvement in the information ecosystem, not just a payment upgrade.
+
+See: [[internet-of-economics]], [[grids]], [[ripa-model]], [[price-signal-economy]]
+
+---
+
 ## Ecosystem and Adoption
 
 ### What is LTIN?
@@ -483,4 +553,4 @@ See: [[summary-unwhitepaper]], [[gajumaru-vs-ethereum-two-proofs]]
 
 *This FAQ is derived from primary QPQ sources. All claims link to source summaries in wiki/sources/. For detailed technical treatment of any topic, follow the page links.*
 
-*Last updated: 2026-05-16*
+*Last updated: 2026-05-17*

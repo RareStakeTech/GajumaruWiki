@@ -5,9 +5,9 @@
 
 ---
 
-## Current State (2026-05-16)
+## Current State (2026-05-17)
 
-**61 sources audited ✅ | 20 concept pages | 12 entity pages | 68 source summaries | 45 VTTs processed**
+**61 sources audited ✅ | 20 concept pages | 12 entity pages | 68 source summaries | 4 syntheses | 45 VTTs processed**
 
 All sources at 100% audit coverage. Lint pass ✅ complete. All known contradictions resolved ✅.
 
@@ -73,9 +73,12 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 4. **hive-mining.md** — ✅ major expansion complete
 5. **associate-chains.md** — ✅ Pluggable Consensus Architecture section added (named UWP concept)
 6. **New QPQ content check** — ✅ confirmed no new content since April 30, 2026 (checked 2026-05-16)
-7. **Un-White Paper Technical Paper** — ingest when user provides raw/ (HIGH)
-8. **New videos/blog posts** — check again next session (last check: 2026-05-16; nothing new found)
-9. **Open questions** — AC→Groot finality, QPQ IaaS vs QPQ, Santosh, Shane Preater — require new source material
+7. **sound-money-thesis.md** — ✅ synthesis created (2026-05-17)
+8. **FAQ expansion** — ✅ 3 new Q&As added: Price Signal Economy, Aeternity, Web 3 (2026-05-17)
+9. **Un-White Paper Technical Paper** — ingest when user provides raw/ (HIGH)
+10. **New videos/blog posts** — check again next session (last check: 2026-05-16; nothing new found)
+11. **Open questions** — AC→Groot finality, QPQ IaaS vs QPQ, Santosh, Shane Preater — require new source material
+12. **Git history cleanup** — AWAITING USER DECISION: ~30 prior commits have Co-Authored-By lines; removing requires force push to origin/master
 
 ---
 
@@ -83,6 +86,8 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 | Date | Type | Description |
 |------|------|-------------|
+| 2026-05-17 | synthesis | Fourth synthesis: sound-money-thesis.md (From Gold to Gaju); back-links added to monetary-philosophy, gaju-token, cuckoo-cycle |
+| 2026-05-17 | expansion | faq.md: 3 new questions added (Price Signal Economy, Aeternity, Web 3 / Internet of Economics) |
 | 2026-05-16 | query | New QPQ content check — no new posts/videos found since April 30, 2026 |
 | 2026-05-16 | expansion | associate-chains.md: Pluggable Consensus Architecture section (named UWP concept) |
 | 2026-05-16 | expansion | price-signal-economy.md: A2P reframe, Alt→Default Economy, zero-dep wallet, Generational Value Creation |
