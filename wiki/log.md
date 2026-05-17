@@ -1359,6 +1359,18 @@ Key changes:
 
 ---
 
+## [2026-05-16] audit | Aeternity entity expanded — founder, ISC license, Cuckoo Cycle shared history
+
+Pages updated:
+- wiki/entities/aeternity.md (Yannis Mares as founder; motivation to fix Ethereum's insecurity; ISC license confirmed from npm transcript + qpq-wiki-sophia; Aeternity also used Cuckoo Cycle; open_questions updated; updated 2026-05-16)
+
+Key additions:
+- Yannis Mares (Aeternity founder) explicitly built it because Ethereum was "gloriously insecure" — documented QPQ's why
+- ISC license confirmed (allows QPQ's use and extension without attribution restrictions)
+- Aeternity independently validated Cuckoo Cycle as production PoW — same choice, separate prior deployment
+
+---
+
 ## [2026-05-16] audit | Efficiency figure discrepancy resolved + cuckoo-cycle, qpq-ag, product-suite expanded
 
 Pages updated:

@@ -11,7 +11,7 @@ cluster: developer-ecosystem
 contradictions: []
 open_questions:
   - What is the current relationship between QPQ AG and the Aeternity Foundation?
-  - Were Sophia/FATE VM contributed upstream, forked, or licensed?
+  - Has QPQ contributed any modifications back to Aeternity's open-source repositories?
 ---
 
 # Aeternity
@@ -62,7 +62,25 @@ Gajumaru is not a fork of Aeternity — it is a distinct architecture that selec
 
 The result: a new blockchain architecture (Groot + Associate Chains) running a proven smart contract and channel layer (from Aeternity).
 
+## Founder and Motivation
+
+**Yannis Mares** founded Aeternity specifically because Ethereum was "gloriously insecure" — Solidity is a poorly designed smart contract language and the EVM is not secure. He raised significant funding to hire global experts to build a genuinely secure VM and smart contract language. The result was Sophia + FATE VM.
+
+Greg Chew (QPQ CEO): "Ethereum continues to be hacked on a daily basis. It's just such a regular occurrence that it doesn't make the news."
+
+Source: [[summary-npm-supply-chain-hack]]
+
+## License
+
+Sophia/FATE is licensed under the **ISC license** — similar to MIT; highly permissive. QPQ adopts it under this license. This is confirmed in QPQ's own Sophia repository (`git.qpq.swiss/QPQ-AG/sophia`, ISC license).
+
+Source: [[summary-npm-supply-chain-hack]], [[summary-qpq-wiki-sophia]]
+
+## Aeternity Cuckoo Cycle
+
+Aeternity used the same [[cuckoo-cycle]] proof-of-work as Gajumaru. This is notable: the PoW algorithm choice was also validated by Aeternity's prior deployment, not just QPQ's implementation.
+
 ## Open Questions
 
-- What is the formal relationship between QPQ AG and the Aeternity Foundation? (License, fork, collaboration?)
+- What is the formal relationship between QPQ AG and the Aeternity Foundation today?
 - Has QPQ contributed any modifications back to Aeternity's open-source repositories?
