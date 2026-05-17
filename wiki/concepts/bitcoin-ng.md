@@ -80,6 +80,18 @@ This protects witnesses from inadvertently endorsing questionable transactions w
 
 A peer-reviewed protocol, not a QPQ invention — Gajumaru implements it. QPQ's contribution is combining Bitcoin-NG with [[cuckoo-cycle]] PoW and the [[associate-chains]] architecture to create a production-grade system.
 
+## Why Bitcoin Rejected Bitcoin-NG
+
+From [[summary-video-bitcoin-proof-of-concept]], the Bitcoin community's rejection is attributed to **FOMO economics** — the cultural logic of not risking what is already working:
+
+> "By the time somebody was, you know, buying pizzas with it... once things like that started to sort of catch on and people thought, 'hey, this might go somewhere,' suddenly you have a value to Bitcoin, people make exchanges, now you can't change the network at all."
+
+Craig: "It is categorically impossible to get the bulk of Bitcoin participants to agree to any large architectural change." The community uses FOMO economics — no one wants to be the miner who broke Bitcoin by upgrading. The result: even a correct, peer-reviewed improvement (Bitcoin-NG) cannot be adopted because the proof-of-concept definition was frozen at the moment it gained monetary value.
+
+Ethereum, by contrast, had Vitalik Buterin as a known founder — the community could vest trust in a change-driver through track record. This allowed Ethereum to evolve (though Craig argues this also "corrupted" the chain in other ways).
+
+Source: [[summary-video-bitcoin-proof-of-concept]]
+
 ## Significance in QPQ's Analysis
 
 Bitcoin-NG is part of QPQ's argument that the blockchain industry produced proof-of-concepts that were never cleaned into production products:

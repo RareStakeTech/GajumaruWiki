@@ -22,6 +22,18 @@ Operational since **22 October 2024**. As of end 2025: 300,000+ generations prod
 
 > Note: Groot launched October 22, 2024. First Gaju token drawdowns to miners occurred October 16, 2025 — nearly one year after network launch. These are two distinct events.
 
+## Why Bitcoin's Block Structure Was a Proof-of-Concept Mistake
+
+From [[summary-video-bitcoin-proof-of-concept]], Craig articulates the architectural root cause of Bitcoin's limitations:
+
+> "When I say separation of concerns in design... the cryptographic proof that does the leader selection — you would want to separate that from the actual work of including transactions into the ledger. And that's something that Bitcoin never got to, because by the time somebody was, you know, buying pizzas with it, the definition got locked."
+
+Bitcoin's fundamental design error: **the same block that carries the cryptographic proof (leader election) also carries all the transactions**. Everything can only travel at the pace of that single block speed. This is how you build a proof-of-concept — you "make kind of a glommed-together data structure" before you fully understand the system.
+
+The fix (Bitcoin-NG) was published in academic literature in 2016. Bitcoin could never adopt it because by then the "definition got locked" — the moment exchanges formed and the protocol had monetary value, any change became categorically impossible. This is the frozen proof-of-concept problem.
+
+Groot implements the separation of concerns correctly from the start.
+
 ## Consensus Architecture
 
 **Bitcoin-NG** (Eyal et al., 2016, USENIX NSDI): Decouples leader election from transaction serialisation. Keyblocks (~every 2 min) elect leaders; microblocks (~every 3 sec) carry transactions. Absolute finality = no transaction older than 2 keyblocks can be ejected. A keyblock plus all its associated microblocks constitutes a **generation**.

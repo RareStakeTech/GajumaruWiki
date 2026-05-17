@@ -1332,3 +1332,27 @@ Key new content captured (not in prior summaries):
 - **GENIUS Act "least useful"**: giving regulatory support to "one of the least useful things you could do in crypto — make a second stablecoin"
 - **Gaju = Bitcoin whitepaper fulfilment**: "the only open global currency that delivers the vision originally proposed in the Bitcoin white paper"
 - **Statists/corporists/individual frame**: three-way political economy tension; Gajumaru restores individual equal standing
+
+---
+
+## [2026-05-16] ingest | New concept page: monetary-philosophy.md; groot.md + bitcoin-ng.md expanded; overview.md major update
+
+Pages created:
+- wiki/concepts/monetary-philosophy.md (NEW — Austrian economics, real money formal definition, gold metastability, asteroid mining problem, JP Morgan 1912, Graeber counter-reference, humanity as transmission fluid, IMF critique, self-referential currency, crypto confidence game)
+
+Pages updated:
+- wiki/concepts/groot.md (Bitcoin block separation-of-concerns as the proof-of-concept architectural mistake Groot corrects; "definition got locked" at pizza moment)
+- wiki/concepts/bitcoin-ng.md (Bitcoin PoC video reference; Bitcoin rejected Bitcoin-NG due to FOMO economics; Ethereum's Vitalik Buterin contrast)
+- wiki/concepts/gaju-token.md (cluster hub table updated with monetary-philosophy + price-signal-economy entries)
+- wiki/index.md (monetary-philosophy added to tokenomics-economics cluster)
+- wiki/overview.md (MAJOR UPDATE: full cluster map; QPQ core argument synthesis; open questions table with status; resolved facts table; correct efficiency figure; full team roster; Revision History)
+- wiki/log.md (this entry)
+- wiki/hot.md (session cache updated)
+
+Contradictions flagged: none
+
+Key changes:
+- monetary-philosophy.md centralises the monetary theory content previously only accessible via the Bitcoin PoC source summary
+- groot.md now explicitly explains WHY Bitcoin-NG was the right fix and WHY Bitcoin couldn't adopt it
+- bitcoin-ng.md now records the FOMO economics rejection dynamic
+- overview.md now reflects full wiki state as of 2026-05-16 (replaces the outdated 2026-05-15 bootstrap version)

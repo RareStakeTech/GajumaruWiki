@@ -123,25 +123,27 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 | 2026-05-16 | ingest | 4 remaining videos — Bitcoin PoC (3423 lines), Whitelist Mining (888), Future of Banking (37), Stablecoins (320); 4 source summaries created; groot/protected-mining/state-channels/associate-chains/gaju-token/gregory-chew updated; 61/61 sources ✅ |
 | 2026-05-16 | query | Post-MainNet live data: LTIN not launched; Summer products "coming soon"; live metrics inaccessible (GajuExplore TLS error); "Trusted by Liechtenstein" claim confirmed on gajumining.com |
 | 2026-05-16 | audit | Deep audit — 4 final VTTs fully read; 3 source summaries expanded; gaju-token/internet-of-economics/protected-mining/gregory-chew updated; Graeber counter-reference; DC stage; gold in space; 1T supply justification; juice/G20/emancipation framing |
+| 2026-05-16 | ingest | New concept: monetary-philosophy.md; groot.md + bitcoin-ng.md expanded; overview.md major update |
 
 ---
 
 ## Active Pages
 
 - [[gajumaru-architecture]] — master hub
-- [[groot]] — efficiency contradiction open; finality cooperation open question
-- [[associate-chains]] — 260-jurisdiction scaling (144M×); no architectural ceiling; GL1 context
+- [[groot]] — efficiency contradiction open; finality cooperation open question; Bitcoin block separation-of-concerns explanation added
+- [[associate-chains]] — 260-jurisdiction scaling (144M×); no architectural ceiling; GL1 context; ideal multi-party state channel
 - [[grids]] — SSSO section added; RUAG Stage 3 reference; full three-stage hardware roadmap
 - [[gajumaru-product-suite]] — GajuPay three-stage rollout added; GajuAuth + GajuPort
-- [[gaju-token]] — stabilisation treasury (125B); outer boundary (Sept 2027); MainNet date significance; minting efficiency (249M×); puck defined
+- [[gaju-token]] — stabilisation treasury (125B); 1T supply justified by $100T global debt; puck defined; cluster hub updated
+- [[monetary-philosophy]] — NEW: Austrian economics; gold metastability; JP Morgan 1912; Graeber counter-reference; humanity as transmission fluid; IMF critique; 2% inflation origin; gold in space
 - [[sophia-fate]] — Sophia etymology; FATE VM security properties section; formal verification note
-- [[state-channels]] — SUICA/WhatsApp benchmarks; bar tab metaphor; machine economy section
+- [[state-channels]] — SUICA/WhatsApp benchmarks; bar tab metaphor; machine economy section; glass cannon in Lightning table
 - [[quantum-resistance]] — ML-DSA-44/65/87; GA upgrade path; 10-20yr threat timeline; hype calibration (LLM parallel)
-- [[internet-of-economics]] — transactional vs informational internet; three restorations; machine economy; ZKP critique; alternative→default economy
-- [[price-signal-economy]] — NEW: puck economy; Milton Friedman; bot farm destruction; <5% blogs original; generational value
-- [[protected-mining]] — ends March 29 2027; defensive mining concept added
-- [[state-channels]] — A2P/A2A/social feed economic model; Lightning comparison
+- [[internet-of-economics]] — transactional vs informational internet; three restorations; machine economy; statists/corporists/individual three-way tension; humanity as transmission fluid
+- [[price-signal-economy]] — puck economy; Milton Friedman; bot farm destruction; <5% blogs original; generational value
+- [[protected-mining]] — ends ~March 2027; juice terminology; G20 economy on-chain; one-and-only-chance; economic emancipation
 - [[tea-trilemma]] — Peter Harpending "scam" quote added
 - [[qpq-ag]] — complete team roster + MainNet dual-date
-- [[bitcoin-ng]], [[aeternity]], [[qpq-software-stack]] — supporting concepts
-- [[craig]], [[ulf]], [[dimitar]], [[peter]], [[gregory-chew]] — all confirmed with roles
+- [[bitcoin-ng]] — FOMO economics rejection; definition locked; Ethereum Vitalik contrast
+- [[aeternity]], [[qpq-software-stack]], [[cuckoo-cycle]] — supporting concepts
+- [[craig]], [[ulf]], [[dimitar]], [[peter]], [[gregory-chew]] — all confirmed with roles; gregory-chew has DC stage + Graeber counter-reference
