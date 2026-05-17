@@ -113,12 +113,22 @@ All nodes preserve the current epoch's transaction logs, enabling reconstruction
 
 **Mining energy:** Gaju miner runs on laptop with 8 GB RAM, ~60–100 watts (equivalent to an incandescent light bulb). Bitcoin ASIC: ~3,500 watts per unit, industrial cooling required. No warehouse, no power substation.
 
-> [!contradiction]
-> **Efficiency figure conflict:**
+> [!note]
+> **Efficiency figure discrepancy — RESOLVED:**
 > - [[summary-qpq-2025-review]] (Jan 2026): 553,800× more efficient than Bitcoin
 > - [[summary-unwhitepaper]] (Mar 2026): 1,846,200× more efficient than Bitcoin
 >
-> The Un-White Paper is more recent and more technically authoritative. **Current working figure: 1,846,200×.** The Year in Review figure may reflect an earlier calculation or different measurement basis. Both sources are from QPQ — not an external contradiction, but the numbers differ by ~3.3×. Pending clarification.
+> **Root cause (mathematical):** The Year in Review used a 3-factor formula; the Un-White Paper uses 4. Checking the raw Un-White Paper arithmetic (Ch. V, pp. 64–65):
+>
+> | Step | Factor | YIR running total | UWP running total |
+> |------|--------|-------------------|-------------------|
+> | Bitcoin-NG decoupling | 92.31× | 92.31× | 92.31× |
+> | Settlement latency | 200× | 18,462× | 18,462× |
+> | Witnessing security compression | 10× | *(not separately counted)* | 184,620× |
+> | Cuckoo Cycle memory bound (min) | 10× | *(rolled into ~30× combined)* | **1,846,200×** |
+> | **Year in Review combined steps 3+4** | **~30×** | **553,800×** | — |
+>
+> The Year in Review (Jan 2026) merged witnessing + Cuckoo into a single ~30× factor. The Un-White Paper (Mar 2026) separated witnessing as a distinct 10× multiplier and set Cuckoo at the conservative 10× minimum — producing a 3.33× higher total. Both are QPQ internal publications; no external contradiction. The 4-step breakdown is the technically correct formulation. **Authoritative figure: 1,846,200× (Un-White Paper, conservative 10× Cuckoo bound).**
 
 ## On-Chain Messaging
 

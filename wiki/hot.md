@@ -6,13 +6,12 @@
 
 ## Current Focus
 
-**61 sources audited (46 raw + 15 web-fetched ✅). 19 concept pages. 45 video transcripts. ALL sources at 100% audit coverage.** Deep audit of all 4 final VTT transcripts now ✅ complete. **Next priorities:**
+**61 sources audited (46 raw + 15 web-fetched ✅). 20 concept pages. 45 video transcripts. ALL sources at 100% audit coverage.** Lint pass ✅ complete. Efficiency contradiction ✅ resolved. **Remaining gaps:**
 1. AC → Groot finality cooperation: confirmed NOT in any transcript; awaiting future QPQ publication
 2. Ingest Un-White Paper Technical Paper (not yet in raw/)
 3. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
-4. ✅ Protected mining end date RESOLVED: **30 March 2027** (Un-White Paper states this twice in raw; March 29 = Year in Review typo; March 31 = walkthrough rounding)
 
-**Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
+**✅ RESOLVED this session:** Efficiency figure discrepancy (553,800× vs 1,846,200×) — mathematical root cause: YIR used 3-factor formula (witnessing+Cuckoo merged ~30×); Un-White Paper uses 4 factors (witnessing 10× separate from Cuckoo 10×). groot.md updated from [!contradiction] to [!note] with full table.
 
 **RESOLVED this session (deep audit):** All 4 final VTT transcripts fully read; summaries expanded with major new content: JP Morgan 1912 testimony; David Graeber "Debt" counter-reference; "humanity as transmission fluid" (Greg DC stage); gold in space / asteroid mining / Musk; gold metastability one-way function; IMF public debt critique; Bitcoin block separation of concerns; "definition got locked" at pizza/exchange moment; Bitcoin+Ethereum = "two massive proofs of concept"; 1 trillion Gaju justified by $100T global debt; "juice" = block rewards; G20 economy on-chain goal; "one and only chance" framing; Trump meme coin Ponzi; Gaju = Bitcoin whitepaper fulfilment quote; statists/corporists/individual three-way frame.
 
@@ -41,7 +40,7 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 
 - **Associate Chain → Groot finality cooperation:** Mechanism unknown; Dimitar's area; promised in a later video
 - **Speaker identity in "Gaju Firsts":** Wife is Rachel McKone; likely Craig or Gregory Chew
-- **Efficiency contradiction:** 553,800× (Year in Review) vs 1,846,200× (Un-White Paper)
+- ~~**Efficiency contradiction**~~: **RESOLVED** — YIR used 3-factor formula; UWP uses 4 factors; mathematical root cause documented in groot.md
 - **LTIN launch status (2026-05-16):** NOT YET LAUNCHED — qpq.swiss + gajumining.com both confirm "launching in 2026"; Q3/Q4 target; gajumining.com says "Trusted by the sovereign state of Liechtenstein" publicly
 - **Current Gaju price / active miner count:** NOT PUBLICLY ACCESSIBLE via static pages; GajuExplore (explorer.gajumaru.io) has TLS cert issue; no live dashboard on gajumining.com
 - **Summer 2026 product launches (2026-05-16):** GajuMobile, GajuMarket, GajuPay, GajuVault, GajuMall, GajuPort, GajuSafe all "coming soon" — none yet live

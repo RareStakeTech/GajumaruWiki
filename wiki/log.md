@@ -1359,6 +1359,30 @@ Key changes:
 
 ---
 
+## [2026-05-16] audit | Efficiency figure discrepancy resolved + cuckoo-cycle, qpq-ag, product-suite expanded
+
+Pages updated:
+- wiki/concepts/groot.md (efficiency figure [!contradiction] callout replaced with [!note] + full mathematical resolution table; Year in Review 3-factor vs Un-White Paper 4-factor documented with intermediate row-by-row calculation)
+- wiki/sources/summary-qpq-2025-review.md (553,800× key_claim annotated with 3-factor formula note; March 29 protected mining date annotated as typo)
+- wiki/overview.md (efficiency contradiction marked ✅ Resolved in open questions table; Resolved table entry updated with mathematical detail)
+- wiki/hot.md (efficiency contradiction marked ✅ resolved; current focus updated; open questions updated)
+- wiki/concepts/cuckoo-cycle.md (MAJOR EXPANSION: hardware comparison table; 10×-50× efficiency contribution to 1,846,200× calculation; puzzle structure step-by-step; Aeternity cross-reference; "juice" vocabulary link; long-term sustainability connection; sources expanded)
+- wiki/concepts/gajumaru-architecture.md (Peter role description corrected from "rubber duck" to Research Lead & Lead Cryptographic Developer)
+- wiki/entities/qpq-ag.md (Corporate Structure table added with QPQ AG/IaaS AG/Capital AG; majority shareholder confirmed; $60M build cost documented; sources expanded; updated 2026-05-16)
+- wiki/concepts/gajumaru-product-suite.md (sources field expanded to 8 sources)
+
+Contradictions resolved:
+- **Efficiency figure (553,800× vs 1,846,200×)**: Root cause mathematical — YIR used 3-factor formula (Bitcoin-NG 92.31× × settlement 200× × combined 30×); UWP used 4-factor formula (adding witnessing 10× as separate multiplier, conservative Cuckoo 10×). Product: 92.31 × 200 × 30 = 553,860 ≈ 553,800 (YIR) vs 92.31 × 200 × 10 × 10 = 1,846,200 (UWP). Resolved — both correct within their formulas; UWP is the technically authoritative 4-factor breakdown.
+
+Key additions:
+- Cuckoo Cycle hardware comparison: 40-100W laptop vs 3,500W Bitcoin ASIC
+- Cuckoo Cycle contributes Step 4 in the 4-factor formula (10×-50×)
+- QPQ IaaS AG: Allmeindstrasse 17, 8840 Einsiedeln, Switzerland (distinct from QPQ AG, Zug)
+- Gregory Chew confirmed majority shareholder of QPQ AG
+- QPQ total build cost: ~$60 million (Greg's Token Summit statement)
+
+---
+
 ## [2026-05-16] lint | Full health check — cluster audit, date contradiction resolution, cross-link pass
 
 Lint pass scope:

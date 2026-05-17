@@ -10,10 +10,10 @@ key_claims:
   - Gaju tokens first entered circulation October 16 2025
   - CHF 1M+ SaaS mining revenue with zero marketing budget
   - Liechtenstein selected Gajumaru architecture for LTIN national digital economy
-  - Groot resource layer is 553800x more efficient than Bitcoin
+  - Groot resource layer is 553800x more efficient than Bitcoin (3-factor formula; Un-White Paper later refines to 1,846,200x using 4 factors — see [[groot]])
   - MainNet launched April 6/7 2026 with permissionless build capability
   - GajuDEX is the first DEX to pass FINMA substance-over-form test for genuine decentralisation
-  - Protected mining window ends March 29 2027
+  - Protected mining window ends March 29 2027 (typo; Un-White Paper authoritative: 30 March 2027)
 related: [[groot]], [[gaju-token]], [[associate-chains]], [[qpq-ag]], [[ltin]], [[ripa-model]], [[gajumaru-architecture]], [[protected-mining]], [[gajumaru-product-suite]]
 confidence: high
 ---

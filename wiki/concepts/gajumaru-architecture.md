@@ -77,6 +77,6 @@ Launched April 6/7 2026 at 23:59:00 Zulu.
 | [[internet-of-economics]] | member | Transactional internet distinct from informational internet; three restorations |
 | [[craig]] | entity | Lead architect — designed tree structure, named the project |
 | [[dimitar]] | entity | Implementation engineer — Associate Chain interplay |
-| [[peter]] | entity | Communicator — non-technical rubber duck for explainer videos |
+| [[peter]] | entity | Research Lead & Lead Cryptographic Developer — GajuDesk co-author, PoW theory blog |
 | [[ulf]] | entity | Blockchain infrastructure; hive mining concept |
 | [[ltin]] | entity | First sovereign Associate Chain (Liechtenstein) |

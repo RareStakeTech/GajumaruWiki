@@ -2,17 +2,17 @@
 type: entity
 entity_type: company
 title: "QPQ AG"
-sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]]
+sources: [[summary-qpq-2025-review]], [[summary-gaju-mining-journey-update]], [[summary-token-summit-gregory-chew]], [[summary-blockchain-governance-associate-chains]], [[summary-internet-of-economics-grids-mythos]], [[summary-blog-mythos-glasswing]], [[summary-blog-summer-of-gajumaru]]
 related: [[gregory-chew]], [[craig]], [[dimitar]], [[ulf]], [[ltin]], [[gajumaru-architecture]], [[gaju-token]], [[gajumaru-product-suite]]
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-16
 cluster: developer-ecosystem
 contradictions: []
 open_questions:
   - What is QPQ AG's exact founding date?
   - Who are the other co-founders beyond Gregory Chew?
   - What is the current headcount / team size?
-  - What is QPQ IaaS AG (mentioned as separate entity for unicorn raise)?
+  - QPQ IaaS AG (Einsiedeln) vs QPQ AG (Zug) — exact functional division
 ---
 
 # QPQ AG
@@ -37,6 +37,16 @@ QPQ AG is the Swiss company that builds and operates the Gajumaru blockchain eco
 ### Community
 - **[[adam-percy]]** — Community champion; house builder; arrived day one; key advocate for newcomers
 
+## Corporate Structure
+
+| Entity | Location | Role |
+|--------|----------|------|
+| QPQ AG | Zug, Switzerland | Primary operating entity; builds Gajumaru |
+| QPQ IaaS AG | Allmeindstrasse 17, 8840 Einsiedeln, Switzerland | Separate legal entity (exact function unknown — see open_questions) |
+| QPQ Capital AG | Switzerland | Regulated services entity; SRO AMLA application Jan 2026 |
+
+[[gregory-chew]] is confirmed majority shareholder of QPQ AG (Token Summit Liechtenstein statement: "I'm a majority shareholder of the company").
+
 ## Jurisdiction & Regulation
 - Incorporated in Switzerland
 - QPQ Capital AG: SRO application submitted January 2026 (AMLA Self-Regulatory Organisation)
@@ -48,6 +58,8 @@ QPQ AG is the Swiss company that builds and operates the Gajumaru blockchain eco
 - CHF 1M+ SaaS mining revenue pre-MainNet, zero marketing budget
 - Organic demand only; word-of-mouth
 - First payment friction resolved December 2025 (now: cards + crypto accepted)
+- Total build cost to date: **~$60 million** (Greg Chew, Token Summit: "We've spent 60 million to get to this point")
+- 2026 planned raises: QPQ AG or QPQ IaaS AG unicorn raise (CHF 50M+); QPQ Capital AG raise (Q2/Q3 2026)
 
 ## Products
 Builds and operates the full [[gajumaru-product-suite]]: GajuDesk, GajuMine, GajuExplorer, GajuDEX, GajuMarket, GajuPay, GajuSafe, GajuMobile, Da Vinci Protocol, and regulated services under QPQ Capital AG.

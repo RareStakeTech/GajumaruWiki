@@ -82,7 +82,7 @@ Bitcoin proved that a cryptographic puzzle can serve as a physics-equivalent con
 | Live miner count & Gaju price | ❓ Inaccessible | GajuExplore TLS cert error; no public dashboard |
 | Un-White Paper Technical Paper | 📥 Not ingested | Exists; not yet in raw/ |
 | QPQ Overview/One-Pager PDFs | 📥 Blocked | Image-based; user OCR required |
-| Groot efficiency contradiction | ⚠️ Open | 553,800× (Year in Review) vs 1,846,200× (Un-White Paper) |
+| Groot efficiency contradiction | ✅ Resolved | YIR used 3-factor formula (witnessing+Cuckoo merged ~30×); UWP uses 4 factors (witnessing 10× + Cuckoo 10× separately). Authoritative: **1,846,200×** |
 | QPQ IaaS AG vs QPQ AG | ❓ Unknown | Einsiedeln vs Zug — exact functional division unknown |
 | Santosh | ❓ Unknown | Last name, role unknown |
 | Shane Preater | ❓ Unknown | Community contributor? QPQ employee? |
@@ -96,7 +96,7 @@ Bitcoin proved that a cryptographic puzzle can serve as a physics-equivalent con
 | Groot genesis date | October 22, 2024 |
 | First Gaju circulation | October 16, 2025 |
 | MainNet public launch | April 26, 2026 (15yr anniversary of Satoshi's last message) |
-| Efficiency figure | 1,846,200× (working figure; Un-White Paper authoritative) |
+| Efficiency figure | 1,846,200× (Un-White Paper 4-factor formula; YIR used 3-factor = 553,800× — mathematical discrepancy resolved) |
 | Consensus protocol | Bitcoin-NG + Cuckoo Cycle + Witness layer |
 | Team identities | Craig Everett (CPO/zxq9), Ulf Wiger (CTO/uwiger), Dimitar Ivanov (CDO), Peter Harpending (Research), Benno Raeber (CLO), Jeff Thomson (Product Research), Jarvis Carroll (R&D), Cecille de Jesus (Comms), Adam Percy (Community) |
 | Greg's 24-year vision | Traces to 2002 HSBC GPRS/2G demo |

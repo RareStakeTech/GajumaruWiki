@@ -2,7 +2,7 @@
 type: concept
 title: "Gajumaru Product Suite"
 aliases: [gaju-products, gajumaru-apps, product-suite]
-sources: [[summary-qpq-2025-review]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
+sources: [[summary-qpq-2025-review]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-blog-gajupay]], [[summary-blog-summer-of-gajumaru]], [[summary-blog-dev-updates-2026]], [[summary-grids-demo-series]], [[summary-gajumaru-channel-shorts]], [[summary-internet-of-economics-grids-mythos]]
 related: [[gajumaru-architecture]], [[ripa-model]], [[qpq-ag]], [[gaju-token]], [[grids]]
 created: 2026-05-15
 updated: 2026-05-15
@@ -116,4 +116,4 @@ SRO application submitted January 2026. Enables KYC Wallets, tokenization of Swi
 | [[gregory-chew]] | — | CEO |
 
 ## Sources
-[[summary-qpq-2025-review]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]]
+[[summary-qpq-2025-review]], [[summary-worlds-first-genuine-blockchain-marketplace-quidproquo]], [[summary-blog-gajupay]], [[summary-blog-summer-of-gajumaru]], [[summary-blog-dev-updates-2026]], [[summary-grids-demo-series]], [[summary-gajumaru-channel-shorts]], [[summary-internet-of-economics-grids-mythos]]
