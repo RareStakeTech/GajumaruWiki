@@ -10,7 +10,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: process.env.QUARTZ_BASE_URL || "rarestaketech.github.io/GajumaruWiki",
-    ignorePatterns: ["private", "templates", ".obsidian", "hot.md"],
+    ignorePatterns: ["private", "templates", ".obsidian", "hot.md", "log.md", "resolved.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

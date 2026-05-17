@@ -277,10 +277,11 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 
 ---
 
-## Comparisons & Syntheses
+## Syntheses & Reference
 
 | Slug | Title | Date | Type |
 |------|-------|------|------|
+| [[faq]] | Frequently Asked Questions | 2026-05-16 | reference |
 | [[lightning-vs-state-channels]] | Lightning Network vs Gajumaru State Channels | 2026-05-16 | synthesis |
 | [[gajumaru-vs-ethereum-two-proofs]] | From Proof of Concept to Finished Product: Bitcoin, Ethereum, and Gajumaru | 2026-05-16 | synthesis |
 | [[ripa-vs-traditional-banking]] | RIPA vs Traditional Banking: Structural Comparison | 2026-05-16 | synthesis |
