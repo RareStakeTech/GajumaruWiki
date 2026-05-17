@@ -67,15 +67,15 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 ## Next Work Priorities
 
-1. **Synthesis pages** — 3 complete ✅ (Lightning vs State Channels; Gajumaru vs Ethereum; RIPA vs Traditional Banking)
-2. **FAQ page** — ✅ created at wiki/faq.md; linked from index.md Start Here grid
-3. **price-signal-economy.md** — ✅ major expansion complete (A2P reframe, Alt→Default Economy, zero-dep wallet, Generational Value Creation)
-4. **hive-mining.md** — ✅ major expansion complete (dev timeline, Architecture A collapse, payment rugpull, Adam Percy, VC refusal, millions target)
-5. **Pluggable Consensus Architecture** — UWP named section; AC architecture covers implicitly but not by name; candidate for explicit concept or section in associate-chains.md
-6. **monetary-philosophy.md inbound links** — audit inbound links; may be under-linked from related pages
-7. **bitcoin-ng.md** — check if thin relative to available source material
-8. **New QPQ content** — check for new blog posts or videos (last captured: April 30, 2026)
-9. **Un-White Paper Technical Paper** — ingest when user provides raw/
+1. **All concept pages** — ✅ 20/20 checked and confirmed thorough (2026-05-16)
+2. **All entity pages** — ✅ 12/12 checked and confirmed (2026-05-16)
+3. **price-signal-economy.md** — ✅ major expansion complete
+4. **hive-mining.md** — ✅ major expansion complete
+5. **associate-chains.md** — ✅ Pluggable Consensus Architecture section added (named UWP concept)
+6. **New QPQ content check** — ✅ confirmed no new content since April 30, 2026 (checked 2026-05-16)
+7. **Un-White Paper Technical Paper** — ingest when user provides raw/ (HIGH)
+8. **New videos/blog posts** — check again next session (last check: 2026-05-16; nothing new found)
+9. **Open questions** — AC→Groot finality, QPQ IaaS vs QPQ, Santosh, Shane Preater — require new source material
 
 ---
 
@@ -83,11 +83,11 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 | Date | Type | Description |
 |------|------|-------------|
-| 2026-05-16 | expansion | price-signal-economy.md: A2P reframe, Alt→Default Economy, zero-dep wallet, Generational Value Creation, prerequisite framing |
-| 2026-05-16 | expansion | hive-mining.md: dev timeline, Architecture A collapse, rugpull, Adam Percy, VC refusal, everyday currency, mining flywheel |
+| 2026-05-16 | query | New QPQ content check — no new posts/videos found since April 30, 2026 |
+| 2026-05-16 | expansion | associate-chains.md: Pluggable Consensus Architecture section (named UWP concept) |
+| 2026-05-16 | expansion | price-signal-economy.md: A2P reframe, Alt→Default Economy, zero-dep wallet, Generational Value Creation |
+| 2026-05-16 | expansion | hive-mining.md: dev timeline, Architecture A collapse, rugpull, Adam Percy, VC refusal, everyday currency |
 | 2026-05-16 | synthesis | Third synthesis: RIPA vs Traditional Banking; FAQ page created; ripa-model.md major expansion |
 | 2026-05-16 | synthesis | Second synthesis: Gajumaru vs Ethereum (Two Proofs); UWP gaps patched (Ratchet/One Ring, Quantum Resistance) |
 | 2026-05-16 | audit | Deep audit — 4 final VTTs fully read; 3 source summaries expanded; 5 concept/entity pages updated |
 | 2026-05-16 | ingest | New concept: monetary-philosophy.md; groot.md + bitcoin-ng.md expanded; overview.md major update |
-| 2026-05-16 | lint | Cluster audit + date resolution (30 March 2027 confirmed) + sophia-fate hub fix |
-| 2026-05-16 | audit | Efficiency contradiction resolved (553,800× vs 1,846,200× — 3-factor vs 4-factor formula) |

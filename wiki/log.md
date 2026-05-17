@@ -1580,3 +1580,14 @@ hive-mining.md additions:
 - Mining Flywheel: Bitcoin 2008/2009 parallel; finite protected window; time-bounded incentive
 - New sources: summary-video-whitelist-mining-distribution added to frontmatter
 - New related: [[adam-percy]] added
+
+---
+
+## [2026-05-16] query | New QPQ content check — qpq.swiss + gajumaru.io blogs + YouTube
+
+Pages updated: none
+Result: **No new content published since April 30, 2026** (last captured date).
+- qpq.swiss/blog: most recent post "Dev Updates 04.2026" (2026-04-30)
+- gajumaru.io/blog: most recent post "A case for defensive mining" (2026-04-29)
+- YouTube: no May 2026 videos found via search
+Status: wiki coverage confirmed current as of 2026-05-16.
