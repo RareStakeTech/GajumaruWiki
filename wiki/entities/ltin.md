@@ -32,8 +32,16 @@ October 22, 2025 — six days after first Gaju token circulation.
 - EU MiCAR compliant from launch
 - Liechtenstein is an EEA member, giving EU market access
 
-## Launch Timeline
-Q2/Q3/Q4 2026 (phased)
+## Timeline vs Actual
+
+| Milestone | Announced | Actual / Status |
+|-----------|-----------|----------------|
+| LTIN announced | October 22, 2025 | ✅ Done |
+| Q2 2026 phase | Year in Review: Q2/Q3/Q4 | ⏳ Not launched as of May 2026 |
+| Q3/Q4 2026 phase | Blog (Summer of Gajumaru) | Pending |
+| Full launch | "in 2026" (both QPQ sites) | Pending |
+
+**Slip:** Announced October 2025; still unlaunched May 2026 (~7 months). QPQ public comms have shifted from "Q2/Q3/Q4" to simply "in 2026." No public explanation for the delay provided.
 
 ## Strategic Significance
 - First sovereign [[associate-chains]] deployment on Gajumaru

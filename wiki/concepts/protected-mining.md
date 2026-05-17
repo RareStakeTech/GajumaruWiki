@@ -34,8 +34,41 @@ The protected mining period is tied to the network flywheel thesis:
 
 The goal is to achieve critical mass adoption before the protected window closes, so the flywheel is self-sustaining.
 
-## Post-2027 Model
-Competitive mining communities/associations replace the centralised SaaS model. This transition is designed to progressively decentralise the network.
+## Post-2027 Model: Token Economics After the Protected Window
+
+This section addresses what happens to miner incentives after 30 March 2027 — the "cliff" that the protected mining period creates.
+
+### What Changes on 30 March 2027
+
+| Item | Before 30 March 2027 | After 30 March 2027 |
+|------|---------------------|---------------------|
+| License distribution | QPQ whitelist SaaS (gajumining.com) | Competitive mining communities and associations |
+| Protocol update authority | QPQ can push updates | No one can — chain is locked; minting function fixed |
+| QPQ's network power | Can push updates, hold influence via SaaS position | Same as any other network participant |
+| Mining reward source | Block rewards (juice) + transaction fees | Block rewards (juice, decreasing per Fibonacci curve) + transaction fees (growing) |
+
+### Miner Incentive After 2027: Three Sources
+
+**1. Fibonacci Reward Curve (Juice)**
+The 1-trillion-Gaju supply is distributed over 87.5 years via a Fibonacci-modelled emission curve — heaviest at the start (Period 1: 1,554,161 Gaju/keyblock), decreasing per period. After March 2027, block rewards continue but follow the declining emission schedule. This mirrors Bitcoin's halving model, except the decrease is Fibonacci-smooth rather than sudden halvings.
+
+Implication: early miners (whitelist period) receive the highest reward rate. Post-2027 miners receive lower juice per block, but the network's accumulated transaction volume should be substantially higher.
+
+**2. Transaction Fees (Growing)**
+As the network onboards commercial actors — payments, marketplace transactions, smart contract interactions — transaction fees per block increase. This is the long-run equilibrium for any PoW chain: block rewards decline, transaction fees rise to replace them. On Gajumaru's 720-blocks/day schedule, fee revenue is distributed more frequently than on Bitcoin, smoothing the miner revenue curve.
+
+**3. Defensive Mining (Platform Insurance)**
+Commercial entities running on-chain operations have a rational non-juice motivation to mine: security. A business whose revenue depends on Groot's censorship resistance is rationally willing to mine at break-even or slight loss as an operational insurance premium. The regulated mining pool model (documented in [[summary-blog-defensive-mining]]) allows commercial miners to publicly commit to content-neutral block production — turning mining into a service contract rather than a speculation.
+
+### The Structural Unknown
+
+QPQ has not (in any publicly available source as of May 2026) published a detailed model of post-2027 equilibrium miner economics — the crossover point where transaction fees replace juice revenue, or the projected revenue per miner at various Gaju price levels. This is the most significant gap in the publicly available tokenomics documentation.
+
+**Open question:** At what transaction volume does fee revenue make post-2027 mining economically rational for a small commercial miner without juice subsidies? This requires assumptions about Gaju price, transaction count, and fee per transaction that QPQ has not published.
+
+### Comparison to Bitcoin's Post-Subsidy Model
+
+Bitcoin's block subsidy is projected to near-zero after 2140. The "fee-only" security model is actively debated among Bitcoin researchers — whether transaction fees alone can sustain sufficient hashrate for security. Gajumaru's position: the combination of Fibonacci decay (not a cliff), defensive mining (non-speculative demand), and 720-blocks/day fee distribution creates a more robust long-run model than Bitcoin's 4-year halving cliff. Whether this claim holds depends on transaction volume achieving sustainable levels during the 87.5-year window.
 
 ## Mining Accessibility
 The promotional video [[summary-gaju-mining-video]] confirms that during the protected rollout, everyday home computers are sufficient — no specialised equipment or large power supplies required. This is a direct consequence of [[cuckoo-cycle]] PoW design. The pitch explicitly draws the Bitcoin 2008/2009 early-miner analogy: early participants mine the most Gajus and benefit most from the movement.

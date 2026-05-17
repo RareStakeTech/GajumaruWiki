@@ -172,5 +172,9 @@ QPQ may offer a **cloud-hosted state channel service** — making QPQ a party in
 
 Source: [[summary-quantum-ai-machine-economy]]
 
+## See Also
+
+- [[lightning-vs-state-channels]] — Synthesis: full structural comparison of Lightning Network vs Gajumaru State Channels
+
 ## Sources
-[[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]], [[summary-quantum-ai-machine-economy]]
+[[summary-qpq-wiki-state-channels]], [[summary-unwhitepaper]], [[summary-blog-gajumaru-state-channels]], [[summary-blog-whale-subsidy-a2p]], [[summary-blog-a2a-state-channels]], [[summary-quantum-ai-machine-economy]], [[summary-video-bitcoin-proof-of-concept]]

@@ -1387,6 +1387,31 @@ Git status note:
 
 ---
 
+## [2026-05-16] synthesis | Lightning vs State Channels; post-2027 mining economics; LTIN timeline tracker
+
+Pages created:
+- wiki/syntheses/lightning-vs-state-channels.md (NEW synthesis — full structural comparison: failure modes, success rate table, BOLT naming note, Gajumaru advantages, benchmark table, the glass cannon problem)
+
+Pages updated:
+- wiki/concepts/state-channels.md (See Also section added with link to synthesis; summary-video-bitcoin-proof-of-concept added to sources)
+- wiki/index.md (lightning-vs-state-channels added to Comparisons & Syntheses table)
+- wiki/concepts/protected-mining.md (Post-2027 Model section MAJOR EXPANSION: what changes on March 30, miner incentive sources table, Fibonacci curve decay, defensive mining role, structural unknown flagged, comparison to Bitcoin post-subsidy debate)
+- wiki/entities/ltin.md (Timeline vs Actual table added; 7-month slip documented; "Q2/Q3/Q4" → "in 2026" shift noted)
+
+Key additions:
+- Lightning success rate table by payment amount ($0.05=99%; $10=90%; $200=50%; $1k=25%; $10k=5%)
+- Lightning Gini index 0.97 analysis
+- Post-2027 three miner incentive sources: juice (Fibonacci decay), fees (growing), defensive mining (platform insurance)
+- Structural unknown flagged: no QPQ publication on post-2027 equilibrium economics crossover point
+- LTIN timeline slip: 7 months since announcement with no public explanation
+
+Expert assessment driving this work:
+- Knowledge Architect: hot.md rebuilt; resolved.md archive created
+- Content Strategist: first synthesis page filed from abundant raw material
+- Investment Expert: post-protected-mining cliff documented; LTIN slip tracked
+
+---
+
 ## [2026-05-16] audit | Efficiency figure discrepancy resolved + cuckoo-cycle, qpq-ag, product-suite expanded
 
 Pages updated:

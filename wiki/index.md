@@ -276,6 +276,6 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 
 | Slug | Title | Date | Type |
 |------|-------|------|------|
-| — | — | — | — |
+| [[lightning-vs-state-channels]] | Lightning Network vs Gajumaru State Channels | 2026-05-16 | synthesis |
 
 
