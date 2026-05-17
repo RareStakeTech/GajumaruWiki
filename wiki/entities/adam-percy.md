@@ -4,7 +4,7 @@ entity_type: person
 title: "Adam Percy (Community Champion)"
 aliases: [adam-percy, adam]
 sources: [[summary-gaju-mining-journey-update]]
-related: [[qpq-ag]], [[gregory-chew]], [[protected-mining]], [[gaju-token]]
+related: [[qpq-ag]], [[gregory-chew]], [[protected-mining]], [[gaju-token]], [[hive-mining]]
 created: 2026-05-15
 updated: 2026-05-15
 cluster: developer-ecosystem
