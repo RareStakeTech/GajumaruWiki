@@ -69,9 +69,13 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 1. **Synthesis pages** — 3 complete ✅ (Lightning vs State Channels; Gajumaru vs Ethereum; RIPA vs Traditional Banking)
 2. **FAQ page** — ✅ created at wiki/faq.md; linked from index.md Start Here grid
-3. **New QPQ content** — check for new blog posts or videos (last captured: April 30, 2026)
-4. **Un-White Paper Technical Paper** — ingest when user provides raw/
-5. **Depth gaps identified**: price-signal-economy.md and hive-mining.md are candidates for expansion; monetary-philosophy links need audit
+3. **price-signal-economy.md** — ✅ major expansion complete (A2P reframe, Alt→Default Economy, zero-dep wallet, Generational Value Creation)
+4. **hive-mining.md** — ✅ major expansion complete (dev timeline, Architecture A collapse, payment rugpull, Adam Percy, VC refusal, millions target)
+5. **Pluggable Consensus Architecture** — UWP named section; AC architecture covers implicitly but not by name; candidate for explicit concept or section in associate-chains.md
+6. **monetary-philosophy.md inbound links** — audit inbound links; may be under-linked from related pages
+7. **bitcoin-ng.md** — check if thin relative to available source material
+8. **New QPQ content** — check for new blog posts or videos (last captured: April 30, 2026)
+9. **Un-White Paper Technical Paper** — ingest when user provides raw/
 
 ---
 
@@ -79,11 +83,11 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 | Date | Type | Description |
 |------|------|-------------|
+| 2026-05-16 | expansion | price-signal-economy.md: A2P reframe, Alt→Default Economy, zero-dep wallet, Generational Value Creation, prerequisite framing |
+| 2026-05-16 | expansion | hive-mining.md: dev timeline, Architecture A collapse, rugpull, Adam Percy, VC refusal, everyday currency, mining flywheel |
 | 2026-05-16 | synthesis | Third synthesis: RIPA vs Traditional Banking; FAQ page created; ripa-model.md major expansion |
 | 2026-05-16 | synthesis | Second synthesis: Gajumaru vs Ethereum (Two Proofs); UWP gaps patched (Ratchet/One Ring, Quantum Resistance) |
 | 2026-05-16 | audit | Deep audit — 4 final VTTs fully read; 3 source summaries expanded; 5 concept/entity pages updated |
 | 2026-05-16 | ingest | New concept: monetary-philosophy.md; groot.md + bitcoin-ng.md expanded; overview.md major update |
 | 2026-05-16 | lint | Cluster audit + date resolution (30 March 2027 confirmed) + sophia-fate hub fix |
 | 2026-05-16 | audit | Efficiency contradiction resolved (553,800× vs 1,846,200× — 3-factor vs 4-factor formula) |
-| 2026-05-16 | audit | Cuckoo-cycle, qpq-ag, aeternity expanded; product-suite sources updated |
-| 2026-05-16 | maintenance | hot.md rebuilt to compact form; resolved.md archive created; index.md metrics corrected |

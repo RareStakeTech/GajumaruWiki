@@ -105,6 +105,34 @@ This constraint is enforced by Groot at every keyblock height. An AC can impleme
 
 Source: [[summary-how-gajumaru-addresses-scaling]]
 
+## Pluggable Consensus Architecture
+
+The Un-White Paper names this explicitly: Associate Chains support a **Pluggable Consensus Architecture** — each AC selects its own consensus model independently. This is not a minor feature; it is the structural reason ACs can be both compliant and fast.
+
+**Why PoW is mandatory at the resource layer:**
+- Groot has no known operators — it is trustless and permissionless by design
+- Without knowing who is operating the chain, you cannot trust PoS validators or PoA authorities
+- PoW's adversarial peer selection resistance is the only mechanism that works without pre-identified operators
+- Any governance of the resource layer turns it from a resource into infrastructure — defeating the [[ripa-model]] architecture
+
+**Why other consensus models are valid at the AC level:**
+- AC operators are known, identified, and legally accountable
+- The peer selection and leader selection problems are solved by accountability, not by cryptographic puzzle
+- This means PoS, PoA, Delegated PoS, Round-Robin, or any custom model is architecturally valid
+- The operator's legal exposure is the substitute for computational work as the adversary-resistance mechanism
+
+**Result:**
+| Layer | Consensus Model | Why |
+|-------|----------------|-----|
+| Groot (resource) | PoW (Cuckoo Cycle + Bitcoin-NG) | No known operators; adversarial peer selection requires cryptographic work |
+| Associate Chain (infrastructure) | Any — PoW, PoS, PoA, custom | Operators known + legally accountable; adversarial peer selection solved by accountability |
+
+This is why [[ulf]] describes the RIPA model as "PoW untamperable core + regulated pockets on top" — not a compromise, but an intentional two-tier architecture that gives each layer exactly the consensus model it requires.
+
+The practical implication for speed: PoW's slowness is entirely a function of the adversarial leader election problem. Remove that problem (by having known operators), and the consensus speed ceiling lifts dramatically. ACs can achieve "phenomenally high speeds" precisely because they are permitted to use mechanisms that would be architecturally wrong at the resource layer.
+
+Source: [[summary-unwhitepaper]], [[summary-blockchain-governance-associate-chains]], [[summary-web-machine-economy]]
+
 ## Why Associate Chains Can Be Fast
 
 Associate chains solve the adversarial peer-selection problem by using **known, legally accountable operators**:

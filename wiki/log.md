@@ -1547,3 +1547,36 @@ Key content in RIPA synthesis:
 Key FAQ sections:
 - Common objections: "what's actually different" (6 verifiable claims); "investment risk" (documented risk factors); "can government shut it down" (yes at AC level, no at Groot level); "why will Gajumaru win when $120B failed" (structural Garden of Eden argument)
 - Source-traced answers with wikilinks on every section
+
+---
+
+## [2026-05-16] expansion | price-signal-economy.md and hive-mining.md — major depth expansion
+
+Pages updated:
+- wiki/concepts/price-signal-economy.md (90 → ~220 lines; 6 new sections added)
+- wiki/concepts/hive-mining.md (70 → ~180 lines; 8 new sections added)
+
+price-signal-economy.md additions:
+- "The A2P Reframe: Billing Bots Instead of Fighting Them" — "What if we stopped fighting the bots and started billing them?"; A2P rails convert spammers from cost to revenue; source: summary-blog-social-feed-payment-rail
+- Attention Economy → Value-per-Interaction Economy: formal 5-dimension comparison table
+- Alternative to Default Economy: Greg Chew two-phase model (alternative → displaces incumbent through demonstrated superiority)
+- Generational Value Creation: pie 100× bigger; sliver more valuable on larger economic base; not zero-sum
+- Prerequisite Framing: "a blockchain and currency that works"; Gajumaru as infrastructure prerequisite, not end state
+- Zero-Dependency Wallet Requirement: browser plugin wallets co-located with attacker context; GRIDS physical separation; death of MetaMask-style UX for micropayments
+- Infrastructure table with 3 components (Groot/State Channels/GRIDS) vs why others fail
+- New sources added to frontmatter: summary-blog-social-feed-payment-rail, summary-nazgul-bitcoin, summary-web-machine-economy
+- New related pages: [[grids]] added
+
+hive-mining.md additions:
+- Development Timeline table: Oct 2024 Groot genesis → 30 Mar 2027 protected mining close
+- Architecture A collapse: original design abandoned entirely; cascading failures
+- Payment provider rugpull: webshop rebuilt from scratch with zero external dependencies
+- Primary audience clarified: small business owners, not crypto experts; direct quote
+- Adam Percy: house builder; day-one community champion; 300+ pre-release miners had human-authored guide
+- Dimitar's new baby: humanising team detail during hardest development phase
+- VC refusal as anti-corporatist stance: "refused to pursue venture funding that would demand we play the corporatist game"
+- Scaling to Millions: Ulf responsible for infrastructure scaling; end 2026 public opening
+- Everyday Currency Framing: bread/haircuts/t-shirts; GajuMarket "like eBay at a fraction of the cost"
+- Mining Flywheel: Bitcoin 2008/2009 parallel; finite protected window; time-bounded incentive
+- New sources: summary-video-whitelist-mining-distribution added to frontmatter
+- New related: [[adam-percy]] added
