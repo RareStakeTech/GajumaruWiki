@@ -1517,3 +1517,33 @@ Synthesis page content:
 - Part II: Ethereum as captured proof — Garden of Eden, OFAC 70% compliance, October 2020 L2 pivot, blob arithmetic impossibility, L2 observed vs claimed TPS table, ZKSync soundness failure, EVM vs FATE VM comparison
 - Part III: Gajumaru as finished product — absorbs both proofs; "burn the keys"; no governance; AC vs L2 comparison table; fulfilment of Bitcoin whitepaper's stated purpose
 - Summary verdict table across 9 dimensions (Bitcoin / Ethereum / Gajumaru)
+
+---
+
+## [2026-05-16] synthesis | RIPA vs Traditional Banking + FAQ + ripa-model.md expansion
+
+Pages created:
+- wiki/syntheses/ripa-vs-traditional-banking.md (NEW — full structural comparison: failure map table, layer-by-layer RIPA answers, traditional banking vs RIPA table, exit option principle, GL1 validation, El Salvador case study, hard cap / no bailout, throughput comparison table)
+- wiki/faq.md (NEW — 25 Q&A entries covering: what is Gajumaru, Groot, RIPA, Gaju token, mining, protected period, GRIDS, state channels, GajuDEX, LTIN, quantum resistance, regulatory compliance, why PoW, efficiency calculation, open source, common objections, government shutdown question, why $120B failed)
+
+Pages updated:
+- wiki/concepts/ripa-model.md (MAJOR EXPANSION: Duality Principle, Exit Option Principle, GL1 validation, Institutional Advantage Inversion, AC hierarchy detail, hard cap mechanics, regulatory pathways, two new sources added; See Also section added)
+- wiki/index.md (ripa-vs-traditional-banking added to Comparisons & Syntheses table; FAQ card added to Start Here home-grid)
+- wiki/concepts/ripa-model.md (See Also + sources expanded)
+- wiki/overview.md (wiki coverage count updated: + 3 syntheses + 1 FAQ page; revision history entry added)
+- wiki/hot.md (priorities updated; new last-operations row)
+- wiki/log.md (this entry)
+
+Key content in RIPA synthesis:
+- Quantified failure map: 1.3B unbanked, $5.7T SME gap, 6.4% remittance cost on $685B/yr, €40-80 Berlin→Nairobi, 39% correspondent banking decline
+- Layer R: permissionless access; Paying-For-Others eliminates onboarding barrier
+- Layer I: bank stops being the ledger; AC hierarchy (national → bank sub-chains); ACs need not be blockchains
+- Layer P: GajuDEX atomic currency swap in one block; state channel markets ~15ms settlement
+- Layer A: insurance pools, property/mortgage, tokenised equity, PHYDEX, bills of lading, human capital
+- Hard cap: Groot enforces "more out than put in" impossible; no bailout mechanism structurally possible
+- 3,000,000 TPS scaling (10,000 ACs × 300 TPS)
+- El Salvador case study: 92% didn't use Bitcoin; RIPA model would have solved what Bitcoin couldn't
+
+Key FAQ sections:
+- Common objections: "what's actually different" (6 verifiable claims); "investment risk" (documented risk factors); "can government shut it down" (yes at AC level, no at Groot level); "why will Gajumaru win when $120B failed" (structural Garden of Eden argument)
+- Source-traced answers with wikilinks on every section

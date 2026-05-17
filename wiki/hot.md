@@ -67,11 +67,11 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 ## Next Work Priorities
 
-1. **Synthesis pages** — 2 complete ✅ (Lightning vs State Channels; Gajumaru vs Ethereum Two Proofs); RIPA vs traditional banking ready to write
-2. **Post-protected-mining economics** — what happens after March 2027? Token cliff not documented
-3. **LTIN timeline tracker** — milestones vs actual in ltin.md
-4. **New QPQ content** — check for new blog posts or videos (last: April 30, 2026)
-5. **Un-White Paper Technical Paper** — ingest when user provides raw/
+1. **Synthesis pages** — 3 complete ✅ (Lightning vs State Channels; Gajumaru vs Ethereum; RIPA vs Traditional Banking)
+2. **FAQ page** — ✅ created at wiki/faq.md; linked from index.md Start Here grid
+3. **New QPQ content** — check for new blog posts or videos (last captured: April 30, 2026)
+4. **Un-White Paper Technical Paper** — ingest when user provides raw/
+5. **Depth gaps identified**: price-signal-economy.md and hive-mining.md are candidates for expansion; monetary-philosophy links need audit
 
 ---
 
@@ -79,6 +79,7 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 | Date | Type | Description |
 |------|------|-------------|
+| 2026-05-16 | synthesis | Third synthesis: RIPA vs Traditional Banking; FAQ page created; ripa-model.md major expansion |
 | 2026-05-16 | synthesis | Second synthesis: Gajumaru vs Ethereum (Two Proofs); UWP gaps patched (Ratchet/One Ring, Quantum Resistance) |
 | 2026-05-16 | audit | Deep audit — 4 final VTTs fully read; 3 source summaries expanded; 5 concept/entity pages updated |
 | 2026-05-16 | ingest | New concept: monetary-philosophy.md; groot.md + bitcoin-ng.md expanded; overview.md major update |

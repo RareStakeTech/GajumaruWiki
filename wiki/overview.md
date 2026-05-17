@@ -10,7 +10,7 @@ confidence: high
 
 Gajumaru is a Swiss-built blockchain ecosystem developed by [[qpq-ag]] (CEO: [[gregory-chew]]). It launched its public MainNet on **April 26, 2026** (technical launch April 6/7). The native token is [[gaju-token]] (1 trillion fixed supply over 87.5 years), in active circulation since October 16, 2025.
 
-**Current wiki coverage (as of 2026-05-16):** 61 sources audited (46 raw + 15 web-fetched) ✅ — 100% coverage. 20 concept pages. 45 video transcripts processed.
+**Current wiki coverage (as of 2026-05-16):** 61 sources audited (46 raw + 15 web-fetched) ✅ — 100% coverage. 20 concept pages. 45 video transcripts processed. 3 synthesis pages + 1 FAQ page.
 
 ---
 
@@ -114,3 +114,4 @@ Bitcoin proved that a cryptographic puzzle can serve as a physics-equivalent con
 | 2026-05-15 | Initial placeholder created at vault bootstrap |
 | 2026-05-15 | First ingest: QPQ 2025 Year in Review. Full overview populated. |
 | 2026-05-16 | Major update: 61 sources complete; full cluster map; open questions table; resolved facts table; QPQ core argument synthesis; team roster |
+| 2026-05-16 | Synthesis pages: Lightning vs State Channels; Gajumaru vs Ethereum; RIPA vs Traditional Banking. FAQ page created. ripa-model.md expanded. UWP gaps patched (Ratchet/One Ring, Quantum Resistance). |

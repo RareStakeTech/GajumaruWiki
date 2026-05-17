@@ -47,6 +47,11 @@ confidence: high
     <strong>GRIDS</strong>
     <p>The universal remote instruction and signing system for login, authentication, and transaction dispatch.</p>
   </a>
+  <a class="home-card" href="./faq">
+    <span>Quick Reference</span>
+    <strong>FAQ</strong>
+    <p>Answers to the most common questions: what is Gajumaru, how does mining work, what makes it different, and what are the risks.</p>
+  </a>
 </div>
 
 ## Research Clusters
@@ -278,5 +283,6 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 |------|-------|------|------|
 | [[lightning-vs-state-channels]] | Lightning Network vs Gajumaru State Channels | 2026-05-16 | synthesis |
 | [[gajumaru-vs-ethereum-two-proofs]] | From Proof of Concept to Finished Product: Bitcoin, Ethereum, and Gajumaru | 2026-05-16 | synthesis |
+| [[ripa-vs-traditional-banking]] | RIPA vs Traditional Banking: Structural Comparison | 2026-05-16 | synthesis |
 
 
