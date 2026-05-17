@@ -169,5 +169,9 @@ The base layer is the settlement backbone and currency anchor — not the primar
 
 The chain was started on **five $300 laptops with i5 processors**. This was possible due to the Cuckoo Cycle PoW design. Source: [[summary-video-whitelist-mining-distribution]].
 
+## See Also
+
+- [[gajumaru-vs-ethereum-two-proofs]] — Synthesis: Bitcoin and Ethereum as proofs of concept; Gajumaru as the finished product
+
 ## Sources
 [[summary-qpq-2025-review]], [[summary-unwhitepaper]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-qpq-wiki-gajumaru]], [[summary-qpq-wiki-consensus]], [[summary-video-bitcoin-proof-of-concept]], [[summary-video-whitelist-mining-distribution]]

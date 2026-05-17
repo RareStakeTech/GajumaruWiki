@@ -80,3 +80,8 @@ Launched April 6/7 2026 at 23:59:00 Zulu.
 | [[peter]] | entity | Research Lead & Lead Cryptographic Developer — GajuDesk co-author, PoW theory blog |
 | [[ulf]] | entity | Blockchain infrastructure; hive mining concept |
 | [[ltin]] | entity | First sovereign Associate Chain (Liechtenstein) |
+
+## See Also
+
+- [[gajumaru-vs-ethereum-two-proofs]] — Synthesis: Bitcoin and Ethereum as proofs of concept; Gajumaru as the finished product
+- [[lightning-vs-state-channels]] — Synthesis: structural comparison of Lightning Network vs Gajumaru State Channels

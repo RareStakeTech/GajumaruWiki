@@ -200,5 +200,9 @@ The two success factors Craig identifies:
 
 Earlier QPQ project: **1DLT** (One DLT). Core concept: a composable blockchain infrastructure for specific industries or nation states — any virtual machine, any programmatic language, multiple chains fused together. Greg describes it as "fatally flawed but way ahead of everything else at the time." The Aeternity **Hyperchains** concept was a parallel development that Ulf and Craig were aware of. Both preceded the Associate Chains design.
 
+## See Also
+
+- [[gajumaru-vs-ethereum-two-proofs]] — Synthesis: why Ethereum's L2 approach fails and how ACs solve it structurally
+
 ## Sources
 [[summary-qpq-2025-review]], [[summary-why-the-gajumaru-and-how-it-works]], [[summary-the-gajumaru-an-actual-working-blockchain]], [[summary-unwhitepaper]], [[summary-video-bitcoin-proof-of-concept]]

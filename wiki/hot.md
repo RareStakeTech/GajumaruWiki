@@ -67,7 +67,7 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 ## Next Work Priorities
 
-1. **Synthesis pages** — wiki/syntheses/ is empty; Lightning vs State Channels, Gajumaru vs Ethereum, RIPA vs banking are ready to write from accumulated sources
+1. **Synthesis pages** — 2 complete ✅ (Lightning vs State Channels; Gajumaru vs Ethereum Two Proofs); RIPA vs traditional banking ready to write
 2. **Post-protected-mining economics** — what happens after March 2027? Token cliff not documented
 3. **LTIN timeline tracker** — milestones vs actual in ltin.md
 4. **New QPQ content** — check for new blog posts or videos (last: April 30, 2026)
@@ -79,6 +79,7 @@ All sources at 100% audit coverage. Lint pass ✅ complete. All known contradict
 
 | Date | Type | Description |
 |------|------|-------------|
+| 2026-05-16 | synthesis | Second synthesis: Gajumaru vs Ethereum (Two Proofs); UWP gaps patched (Ratchet/One Ring, Quantum Resistance) |
 | 2026-05-16 | audit | Deep audit — 4 final VTTs fully read; 3 source summaries expanded; 5 concept/entity pages updated |
 | 2026-05-16 | ingest | New concept: monetary-philosophy.md; groot.md + bitcoin-ng.md expanded; overview.md major update |
 | 2026-05-16 | lint | Cluster audit + date resolution (30 March 2027 confirmed) + sophia-fate hub fix |

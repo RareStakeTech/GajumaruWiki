@@ -28,6 +28,10 @@ key_claims:
   - PHYDEX planned: physical commodity exchange with oracle-based quality/price verification and standardised FOB/CFR/CIF contracts
   - Data TTL keeps Groot chain permanently below 10 GB; full node requires only a Mac Mini
   - State channels extend base layer: 500+ token transfers/second per channel, 3,000+ plain messages/second; one Mac Mini handles 1,000 concurrent channels
+  - "The spectrum between no governance and total governance is a conveyor belt, not a dial" — the ratchet can only turn toward control
+  - The One Ring analogy: governance at resource layer corrupts even the best-intentioned holders; ring must not exist
+  - Why only one resource layer will ever exist: technical + Garden of Eden + network effect barriers compound irreversibly
+  - Quantum resistance: ML-DSA (NIST-approved) via Generalised Accounts; ACs mandate independently; Ethereum and Bitcoin have no equivalent migration path
 related: [[groot]], [[gajumaru-architecture]], [[ripa-model]], [[gaju-token]], [[associate-chains]], [[tea-trilemma]], [[cuckoo-cycle]], [[qpq-ag]]
 confidence: high
 ---
@@ -692,3 +696,55 @@ From the Gaju token specification table in the document:
 **Stabilisation Treasury:** 125 billion Gajus are reserved specifically to smooth early adoption volatility. This is separate from the mined supply and is available for market interventions if needed during the adoption phase.
 
 See [[gaju-token]], [[protected-mining]].
+
+---
+
+## The Ratchet, The One Ring, and Why Only One Resource Layer Will Ever Exist
+
+One of the Un-White Paper's most philosophically distinctive sections (Part One, Chapter IV) argues that governance at the resource layer is not merely undesirable — it is irreversible once introduced.
+
+**The Ratchet:** *"The spectrum between no governance and total governance is a conveyor belt, not a dial, and the direction of travel only runs one way."*
+
+The argument: governance creates something worth capturing. Once it is worth capturing, someone will capture it. The ratchet analogy — a mechanism that only turns in one direction — is applied to blockchain governance. Every small compromise makes the next one easier. Every blockchain project that introduced governance "started with ideals and ended with extraction." The journey is not a sudden betrayal; it is a gradual slide.
+
+**The One Ring (Tolkien reference):** QPQ explicitly cites Tolkien's "One Ring" as the architectural analogy. The One Ring could not be wielded for good not because of what it was, but because of what it did to whoever held it. Gandalf refused it. Galadriel refused it. Frodo — the most incorruptible — claimed it at the final moment. The ring was destroyed only by accident. The lesson is not to find the right ring-bearer. The lesson is that the ring should not exist.
+
+> "A governance-free resource layer is the opposite of the One Ring: no admin keys, no foundation making decisions, no consortium deciding who is in and who is out. Rules enforced by mathematics, not trust."
+
+**Why Only One Resource Layer Will Ever Exist:**
+
+QPQ argues Groot cannot be outcompeted by a later entrant even given unlimited engineering resources. The argument has three layers:
+
+1. **Technical barriers**: A competitor must be PoW (PoS enables collusion by definition), must have secure smart contract capability (Bitcoin lacks it; Ethereum's VM has proven commercially dangerous), and must exceed Groot's efficiency — solving problems that took QPQ years and produced a 1,846,200× improvement.
+
+2. **The Garden of Eden barrier**: Every venture capitalist asks "what power do you have at the base layer?" The structural discipline required to refuse monetisation has not been demonstrated by any team other than QPQ across a decade and $120B+ of investment. Anyone who solves the engineering still faces the Garden of Eden problem.
+
+3. **Network effects**: By the time a competitor became operational, Groot would have embedded network effects that are "practically insurmountable." Unlike platforms (MySpace → Facebook is possible because platforms can be outbuilt), a governance-free resource layer is not a platform. It cannot be outbuilt — because the hard part is structural discipline, not engineering.
+
+> "This is why the Gajumaru is the only resource layer that will ever exist as a true negotiated space."
+
+See [[gajumaru-architecture]], [[ripa-model]], [[tea-trilemma]].
+
+---
+
+## Quantum Resistance: Designing for Cryptographic Evolution
+
+The Un-White Paper treats quantum resistance as an architectural property, not a product feature.
+
+**Current status (as of April 2026 MainNet launch):** Gajumaru supports quantum-resistant signing via **ML-DSA** (Module-Lattice-Based Digital Signature Algorithm), a post-quantum digital signature standard recently approved by NIST. Draft implementation was verified and functional at MainNet launch, with gas costs of approximately **1.5× to 2.2×** that of standard Curve25519 verification.
+
+**Current cryptographic baseline:** Groot uses Curve25519 elliptic-curve signing — practically impossible to brute-force with existing hardware. Quantum computers capable of cracking elliptic-curve key pairs require tens or hundreds of millions of physical qubits; the most advanced machines at time of publication had fewer than 150. Estimated timeline: 10–20 years at minimum, if large-scale quantum computation is achievable at all.
+
+**The architectural argument:** Gajumaru's Generalised Accounts (GA) framework is the key enabler. Any account can be upgraded to use any Sophia-based authentication scheme — including schemes not yet invented. This was designed from inception as a cryptographic evolution mechanism, not as a quantum-specific response.
+
+**The correct philosophy:** *"The correct approach is not to pick a winner. It is to build architecture that enables users to choose and adapt. Choice, not prescription."*
+
+QPQ explicitly advises against premature commitment to a single post-quantum standard because understanding of attacks on post-quantum algorithms is still rapidly evolving — committing too early risks discovering it can be broken before quantum threats materialise.
+
+**AC sovereignty in practice:** An Associate Chain operator can mandate quantum-resistant signing for all accounts on its chain without any coordination with Groot or other ACs. The account identifier remains unchanged; only the authentication method changes. Advanced signing schemes will be developed and tested on ACs, with Groot as the stable backbone.
+
+**Competitor comparison:** Ethereum's proof-of-stake creates a specific quantum vulnerability: validator public keys are persistent and publicly known, making them directly targetable. Bitcoin lacks the smart contract capability to implement alternative authentication schemes. Neither has an equivalent to the GA migration path.
+
+> "Gajumaru does not merely survive a quantum transition. It was designed to evolve through one."
+
+See [[grids]], [[gajumaru-architecture]], [[sophia-fate]].

@@ -1473,3 +1473,47 @@ Suggested future investigations:
 3. Un-White Paper Technical Paper: exists but not yet in raw/; ingest when available
 4. Santosh: full surname + role still unknown across all 61 sources
 5. Groot efficiency figure discrepancy: 553,800× (Year in Review) vs 1,846,200× (Un-White Paper) — warrant a source comparison synthesis page
+
+---
+
+## [2026-05-16] synthesis | Second synthesis page + UWP completeness audit
+
+Pages created:
+- wiki/syntheses/gajumaru-vs-ethereum-two-proofs.md (NEW — "From Proof of Concept to Finished Product: Bitcoin, Ethereum, and Gajumaru")
+
+Pages updated:
+- wiki/sources/summary-unwhitepaper.md (TWO NEW SECTIONS added from UWP raw: "The Ratchet, The One Ring, and Why Only One Resource Layer Will Ever Exist" + "Quantum Resistance: Designing for Cryptographic Evolution"; 4 new key_claims added)
+- wiki/concepts/groot.md (See Also section added with back-link to new synthesis)
+- wiki/concepts/gajumaru-architecture.md (See Also section added with back-links to both synthesis pages)
+- wiki/concepts/associate-chains.md (See Also section added with back-link to new synthesis)
+- wiki/index.md (gajumaru-vs-ethereum-two-proofs added to Comparisons & Syntheses table)
+- wiki/log.md (this entry)
+
+UWP completeness audit findings:
+Two material gaps identified and patched in summary-unwhitepaper.md:
+
+1. **The Ratchet / One Ring / Why Only One Resource Layer Will Ever Exist (Part One, Chapter IV)**
+   - "The spectrum between no governance and total governance is a conveyor belt, not a dial"
+   - Tolkien's One Ring: governance at resource layer corrupts even the best-intentioned holders; ring must not exist
+   - Three-layer argument for why Groot has no real competitor: technical barriers + Garden of Eden + network effects
+   - "The barrier is the temptation, not the technology"
+
+2. **Quantum Resistance: Designing for Cryptographic Evolution (Section VIII)**
+   - Groot supports ML-DSA (NIST-approved post-quantum standard) from MainNet launch
+   - Gas cost: 1.5×–2.2× standard Curve25519 verification
+   - Generalised Accounts = architectural migration path for any future signing scheme
+   - AC sovereignty: each AC can mandate quantum-resistant signing independently, without Groot coordination
+   - Ethereum validator keys are persistent and targetable; Bitcoin has no alternative authentication capability
+   - "Gajumaru does not merely survive a quantum transition. It was designed to evolve through one."
+
+Minor gaps noted (subsumed into existing coverage):
+- The Duality Principle (RPA/RIPA duality — covered under RIPA model section)
+- Pluggable Consensus Architecture — mentioned in AC architecture but not explicitly named
+- The Browser Problem — implicit in NPM section (MetaMask runs on browser; GajuDesk does not)
+- "From Proof of Concept to Functional Commodity" (ToC section heading) — now the title thesis of the synthesis page
+
+Synthesis page content:
+- Part I: Bitcoin as frozen proof — "definition got locked," FOMO economics, dirty hacks (Lightning/Runes/Ordinals/BitcoinOS)
+- Part II: Ethereum as captured proof — Garden of Eden, OFAC 70% compliance, October 2020 L2 pivot, blob arithmetic impossibility, L2 observed vs claimed TPS table, ZKSync soundness failure, EVM vs FATE VM comparison
+- Part III: Gajumaru as finished product — absorbs both proofs; "burn the keys"; no governance; AC vs L2 comparison table; fulfilment of Bitcoin whitepaper's stated purpose
+- Summary verdict table across 9 dimensions (Bitcoin / Ethereum / Gajumaru)
