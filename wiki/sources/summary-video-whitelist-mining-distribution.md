@@ -11,20 +11,25 @@ key_claims:
   - Chain launched with 5× $300 laptops running i5 processors
   - Satoshi and friends mined 40%+ of Bitcoin; QPQ explicitly designed against this concentration
   - 5 accounts control 95%+ of Bitcoin consensus; 2 accounts control 51%+
-  - Whitelist mining = restricted miner list enabling protocol updates during development period
+  - Whitelist mining = restricted miner list enabling protocol updates during development period; QPQ pushes updates "on a weekly basis" during this period
   - Any governance on a blockchain turns it from resource into infrastructure (corruptible)
   - QPQ held NO foundation debate; consensus was no governance at all
-  - 720 blocks/day on Gajumaru vs Bitcoin's few blocks/day — more diverse miner opportunities
-  - Defensive mining concept: commercial users mine to protect chain value, not just for reward
+  - 720 blocks/day on Gajumaru vs Bitcoin's few blocks/day — "the smaller your block interval, the more opportunities there are to win in a day — that incentivizes the creation of competitive pools"
+  - Defensive mining concept: commercial users mine to protect chain value ("juice" = block rewards are secondary to platform stability)
+  - Block rewards called "juice" — defensive mining incentive is NOT primarily juice but ensuring platform viability for commercial actors
   - GajuMine = miner software (only needs account ID to mine for; no secrets)
-  - GajuDesk = desktop wallet with development features (account = key pair; private key stays client-side)
+  - GajuDesk = desktop wallet with development features; described as "kind of overfeatured wallet"; account = key pair; private key stays client-side
   - Login to gajmining.com via GRIDS URL — no username, no password
   - WordPress + Stripe initial approach failed; payment processors refused as "crypto-adjacent"
   - Payment solution: European company + Singapore company secured after months of rejections
   - Referral program: person who introduces a buyer receives portion of license fee (not MLM)
-  - Goal: millions to tens of millions mining to build G20-economy-on-chain effect
+  - Goal: millions to tens of millions mining — "this is probably the one and only chance we have to try and get millions, maybe tens of millions of people into this at an early stage and effectively create something that is akin to a G20 economy on chain"
+  - Solving distribution = solving commercial adoption: "if we solve the distribution problem, we solve the problem of how to get true commercial actors like retail on board"
+  - Early adopter demographic: predominantly small business owners — "laser focused on how can I apply this to a real problem I've actually got... That's the best early adopter crowd I think for a project like this. And we really got lucky."
+  - Craig framing: "getting this movement for the economic emancipation of humanity underway"
   - "You will own your data, your assets, and your money — rights, not licenses"
   - Jarvis Carroll and Peter Harpending confirmed as background team contributors
+  - Only other company that built what QPQ built in GajuDesk: Steam — with 600 developers
 related: [[protected-mining]], [[gajumaru-product-suite]], [[grids]], [[gaju-token]], [[groot]], [[qpq-ag]]
 confidence: high
 ---
@@ -53,7 +58,7 @@ The solution was a *whitelist mining period* — a structured bootstrap phase wh
 
 The Cuckoo Cycle proof-of-work was chosen specifically because it is memory-bound and accessible on commodity hardware. The chain itself was started on **five $300 laptops with i5 processors**. This design allows broad participation before industrial mining operations enter.
 
-Gajumaru produces **720 blocks/day** (vs. Bitcoin's ~144). This higher frequency creates more opportunities to win block rewards, which incentivises the formation of many smaller competitive mining pools rather than consolidation into a few mega-pools.
+Gajumaru produces **720 blocks/day** (vs. Bitcoin's ~144). Craig's explanation: "The smaller your block interval, the more opportunities there are to win in a day — and that incentivizes the creation of competitive pools." More pools = more diverse distribution. The higher frequency is not a scaling decision — it is a distribution design decision.
 
 ---
 
@@ -67,7 +72,9 @@ The whitelist phase is explicitly **temporary**. QPQ has a limited window to pus
 
 ---
 
-## Defensive Mining
+## Defensive Mining and "Juice"
+
+Block rewards in Gajumaru are called **"juice"** in the team's internal vocabulary. The defensive mining argument is that for commercial users, juice is a secondary consideration — their primary motivation is preserving the value and stability of the platform they run their businesses on.
 
 Beyond earning Gaju rewards, commercial users on the chain have a second incentive to mine: **defending the chain against predatory takeover**. Industrial mining operations with pre-built data centres could show up and capture 80%+ of rewards the moment whitelist restrictions lift. Commercial actors who do real business on Gajumaru are naturally incentivised to contribute mining power to prevent this capture — not for the juice, but for the economic stability of the platform they rely on.
 
@@ -76,9 +83,9 @@ Beyond earning Gaju rewards, commercial users on the chain have a second incenti
 ## GajuMine and GajuDesk
 
 - **GajuMine**: the miner software. Knows only which account to mine for; holds no secrets. Cross-platform (Mac, Windows, Linux). Install-once, auto-updating.
-- **GajuDesk**: the desktop wallet. Provides account/key pair management with developer features. A user's account IS their key pair; the private key is generated client-side and never leaves the device.
+- **GajuDesk**: the desktop wallet. Described by Craig as "kind of overfeatured" — it includes developer-oriented features that go beyond a standard wallet. A user's account IS their key pair; the private key is generated client-side and never leaves the device.
 
-Craig noted: the only other company that has built what QPQ built is Steam — with 600 developers.
+Craig noted: the only other company that has built what QPQ built is Steam — with 600 developers. QPQ built this with a fraction of that headcount.
 
 ---
 
@@ -107,6 +114,20 @@ All governance for the whitelist mining hive is enforced through **smart contrac
 ## Referral Programme
 
 When an existing member introduces a new buyer, they receive a portion of the license fee (e.g., if someone spends 1,000 CHF, the referrer receives ~200 CHF). This is a straightforward referral incentive, not multi-level marketing.
+
+---
+
+## The Early Adopter Demographic
+
+Craig reflects on who actually joined early and why this mattered:
+> "So many of them are small business owners... laser focused on how can I apply this to a real problem I've actually got... That's the best early adopter crowd I think for a project like this. And we really got lucky."
+
+This is contrasted with speculative retail adoption (the casino crowd). Small business owners who understand the commercial problem are the right seed distribution — they have incentive to mine defensively AND to build on the chain.
+
+The scale ambition:
+> "This is probably the one and only chance we have to try and get millions, maybe tens of millions of people into doing this at an early stage and effectively create something that is akin to a G20 economy on chain."
+
+Craig explicitly frames the whitelist mining distribution as "getting this movement for the **economic emancipation of humanity** underway."
 
 ---
 

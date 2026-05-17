@@ -1289,3 +1289,46 @@ Key new content:
 - **Stablecoin confidence game**: "con = confidence"; USDT monopoly accidental; competition → bank runs → death
 - **GENIUS Act**: no audit requirement; Ulf: stablecoins are databases not crypto (PostgreSQL faster)
 - **Self-referential currency**: London tube analogy; Gaju defined by goods not dollars
+
+---
+
+## [2026-05-16] audit | Deep audit — 4 recent VTT transcripts fully read; 3 source summaries expanded; 5 concept/entity pages updated
+
+Sources deep-audited (raw VTT read line-by-line against existing wiki summaries):
+- raw/transcripts/Gajumaru ｜ Bitcoin is a Proof of Concept.en.vtt (3,423 lines — all read across two sessions)
+- raw/transcripts/Gajumaru Update： Whitelist Mining, Distribution & Payment Processing.en.vtt (888 lines — fully read)
+- raw/transcripts/Gajumaru ｜ The future of banking in blockchain - the place for trust and delegated responsibility..en.vtt (280 lines — fully read; all content already captured ✅)
+- raw/transcripts/Unmasking Stablecoins： Genius Act, Tether's Secrets, and the Future of On-Chain Money.en.vtt (2,552 lines — fully read)
+
+Pages updated:
+- wiki/sources/summary-video-bitcoin-proof-of-concept.md (11 new key_claims; 3 new sections; 4 expanded sections)
+- wiki/sources/summary-video-whitelist-mining-distribution.md (8 new key_claims; GajuDesk "overfeatured"; "juice" terminology; G20 economy + one-and-only-chance framing; economic emancipation; early adopter demographics)
+- wiki/sources/summary-video-stablecoins-genius-act.md (5 new key_claims; Trump meme coin Ponzi detail; Gaju = Bitcoin whitepaper fulfilment quote; statists/corporists frame; GENIUS Act "least useful" quote)
+- wiki/concepts/protected-mining.md ("juice" terminology section; G20 economy on-chain goal; "one and only chance" framing; economic emancipation quote; early adopter demographics)
+- wiki/concepts/gaju-token.md (1 trillion supply justified by global debt $100T+ private debt)
+- wiki/concepts/internet-of-economics.md (statists/corporists/individual three-way tension section; "humanity as transmission fluid" Greg DC stage quote)
+- wiki/entities/gregory-chew.md (DC stage appearance; Zug/event observations; David Graeber "Debt" counter-reference)
+- wiki/log.md (this entry)
+
+Contradictions flagged: none
+
+Key new content captured (not in prior summaries):
+- **JP Morgan 1912 testimony**: described greenback (fiat) as "not money... a credit note" — Craig reference in Bitcoin PoC
+- **David Graeber counter-claim**: Greg's "next 5,000 years" = explicit dig at Graeber's "Debt: The First 5,000 Years"; Gajumaru claims opposite thesis (non-credit money)
+- **"Humanity as transmission fluid"**: Greg DC stage quote — humanity = squishy bit compressed between monetary inflation and CPI/PPI indicators
+- **Gold in space / asteroid mining**: "trillions of tons of gold floating in space"; Musk space exploration = asteroid mining ambition; cryptographic puzzle immune to this devaluation
+- **Gold metastability (one-way function)**: gold passed through physical one-way function (stellar nucleosynthesis); PoW = mathematical equivalent
+- **Bitcoin block separation of concerns**: proof/leader-selection bundled with transactions = proof-of-concept architectural mistake never resolved
+- **"The definition got locked"**: Bitcoin became immutable the moment pizza-purchasing created exchange value
+- **Bitcoin + Ethereum = "two massive proofs of concept"**: both are PoC not finished products
+- **IMF agenda critique**: "driving agenda that we should continue to create public debt. Debt to whom? By whom? For whom? I have no idea."
+- **1 trillion Gaju justified**: "Why are there one trillion gajus? Why is there $100 trillion in private debt in the world?"
+- **Greg at events in Zug etc.**: people cite Bitcoin as inspiration but proceed as if its title (peer-to-peer electronic cash) doesn't exist
+- **Real money formal definition**: finite resource, extraction has value, not debaseable, not censorable, P2P without intermediation
+- **"Juice" = block rewards**: defensive miners are NOT primarily motivated by juice
+- **G20 economy on chain**: "the one and only chance" to get millions mining → G20-scale economy on-chain
+- **"Economic emancipation of humanity"**: Craig's explicit phrase for what whitelist mining distribution launches
+- **Trump meme coin Ponzi**: NYT reports massive gains but only true if exit possible; immediate exit would collapse price
+- **GENIUS Act "least useful"**: giving regulatory support to "one of the least useful things you could do in crypto — make a second stablecoin"
+- **Gaju = Bitcoin whitepaper fulfilment**: "the only open global currency that delivers the vision originally proposed in the Bitcoin white paper"
+- **Statists/corporists/individual frame**: three-way political economy tension; Gajumaru restores individual equal standing

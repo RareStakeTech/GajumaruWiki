@@ -122,6 +122,22 @@ The Internet of Economics is a digitalisation project, not a digitisation projec
 
 QPQ's position: ZKP-based scaling and privacy solutions (Ethereum rollups, Zcash-style privacy) face fundamental mathematical constraints that their proponents understand but do not publicly acknowledge. This is a critique of the ZKP industry's claims, not ZKP mathematics itself.
 
+## The Statists / Corporatists / Individual Three-Way Tension
+
+Greg's political economy frame (from [[summary-video-bitcoin-proof-of-concept]] and [[summary-video-stablecoins-genius-act]]):
+
+Three forces operate in the current economy:
+1. **Statists** — hold the licence to print money (central banks, governments); use monetary inflation to manage economic outcomes
+2. **Corporatists** — hold the licence to tax via fragmented infrastructure (payment rails, platform intermediation, data silos); extract value through proprietary layers
+3. **The sovereign individual** — squeezed between both; no real exit option in conventional finance
+
+Greg's vivid articulation of the individual's position, spoken **on stage in Washington DC**:
+> "The reality is that humanity has been turned into the **transmission fluid** to slow the motion of monetary inflation into CPI and PPI. We're the **squishy bit in the middle** that can be compressed."
+
+Monetary inflation does not appear immediately in consumer prices (CPI) or producer prices (PPI) — it gets absorbed by the labour market, purchasing power erosion, and asset price distortion that affects workers before prices. The individual is the shock absorber between the money printer and the economy's visible indicators.
+
+Gajumaru's claim is that a governance-free resource layer is the **only mechanism** that changes this three-way dynamic — by giving the individual a monetary base that neither statists nor corporatists can govern.
+
 ## Alternative Economy → Default Economy
 
 The sequencing of adoption (Greg Chew):

@@ -6,7 +6,7 @@
 
 ## Current Focus
 
-**61 sources audited (46 raw + 15 web-fetched ✅). 19 concept pages. 45 video transcripts. ALL sources at 100% audit coverage.** All 4 remaining videos now ingested ✅. **Next priorities:**
+**61 sources audited (46 raw + 15 web-fetched ✅). 19 concept pages. 45 video transcripts. ALL sources at 100% audit coverage.** Deep audit of all 4 final VTT transcripts now ✅ complete. **Next priorities:**
 1. AC → Groot finality cooperation: confirmed NOT in any transcript; awaiting future QPQ publication
 2. Ingest Un-White Paper Technical Paper (not yet in raw/)
 3. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
@@ -14,7 +14,7 @@
 
 **Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
 
-**RESOLVED this session:** All 15 web-fetched blog sources ✅ live-fetched and verified. Total audit: 57/57 sources confirmed. Major new facts: Groot genesis 22 Oct 2024; NPM Sept 2025; LavaMoat #5728; US Treasury April 13 emergency meeting (first since Oct 2008); Bank of Canada/BoE CMORG activated; April 26 = Satoshi 15yr anniversary; Ulf Wiger = quantum-resistance blog author; Erlang/OTP 28.1 = ML-DSA implementation; GajuMining Vaults multisig; PinePhone MVP demo; Lightning full failure table.
+**RESOLVED this session (deep audit):** All 4 final VTT transcripts fully read; summaries expanded with major new content: JP Morgan 1912 testimony; David Graeber "Debt" counter-reference; "humanity as transmission fluid" (Greg DC stage); gold in space / asteroid mining / Musk; gold metastability one-way function; IMF public debt critique; Bitcoin block separation of concerns; "definition got locked" at pizza/exchange moment; Bitcoin+Ethereum = "two massive proofs of concept"; 1 trillion Gaju justified by $100T global debt; "juice" = block rewards; G20 economy on-chain goal; "one and only chance" framing; Trump meme coin Ponzi; Gaju = Bitcoin whitepaper fulfilment quote; statists/corporists/individual three-way frame.
 
 ---
 
@@ -122,6 +122,7 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 | 2026-05-16 | audit | Blog audit — all 15 web-fetched sources live-fetched; 11 summaries updated; grids/quantum-resistance concept pages updated; 57/57 total sources ✅ |
 | 2026-05-16 | ingest | 4 remaining videos — Bitcoin PoC (3423 lines), Whitelist Mining (888), Future of Banking (37), Stablecoins (320); 4 source summaries created; groot/protected-mining/state-channels/associate-chains/gaju-token/gregory-chew updated; 61/61 sources ✅ |
 | 2026-05-16 | query | Post-MainNet live data: LTIN not launched; Summer products "coming soon"; live metrics inaccessible (GajuExplore TLS error); "Trusted by Liechtenstein" claim confirmed on gajumining.com |
+| 2026-05-16 | audit | Deep audit — 4 final VTTs fully read; 3 source summaries expanded; gaju-token/internet-of-economics/protected-mining/gregory-chew updated; Graeber counter-reference; DC stage; gold in space; 1T supply justification; juice/G20/emancipation framing |
 
 ---
 

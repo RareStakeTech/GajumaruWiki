@@ -40,11 +40,27 @@ The promotional video [[summary-gaju-mining-video]] confirms that during the pro
 
 **Public mining target:** End of 2026. Goal: millions of miners creating sufficient decentralised computing capacity before the protected window closes.
 
-## Target Adopter Profile
+## Target Adopter Profile and the G20 Economy Goal
 
 > "The crypto bros aren't really our audience. It's small business owners are our primary adopters and they're not crypto experts."
 
 The hive mining software is designed for non-crypto users — principally small business owners — who can mine with a basic computer and internet connection, with minimal technical intervention required. Source: [[summary-gaju-mining-journey-update]].
+
+Craig reflects on the actual early adopter composition (from [[summary-video-whitelist-mining-distribution]]):
+> "So many of them are small business owners... laser focused on how can I apply this to a real problem I've actually got... That's the best early adopter crowd I think for a project like this. And we really got lucky."
+
+The scale ambition is framed as a historic singular opportunity:
+> "This is probably the **one and only chance** we have to try and get millions, maybe tens of millions of people into doing this at an early stage and effectively create something that is akin to a **G20 economy on chain**."
+
+Craig explicitly describes the protected mining period as "getting this movement for the **economic emancipation of humanity** underway." The distribution problem and the adoption problem are the same problem: if QPQ solves distribution at scale during the protected window, it simultaneously solves the commercial adoption bootstrap — "if we solve the distribution problem, we solve the problem of how to get true commercial actors like retail on board."
+
+## "Juice" — Block Reward Vocabulary
+
+Block rewards in Gajumaru's internal vocabulary are called **"juice."** The defensive mining argument (see below) is explicitly framed as: commercial miners are NOT primarily motivated by juice — they mine to preserve the platform their businesses depend on. Juice is a bonus, not the primary rational.
+
+This distinguishes Gajumaru's commercial miner base from purely speculative miners in other PoW chains.
+
+Source: [[summary-video-whitelist-mining-distribution]]
 
 ## Defensive Mining
 

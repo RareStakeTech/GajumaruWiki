@@ -90,6 +90,15 @@ Gajumaru produces **720 blocks/day** versus Bitcoin's ~144 blocks/day (one per ~
 
 Source: [[summary-video-whitelist-mining-distribution]]
 
+## 1 Trillion Supply — Justified by Global Economic Scale
+
+Craig directly addresses why 1 trillion Gaju (not Bitcoin's 21 million ceiling):
+> "Why are there one trillion gajus? Well, why is there $100 trillion worth of private debt in the world? Uh, why is there way more than that in terms of public debt?"
+
+The supply figure is calibrated to **global economic scale** — not to the Bitcoin design that assumed a niche store-of-value role. If Gajumaru becomes the operating layer for a G20-scale economy (the explicit goal during the protected mining window), the token supply must be large enough for micropayment viability and broad currency circulation. Bitcoin's 21 million cap is appropriate for a store of value; 1 trillion Gaju is appropriate for a global transactional currency. The base unit (puck = 10⁻¹⁸ Gaju) ensures even tiny fractions are meaningful.
+
+Source: [[summary-video-bitcoin-proof-of-concept]]
+
 ## Self-Referential Currency
 
 Gaju is designed to be **self-referential** — its purchasing power is expressed in real goods (eggs, pens, bread), not in dollar terms. From [[summary-video-stablecoins-genius-act]]:

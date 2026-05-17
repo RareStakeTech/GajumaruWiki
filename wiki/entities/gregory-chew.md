@@ -70,6 +70,26 @@ The framing is connected to the Garden of Eden problem — Bitcoin's hostile for
 
 Source: [[summary-gajumaru-channel-shorts]]
 
+## Stage Appearances (Zug, DC, Liechtenstein)
+
+Greg references recurring appearances at conferences across multiple videos:
+
+- **Token Summit Liechtenstein** — confirmed public speaker (see above); explicit identity and panel discussion
+- **Stage in DC (Washington DC)** — referenced in the Bitcoin PoC transcript; Greg said "on stage in DC" when delivering the "humanity as transmission fluid" quote:
+  > "The reality is that humanity has been turned into the transmission fluid to slow the motion of monetary inflation into CPI and PPI. We're the squishy bit in the middle that can be compressed."
+- **"Zug and various other places"** — Greg references repeatedly going to crypto events where attendees cite Bitcoin as their inspiration, then proceed "as if the title of the paper didn't exist" (ignoring the peer-to-peer electronic cash system framing)
+- **"Point0 conference"** — Greg tried to raise his hand at a Global Layer 1 discussion; the technology being described was already built
+
+Source: [[summary-video-bitcoin-proof-of-concept]]
+
+## David Graeber Counter-Reference
+
+Greg's famous closing line — "The Gaju is a peer-to-peer electronic cash system for the interplanetary human species and the **next 5,000 years**" — contains a deliberate literary reference. In the Bitcoin PoC transcript, Greg explicitly frames it as "my little dig at Daniel Greyber [David Graeber] and his whole thing about debt, the story of money for the last 5,000 years."
+
+David Graeber's *Debt: The First 5,000 Years* argues that credit-money (not commodity-money) has been the dominant form of exchange throughout human history. Greg's counter-claim: Gajumaru will build a **non-credit-based** monetary system — a peer-to-peer electronic cash system — for the *next* 5,000 years, inverting Graeber's historical thesis.
+
+Source: [[summary-video-bitcoin-proof-of-concept]]
+
 ## "Generational Value Creation" Frame
 
 Greg's positive-sum capitalism argument:
