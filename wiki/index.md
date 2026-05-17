@@ -19,7 +19,7 @@ confidence: high
 
 <div class="home-metrics">
   <div><strong>68</strong><span>source summaries</span></div>
-  <div><strong>19</strong><span>concept pages</span></div>
+  <div><strong>20</strong><span>concept pages</span></div>
   <div><strong>12</strong><span>entity pages</span></div>
   <div><strong>5+</strong><span>research clusters</span></div>
 </div>
@@ -103,7 +103,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 - [[craig]] - Craig Everett, CPO; designed tree-structure scalability; named the project (Okinawa)
 - [[dimitar]] - Implementation engineer; Associate Chain interplay; backend
 - [[ulf]] - Blockchain infrastructure; hive mining concept; dividend-writing contracts
-- [[peter]] - Communicator; non-technical rubber duck for QPQ explainer video series
+- [[peter]] - Research Lead & Lead Cryptographic Developer (Peter Harpending); GajuDesk co-author
 
 #### Tokenomics & Economics
 *Token design, economic models, incentive structures.*

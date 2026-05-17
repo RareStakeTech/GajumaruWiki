@@ -1371,6 +1371,22 @@ Key additions:
 
 ---
 
+## [2026-05-16] maintenance | wiki/index.md metrics corrected; hot.md rebuilt; resolved.md archive created
+
+Pages created:
+- wiki/resolved.md (NEW — archive for completed questions; moved all RESOLVED items from hot.md)
+
+Pages updated:
+- wiki/index.md (concept page count corrected: 19 → 20; Peter description corrected: "rubber duck" → "Research Lead & Lead Cryptographic Developer")
+- wiki/hot.md (REBUILT to ~400 words — down from 149 lines; open questions now in priority table; Active Pages section retired; RESOLVED items archived to wiki/resolved.md; Next Work Priorities section added)
+
+Git status note:
+- master = canonical branch (has all wiki content + Quartz infrastructure via PR merge + polish commits)
+- main = stale orphan (never received wiki development work past early May 2026 ingests)
+- origin/main = stale; origin/master = current; no action required — master is the single source of truth
+
+---
+
 ## [2026-05-16] audit | Efficiency figure discrepancy resolved + cuckoo-cycle, qpq-ag, product-suite expanded
 
 Pages updated:
