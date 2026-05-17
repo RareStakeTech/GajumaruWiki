@@ -1356,3 +1356,43 @@ Key changes:
 - groot.md now explicitly explains WHY Bitcoin-NG was the right fix and WHY Bitcoin couldn't adopt it
 - bitcoin-ng.md now records the FOMO economics rejection dynamic
 - overview.md now reflects full wiki state as of 2026-05-16 (replaces the outdated 2026-05-15 bootstrap version)
+
+---
+
+## [2026-05-16] lint | Full health check — cluster audit, date contradiction resolution, cross-link pass
+
+Lint pass scope:
+- Cluster health: every concept/entity page has `cluster:` field ✅
+- Hub completeness: every `cluster_role: hub` page has "In this cluster" section
+- Date consistency: protected mining end date across all pages
+- Cross-link completeness: monetary-philosophy.md inbound links
+- Orphan check: all 20 concept pages have 5+ inbound links ✅
+
+Pages updated:
+- wiki/concepts/sophia-fate.md (FIXED: added missing "In this cluster" body section — was cluster_role: hub without the required section)
+- wiki/concepts/protected-mining.md (date resolution note added: 30 March 2027 confirmed authoritative; three conflicting sources explained; "After March 29 2027" section heading corrected to "After 30 March 2027")
+- wiki/concepts/hive-mining.md (FIXED: 2 references updated from "March 29, 2027" to "30 March 2027")
+- wiki/index.md (protected-mining entry corrected from "March 29 2027" to "target 30 March 2027 (outer boundary 30 Sep 2027)"; monetary-philosophy entry added under tokenomics-economics cluster)
+- wiki/overview.md (protected mining date corrected to 30 March 2027 in open questions table)
+- wiki/concepts/internet-of-economics.md (monetary-philosophy + price-signal-economy added to related field)
+- wiki/sources/summary-video-bitcoin-proof-of-concept.md (monetary-philosophy added to related field)
+- wiki/hot.md (current focus updated; protected mining marked RESOLVED everywhere)
+
+Contradictions resolved:
+- **Protected mining end date**: Three conflicting dates across wiki — "March 29" (Year in Review typo), "March 30" (Un-White Paper twice), "March 31" (walkthrough rounding). Authoritative: **30 March 2027** confirmed by grepping raw/articles/gajumaru-un-white-paper.md (two explicit occurrences). All date references in wiki now corrected.
+
+Cluster health findings:
+- All 20 concept pages have `cluster:` field ✅
+- sophia-fate.md was cluster_role: hub without "In this cluster" body section — FIXED ✅
+- All other hub pages (gajumaru-architecture, gaju-token, gajumaru-product-suite) had correct hub sections ✅
+
+Cross-link findings:
+- monetary-philosophy.md: 6 inbound links (gaju-token cluster table, index.md, overview.md, summary-video-bitcoin-proof-of-concept.md related field, internet-of-economics.md related field, hot.md) — well connected ✅
+- No orphan pages found ✅
+
+Suggested future investigations:
+1. AC → Groot finality cooperation: promised in a QPQ video; mechanism completely absent from all 61 sources — high priority when new content published
+2. QPQ IaaS AG (Einsiedeln) vs QPQ AG (Zug): functional division unknown; may be in company registry records
+3. Un-White Paper Technical Paper: exists but not yet in raw/; ingest when available
+4. Santosh: full surname + role still unknown across all 61 sources
+5. Groot efficiency figure discrepancy: 553,800× (Year in Review) vs 1,846,200× (Un-White Paper) — warrant a source comparison synthesis page

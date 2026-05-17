@@ -110,7 +110,7 @@ This section remains the operational catalog for wiki maintenance and ingest wor
 
 ##### Concept Pages
 - [[gaju-token]] *(hub)* - Native token; 1 trillion fixed supply over 87.5 years; in circulation Oct 2025
-- [[protected-mining]] - Mining window ending March 29 2027; flywheel thesis
+- [[protected-mining]] - Mining window target 30 March 2027 (outer boundary 30 Sep 2027); flywheel thesis
 - [[hive-mining]] - SaaS mining model; dividend-writing smart contracts; Ulf Wiger's design; gmhive_client port 17888
 - [[price-signal-economy]] - Micropayment costs eliminate spam/bots; price signals restore information quality; puck economy; Milton Friedman reference
 - [[monetary-philosophy]] - Austrian economics; real money formal definition; gold metastability; asteroid mining problem; JP Morgan 1912; Graeber counter-reference; humanity as transmission fluid; IMF critique

@@ -3,7 +3,7 @@ type: concept
 title: "Internet of Economics"
 aliases: [internet-of-economics, economic-internet, transactional-internet]
 sources: [[summary-unwhitepaper]], [[summary-web-machine-economy]], [[summary-economics-social]], [[summary-internet-of-economics-grids-mythos]]
-related: [[groot]], [[grids]], [[ripa-model]], [[gajumaru-architecture]], [[tea-trilemma]], [[associate-chains]]
+related: [[groot]], [[grids]], [[ripa-model]], [[gajumaru-architecture]], [[tea-trilemma]], [[associate-chains]], [[monetary-philosophy]], [[price-signal-economy]]
 created: 2026-05-16
 updated: 2026-05-16
 confidence: high

@@ -52,7 +52,7 @@ key_claims:
   - Greg observes at events in Zug and elsewhere: people cite Bitcoin as their "great inspiration" but proceed as if the Bitcoin whitepaper title ("peer-to-peer electronic cash system") doesn't exist
   - QPQ 18-month plan: rapid iteration then fully open/public; "trust us during bootstrap because it's clearly in our interest"
   - Greg on stage in Liechtenstein: "No matter how nice you think anybody in QPQ is, you can never let us have keys to the kingdom"
-related: [[groot]], [[associate-chains]], [[state-channels]], [[protected-mining]], [[tea-trilemma]], [[bitcoin-ng]], [[gaju-token]], [[internet-of-economics]]
+related: [[groot]], [[associate-chains]], [[state-channels]], [[protected-mining]], [[tea-trilemma]], [[bitcoin-ng]], [[gaju-token]], [[internet-of-economics]], [[monetary-philosophy]]
 confidence: high
 ---
 

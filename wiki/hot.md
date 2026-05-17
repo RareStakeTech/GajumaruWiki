@@ -10,7 +10,7 @@
 1. AC → Groot finality cooperation: confirmed NOT in any transcript; awaiting future QPQ publication
 2. Ingest Un-White Paper Technical Paper (not yet in raw/)
 3. QPQ Overview/One-Pager PDFs: image-based — would need user OCR to ingest
-4. Resolve protected mining end date: March 29 vs 30 vs 31, 2027
+4. ✅ Protected mining end date RESOLVED: **30 March 2027** (Un-White Paper states this twice in raw; March 29 = Year in Review typo; March 31 = walkthrough rounding)
 
 **Open contradiction:** `groot.md` — efficiency figure (553,800× vs 1,846,200×). See `> [!contradiction]` callout there.
 
@@ -54,7 +54,7 @@ Previously partially-read long transcripts (still ⚠️ Partial — warrant dee
 - Un-White Paper Technical Paper — not yet ingested
 
 **New open questions:**
-- Protected mining date: walkthrough says "March 31, 2027" vs UWP "March 30, 2027" vs earlier notes "March 29" — need to resolve
+- ~~Protected mining date~~: **RESOLVED — 30 March 2027** (Un-White Paper twice; March 29 = Year in Review typo; March 31 = walkthrough rounding)
 - QPQ IaaS AG (Einsiedeln) vs QPQ AG (Zug) — what is the exact relationship / division of functions?
 - Shane Preater — community contributor? QPQ employee? (maintains Linux installer on GitHub)
 - QPQ Overview + One-Pager PDFs (qpq.swiss/resources/) are image-based — user needs to OCR to ingest

@@ -16,7 +16,9 @@ cluster_role: member
 The "protected mining" period is a finite window during which mining licenses provide exclusive or privileged access to Gaju token generation, before competitive mining communities take over.
 
 ## Key Date
-**Protected mining ends: March 29, 2027**
+**Protected mining target: 30 March 2027 (outer boundary: 30 September 2027)**
+
+> **Date resolution note:** The Un-White Paper states "30 March 2027" **twice** in the raw document (the authoritative technical source). The 2025 Year in Review summary says "March 29 2027" — likely a typo. A gajumining.com walkthrough referenced "March 31, 2027." **Working figure: 30 March 2027** per the Un-White Paper.
 
 From the vault bootstrap date (May 15 2026), approximately **10 months remain** in the protected window.
 
@@ -24,7 +26,7 @@ From the vault bootstrap date (May 15 2026), approximately **10 months remain** 
 QPQ frames this as a critical adoption runway:
 > "15 months for critical mass adoption and network decentralisation" (measured from ~end 2025)
 
-After March 29 2027, license sales shift to competitive mining communities and associations — intended to drive long-term decentralisation.
+After 30 March 2027, license sales shift to competitive mining communities and associations — intended to drive long-term decentralisation.
 
 ## Network Flywheel
 The protected mining period is tied to the network flywheel thesis:

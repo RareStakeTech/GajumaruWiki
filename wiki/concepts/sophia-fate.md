@@ -157,3 +157,11 @@ Sophia source (`.aes`) → Sophia compiler → FATE bytecode → FATE VM executi
 ## FINMA Compliance
 
 Sophia/FATE is described as FINMA-compliant, enabling GajuDEX to pass Switzerland's substance-over-form decentralisation test.
+
+## In this cluster
+
+| Page | Role | Description |
+|------|------|-------------|
+| [[sophia-fate]] | hub | Sophia smart contract language and FATE VM; ISC-licensed from Aeternity |
+
+*The smart-contracts cluster currently has only one page. Candidate future members: a dedicated Sophia FAQ summary page, a Gajumaru contract examples page.*

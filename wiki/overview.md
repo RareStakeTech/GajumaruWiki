@@ -77,7 +77,7 @@ Bitcoin proved that a cryptographic puzzle can serve as a physics-equivalent con
 | Question | Status | Notes |
 |----------|--------|-------|
 | AC → Groot finality cooperation | ❓ Unknown | Dimitar's area; promised in a later video |
-| Protected mining end date | ⚠️ Conflicted | March 29 vs 30 vs 31, 2027 — three sources |
+| Protected mining end date | ✅ Resolved | **30 March 2027** (Un-White Paper, twice); March 29 = Year in Review typo; March 31 = walkthrough rounding |
 | LTIN launch | ⏳ Not yet | Q3/Q4 2026 target; confirmed by qpq.swiss + gajumining.com |
 | Live miner count & Gaju price | ❓ Inaccessible | GajuExplore TLS cert error; no public dashboard |
 | Un-White Paper Technical Paper | 📥 Not ingested | Exists; not yet in raw/ |

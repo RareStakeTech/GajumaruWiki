@@ -49,7 +49,7 @@ The target audience is small business owners and everyday computer users — not
 3. Minimal configuration — install, activate, mine
 4. Security must match non-technical users' capabilities
 
-The SaaS model achieves this: QPQ handles the infrastructure, users receive rewards via smart contract. After the [[protected-mining]] window closes (March 29, 2027), the model is designed to hand off to community-run competitive mining associations for long-term decentralisation.
+The SaaS model achieves this: QPQ handles the infrastructure, users receive rewards via smart contract. After the [[protected-mining]] window closes (30 March 2027), the model is designed to hand off to community-run competitive mining associations for long-term decentralisation.
 
 ## Development Context
 
@@ -63,7 +63,7 @@ Ulf is responsible for ensuring the infrastructure can handle the transition fro
 
 ## Relation to Tokenomics
 
-Hive mining is the primary distribution mechanism for Gaju during the [[protected-mining]] period. The protected window ends March 29, 2027. Early miners receive the most Gajus — the Bitcoin 2008/2009 early-miner analogy is explicit in QPQ's marketing. See [[gaju-token]] for full supply schedule.
+Hive mining is the primary distribution mechanism for Gaju during the [[protected-mining]] period. The protected window ends 30 March 2027. Early miners receive the most Gajus — the Bitcoin 2008/2009 early-miner analogy is explicit in QPQ's marketing. See [[gaju-token]] for full supply schedule.
 
 ## Sources
 [[summary-gaju-mining-journey-update]], [[summary-gaju-mining-video]], [[summary-qpq-2025-review]]
